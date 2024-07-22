@@ -1,0 +1,22 @@
+{
+  "package_name": "robot_localization",
+  "output_dir": "/home/pi/wow_ws/build/robot_localization/rosidl_generator_type_description/robot_localization",
+  "idl_tuples": [
+    "/home/pi/wow_ws/build/robot_localization/rosidl_adapter/robot_localization:srv/FromLL.idl",
+    "/home/pi/wow_ws/build/robot_localization/rosidl_adapter/robot_localization:srv/GetState.idl",
+    "/home/pi/wow_ws/build/robot_localization/rosidl_adapter/robot_localization:srv/SetDatum.idl",
+    "/home/pi/wow_ws/build/robot_localization/rosidl_adapter/robot_localization:srv/SetPose.idl",
+    "/home/pi/wow_ws/build/robot_localization/rosidl_adapter/robot_localization:srv/SetUTMZone.idl",
+    "/home/pi/wow_ws/build/robot_localization/rosidl_adapter/robot_localization:srv/ToggleFilterProcessing.idl",
+    "/home/pi/wow_ws/build/robot_localization/rosidl_adapter/robot_localization:srv/ToLL.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/home/pi/ros2_iron/install/builtin_interfaces/share/builtin_interfaces",
+    "geometry_msgs:/home/pi/ros2_iron/install/geometry_msgs/share/geometry_msgs",
+    "std_msgs:/home/pi/ros2_iron/install/std_msgs/share/std_msgs",
+    "geographic_msgs:/home/pi/wow_ws/install/geographic_msgs/share/geographic_msgs",
+    "unique_identifier_msgs:/home/pi/ros2_iron/install/unique_identifier_msgs/share/unique_identifier_msgs",
+    "service_msgs:/home/pi/ros2_iron/install/service_msgs/share/service_msgs",
+    "diagnostic_msgs:/home/pi/ros2_iron/install/diagnostic_msgs/share/diagnostic_msgs"
+  ]
+}

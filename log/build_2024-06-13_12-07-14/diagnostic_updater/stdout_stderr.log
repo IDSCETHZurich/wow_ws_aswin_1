@@ -1,0 +1,56 @@
+[ 16%] Built target gtest_main
+[ 33%] Built target example
+[ 50%] Built target gtest
+[ 50%] Built target ament_cmake_python_symlink_diagnostic_updater
+[ 66%] Built target status_msg_test
+[ 83%] Built target diagnostic_updater_test
+[100%] Built target diagnostic_status_wrapper_test
+running egg_info
+writing diagnostic_updater.egg-info/PKG-INFO
+writing dependency_links to diagnostic_updater.egg-info/dependency_links.txt
+writing top-level names to diagnostic_updater.egg-info/top_level.txt
+reading manifest file 'diagnostic_updater.egg-info/SOURCES.txt'
+writing manifest file 'diagnostic_updater.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_diagnostic_updater_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/share/diagnostic_updater/environment/pythonpath.sh
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/share/diagnostic_updater/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/lib/python3.11/site-packages/diagnostic_updater-3.2.0-py3.11.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/lib/python3.11/site-packages/diagnostic_updater-3.2.0-py3.11.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/lib/python3.11/site-packages/diagnostic_updater-3.2.0-py3.11.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/lib/python3.11/site-packages/diagnostic_updater-3.2.0-py3.11.egg-info/top_level.txt
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/lib/python3.11/site-packages/diagnostic_updater/__init__.py
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/lib/python3.11/site-packages/diagnostic_updater/_diagnostic_status_wrapper.py
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/lib/python3.11/site-packages/diagnostic_updater/_diagnostic_updater.py
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/lib/python3.11/site-packages/diagnostic_updater/_publisher.py
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/lib/python3.11/site-packages/diagnostic_updater/_update_functions.py
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/lib/python3.11/site-packages/diagnostic_updater/example.py
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/lib/diagnostic_updater/example.py
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/lib/diagnostic_updater/example
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/include/diagnostic_updater/diagnostic_status_wrapper.hpp
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/include/diagnostic_updater/diagnostic_updater.hpp
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/include/diagnostic_updater/publisher.hpp
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/include/diagnostic_updater/update_functions.hpp
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/share/diagnostic_updater/environment/library_path.sh
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/share/diagnostic_updater/environment/library_path.dsv
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/share/ament_index/resource_index/package_run_dependencies/diagnostic_updater
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/share/ament_index/resource_index/parent_prefix_path/diagnostic_updater
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/share/diagnostic_updater/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/share/diagnostic_updater/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/share/diagnostic_updater/environment/path.sh
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/share/diagnostic_updater/environment/path.dsv
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/share/diagnostic_updater/local_setup.bash
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/share/diagnostic_updater/local_setup.sh
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/share/diagnostic_updater/local_setup.zsh
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/share/diagnostic_updater/local_setup.dsv
+-- Symlinking: /home/pi/wow_ws/install/diagnostic_updater/share/diagnostic_updater/package.dsv
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/share/ament_index/resource_index/packages/diagnostic_updater
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/share/diagnostic_updater/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/share/diagnostic_updater/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/share/diagnostic_updater/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/share/diagnostic_updater/cmake/diagnostic_updaterConfig.cmake
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/share/diagnostic_updater/cmake/diagnostic_updaterConfig-version.cmake
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_updater/share/diagnostic_updater/package.xml
+Listing '/home/pi/wow_ws/install/diagnostic_updater/lib/python3.11/site-packages/diagnostic_updater'...
+-- Up-to-date: /home/pi/wow_ws/install/diagnostic_updater/share/diagnostic_updater/cmake/diagnostic_updaterTargetsExport.cmake

@@ -1,0 +1,1 @@
+/home/pi/wow_ws/build/sdl2_vendor/SDL2/lib/cmake/SDL2/SDL2Targets-noconfig.cmake

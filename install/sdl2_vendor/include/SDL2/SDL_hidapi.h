@@ -1,0 +1,1 @@
+/home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_hidapi.h

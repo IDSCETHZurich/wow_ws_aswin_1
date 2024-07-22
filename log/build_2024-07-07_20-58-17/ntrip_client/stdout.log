@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing src/ntrip_client.egg-info/PKG-INFO
+writing dependency_links to src/ntrip_client.egg-info/dependency_links.txt
+writing requirements to src/ntrip_client.egg-info/requires.txt
+writing top-level names to src/ntrip_client.egg-info/top_level.txt
+reading manifest file 'src/ntrip_client.egg-info/SOURCES.txt'
+writing manifest file 'src/ntrip_client.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pi/wow_ws/install/ntrip_client/lib/python3.11/site-packages/ntrip-client.egg-link (link to src)
+Installing ntrip_ros.py script to /home/pi/wow_ws/install/ntrip_client/lib/ntrip_client
+
+Installed /home/pi/wow_ws/build/ntrip_client/src
+running install_data
+copying launch/ntrip_client_launch.py -> /home/pi/wow_ws/install/ntrip_client/share/ntrip_client

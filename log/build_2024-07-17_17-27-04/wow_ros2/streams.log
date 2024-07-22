@@ -1,0 +1,34 @@
+[2.848s] Invoking command in '/home/pi/wow_ws/build/wow_ros2': PYTHONPATH=/home/pi/wow_ws/build/wow_ros2/prefix_override:/home/pi/wow_ws/install/wow_ros2/lib/python3.11/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/wow_ws/build/wow_ros2/build --no-deps install_data
+[3.782s] running develop
+[3.785s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:146: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.785s]   warnings.warn(
+[3.865s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.866s]   warnings.warn(
+[4.584s] running egg_info
+[4.584s] creating wow_ros2.egg-info
+[4.666s] writing wow_ros2.egg-info/PKG-INFO
+[4.673s] writing dependency_links to wow_ros2.egg-info/dependency_links.txt
+[4.674s] writing entry points to wow_ros2.egg-info/entry_points.txt
+[4.674s] writing requirements to wow_ros2.egg-info/requires.txt
+[4.674s] writing top-level names to wow_ros2.egg-info/top_level.txt
+[4.674s] writing manifest file 'wow_ros2.egg-info/SOURCES.txt'
+[4.824s] reading manifest file 'wow_ros2.egg-info/SOURCES.txt'
+[4.825s] writing manifest file 'wow_ros2.egg-info/SOURCES.txt'
+[4.909s] running build_ext
+[4.909s] Creating /home/pi/wow_ws/install/wow_ros2/lib/python3.11/site-packages/wow-ros2.egg-link (link to .)
+[4.911s] Installing test_bno055_listener script to /home/pi/wow_ws/install/wow_ros2/lib/wow_ros2
+[4.912s] Installing v2_adafruit_interface script to /home/pi/wow_ws/install/wow_ros2/lib/wow_ros2
+[4.912s] Installing v2_controller_ol_joystick script to /home/pi/wow_ws/install/wow_ros2/lib/wow_ros2
+[4.912s] Installing v2_controller_pid_joystick script to /home/pi/wow_ws/install/wow_ros2/lib/wow_ros2
+[4.912s] Installing v2_controller_test script to /home/pi/wow_ws/install/wow_ros2/lib/wow_ros2
+[4.913s] Installing v2_lights script to /home/pi/wow_ws/install/wow_ros2/lib/wow_ros2
+[4.913s] Installing v4_controller_pid_joystick script to /home/pi/wow_ws/install/wow_ros2/lib/wow_ros2
+[4.913s] 
+[4.914s] Installed /home/pi/wow_ws/build/wow_ros2
+[4.914s] running install_data
+[4.914s] creating /home/pi/wow_ws/install/wow_ros2/share/ament_index
+[4.914s] creating /home/pi/wow_ws/install/wow_ros2/share/ament_index/resource_index
+[4.914s] creating /home/pi/wow_ws/install/wow_ros2/share/ament_index/resource_index/packages
+[4.914s] copying resource/wow_ros2 -> /home/pi/wow_ws/install/wow_ros2/share/ament_index/resource_index/packages
+[4.914s] copying package.xml -> /home/pi/wow_ws/install/wow_ros2/share/wow_ros2
+[5.137s] Invoked command in '/home/pi/wow_ws/build/wow_ros2' returned '0': PYTHONPATH=/home/pi/wow_ws/build/wow_ros2/prefix_override:/home/pi/wow_ws/install/wow_ros2/lib/python3.11/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/wow_ws/build/wow_ros2/build --no-deps install_data

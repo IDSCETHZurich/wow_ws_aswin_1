@@ -1,0 +1,45 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from nmea_msgs/msg/Gpvtg.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module nmea_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Message from GPVTG NMEA String")
+    struct Gpvtg {
+      std_msgs::msg::Header header;
+
+      string message_id;
+
+      @verbatim (language="comment", text=
+        "Track made good relative to true north")
+      float track_t;
+
+      string track_t_ref;
+
+      @verbatim (language="comment", text=
+        "Track made good relative to magnetic north")
+      float track_m;
+
+      string track_m_ref;
+
+      @verbatim (language="comment", text=
+        "Measured horizontal speed in knots")
+      float speed_n;
+
+      string speed_n_unit;
+
+      @verbatim (language="comment", text=
+        "Measured horizontal speed in km/hr")
+      float speed_k;
+
+      string speed_k_unit;
+
+      @verbatim (language="comment", text=
+        "Mode indicator")
+      string mode_indicator;
+    };
+  };
+};

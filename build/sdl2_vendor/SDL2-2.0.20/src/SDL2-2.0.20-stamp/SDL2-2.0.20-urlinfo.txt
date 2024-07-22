@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/usr/bin/cmake;-P;/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-stamp/download-SDL2-2.0.20.cmake;COMMAND;/usr/bin/cmake;-P;/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-stamp/verify-SDL2-2.0.20.cmake;COMMAND;/usr/bin/cmake;-P;/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-stamp/extract-SDL2-2.0.20.cmake
+source_dir=/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20
+work_dir=/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src
+url(s)=https://www.libsdl.org/release/SDL2-2.0.20.tar.gz
+hash=MD5=a53acc02e1cca98c4123229069b67c9e
+no_extract=
+

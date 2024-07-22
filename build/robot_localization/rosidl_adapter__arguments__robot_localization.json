@@ -1,0 +1,12 @@
+{
+  "package_name": "robot_localization",
+  "non_idl_tuples": [
+    "/home/pi/wow_ws/src/robot_localization:srv/FromLL.srv",
+    "/home/pi/wow_ws/src/robot_localization:srv/GetState.srv",
+    "/home/pi/wow_ws/src/robot_localization:srv/SetDatum.srv",
+    "/home/pi/wow_ws/src/robot_localization:srv/SetPose.srv",
+    "/home/pi/wow_ws/src/robot_localization:srv/SetUTMZone.srv",
+    "/home/pi/wow_ws/src/robot_localization:srv/ToggleFilterProcessing.srv",
+    "/home/pi/wow_ws/src/robot_localization:srv/ToLL.srv"
+  ]
+}

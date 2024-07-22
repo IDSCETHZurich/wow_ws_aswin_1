@@ -1,0 +1,21 @@
+[5.061s] Invoking command in '/home/pi/wow_ws/build/bno055': PYTHONPATH=/home/pi/wow_ws/build/bno055/prefix_override:/home/pi/wow_ws/install/bno055/lib/python3.11/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/wow_ws/build/bno055/build --no-deps install_data
+[6.377s] running develop
+[6.378s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:146: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[6.378s]   warnings.warn(
+[6.484s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.484s]   warnings.warn(
+[7.068s] running egg_info
+[7.133s] writing bno055.egg-info/PKG-INFO
+[7.134s] writing dependency_links to bno055.egg-info/dependency_links.txt
+[7.136s] writing entry points to bno055.egg-info/entry_points.txt
+[7.137s] writing requirements to bno055.egg-info/requires.txt
+[7.138s] writing top-level names to bno055.egg-info/top_level.txt
+[7.281s] reading manifest file 'bno055.egg-info/SOURCES.txt'
+[7.283s] writing manifest file 'bno055.egg-info/SOURCES.txt'
+[7.354s] running build_ext
+[7.354s] Creating /home/pi/wow_ws/install/bno055/lib/python3.11/site-packages/bno055.egg-link (link to .)
+[7.354s] Installing bno055 script to /home/pi/wow_ws/install/bno055/lib/bno055
+[7.354s] 
+[7.355s] Installed /home/pi/wow_ws/build/bno055
+[7.355s] running install_data
+[7.575s] Invoked command in '/home/pi/wow_ws/build/bno055' returned '0': PYTHONPATH=/home/pi/wow_ws/build/bno055/prefix_override:/home/pi/wow_ws/install/bno055/lib/python3.11/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/wow_ws/build/bno055/build --no-deps install_data

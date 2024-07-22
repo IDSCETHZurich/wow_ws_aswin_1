@@ -1,0 +1,8 @@
+[console_scripts]
+test_bno055_listener = wow_ros2.test_bno055_listener:main
+v2_adafruit_interface = wow_ros2.v2_adafruit_interface:main
+v2_controller_ol_joystick = wow_ros2.v2_controller_ol_joystick:main
+v2_controller_pid_joystick = wow_ros2.v2_controller_pid_joystick:main
+v2_controller_test = wow_ros2.v2_controller_test:main
+v2_lights = wow_ros2.v2_lights:main
+v4_controller_pid_joystick = wow_ros2.v4_controller_pid_joystick:main

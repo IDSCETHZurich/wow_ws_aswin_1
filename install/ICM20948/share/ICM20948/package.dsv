@@ -1,0 +1,6 @@
+source;share/ICM20948/hook/pythonpath.dsv
+source;share/ICM20948/hook/pythonpath.sh
+source;share/ICM20948/hook/ament_prefix_path.dsv
+source;share/ICM20948/hook/ament_prefix_path.sh
+source;../../build/ICM20948/share/ICM20948/hook/pythonpath_develop.dsv
+source;../../build/ICM20948/share/ICM20948/hook/pythonpath_develop.sh

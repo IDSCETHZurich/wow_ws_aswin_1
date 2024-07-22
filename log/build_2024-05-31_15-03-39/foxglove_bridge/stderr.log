@@ -1,0 +1,21 @@
+In file included from [01m[K/home/pi/wow_ws/src/ros-foxglove-bridge/foxglove_bridge_base/src/serialization.cpp:2[m[K:
+[01m[K/home/pi/wow_ws/src/ros-foxglove-bridge/foxglove_bridge_base/include/foxglove_bridge/serialization.hpp:5:10:[m[K [01;31m[Kfatal error: [m[Knlohmann/json.hpp: No such file or directory
+    5 | #include [01;31m[K<nlohmann/json.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/foxglove_bridge_base.dir/build.make:118: CMakeFiles/foxglove_bridge_base.dir/foxglove_bridge_base/src/serialization.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/pi/wow_ws/src/ros-foxglove-bridge/foxglove_bridge_base/src/server_factory.cpp:5[m[K:
+[01m[K/home/pi/wow_ws/src/ros-foxglove-bridge/foxglove_bridge_base/include/foxglove_bridge/websocket_server.hpp:17:10:[m[K [01;31m[Kfatal error: [m[Knlohmann/json.hpp: No such file or directory
+   17 | #include [01;31m[K<nlohmann/json.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/foxglove_bridge_base.dir/build.make:132: CMakeFiles/foxglove_bridge_base.dir/foxglove_bridge_base/src/server_factory.cpp.o] Error 1
+In file included from [01m[K/home/pi/wow_ws/src/ros-foxglove-bridge/foxglove_bridge_base/src/test/test_client.cpp:5[m[K:
+[01m[K/home/pi/wow_ws/src/ros-foxglove-bridge/foxglove_bridge_base/include/foxglove_bridge/serialization.hpp:5:10:[m[K [01;31m[Kfatal error: [m[Knlohmann/json.hpp: No such file or directory
+    5 | #include [01;31m[K<nlohmann/json.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/foxglove_bridge_base.dir/build.make:146: CMakeFiles/foxglove_bridge_base.dir/foxglove_bridge_base/src/test/test_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:115: CMakeFiles/foxglove_bridge_base.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

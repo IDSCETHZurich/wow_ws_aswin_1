@@ -1,0 +1,3 @@
+/home/pi/wow_ws/install/spacenav/lib/libspacenav.so
+/home/pi/wow_ws/install/spacenav/share/spacenav/cmake/export_spacenavExport.cmake
+/home/pi/wow_ws/install/spacenav/share/spacenav/cmake/export_spacenavExport-noconfig.cmake

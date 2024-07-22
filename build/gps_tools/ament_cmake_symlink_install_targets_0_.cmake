@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/pi/wow_ws/build/gps_tools/libutm_odometry_component.so" "/home/pi/wow_ws/build/gps_tools/libutm_odometry_to_navsatfix_component.so" "TARGETS" "utm_odometry_component" "utm_odometry_to_navsatfix_component" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

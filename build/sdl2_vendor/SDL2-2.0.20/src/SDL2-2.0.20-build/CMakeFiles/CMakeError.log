@@ -1,0 +1,1381 @@
+Performing C SOURCE FILE Test HAVE_GCC_PREFERRED_STACK_BOUNDARY failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-M7mech
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5e387/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-M7mech“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_5e387.dir/build.make CMakeFiles/cmTC_5e387.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-M7mech“ wird betreten
+Building C object CMakeFiles/cmTC_5e387.dir/src.c.o
+/usr/bin/cc -DHAVE_GCC_PREFERRED_STACK_BOUNDARY  -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos" -mpreferred-stack-boundary=2 -o CMakeFiles/cmTC_5e387.dir/src.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-M7mech/src.c
+cc: error: unrecognized command-line option ‘-mpreferred-stack-boundary=2’
+gmake[4]: *** [CMakeFiles/cmTC_5e387.dir/build.make:78: CMakeFiles/cmTC_5e387.dir/src.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-M7mech“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_5e387/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-M7mech“ wird verlassen
+
+
+Source file was:
+int x = 0; int main(int argc, char **argv) {}
+
+Performing C SOURCE FILE Test HAVE_MMX failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-achl4j
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6e278/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-achl4j“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_6e278.dir/build.make CMakeFiles/cmTC_6e278.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-achl4j“ wird betreten
+Building C object CMakeFiles/cmTC_6e278.dir/src.c.o
+/usr/bin/cc -DHAVE_MMX  -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos" -mmmx -o CMakeFiles/cmTC_6e278.dir/src.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-achl4j/src.c
+cc: error: unrecognized command-line option ‘-mmmx’
+gmake[4]: *** [CMakeFiles/cmTC_6e278.dir/build.make:78: CMakeFiles/cmTC_6e278.dir/src.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-achl4j“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_6e278/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-achl4j“ wird verlassen
+
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <mmintrin.h>
+          #endif
+          #else
+          #include <mmintrin.h>
+          #endif
+          #ifndef __MMX__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+
+Performing C SOURCE FILE Test HAVE_3DNOW failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-eVCA0n
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_40ec2/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-eVCA0n“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_40ec2.dir/build.make CMakeFiles/cmTC_40ec2.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-eVCA0n“ wird betreten
+Building C object CMakeFiles/cmTC_40ec2.dir/src.c.o
+/usr/bin/cc -DHAVE_3DNOW  -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos" -m3dnow -o CMakeFiles/cmTC_40ec2.dir/src.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-eVCA0n/src.c
+cc: error: unrecognized command-line option ‘-m3dnow’
+gmake[4]: *** [CMakeFiles/cmTC_40ec2.dir/build.make:78: CMakeFiles/cmTC_40ec2.dir/src.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-eVCA0n“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_40ec2/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-eVCA0n“ wird verlassen
+
+
+Source file was:
+
+          #include <mm3dnow.h>
+          #ifndef __3dNOW__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) {
+            void *p = 0;
+            _m_prefetch(p);
+          }
+
+Performing C SOURCE FILE Test HAVE_SSE failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-RgUA72
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_44e94/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-RgUA72“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_44e94.dir/build.make CMakeFiles/cmTC_44e94.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-RgUA72“ wird betreten
+Building C object CMakeFiles/cmTC_44e94.dir/src.c.o
+/usr/bin/cc -DHAVE_SSE  -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos" -msse -o CMakeFiles/cmTC_44e94.dir/src.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-RgUA72/src.c
+cc: error: unrecognized command-line option ‘-msse’
+gmake[4]: *** [CMakeFiles/cmTC_44e94.dir/build.make:78: CMakeFiles/cmTC_44e94.dir/src.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-RgUA72“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_44e94/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-RgUA72“ wird verlassen
+
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <xmmintrin.h>
+          #endif
+          #else
+          #include <xmmintrin.h>
+          #endif
+          #ifndef __SSE__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+
+Performing C SOURCE FILE Test HAVE_SSE2 failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-Vjy5XU
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_666b5/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-Vjy5XU“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_666b5.dir/build.make CMakeFiles/cmTC_666b5.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-Vjy5XU“ wird betreten
+Building C object CMakeFiles/cmTC_666b5.dir/src.c.o
+/usr/bin/cc -DHAVE_SSE2  -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos" -msse2 -o CMakeFiles/cmTC_666b5.dir/src.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-Vjy5XU/src.c
+cc: error: unrecognized command-line option ‘-msse2’
+gmake[4]: *** [CMakeFiles/cmTC_666b5.dir/build.make:78: CMakeFiles/cmTC_666b5.dir/src.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-Vjy5XU“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_666b5/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-Vjy5XU“ wird verlassen
+
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <emmintrin.h>
+          #endif
+          #else
+          #include <emmintrin.h>
+          #endif
+          #ifndef __SSE2__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+
+Performing C SOURCE FILE Test HAVE_SSE3 failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-F6bKTm
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_87d84/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-F6bKTm“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_87d84.dir/build.make CMakeFiles/cmTC_87d84.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-F6bKTm“ wird betreten
+Building C object CMakeFiles/cmTC_87d84.dir/src.c.o
+/usr/bin/cc -DHAVE_SSE3  -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos" -msse3 -o CMakeFiles/cmTC_87d84.dir/src.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-F6bKTm/src.c
+cc: error: unrecognized command-line option ‘-msse3’
+gmake[4]: *** [CMakeFiles/cmTC_87d84.dir/build.make:78: CMakeFiles/cmTC_87d84.dir/src.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-F6bKTm“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_87d84/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-F6bKTm“ wird verlassen
+
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <pmmintrin.h>
+          #endif
+          #else
+          #include <pmmintrin.h>
+          #endif
+          #ifndef __SSE3__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+
+Determining if the include file immintrin.h exists failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-gmoxWZ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_30133/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-gmoxWZ“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_30133.dir/build.make CMakeFiles/cmTC_30133.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-gmoxWZ“ wird betreten
+Building C object CMakeFiles/cmTC_30133.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos"  -o CMakeFiles/cmTC_30133.dir/CheckIncludeFile.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-gmoxWZ/CheckIncludeFile.c
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-gmoxWZ/CheckIncludeFile.c:1:10: fatal error: immintrin.h: Datei oder Verzeichnis nicht gefunden
+    1 | #include <immintrin.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+gmake[4]: *** [CMakeFiles/cmTC_30133.dir/build.make:78: CMakeFiles/cmTC_30133.dir/CheckIncludeFile.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-gmoxWZ“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_30133/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-gmoxWZ“ wird verlassen
+
+
+
+Performing C SOURCE FILE Test HAVE_ALTIVEC_H_HDR failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-B7F5u9
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7a7e6/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-B7F5u9“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_7a7e6.dir/build.make CMakeFiles/cmTC_7a7e6.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-B7F5u9“ wird betreten
+Building C object CMakeFiles/cmTC_7a7e6.dir/src.c.o
+/usr/bin/cc -DHAVE_ALTIVEC_H_HDR  -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos" -maltivec -o CMakeFiles/cmTC_7a7e6.dir/src.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-B7F5u9/src.c
+cc: error: unrecognized command-line option ‘-maltivec’
+gmake[4]: *** [CMakeFiles/cmTC_7a7e6.dir/build.make:78: CMakeFiles/cmTC_7a7e6.dir/src.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-B7F5u9“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_7a7e6/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-B7F5u9“ wird verlassen
+
+
+Source file was:
+
+          #include <altivec.h>
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+
+Performing C SOURCE FILE Test HAVE_ALTIVEC failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-nxK1kD
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_34320/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-nxK1kD“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_34320.dir/build.make CMakeFiles/cmTC_34320.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-nxK1kD“ wird betreten
+Building C object CMakeFiles/cmTC_34320.dir/src.c.o
+/usr/bin/cc -DHAVE_ALTIVEC  -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos" -maltivec -o CMakeFiles/cmTC_34320.dir/src.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-nxK1kD/src.c
+cc: error: unrecognized command-line option ‘-maltivec’
+gmake[4]: *** [CMakeFiles/cmTC_34320.dir/build.make:78: CMakeFiles/cmTC_34320.dir/src.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-nxK1kD“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_34320/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-nxK1kD“ wird verlassen
+
+
+Source file was:
+
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+
+Determining if the include file libunwind.h exists failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-lrkEDc
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a5338/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-lrkEDc“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_a5338.dir/build.make CMakeFiles/cmTC_a5338.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-lrkEDc“ wird betreten
+Building C object CMakeFiles/cmTC_a5338.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos"  -o CMakeFiles/cmTC_a5338.dir/CheckIncludeFile.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-lrkEDc/CheckIncludeFile.c
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-lrkEDc/CheckIncludeFile.c:1:10: fatal error: libunwind.h: Datei oder Verzeichnis nicht gefunden
+    1 | #include <libunwind.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+gmake[4]: *** [CMakeFiles/cmTC_a5338.dir/build.make:78: CMakeFiles/cmTC_a5338.dir/CheckIncludeFile.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-lrkEDc“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_a5338/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-lrkEDc“ wird verlassen
+
+
+
+Determining if the strlcpy exist failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-ahcfRB
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dd3a2/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-ahcfRB“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_dd3a2.dir/build.make CMakeFiles/cmTC_dd3a2.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-ahcfRB“ wird betreten
+Building C object CMakeFiles/cmTC_dd3a2.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos"  -o CMakeFiles/cmTC_dd3a2.dir/CheckSymbolExists.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-ahcfRB/CheckSymbolExists.c
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-ahcfRB/CheckSymbolExists.c: In function ‘main’:
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-ahcfRB/CheckSymbolExists.c:14:19: error: ‘strlcpy’ undeclared (first use in this function); did you mean ‘strncpy’?
+   14 |   return ((int*)(&strlcpy))[argc];
+      |                   ^~~~~~~
+      |                   strncpy
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-ahcfRB/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[4]: *** [CMakeFiles/cmTC_dd3a2.dir/build.make:78: CMakeFiles/cmTC_dd3a2.dir/CheckSymbolExists.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-ahcfRB“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_dd3a2/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-ahcfRB“ wird verlassen
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcpy
+  return ((int*)(&strlcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strlcat exist failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-j23209
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8edbe/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-j23209“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_8edbe.dir/build.make CMakeFiles/cmTC_8edbe.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-j23209“ wird betreten
+Building C object CMakeFiles/cmTC_8edbe.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos"  -o CMakeFiles/cmTC_8edbe.dir/CheckSymbolExists.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-j23209/CheckSymbolExists.c
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-j23209/CheckSymbolExists.c: In function ‘main’:
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-j23209/CheckSymbolExists.c:14:19: error: ‘strlcat’ undeclared (first use in this function); did you mean ‘strncat’?
+   14 |   return ((int*)(&strlcat))[argc];
+      |                   ^~~~~~~
+      |                   strncat
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-j23209/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[4]: *** [CMakeFiles/cmTC_8edbe.dir/build.make:78: CMakeFiles/cmTC_8edbe.dir/CheckSymbolExists.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-j23209“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_8edbe/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-j23209“ wird verlassen
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcat
+  return ((int*)(&strlcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _strrev exist failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-lfwJT0
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6766c/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-lfwJT0“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_6766c.dir/build.make CMakeFiles/cmTC_6766c.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-lfwJT0“ wird betreten
+Building C object CMakeFiles/cmTC_6766c.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos"  -o CMakeFiles/cmTC_6766c.dir/CheckSymbolExists.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-lfwJT0/CheckSymbolExists.c
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-lfwJT0/CheckSymbolExists.c: In function ‘main’:
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-lfwJT0/CheckSymbolExists.c:14:19: error: ‘_strrev’ undeclared (first use in this function)
+   14 |   return ((int*)(&_strrev))[argc];
+      |                   ^~~~~~~
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-lfwJT0/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[4]: *** [CMakeFiles/cmTC_6766c.dir/build.make:78: CMakeFiles/cmTC_6766c.dir/CheckSymbolExists.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-lfwJT0“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_6766c/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-lfwJT0“ wird verlassen
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strrev
+  return ((int*)(&_strrev))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _strupr exist failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-UAmM03
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ccd4e/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-UAmM03“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_ccd4e.dir/build.make CMakeFiles/cmTC_ccd4e.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-UAmM03“ wird betreten
+Building C object CMakeFiles/cmTC_ccd4e.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos"  -o CMakeFiles/cmTC_ccd4e.dir/CheckSymbolExists.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-UAmM03/CheckSymbolExists.c
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-UAmM03/CheckSymbolExists.c: In function ‘main’:
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-UAmM03/CheckSymbolExists.c:14:19: error: ‘_strupr’ undeclared (first use in this function)
+   14 |   return ((int*)(&_strupr))[argc];
+      |                   ^~~~~~~
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-UAmM03/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[4]: *** [CMakeFiles/cmTC_ccd4e.dir/build.make:78: CMakeFiles/cmTC_ccd4e.dir/CheckSymbolExists.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-UAmM03“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_ccd4e/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-UAmM03“ wird verlassen
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strupr
+  return ((int*)(&_strupr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _strlwr exist failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-VinLmA
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f5446/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-VinLmA“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_f5446.dir/build.make CMakeFiles/cmTC_f5446.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-VinLmA“ wird betreten
+Building C object CMakeFiles/cmTC_f5446.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos"  -o CMakeFiles/cmTC_f5446.dir/CheckSymbolExists.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-VinLmA/CheckSymbolExists.c
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-VinLmA/CheckSymbolExists.c: In function ‘main’:
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-VinLmA/CheckSymbolExists.c:14:19: error: ‘_strlwr’ undeclared (first use in this function)
+   14 |   return ((int*)(&_strlwr))[argc];
+      |                   ^~~~~~~
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-VinLmA/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[4]: *** [CMakeFiles/cmTC_f5446.dir/build.make:78: CMakeFiles/cmTC_f5446.dir/CheckSymbolExists.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-VinLmA“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_f5446/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-VinLmA“ wird verlassen
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strlwr
+  return ((int*)(&_strlwr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the itoa exist failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-Qm9w0q
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7c1a5/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-Qm9w0q“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_7c1a5.dir/build.make CMakeFiles/cmTC_7c1a5.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-Qm9w0q“ wird betreten
+Building C object CMakeFiles/cmTC_7c1a5.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos"  -o CMakeFiles/cmTC_7c1a5.dir/CheckSymbolExists.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-Qm9w0q/CheckSymbolExists.c
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-Qm9w0q/CheckSymbolExists.c: In function ‘main’:
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-Qm9w0q/CheckSymbolExists.c:14:19: error: ‘itoa’ undeclared (first use in this function)
+   14 |   return ((int*)(&itoa))[argc];
+      |                   ^~~~
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-Qm9w0q/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[4]: *** [CMakeFiles/cmTC_7c1a5.dir/build.make:78: CMakeFiles/cmTC_7c1a5.dir/CheckSymbolExists.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-Qm9w0q“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_7c1a5/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-Qm9w0q“ wird verlassen
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef itoa
+  return ((int*)(&itoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _ltoa exist failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-DMzJHq
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_55bc7/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-DMzJHq“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_55bc7.dir/build.make CMakeFiles/cmTC_55bc7.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-DMzJHq“ wird betreten
+Building C object CMakeFiles/cmTC_55bc7.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos"  -o CMakeFiles/cmTC_55bc7.dir/CheckSymbolExists.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-DMzJHq/CheckSymbolExists.c
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-DMzJHq/CheckSymbolExists.c: In function ‘main’:
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-DMzJHq/CheckSymbolExists.c:14:19: error: ‘_ltoa’ undeclared (first use in this function)
+   14 |   return ((int*)(&_ltoa))[argc];
+      |                   ^~~~~
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-DMzJHq/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[4]: *** [CMakeFiles/cmTC_55bc7.dir/build.make:78: CMakeFiles/cmTC_55bc7.dir/CheckSymbolExists.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-DMzJHq“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_55bc7/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-DMzJHq“ wird verlassen
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _ltoa
+  return ((int*)(&_ltoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _uitoa exist failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-oLAEgp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_eeedc/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-oLAEgp“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_eeedc.dir/build.make CMakeFiles/cmTC_eeedc.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-oLAEgp“ wird betreten
+Building C object CMakeFiles/cmTC_eeedc.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos"  -o CMakeFiles/cmTC_eeedc.dir/CheckSymbolExists.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-oLAEgp/CheckSymbolExists.c
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-oLAEgp/CheckSymbolExists.c: In function ‘main’:
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-oLAEgp/CheckSymbolExists.c:14:19: error: ‘_uitoa’ undeclared (first use in this function)
+   14 |   return ((int*)(&_uitoa))[argc];
+      |                   ^~~~~~
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-oLAEgp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[4]: *** [CMakeFiles/cmTC_eeedc.dir/build.make:78: CMakeFiles/cmTC_eeedc.dir/CheckSymbolExists.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-oLAEgp“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_eeedc/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-oLAEgp“ wird verlassen
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _uitoa
+  return ((int*)(&_uitoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _ultoa exist failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-HDhYC2
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_97949/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-HDhYC2“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_97949.dir/build.make CMakeFiles/cmTC_97949.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-HDhYC2“ wird betreten
+Building C object CMakeFiles/cmTC_97949.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos"  -o CMakeFiles/cmTC_97949.dir/CheckSymbolExists.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-HDhYC2/CheckSymbolExists.c
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-HDhYC2/CheckSymbolExists.c: In function ‘main’:
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-HDhYC2/CheckSymbolExists.c:14:19: error: ‘_ultoa’ undeclared (first use in this function)
+   14 |   return ((int*)(&_ultoa))[argc];
+      |                   ^~~~~~
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-HDhYC2/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[4]: *** [CMakeFiles/cmTC_97949.dir/build.make:78: CMakeFiles/cmTC_97949.dir/CheckSymbolExists.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-HDhYC2“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_97949/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-HDhYC2“ wird verlassen
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _ultoa
+  return ((int*)(&_ultoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _i64toa exist failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-FIhj0z
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b3bdb/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-FIhj0z“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_b3bdb.dir/build.make CMakeFiles/cmTC_b3bdb.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-FIhj0z“ wird betreten
+Building C object CMakeFiles/cmTC_b3bdb.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos"  -o CMakeFiles/cmTC_b3bdb.dir/CheckSymbolExists.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-FIhj0z/CheckSymbolExists.c
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-FIhj0z/CheckSymbolExists.c: In function ‘main’:
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-FIhj0z/CheckSymbolExists.c:14:19: error: ‘_i64toa’ undeclared (first use in this function)
+   14 |   return ((int*)(&_i64toa))[argc];
+      |                   ^~~~~~~
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-FIhj0z/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[4]: *** [CMakeFiles/cmTC_b3bdb.dir/build.make:78: CMakeFiles/cmTC_b3bdb.dir/CheckSymbolExists.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-FIhj0z“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_b3bdb/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-FIhj0z“ wird verlassen
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _i64toa
+  return ((int*)(&_i64toa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _ui64toa exist failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-G10CN0
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_03777/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-G10CN0“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_03777.dir/build.make CMakeFiles/cmTC_03777.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-G10CN0“ wird betreten
+Building C object CMakeFiles/cmTC_03777.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos"  -o CMakeFiles/cmTC_03777.dir/CheckSymbolExists.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-G10CN0/CheckSymbolExists.c
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-G10CN0/CheckSymbolExists.c: In function ‘main’:
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-G10CN0/CheckSymbolExists.c:14:19: error: ‘_ui64toa’ undeclared (first use in this function)
+   14 |   return ((int*)(&_ui64toa))[argc];
+      |                   ^~~~~~~~
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-G10CN0/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[4]: *** [CMakeFiles/cmTC_03777.dir/build.make:78: CMakeFiles/cmTC_03777.dir/CheckSymbolExists.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-G10CN0“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_03777/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-G10CN0“ wird verlassen
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _ui64toa
+  return ((int*)(&_ui64toa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _stricmp exist failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-mDHmz9
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_36730/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-mDHmz9“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_36730.dir/build.make CMakeFiles/cmTC_36730.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-mDHmz9“ wird betreten
+Building C object CMakeFiles/cmTC_36730.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos"  -o CMakeFiles/cmTC_36730.dir/CheckSymbolExists.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-mDHmz9/CheckSymbolExists.c
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-mDHmz9/CheckSymbolExists.c: In function ‘main’:
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-mDHmz9/CheckSymbolExists.c:14:19: error: ‘_stricmp’ undeclared (first use in this function); did you mean ‘strncmp’?
+   14 |   return ((int*)(&_stricmp))[argc];
+      |                   ^~~~~~~~
+      |                   strncmp
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-mDHmz9/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[4]: *** [CMakeFiles/cmTC_36730.dir/build.make:78: CMakeFiles/cmTC_36730.dir/CheckSymbolExists.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-mDHmz9“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_36730/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-mDHmz9“ wird verlassen
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _stricmp
+  return ((int*)(&_stricmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _strnicmp exist failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-3rlmDS
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_36f01/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-3rlmDS“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_36f01.dir/build.make CMakeFiles/cmTC_36f01.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-3rlmDS“ wird betreten
+Building C object CMakeFiles/cmTC_36f01.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos"  -o CMakeFiles/cmTC_36f01.dir/CheckSymbolExists.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-3rlmDS/CheckSymbolExists.c
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-3rlmDS/CheckSymbolExists.c: In function ‘main’:
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-3rlmDS/CheckSymbolExists.c:14:19: error: ‘_strnicmp’ undeclared (first use in this function); did you mean ‘strncmp’?
+   14 |   return ((int*)(&_strnicmp))[argc];
+      |                   ^~~~~~~~~
+      |                   strncmp
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-3rlmDS/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[4]: *** [CMakeFiles/cmTC_36f01.dir/build.make:78: CMakeFiles/cmTC_36f01.dir/CheckSymbolExists.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-3rlmDS“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_36f01/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-3rlmDS“ wird verlassen
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strnicmp
+  return ((int*)(&_strnicmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _wcsdup exist failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-HqtTYE
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0105a/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-HqtTYE“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_0105a.dir/build.make CMakeFiles/cmTC_0105a.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-HqtTYE“ wird betreten
+Building C object CMakeFiles/cmTC_0105a.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos"  -o CMakeFiles/cmTC_0105a.dir/CheckSymbolExists.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-HqtTYE/CheckSymbolExists.c
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-HqtTYE/CheckSymbolExists.c: In function ‘main’:
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-HqtTYE/CheckSymbolExists.c:14:19: error: ‘_wcsdup’ undeclared (first use in this function); did you mean ‘wcsdup’?
+   14 |   return ((int*)(&_wcsdup))[argc];
+      |                   ^~~~~~~
+      |                   wcsdup
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-HqtTYE/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[4]: *** [CMakeFiles/cmTC_0105a.dir/build.make:78: CMakeFiles/cmTC_0105a.dir/CheckSymbolExists.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-HqtTYE“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_0105a/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-HqtTYE“ wird verlassen
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _wcsdup
+  return ((int*)(&_wcsdup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcslcat exist failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-WV7LHu
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bc34e/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-WV7LHu“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_bc34e.dir/build.make CMakeFiles/cmTC_bc34e.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-WV7LHu“ wird betreten
+Building C object CMakeFiles/cmTC_bc34e.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos"  -o CMakeFiles/cmTC_bc34e.dir/CheckSymbolExists.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-WV7LHu/CheckSymbolExists.c
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-WV7LHu/CheckSymbolExists.c: In function ‘main’:
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-WV7LHu/CheckSymbolExists.c:14:19: error: ‘wcslcat’ undeclared (first use in this function); did you mean ‘wcsncat’?
+   14 |   return ((int*)(&wcslcat))[argc];
+      |                   ^~~~~~~
+      |                   wcsncat
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-WV7LHu/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[4]: *** [CMakeFiles/cmTC_bc34e.dir/build.make:78: CMakeFiles/cmTC_bc34e.dir/CheckSymbolExists.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-WV7LHu“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_bc34e/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-WV7LHu“ wird verlassen
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslcat
+  return ((int*)(&wcslcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcslcpy exist failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-DWfL4a
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_60dd3/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-DWfL4a“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_60dd3.dir/build.make CMakeFiles/cmTC_60dd3.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-DWfL4a“ wird betreten
+Building C object CMakeFiles/cmTC_60dd3.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos"  -o CMakeFiles/cmTC_60dd3.dir/CheckSymbolExists.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-DWfL4a/CheckSymbolExists.c
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-DWfL4a/CheckSymbolExists.c: In function ‘main’:
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-DWfL4a/CheckSymbolExists.c:14:19: error: ‘wcslcpy’ undeclared (first use in this function); did you mean ‘wcsncpy’?
+   14 |   return ((int*)(&wcslcpy))[argc];
+      |                   ^~~~~~~
+      |                   wcsncpy
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-DWfL4a/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[4]: *** [CMakeFiles/cmTC_60dd3.dir/build.make:78: CMakeFiles/cmTC_60dd3.dir/CheckSymbolExists.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-DWfL4a“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_60dd3/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-DWfL4a“ wird verlassen
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslcpy
+  return ((int*)(&wcslcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _wcsicmp exist failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-Cpmp5X
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4cc4c/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-Cpmp5X“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_4cc4c.dir/build.make CMakeFiles/cmTC_4cc4c.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-Cpmp5X“ wird betreten
+Building C object CMakeFiles/cmTC_4cc4c.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos"  -o CMakeFiles/cmTC_4cc4c.dir/CheckSymbolExists.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-Cpmp5X/CheckSymbolExists.c
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-Cpmp5X/CheckSymbolExists.c: In function ‘main’:
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-Cpmp5X/CheckSymbolExists.c:14:19: error: ‘_wcsicmp’ undeclared (first use in this function); did you mean ‘wcsncmp’?
+   14 |   return ((int*)(&_wcsicmp))[argc];
+      |                   ^~~~~~~~
+      |                   wcsncmp
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-Cpmp5X/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[4]: *** [CMakeFiles/cmTC_4cc4c.dir/build.make:78: CMakeFiles/cmTC_4cc4c.dir/CheckSymbolExists.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-Cpmp5X“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_4cc4c/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-Cpmp5X“ wird verlassen
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _wcsicmp
+  return ((int*)(&_wcsicmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _wcsnicmp exist failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-W0C7Sa
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ac71d/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-W0C7Sa“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_ac71d.dir/build.make CMakeFiles/cmTC_ac71d.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-W0C7Sa“ wird betreten
+Building C object CMakeFiles/cmTC_ac71d.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos"  -o CMakeFiles/cmTC_ac71d.dir/CheckSymbolExists.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-W0C7Sa/CheckSymbolExists.c
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-W0C7Sa/CheckSymbolExists.c: In function ‘main’:
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-W0C7Sa/CheckSymbolExists.c:14:19: error: ‘_wcsnicmp’ undeclared (first use in this function); did you mean ‘wcsncmp’?
+   14 |   return ((int*)(&_wcsnicmp))[argc];
+      |                   ^~~~~~~~~
+      |                   wcsncmp
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-W0C7Sa/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[4]: *** [CMakeFiles/cmTC_ac71d.dir/build.make:78: CMakeFiles/cmTC_ac71d.dir/CheckSymbolExists.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-W0C7Sa“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_ac71d/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-W0C7Sa“ wird verlassen
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _wcsnicmp
+  return ((int*)(&_wcsnicmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fopen64 exist failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-xhvjSo
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e0f59/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-xhvjSo“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_e0f59.dir/build.make CMakeFiles/cmTC_e0f59.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-xhvjSo“ wird betreten
+Building C object CMakeFiles/cmTC_e0f59.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos"  -o CMakeFiles/cmTC_e0f59.dir/CheckSymbolExists.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-xhvjSo/CheckSymbolExists.c
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-xhvjSo/CheckSymbolExists.c: In function ‘main’:
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-xhvjSo/CheckSymbolExists.c:14:19: error: ‘fopen64’ undeclared (first use in this function); did you mean ‘fopen’?
+   14 |   return ((int*)(&fopen64))[argc];
+      |                   ^~~~~~~
+      |                   fopen
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-xhvjSo/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[4]: *** [CMakeFiles/cmTC_e0f59.dir/build.make:78: CMakeFiles/cmTC_e0f59.dir/CheckSymbolExists.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-xhvjSo“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_e0f59/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-xhvjSo“ wird verlassen
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fopen64
+  return ((int*)(&fopen64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fseeko64 exist failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-WWkhee
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_87b9f/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-WWkhee“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_87b9f.dir/build.make CMakeFiles/cmTC_87b9f.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-WWkhee“ wird betreten
+Building C object CMakeFiles/cmTC_87b9f.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos"  -o CMakeFiles/cmTC_87b9f.dir/CheckSymbolExists.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-WWkhee/CheckSymbolExists.c
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-WWkhee/CheckSymbolExists.c: In function ‘main’:
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-WWkhee/CheckSymbolExists.c:14:19: error: ‘fseeko64’ undeclared (first use in this function); did you mean ‘fseeko’?
+   14 |   return ((int*)(&fseeko64))[argc];
+      |                   ^~~~~~~~
+      |                   fseeko
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-WWkhee/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[4]: *** [CMakeFiles/cmTC_87b9f.dir/build.make:78: CMakeFiles/cmTC_87b9f.dir/CheckSymbolExists.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-WWkhee“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_87b9f/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-WWkhee“ wird verlassen
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fseeko64
+  return ((int*)(&fseeko64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sysctlbyname exist failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-KpJXZE
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_61100/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-KpJXZE“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_61100.dir/build.make CMakeFiles/cmTC_61100.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-KpJXZE“ wird betreten
+Building C object CMakeFiles/cmTC_61100.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos"  -o CMakeFiles/cmTC_61100.dir/CheckSymbolExists.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-KpJXZE/CheckSymbolExists.c
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-KpJXZE/CheckSymbolExists.c:3:10: fatal error: sys/sysctl.h: Datei oder Verzeichnis nicht gefunden
+    3 | #include <sys/sysctl.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+gmake[4]: *** [CMakeFiles/cmTC_61100.dir/build.make:78: CMakeFiles/cmTC_61100.dir/CheckSymbolExists.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-KpJXZE“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_61100/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-KpJXZE“ wird verlassen
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/sysctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysctlbyname
+  return ((int*)(&sysctlbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the elf_aux_info exist failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-YvhwrB
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2c2bf/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-YvhwrB“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_2c2bf.dir/build.make CMakeFiles/cmTC_2c2bf.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-YvhwrB“ wird betreten
+Building C object CMakeFiles/cmTC_2c2bf.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos"  -o CMakeFiles/cmTC_2c2bf.dir/CheckSymbolExists.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-YvhwrB/CheckSymbolExists.c
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-YvhwrB/CheckSymbolExists.c: In function ‘main’:
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-YvhwrB/CheckSymbolExists.c:8:19: error: ‘elf_aux_info’ undeclared (first use in this function)
+    8 |   return ((int*)(&elf_aux_info))[argc];
+      |                   ^~~~~~~~~~~~
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-YvhwrB/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[4]: *** [CMakeFiles/cmTC_2c2bf.dir/build.make:78: CMakeFiles/cmTC_2c2bf.dir/CheckSymbolExists.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-YvhwrB“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_2c2bf/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-YvhwrB“ wird verlassen
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/auxv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef elf_aux_info
+  return ((int*)(&elf_aux_info))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function iconv_open exists in the iconv failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-i3u1ov
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_45b85/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-i3u1ov“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_45b85.dir/build.make CMakeFiles/cmTC_45b85.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-i3u1ov“ wird betreten
+Building C object CMakeFiles/cmTC_45b85.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos" -DCHECK_FUNCTION_EXISTS=iconv_open -o CMakeFiles/cmTC_45b85.dir/CheckFunctionExists.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-i3u1ov/CheckFunctionExists.c
+Linking C executable cmTC_45b85
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45b85.dir/link.txt --verbose=1
+/usr/bin/cc  -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos" -DCHECK_FUNCTION_EXISTS=iconv_open -rdynamic CMakeFiles/cmTC_45b85.dir/CheckFunctionExists.c.o -o cmTC_45b85  -liconv 
+/usr/bin/ld: cannot find -liconv: Datei oder Verzeichnis nicht gefunden
+collect2: error: ld returned 1 exit status
+gmake[4]: *** [CMakeFiles/cmTC_45b85.dir/build.make:99: cmTC_45b85] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-i3u1ov“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_45b85/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-i3u1ov“ wird verlassen
+
+
+
+Determining if the alloca exist failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-4lZ8mA
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a574a/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-4lZ8mA“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_a574a.dir/build.make CMakeFiles/cmTC_a574a.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-4lZ8mA“ wird betreten
+Building C object CMakeFiles/cmTC_a574a.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos"  -o CMakeFiles/cmTC_a574a.dir/CheckSymbolExists.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-4lZ8mA/CheckSymbolExists.c
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-4lZ8mA/CheckSymbolExists.c: In function ‘main’:
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-4lZ8mA/CheckSymbolExists.c:8:19: error: ‘alloca’ undeclared (first use in this function); did you mean ‘valloc’?
+    8 |   return ((int*)(&alloca))[argc];
+      |                   ^~~~~~
+      |                   valloc
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-4lZ8mA/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[4]: *** [CMakeFiles/cmTC_a574a.dir/build.make:78: CMakeFiles/cmTC_a574a.dir/CheckSymbolExists.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-4lZ8mA“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_a574a/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-4lZ8mA“ wird verlassen
+
+
+File CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef alloca
+  return ((int*)(&alloca))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_RPI failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-ocNg6E
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_beda6/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-ocNg6E“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_beda6.dir/build.make CMakeFiles/cmTC_beda6.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-ocNg6E“ wird betreten
+Building C object CMakeFiles/cmTC_beda6.dir/src.c.o
+/usr/bin/cc -DHAVE_RPI  -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos"  -I/opt/vc/include/interface/vmcs_host/linux/ -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include  -L/opt/vc/lib -o CMakeFiles/cmTC_beda6.dir/src.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-ocNg6E/src.c
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-ocNg6E/src.c:2:18: fatal error: bcm_host.h: Datei oder Verzeichnis nicht gefunden
+    2 |         #include <bcm_host.h>
+      |                  ^~~~~~~~~~~~
+compilation terminated.
+gmake[4]: *** [CMakeFiles/cmTC_beda6.dir/build.make:78: CMakeFiles/cmTC_beda6.dir/src.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-ocNg6E“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_beda6/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-ocNg6E“ wird verlassen
+
+
+Source file was:
+
+        #include <bcm_host.h>
+        #include <EGL/eglplatform.h>
+        int main(int argc, char **argv) {
+          EGL_DISPMANX_WINDOW_T window;
+          bcm_host_init();
+        }
+
+Determining if the include file X11/Xcursor/Xcursor.h exists failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-NtMW1D
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_53fb0/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-NtMW1D“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_53fb0.dir/build.make CMakeFiles/cmTC_53fb0.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-NtMW1D“ wird betreten
+Building C object CMakeFiles/cmTC_53fb0.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos"  -o CMakeFiles/cmTC_53fb0.dir/CheckIncludeFile.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-NtMW1D/CheckIncludeFile.c
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-NtMW1D/CheckIncludeFile.c:1:10: fatal error: X11/Xcursor/Xcursor.h: Datei oder Verzeichnis nicht gefunden
+    1 | #include <X11/Xcursor/Xcursor.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[4]: *** [CMakeFiles/cmTC_53fb0.dir/build.make:78: CMakeFiles/cmTC_53fb0.dir/CheckIncludeFile.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-NtMW1D“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_53fb0/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-NtMW1D“ wird verlassen
+
+
+
+Determining if the include file X11/extensions/Xinerama.h exists failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-MSRXDB
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_84ec1/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-MSRXDB“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_84ec1.dir/build.make CMakeFiles/cmTC_84ec1.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-MSRXDB“ wird betreten
+Building C object CMakeFiles/cmTC_84ec1.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos"  -o CMakeFiles/cmTC_84ec1.dir/CheckIncludeFile.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-MSRXDB/CheckIncludeFile.c
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-MSRXDB/CheckIncludeFile.c:1:10: fatal error: X11/extensions/Xinerama.h: Datei oder Verzeichnis nicht gefunden
+    1 | #include <X11/extensions/Xinerama.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[4]: *** [CMakeFiles/cmTC_84ec1.dir/build.make:78: CMakeFiles/cmTC_84ec1.dir/CheckIncludeFile.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-MSRXDB“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_84ec1/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-MSRXDB“ wird verlassen
+
+
+
+Determining if the include file X11/extensions/XInput2.h exists failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-PItR1q
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ca493/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-PItR1q“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_ca493.dir/build.make CMakeFiles/cmTC_ca493.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-PItR1q“ wird betreten
+Building C object CMakeFiles/cmTC_ca493.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos"  -o CMakeFiles/cmTC_ca493.dir/CheckIncludeFile.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-PItR1q/CheckIncludeFile.c
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-PItR1q/CheckIncludeFile.c:1:10: fatal error: X11/extensions/XInput2.h: Datei oder Verzeichnis nicht gefunden
+    1 | #include <X11/extensions/XInput2.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[4]: *** [CMakeFiles/cmTC_ca493.dir/build.make:78: CMakeFiles/cmTC_ca493.dir/CheckIncludeFile.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-PItR1q“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_ca493/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-PItR1q“ wird verlassen
+
+
+
+Determining if the include file X11/extensions/Xfixes.h exists failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-UW9Lgd
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1da3b/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-UW9Lgd“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_1da3b.dir/build.make CMakeFiles/cmTC_1da3b.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-UW9Lgd“ wird betreten
+Building C object CMakeFiles/cmTC_1da3b.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos"  -o CMakeFiles/cmTC_1da3b.dir/CheckIncludeFile.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-UW9Lgd/CheckIncludeFile.c
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-UW9Lgd/CheckIncludeFile.c:1:10: fatal error: X11/extensions/Xfixes.h: Datei oder Verzeichnis nicht gefunden
+    1 | #include <X11/extensions/Xfixes.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[4]: *** [CMakeFiles/cmTC_1da3b.dir/build.make:78: CMakeFiles/cmTC_1da3b.dir/CheckIncludeFile.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-UW9Lgd“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_1da3b/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-UW9Lgd“ wird verlassen
+
+
+
+Determining if the include file X11/extensions/scrnsaver.h exists failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-1CI48s
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7a1f0/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-1CI48s“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_7a1f0.dir/build.make CMakeFiles/cmTC_7a1f0.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-1CI48s“ wird betreten
+Building C object CMakeFiles/cmTC_7a1f0.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos"  -o CMakeFiles/cmTC_7a1f0.dir/CheckIncludeFile.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-1CI48s/CheckIncludeFile.c
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-1CI48s/CheckIncludeFile.c:1:10: fatal error: X11/extensions/scrnsaver.h: Datei oder Verzeichnis nicht gefunden
+    1 | #include <X11/extensions/scrnsaver.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[4]: *** [CMakeFiles/cmTC_7a1f0.dir/build.make:78: CMakeFiles/cmTC_7a1f0.dir/CheckIncludeFile.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-1CI48s“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_7a1f0/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-1CI48s“ wird verlassen
+
+
+
+Determining if files X11/Xlib.h;X11/extensions/xf86vmode.h exist failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-YZpo1d
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d8a05/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-YZpo1d“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_d8a05.dir/build.make CMakeFiles/cmTC_d8a05.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-YZpo1d“ wird betreten
+Building C object CMakeFiles/cmTC_d8a05.dir/HAVE_XF86VM_H.c.o
+/usr/bin/cc   -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos"  -o CMakeFiles/cmTC_d8a05.dir/HAVE_XF86VM_H.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-YZpo1d/HAVE_XF86VM_H.c
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-YZpo1d/HAVE_XF86VM_H.c:3:10: fatal error: X11/extensions/xf86vmode.h: Datei oder Verzeichnis nicht gefunden
+    3 | #include <X11/extensions/xf86vmode.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[4]: *** [CMakeFiles/cmTC_d8a05.dir/build.make:78: CMakeFiles/cmTC_d8a05.dir/HAVE_XF86VM_H.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-YZpo1d“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_d8a05/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-YZpo1d“ wird verlassen
+
+
+Source:
+/* */
+#include <X11/Xlib.h>
+#include <X11/extensions/xf86vmode.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test HAVE_VIVANTE_VDK failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-fnoNxD
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b976d/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-fnoNxD“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_b976d.dir/build.make CMakeFiles/cmTC_b976d.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-fnoNxD“ wird betreten
+Building C object CMakeFiles/cmTC_b976d.dir/src.c.o
+/usr/bin/cc -DHAVE_VIVANTE_VDK  -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos"   -o CMakeFiles/cmTC_b976d.dir/src.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-fnoNxD/src.c
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-fnoNxD/src.c:2:18: fatal error: gc_vdk.h: Datei oder Verzeichnis nicht gefunden
+    2 |         #include <gc_vdk.h>
+      |                  ^~~~~~~~~~
+compilation terminated.
+gmake[4]: *** [CMakeFiles/cmTC_b976d.dir/build.make:78: CMakeFiles/cmTC_b976d.dir/src.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-fnoNxD“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_b976d/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-fnoNxD“ wird verlassen
+
+
+Source file was:
+
+        #include <gc_vdk.h>
+        int main(int argc, char** argv) {}
+
+Performing C SOURCE FILE Test HAVE_VIVANTE_EGL_FB failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-LOEas8
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5dbde/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-LOEas8“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_5dbde.dir/build.make CMakeFiles/cmTC_5dbde.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-LOEas8“ wird betreten
+Building C object CMakeFiles/cmTC_5dbde.dir/src.c.o
+/usr/bin/cc -DHAVE_VIVANTE_EGL_FB  -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos"   -o CMakeFiles/cmTC_5dbde.dir/src.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-LOEas8/src.c
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-LOEas8/src.c:4:18: fatal error: EGL/eglvivante.h: Datei oder Verzeichnis nicht gefunden
+    4 |         #include <EGL/eglvivante.h>
+      |                  ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[4]: *** [CMakeFiles/cmTC_5dbde.dir/build.make:78: CMakeFiles/cmTC_5dbde.dir/src.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-LOEas8“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_5dbde/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-LOEas8“ wird verlassen
+
+
+Source file was:
+
+        #define LINUX
+        #define EGL_API_FB
+        #include <EGL/eglvivante.h>
+        int main(int argc, char** argv) {}
+
+Determining if the include file libudev.h exists failed with the following output:
+Change Dir: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-r89wvI
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_66e99/fast && gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-r89wvI“ wird betreten
+/usr/bin/gmake  -f CMakeFiles/cmTC_66e99.dir/build.make CMakeFiles/cmTC_66e99.dir/build
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-r89wvI“ wird betreten
+Building C object CMakeFiles/cmTC_66e99.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos"   -o CMakeFiles/cmTC_66e99.dir/CheckIncludeFile.c.o -c /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-r89wvI/CheckIncludeFile.c
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-r89wvI/CheckIncludeFile.c:1:10: fatal error: libudev.h: Datei oder Verzeichnis nicht gefunden
+    1 | #include <libudev.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+gmake[4]: *** [CMakeFiles/cmTC_66e99.dir/build.make:78: CMakeFiles/cmTC_66e99.dir/CheckIncludeFile.c.o] Fehler 1
+gmake[4]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-r89wvI“ wird verlassen
+gmake[3]: *** [Makefile:127: cmTC_66e99/fast] Fehler 2
+gmake[3]: Verzeichnis „/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/CMakeScratch/TryCompile-r89wvI“ wird verlassen
+
+
+

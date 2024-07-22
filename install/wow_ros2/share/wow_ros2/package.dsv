@@ -1,0 +1,6 @@
+source;share/wow_ros2/hook/pythonpath.dsv
+source;share/wow_ros2/hook/pythonpath.sh
+source;share/wow_ros2/hook/ament_prefix_path.dsv
+source;share/wow_ros2/hook/ament_prefix_path.sh
+source;../../build/wow_ros2/share/wow_ros2/hook/pythonpath_develop.dsv
+source;../../build/wow_ros2/share/wow_ros2/hook/pythonpath_develop.sh

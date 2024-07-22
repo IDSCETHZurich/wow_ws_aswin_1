@@ -1,0 +1,135 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from gps_msgs/msg/GPSFix.msg
+// generated code does not contain a copyright notice
+
+#include "gps_msgs/msg/GPSStatus.idl"
+#include "std_msgs/msg/Header.idl"
+
+module gps_msgs {
+  module msg {
+    typedef double double__9[9];
+    module GPSFix_Constants {
+      const uint8 COVARIANCE_TYPE_UNKNOWN = 0;
+      const uint8 COVARIANCE_TYPE_APPROXIMATED = 1;
+      const uint8 COVARIANCE_TYPE_DIAGONAL_KNOWN = 2;
+      const uint8 COVARIANCE_TYPE_KNOWN = 3;
+    };
+    @verbatim (language="comment", text=
+      "A more complete GPS fix to supplement sensor_msgs/NavSatFix.")
+    struct GPSFix {
+      std_msgs::msg::Header header;
+
+      gps_msgs::msg::GPSStatus status;
+
+      @verbatim (language="comment", text=
+        "Latitude (degrees). Positive is north of equator; negative is south.")
+      double latitude;
+
+      @verbatim (language="comment", text=
+        "Longitude (degrees). Positive is east of prime meridian, negative west.")
+      double longitude;
+
+      @verbatim (language="comment", text=
+        "Altitude (meters). Positive is above reference (e.g., sea level).")
+      double altitude;
+
+      @verbatim (language="comment", text=
+        "Direction (degrees from north)")
+      double track;
+
+      @verbatim (language="comment", text=
+        "Ground speed (meters/second)")
+      double speed;
+
+      @verbatim (language="comment", text=
+        "Vertical speed (meters/second)")
+      double climb;
+
+      @verbatim (language="comment", text=
+        "Device orientation (units in degrees)")
+      double pitch;
+
+      double roll;
+
+      double dip;
+
+      @verbatim (language="comment", text=
+        "GPS time")
+      double time;
+
+      @verbatim (language="comment", text=
+        "Dilution of precision; Xdop<=0 means the value is unknown" "\n"
+        "Total (positional-temporal) dilution of precision")
+      double gdop;
+
+      @verbatim (language="comment", text=
+        "Positional (3D) dilution of precision")
+      double pdop;
+
+      @verbatim (language="comment", text=
+        "Horizontal dilution of precision")
+      double hdop;
+
+      @verbatim (language="comment", text=
+        "Vertical dilution of precision")
+      double vdop;
+
+      @verbatim (language="comment", text=
+        "Temporal dilution of precision")
+      double tdop;
+
+      @verbatim (language="comment", text=
+        "Uncertainty of measurement, 95% confidence" "\n"
+        "Spherical position uncertainty (meters)")
+      @unit (value="epe")
+      double err;
+
+      @verbatim (language="comment", text=
+        "Horizontal position uncertainty (meters)")
+      @unit (value="eph")
+      double err_horz;
+
+      @verbatim (language="comment", text=
+        "Vertical position uncertainty (meters)")
+      @unit (value="epv")
+      double err_vert;
+
+      @verbatim (language="comment", text=
+        "Track uncertainty (degrees)")
+      @unit (value="epd")
+      double err_track;
+
+      @verbatim (language="comment", text=
+        "Ground speed uncertainty (meters/second)")
+      @unit (value="eps")
+      double err_speed;
+
+      @verbatim (language="comment", text=
+        "Vertical speed uncertainty (meters/second)")
+      @unit (value="epc")
+      double err_climb;
+
+      @verbatim (language="comment", text=
+        "Temporal uncertainty")
+      @unit (value="ept")
+      double err_time;
+
+      @verbatim (language="comment", text=
+        "Orientation uncertainty (degrees)")
+      double err_pitch;
+
+      double err_roll;
+
+      double err_dip;
+
+      @verbatim (language="comment", text=
+        "Position covariance defined relative to a tangential plane" "\n"
+        "through the reported position. The components are East, North, and" "\n"
+        "Up (ENU), in row-major order.")
+      @unit (value="m^2")
+      double__9 position_covariance;
+
+      uint8 position_covariance_type;
+    };
+  };
+};

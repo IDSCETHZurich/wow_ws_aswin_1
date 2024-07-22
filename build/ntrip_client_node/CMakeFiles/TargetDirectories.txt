@@ -1,0 +1,11 @@
+/home/pi/wow_ws/build/ntrip_client_node/CMakeFiles/uninstall.dir
+/home/pi/wow_ws/build/ntrip_client_node/CMakeFiles/ntrip_client_node_uninstall.dir
+/home/pi/wow_ws/build/ntrip_client_node/CMakeFiles/ntrip_client_components.dir
+/home/pi/wow_ws/build/ntrip_client_node/CMakeFiles/ntrip_client_node.dir
+/home/pi/wow_ws/build/ntrip_client_node/CMakeFiles/test.dir
+/home/pi/wow_ws/build/ntrip_client_node/CMakeFiles/edit_cache.dir
+/home/pi/wow_ws/build/ntrip_client_node/CMakeFiles/rebuild_cache.dir
+/home/pi/wow_ws/build/ntrip_client_node/CMakeFiles/list_install_components.dir
+/home/pi/wow_ws/build/ntrip_client_node/CMakeFiles/install.dir
+/home/pi/wow_ws/build/ntrip_client_node/CMakeFiles/install/local.dir
+/home/pi/wow_ws/build/ntrip_client_node/CMakeFiles/install/strip.dir

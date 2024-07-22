@@ -1,0 +1,1 @@
+/home/pi/wow_ws/build/sdl2_vendor/ament_cmake_environment_hooks/local_setup.bash

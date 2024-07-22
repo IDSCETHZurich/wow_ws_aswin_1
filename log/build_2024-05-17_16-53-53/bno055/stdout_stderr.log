@@ -1,0 +1,19 @@
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:146: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+running develop
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing bno055.egg-info/PKG-INFO
+writing dependency_links to bno055.egg-info/dependency_links.txt
+writing entry points to bno055.egg-info/entry_points.txt
+writing requirements to bno055.egg-info/requires.txt
+writing top-level names to bno055.egg-info/top_level.txt
+reading manifest file 'bno055.egg-info/SOURCES.txt'
+writing manifest file 'bno055.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pi/wow_ws/install/bno055/lib/python3.11/site-packages/bno055.egg-link (link to .)
+Installing bno055 script to /home/pi/wow_ws/install/bno055/lib/bno055
+
+Installed /home/pi/wow_ws/build/bno055
+running install_data

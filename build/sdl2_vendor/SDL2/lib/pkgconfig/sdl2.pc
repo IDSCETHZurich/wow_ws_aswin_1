@@ -1,0 +1,15 @@
+# sdl pkg-config source file
+
+prefix=/home/pi/wow_ws/build/sdl2_vendor/SDL2
+exec_prefix=${prefix}
+libdir=/home/pi/wow_ws/build/sdl2_vendor/SDL2/lib
+includedir=/home/pi/wow_ws/build/sdl2_vendor/SDL2/include
+
+Name: sdl2
+Description: Simple DirectMedia Layer is a cross-platform multimedia library designed to provide low level access to audio, keyboard, mouse, joystick, 3D hardware via OpenGL, and 2D video framebuffer.
+Version: 2.0.20
+Requires:
+Conflicts:
+Libs: -L${libdir} -Wl,-rpath,${libdir} -Wl,--enable-new-dtags -lSDL2  
+Libs.private: -lrt -lm  -Wl,--no-undefined -lSDL2 
+Cflags: -I${includedir}/SDL2 

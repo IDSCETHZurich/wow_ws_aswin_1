@@ -1,0 +1,1 @@
+[0mCMake Error: The source "/home/pi/wow_ws/src/ros2-ublox-zedf9p/ublox_serialization/CMakeLists.txt" does not match the source "/home/pi/wow_ws/src/ublox/ublox_serialization/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.[0m

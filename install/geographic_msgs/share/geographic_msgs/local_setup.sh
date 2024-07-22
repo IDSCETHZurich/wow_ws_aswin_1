@@ -1,0 +1,1 @@
+/home/pi/wow_ws/build/geographic_msgs/ament_cmake_environment_hooks/local_setup.sh

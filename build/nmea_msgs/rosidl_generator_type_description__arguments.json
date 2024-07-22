@@ -1,0 +1,19 @@
+{
+  "package_name": "nmea_msgs",
+  "output_dir": "/home/pi/wow_ws/build/nmea_msgs/rosidl_generator_type_description/nmea_msgs",
+  "idl_tuples": [
+    "/home/pi/wow_ws/build/nmea_msgs/rosidl_adapter/nmea_msgs:msg/Sentence.idl",
+    "/home/pi/wow_ws/build/nmea_msgs/rosidl_adapter/nmea_msgs:msg/Gpgga.idl",
+    "/home/pi/wow_ws/build/nmea_msgs/rosidl_adapter/nmea_msgs:msg/Gpgsa.idl",
+    "/home/pi/wow_ws/build/nmea_msgs/rosidl_adapter/nmea_msgs:msg/Gpgst.idl",
+    "/home/pi/wow_ws/build/nmea_msgs/rosidl_adapter/nmea_msgs:msg/Gpgsv.idl",
+    "/home/pi/wow_ws/build/nmea_msgs/rosidl_adapter/nmea_msgs:msg/GpgsvSatellite.idl",
+    "/home/pi/wow_ws/build/nmea_msgs/rosidl_adapter/nmea_msgs:msg/Gprmc.idl",
+    "/home/pi/wow_ws/build/nmea_msgs/rosidl_adapter/nmea_msgs:msg/Gpvtg.idl",
+    "/home/pi/wow_ws/build/nmea_msgs/rosidl_adapter/nmea_msgs:msg/Gpzda.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/home/pi/ros2_iron/install/std_msgs/share/std_msgs",
+    "builtin_interfaces:/home/pi/ros2_iron/install/builtin_interfaces/share/builtin_interfaces"
+  ]
+}

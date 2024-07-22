@@ -1,0 +1,33 @@
+{
+  "package_name": "geographic_msgs",
+  "output_dir": "/home/pi/wow_ws/build/geographic_msgs/rosidl_generator_type_description/geographic_msgs",
+  "idl_tuples": [
+    "/home/pi/wow_ws/build/geographic_msgs/rosidl_adapter/geographic_msgs:msg/BoundingBox.idl",
+    "/home/pi/wow_ws/build/geographic_msgs/rosidl_adapter/geographic_msgs:msg/GeographicMapChanges.idl",
+    "/home/pi/wow_ws/build/geographic_msgs/rosidl_adapter/geographic_msgs:msg/GeographicMap.idl",
+    "/home/pi/wow_ws/build/geographic_msgs/rosidl_adapter/geographic_msgs:msg/GeoPath.idl",
+    "/home/pi/wow_ws/build/geographic_msgs/rosidl_adapter/geographic_msgs:msg/GeoPoint.idl",
+    "/home/pi/wow_ws/build/geographic_msgs/rosidl_adapter/geographic_msgs:msg/GeoPointStamped.idl",
+    "/home/pi/wow_ws/build/geographic_msgs/rosidl_adapter/geographic_msgs:msg/GeoPose.idl",
+    "/home/pi/wow_ws/build/geographic_msgs/rosidl_adapter/geographic_msgs:msg/GeoPoseStamped.idl",
+    "/home/pi/wow_ws/build/geographic_msgs/rosidl_adapter/geographic_msgs:msg/GeoPoseWithCovariance.idl",
+    "/home/pi/wow_ws/build/geographic_msgs/rosidl_adapter/geographic_msgs:msg/GeoPoseWithCovarianceStamped.idl",
+    "/home/pi/wow_ws/build/geographic_msgs/rosidl_adapter/geographic_msgs:msg/KeyValue.idl",
+    "/home/pi/wow_ws/build/geographic_msgs/rosidl_adapter/geographic_msgs:msg/MapFeature.idl",
+    "/home/pi/wow_ws/build/geographic_msgs/rosidl_adapter/geographic_msgs:msg/RouteNetwork.idl",
+    "/home/pi/wow_ws/build/geographic_msgs/rosidl_adapter/geographic_msgs:msg/RoutePath.idl",
+    "/home/pi/wow_ws/build/geographic_msgs/rosidl_adapter/geographic_msgs:msg/RouteSegment.idl",
+    "/home/pi/wow_ws/build/geographic_msgs/rosidl_adapter/geographic_msgs:msg/WayPoint.idl",
+    "/home/pi/wow_ws/build/geographic_msgs/rosidl_adapter/geographic_msgs:srv/GetGeographicMap.idl",
+    "/home/pi/wow_ws/build/geographic_msgs/rosidl_adapter/geographic_msgs:srv/GetGeoPath.idl",
+    "/home/pi/wow_ws/build/geographic_msgs/rosidl_adapter/geographic_msgs:srv/GetRoutePlan.idl",
+    "/home/pi/wow_ws/build/geographic_msgs/rosidl_adapter/geographic_msgs:srv/UpdateGeographicMap.idl"
+  ],
+  "include_paths": [
+    "unique_identifier_msgs:/home/pi/ros2_iron/install/unique_identifier_msgs/share/unique_identifier_msgs",
+    "geometry_msgs:/home/pi/ros2_iron/install/geometry_msgs/share/geometry_msgs",
+    "std_msgs:/home/pi/ros2_iron/install/std_msgs/share/std_msgs",
+    "builtin_interfaces:/home/pi/ros2_iron/install/builtin_interfaces/share/builtin_interfaces",
+    "service_msgs:/home/pi/ros2_iron/install/service_msgs/share/service_msgs"
+  ]
+}

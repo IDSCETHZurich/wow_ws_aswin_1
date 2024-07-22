@@ -1,0 +1,6 @@
+/home/pi/wow_ws/install/joy/lib/libjoy.so
+/home/pi/wow_ws/install/joy/lib/libgame_controller.so
+/home/pi/wow_ws/install/joy/share/joy/cmake/export_joyExport.cmake
+/home/pi/wow_ws/install/joy/share/joy/cmake/export_joyExport-noconfig.cmake
+/home/pi/wow_ws/install/joy/share/joy/cmake/export_game_controllerExport.cmake
+/home/pi/wow_ws/install/joy/share/joy/cmake/export_game_controllerExport-noconfig.cmake

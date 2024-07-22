@@ -1,0 +1,23 @@
+[  0%] Built target ublox_ubx_msgs__rosidl_generator_type_description
+[  0%] Built target ament_cmake_python_symlink_ublox_ubx_msgs
+[  0%] Built target ublox_ubx_msgs__cpp
+[ 29%] Built target ublox_ubx_msgs__rosidl_generator_c
+[ 39%] Built target ublox_ubx_msgs__rosidl_typesupport_fastrtps_cpp
+[ 49%] Built target ublox_ubx_msgs__rosidl_typesupport_cpp
+[ 59%] Built target ublox_ubx_msgs__rosidl_typesupport_fastrtps_c
+[ 69%] Built target ublox_ubx_msgs__rosidl_typesupport_c
+[ 79%] Built target ublox_ubx_msgs__rosidl_typesupport_introspection_c
+[ 89%] Built target ublox_ubx_msgs__rosidl_typesupport_introspection_cpp
+[ 89%] Built target ublox_ubx_msgs
+[ 89%] Built target ublox_ubx_msgs__py
+[ 99%] Built target ublox_ubx_msgs__rosidl_generator_py
+[100%] Built target ublox_ubx_msgs__rosidl_typesupport_introspection_c__pyext
+[100%] Built target ublox_ubx_msgs__rosidl_typesupport_c__pyext
+[100%] Built target ublox_ubx_msgs__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing ublox_ubx_msgs.egg-info/PKG-INFO
+writing dependency_links to ublox_ubx_msgs.egg-info/dependency_links.txt
+writing top-level names to ublox_ubx_msgs.egg-info/top_level.txt
+reading manifest file 'ublox_ubx_msgs.egg-info/SOURCES.txt'
+writing manifest file 'ublox_ubx_msgs.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_ublox_ubx_msgs_egg

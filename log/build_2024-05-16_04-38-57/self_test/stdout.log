@@ -1,0 +1,87 @@
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Build for iron
+-- Found ament_cmake: 2.0.5 (/home/pi/ros2_iron/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.11.2") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found diagnostic_msgs: 5.0.0 (/home/pi/ros2_iron/install/diagnostic_msgs/share/diagnostic_msgs/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/home/pi/ros2_iron/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/home/pi/ros2_iron/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found diagnostic_updater: 3.2.0 (/home/pi/wow_ws/install/diagnostic_updater/share/diagnostic_updater/cmake)
+-- Found rmw_implementation_cmake: 7.1.0 (/home/pi/ros2_iron/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.3 (/home/pi/ros2_iron/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.11")  
+-- Found FastRTPS: /home/pi/ros2_iron/install/fastrtps/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.14.3 (/home/pi/ros2_iron/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/home/pi/ros2_iron/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/pi/wow_ws/src/diagnostics/self_test/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/wow_ws/build/self_test
+[  6%] [32mBuilding CXX object CMakeFiles/run_selftest.dir/src/run_selftest.cpp.o[0m
+[ 12%] [32m[1mLinking CXX executable run_selftest[0m
+[ 12%] Built target run_selftest
+[ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 25%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 25%] Built target gtest
+[ 31%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 37%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 37%] Built target gtest_main
+[ 43%] [32mBuilding CXX object CMakeFiles/selftest_example.dir/example/selftest_example.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable selftest_example[0m
+[ 50%] Built target selftest_example
+[ 56%] [32mBuilding CXX object test/CMakeFiles/test_exception_selftest.dir/exception_selftest.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable test_exception_selftest[0m
+[ 62%] Built target test_exception_selftest
+[ 68%] [32mBuilding CXX object test/CMakeFiles/test_error_selftest.dir/error_selftest.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable test_error_selftest[0m
+[ 75%] Built target test_error_selftest
+[ 81%] [32mBuilding CXX object test/CMakeFiles/test_no_id_selftest.dir/no_id_selftest.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable test_no_id_selftest[0m
+[ 87%] Built target test_no_id_selftest
+[ 93%] [32mBuilding CXX object test/CMakeFiles/test_nominal_selftest.dir/nominal_selftest.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_nominal_selftest[0m
+[100%] Built target test_nominal_selftest
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/pi/wow_ws/install/self_test/include/self_test/test_runner.hpp
+-- Symlinking: /home/pi/wow_ws/install/self_test/lib/self_test/run_selftest
+-- Symlinking: /home/pi/wow_ws/install/self_test/lib/self_test/selftest_example
+-- Symlinking: /home/pi/wow_ws/install/self_test/share/ament_index/resource_index/package_run_dependencies/self_test
+-- Symlinking: /home/pi/wow_ws/install/self_test/share/ament_index/resource_index/parent_prefix_path/self_test
+-- Symlinking: /home/pi/wow_ws/install/self_test/share/self_test/environment/ament_prefix_path.sh
+-- Symlinking: /home/pi/wow_ws/install/self_test/share/self_test/environment/ament_prefix_path.dsv
+-- Symlinking: /home/pi/wow_ws/install/self_test/share/self_test/environment/path.sh
+-- Symlinking: /home/pi/wow_ws/install/self_test/share/self_test/environment/path.dsv
+-- Symlinking: /home/pi/wow_ws/install/self_test/share/self_test/local_setup.bash
+-- Symlinking: /home/pi/wow_ws/install/self_test/share/self_test/local_setup.sh
+-- Symlinking: /home/pi/wow_ws/install/self_test/share/self_test/local_setup.zsh
+-- Symlinking: /home/pi/wow_ws/install/self_test/share/self_test/local_setup.dsv
+-- Symlinking: /home/pi/wow_ws/install/self_test/share/self_test/package.dsv
+-- Symlinking: /home/pi/wow_ws/install/self_test/share/ament_index/resource_index/packages/self_test
+-- Symlinking: /home/pi/wow_ws/install/self_test/share/self_test/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/pi/wow_ws/install/self_test/share/self_test/cmake/self_testConfig.cmake
+-- Symlinking: /home/pi/wow_ws/install/self_test/share/self_test/cmake/self_testConfig-version.cmake
+-- Symlinking: /home/pi/wow_ws/install/self_test/share/self_test/package.xml

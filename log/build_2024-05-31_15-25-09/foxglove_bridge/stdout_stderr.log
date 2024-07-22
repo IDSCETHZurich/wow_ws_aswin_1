@@ -1,0 +1,36 @@
+[  7%] Built target foxglove_bridge
+[ 14%] Built target gtest_main
+[ 21%] Built target gtest
+[ 50%] Built target foxglove_bridge_base
+[ 57%] Built target base64_test
+[ 64%] Built target serialization_test
+[ 71%] Built target version_test
+[ 92%] Built target foxglove_bridge_component
+[100%] Built target smoke_test
+-- Install configuration: "RelWithDebInfo"
+-- Execute custom install script
+-- Up-to-date symlink: /home/pi/wow_ws/install/foxglove_bridge/include/foxglove_bridge//ros2_foxglove_bridge.hpp
+-- Up-to-date symlink: /home/pi/wow_ws/install/foxglove_bridge/lib/foxglove_bridge/foxglove_bridge
+-- Up-to-date symlink: /home/pi/wow_ws/install/foxglove_bridge/lib/libfoxglove_bridge_base.so
+-- Up-to-date symlink: /home/pi/wow_ws/install/foxglove_bridge/lib/libfoxglove_bridge_component.so
+-- Up-to-date symlink: /home/pi/wow_ws/install/foxglove_bridge/share/foxglove_bridge//launch/foxglove_bridge_launch.xml
+-- Up-to-date symlink: /home/pi/wow_ws/install/foxglove_bridge/include/foxglove_bridge//utils.hpp
+-- Up-to-date symlink: /home/pi/wow_ws/install/foxglove_bridge/share/foxglove_bridge/environment/library_path.sh
+-- Up-to-date symlink: /home/pi/wow_ws/install/foxglove_bridge/share/foxglove_bridge/environment/library_path.dsv
+-- Up-to-date symlink: /home/pi/wow_ws/install/foxglove_bridge/share/ament_index/resource_index/package_run_dependencies/foxglove_bridge
+-- Up-to-date symlink: /home/pi/wow_ws/install/foxglove_bridge/share/ament_index/resource_index/parent_prefix_path/foxglove_bridge
+-- Up-to-date symlink: /home/pi/wow_ws/install/foxglove_bridge/share/foxglove_bridge/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/pi/wow_ws/install/foxglove_bridge/share/foxglove_bridge/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/pi/wow_ws/install/foxglove_bridge/share/foxglove_bridge/environment/path.sh
+-- Up-to-date symlink: /home/pi/wow_ws/install/foxglove_bridge/share/foxglove_bridge/environment/path.dsv
+-- Up-to-date symlink: /home/pi/wow_ws/install/foxglove_bridge/share/foxglove_bridge/local_setup.bash
+-- Up-to-date symlink: /home/pi/wow_ws/install/foxglove_bridge/share/foxglove_bridge/local_setup.sh
+-- Up-to-date symlink: /home/pi/wow_ws/install/foxglove_bridge/share/foxglove_bridge/local_setup.zsh
+-- Up-to-date symlink: /home/pi/wow_ws/install/foxglove_bridge/share/foxglove_bridge/local_setup.dsv
+-- Symlinking: /home/pi/wow_ws/install/foxglove_bridge/share/foxglove_bridge/package.dsv
+-- Up-to-date symlink: /home/pi/wow_ws/install/foxglove_bridge/share/ament_index/resource_index/packages/foxglove_bridge
+-- Up-to-date symlink: /home/pi/wow_ws/install/foxglove_bridge/share/ament_index/resource_index/rclcpp_components/foxglove_bridge
+-- Up-to-date symlink: /home/pi/wow_ws/install/foxglove_bridge/share/foxglove_bridge/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/pi/wow_ws/install/foxglove_bridge/share/foxglove_bridge/cmake/foxglove_bridgeConfig.cmake
+-- Up-to-date symlink: /home/pi/wow_ws/install/foxglove_bridge/share/foxglove_bridge/cmake/foxglove_bridgeConfig-version.cmake
+-- Up-to-date symlink: /home/pi/wow_ws/install/foxglove_bridge/share/foxglove_bridge/package.xml

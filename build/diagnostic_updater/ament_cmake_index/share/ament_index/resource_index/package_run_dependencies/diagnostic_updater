@@ -1,0 +1,1 @@
+diagnostic_msgs;rclcpp;rclpy;std_msgs;ament_cmake_gtest;ament_cmake_pytest;ament_lint_auto;ament_lint_common;launch;launch_testing;launch_testing_ros;python3-pytest;rclcpp_lifecycle

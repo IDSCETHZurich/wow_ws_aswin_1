@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from nmea_msgs/msg/Gpzda.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module nmea_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Message from GPRMC NMEA String")
+    struct Gpzda {
+      std_msgs::msg::Header header;
+
+      string message_id;
+
+      uint32 utc_seconds;
+
+      uint8 day;
+
+      uint8 month;
+
+      uint16 year;
+
+      @verbatim (language="comment", text=
+        "Local time zone offset from GMT (0 to +/-13 hr)")
+      int8 hour_offset_gmt;
+
+      @verbatim (language="comment", text=
+        "Local time zone offset from GMT (0 to 59 minutes)")
+      uint8 minute_offset_gmt;
+    };
+  };
+};

@@ -1,0 +1,68 @@
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.0.5 (/home/pi/ros2_iron/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.11.2") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 21.0.6 (/home/pi/ros2_iron/install/rclcpp/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/home/pi/ros2_iron/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/home/pi/ros2_iron/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/home/pi/ros2_iron/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.3 (/home/pi/ros2_iron/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.11")  
+-- Found FastRTPS: /home/pi/ros2_iron/install/fastrtps/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 21.0.6 (/home/pi/ros2_iron/install/rclcpp_components/share/rclcpp_components/cmake)
+-- Found std_msgs: 5.0.0 (/home/pi/ros2_iron/install/std_msgs/share/std_msgs/cmake)
+-- Found rtcm_msgs: 1.1.6 (/home/pi/wow_ws/install/rtcm_msgs/share/rtcm_msgs/cmake)
+-- Found libcurl_vendor: 3.2.2 (/home/pi/ros2_iron/install/libcurl_vendor/share/libcurl_vendor/cmake)
+-- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+-- Found ament_lint_auto: 0.14.3 (/home/pi/ros2_iron/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/pi/wow_ws/src/ublox_dgnss/ntrip_client_node/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/wow_ws/build/ntrip_client_node
+[ 25%] [32mBuilding CXX object CMakeFiles/ntrip_client_node.dir/rclcpp_components/node_main_ntrip_client_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ntrip_client_components.dir/src/ntrip_client_node.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable ntrip_client_node[0m
+[ 75%] Built target ntrip_client_node
+[100%] [32m[1mLinking CXX shared library libntrip_client_components.so[0m
+[100%] Built target ntrip_client_components
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/pi/wow_ws/install/ntrip_client_node/lib/ntrip_client_node/ntrip_client_node
+-- Symlinking: /home/pi/wow_ws/install/ntrip_client_node/lib/libntrip_client_components.so
+-- Symlinking: /home/pi/wow_ws/install/ntrip_client_node/share/ament_index/resource_index/package_run_dependencies/ntrip_client_node
+-- Symlinking: /home/pi/wow_ws/install/ntrip_client_node/share/ament_index/resource_index/parent_prefix_path/ntrip_client_node
+-- Symlinking: /home/pi/wow_ws/install/ntrip_client_node/share/ntrip_client_node/environment/ament_prefix_path.sh
+-- Symlinking: /home/pi/wow_ws/install/ntrip_client_node/share/ntrip_client_node/environment/ament_prefix_path.dsv
+-- Symlinking: /home/pi/wow_ws/install/ntrip_client_node/share/ntrip_client_node/environment/path.sh
+-- Symlinking: /home/pi/wow_ws/install/ntrip_client_node/share/ntrip_client_node/environment/path.dsv
+-- Symlinking: /home/pi/wow_ws/install/ntrip_client_node/share/ntrip_client_node/local_setup.bash
+-- Symlinking: /home/pi/wow_ws/install/ntrip_client_node/share/ntrip_client_node/local_setup.sh
+-- Symlinking: /home/pi/wow_ws/install/ntrip_client_node/share/ntrip_client_node/local_setup.zsh
+-- Symlinking: /home/pi/wow_ws/install/ntrip_client_node/share/ntrip_client_node/local_setup.dsv
+-- Symlinking: /home/pi/wow_ws/install/ntrip_client_node/share/ntrip_client_node/package.dsv
+-- Symlinking: /home/pi/wow_ws/install/ntrip_client_node/share/ament_index/resource_index/packages/ntrip_client_node
+-- Symlinking: /home/pi/wow_ws/install/ntrip_client_node/share/ament_index/resource_index/rclcpp_components/ntrip_client_node
+-- Symlinking: /home/pi/wow_ws/install/ntrip_client_node/share/ntrip_client_node/cmake/ntrip_client_nodeConfig.cmake
+-- Symlinking: /home/pi/wow_ws/install/ntrip_client_node/share/ntrip_client_node/cmake/ntrip_client_nodeConfig-version.cmake
+-- Symlinking: /home/pi/wow_ws/install/ntrip_client_node/share/ntrip_client_node/package.xml

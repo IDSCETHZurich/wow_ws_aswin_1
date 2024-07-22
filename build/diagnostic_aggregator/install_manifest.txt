@@ -1,0 +1,4 @@
+/home/pi/wow_ws/install/diagnostic_aggregator/lib/libdiagnostic_aggregator.so
+/home/pi/wow_ws/install/diagnostic_aggregator/lib/libdiagnostic_aggregator_analyzers.so
+/home/pi/wow_ws/install/diagnostic_aggregator/share/diagnostic_aggregator/cmake/diagnostic_aggregatorTargetsExport.cmake
+/home/pi/wow_ws/install/diagnostic_aggregator/share/diagnostic_aggregator/cmake/diagnostic_aggregatorTargetsExport-noconfig.cmake

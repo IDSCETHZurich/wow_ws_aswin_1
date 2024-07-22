@@ -1,0 +1,17 @@
+/home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/cmake/Modules/Findsdl2_custom.cmake
+/home/pi/wow_ws/install/sdl2_vendor/share/ament_index/resource_index/package_run_dependencies/sdl2_vendor
+/home/pi/wow_ws/install/sdl2_vendor/share/ament_index/resource_index/parent_prefix_path/sdl2_vendor
+/home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/environment/ament_prefix_path.sh
+/home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/environment/ament_prefix_path.dsv
+/home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/environment/path.sh
+/home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/environment/path.dsv
+/home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/local_setup.bash
+/home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/local_setup.sh
+/home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/local_setup.zsh
+/home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/local_setup.dsv
+/home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/package.dsv
+/home/pi/wow_ws/install/sdl2_vendor/share/ament_index/resource_index/packages/sdl2_vendor
+/home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/cmake/sdl2_vendor-extras.cmake
+/home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/cmake/sdl2_vendorConfig.cmake
+/home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/cmake/sdl2_vendorConfig-version.cmake
+/home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/package.xml

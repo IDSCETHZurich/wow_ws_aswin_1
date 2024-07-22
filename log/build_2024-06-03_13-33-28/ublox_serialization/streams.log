@@ -1,0 +1,33 @@
+[0.096s] Invoking command in '/home/pi/wow_ws/build/ublox_serialization': /usr/bin/cmake /home/pi/wow_ws/src/ublox/ublox_serialization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/pi/wow_ws/install/ublox_serialization
+[0.883s] -- The C compiler identification is GNU 12.2.0
+[1.611s] -- The CXX compiler identification is GNU 12.2.0
+[1.723s] -- Detecting C compiler ABI info
+[2.182s] -- Detecting C compiler ABI info - done
+[2.207s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.209s] -- Detecting C compile features
+[2.212s] -- Detecting C compile features - done
+[2.229s] -- Detecting CXX compiler ABI info
+[2.566s] -- Detecting CXX compiler ABI info - done
+[2.609s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.618s] -- Detecting CXX compile features
+[2.619s] -- Detecting CXX compile features - done
+[2.715s] -- Configuring incomplete, errors occurred!
+[2.716s] See also "/home/pi/wow_ws/build/ublox_serialization/CMakeFiles/CMakeOutput.log".
+[2.716s] [31mCMake Error at CMakeLists.txt:5 (find_package):
+[2.716s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[2.716s]   asked CMake to find a package configuration file provided by "catkin", but
+[2.716s]   CMake did not find one.
+[2.716s] 
+[2.716s]   Could not find a package configuration file provided by "catkin" with any
+[2.716s]   of the following names:
+[2.716s] 
+[2.716s]     catkinConfig.cmake
+[2.716s]     catkin-config.cmake
+[2.716s] 
+[2.717s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[2.717s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[2.717s]   provides a separate development package or SDK, be sure it has been
+[2.717s]   installed.
+[2.717s] 
+[2.717s] [0m
+[2.726s] Invoked command in '/home/pi/wow_ws/build/ublox_serialization' returned '1': /usr/bin/cmake /home/pi/wow_ws/src/ublox/ublox_serialization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/pi/wow_ws/install/ublox_serialization

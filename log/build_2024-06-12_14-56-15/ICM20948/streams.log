@@ -1,0 +1,21 @@
+[6.179s] Invoking command in '/home/pi/wow_ws/build/ICM20948': PYTHONPATH=/home/pi/wow_ws/build/ICM20948/prefix_override:/home/pi/wow_ws/install/ICM20948/lib/python3.11/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/wow_ws/build/ICM20948/build --no-deps install_data
+[9.444s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:146: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[9.444s]   warnings.warn(
+[9.444s] running develop
+[9.773s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.784s]   warnings.warn(
+[10.879s] running egg_info
+[10.980s] writing ICM20948.egg-info/PKG-INFO
+[10.980s] writing dependency_links to ICM20948.egg-info/dependency_links.txt
+[10.980s] writing entry points to ICM20948.egg-info/entry_points.txt
+[10.980s] writing requirements to ICM20948.egg-info/requires.txt
+[10.982s] writing top-level names to ICM20948.egg-info/top_level.txt
+[11.149s] reading manifest file 'ICM20948.egg-info/SOURCES.txt'
+[11.151s] writing manifest file 'ICM20948.egg-info/SOURCES.txt'
+[11.265s] running build_ext
+[11.266s] Creating /home/pi/wow_ws/install/ICM20948/lib/python3.11/site-packages/ICM20948.egg-link (link to .)
+[11.267s] Installing ICM_raw_data script to /home/pi/wow_ws/install/ICM20948/lib/ICM20948
+[11.268s] 
+[11.268s] Installed /home/pi/wow_ws/build/ICM20948
+[11.268s] running install_data
+[11.500s] Invoked command in '/home/pi/wow_ws/build/ICM20948' returned '0': PYTHONPATH=/home/pi/wow_ws/build/ICM20948/prefix_override:/home/pi/wow_ws/install/ICM20948/lib/python3.11/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/wow_ws/build/ICM20948/build --no-deps install_data

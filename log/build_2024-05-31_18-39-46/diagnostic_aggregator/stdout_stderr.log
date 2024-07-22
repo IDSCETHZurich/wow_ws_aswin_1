@@ -1,0 +1,11 @@
+[  0%] Built target ament_cmake_python_symlink_diagnostic_aggregator
+[ 40%] Built target diagnostic_aggregator
+[ 60%] Built target aggregator_node
+[100%] Built target diagnostic_aggregator_analyzers
+running egg_info
+writing diagnostic_aggregator.egg-info/PKG-INFO
+writing dependency_links to diagnostic_aggregator.egg-info/dependency_links.txt
+writing top-level names to diagnostic_aggregator.egg-info/top_level.txt
+reading manifest file 'diagnostic_aggregator.egg-info/SOURCES.txt'
+writing manifest file 'diagnostic_aggregator.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_diagnostic_aggregator_egg

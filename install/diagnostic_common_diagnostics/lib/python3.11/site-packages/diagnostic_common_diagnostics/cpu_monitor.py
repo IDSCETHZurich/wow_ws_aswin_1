@@ -1,0 +1,1 @@
+/home/pi/wow_ws/src/diagnostics/diagnostic_common_diagnostics/diagnostic_common_diagnostics/cpu_monitor.py

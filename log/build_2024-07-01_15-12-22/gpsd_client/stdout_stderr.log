@@ -1,0 +1,60 @@
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.0.5 (/home/pi/ros2_iron/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.11.2") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found gps_msgs: 2.0.4 (/home/pi/wow_ws/install/gps_msgs/share/gps_msgs/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/home/pi/ros2_iron/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/home/pi/ros2_iron/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rclcpp: 21.0.6 (/home/pi/ros2_iron/install/rclcpp/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 7.1.0 (/home/pi/ros2_iron/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.3 (/home/pi/ros2_iron/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.11")  
+-- Found FastRTPS: /home/pi/ros2_iron/install/fastrtps/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 21.0.6 (/home/pi/ros2_iron/install/rclcpp_components/share/rclcpp_components/cmake)
+-- Found sensor_msgs: 5.0.0 (/home/pi/ros2_iron/install/sensor_msgs/share/sensor_msgs/cmake)
+-- Found libgps: /usr/lib/aarch64-linux-gnu/libgps.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/wow_ws/build/gpsd_client
+[ 50%] [32mBuilding CXX object CMakeFiles/gpsd_client.dir/src/client.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libgpsd_client.so[0m
+[100%] Built target gpsd_client
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/pi/wow_ws/install/gpsd_client/lib/libgpsd_client.so
+-- Symlinking: /home/pi/wow_ws/install/gpsd_client/share/gpsd_client//launch/gpsd_client-launch.py
+-- Symlinking: /home/pi/wow_ws/install/gpsd_client/share/gpsd_client//config/gpsd_client.yaml
+-- Symlinking: /home/pi/wow_ws/install/gpsd_client/share/gpsd_client/environment/library_path.sh
+-- Symlinking: /home/pi/wow_ws/install/gpsd_client/share/gpsd_client/environment/library_path.dsv
+-- Symlinking: /home/pi/wow_ws/install/gpsd_client/share/ament_index/resource_index/package_run_dependencies/gpsd_client
+-- Symlinking: /home/pi/wow_ws/install/gpsd_client/share/ament_index/resource_index/parent_prefix_path/gpsd_client
+-- Symlinking: /home/pi/wow_ws/install/gpsd_client/share/gpsd_client/environment/ament_prefix_path.sh
+-- Symlinking: /home/pi/wow_ws/install/gpsd_client/share/gpsd_client/environment/ament_prefix_path.dsv
+-- Symlinking: /home/pi/wow_ws/install/gpsd_client/share/gpsd_client/environment/path.sh
+-- Symlinking: /home/pi/wow_ws/install/gpsd_client/share/gpsd_client/environment/path.dsv
+-- Symlinking: /home/pi/wow_ws/install/gpsd_client/share/gpsd_client/local_setup.bash
+-- Symlinking: /home/pi/wow_ws/install/gpsd_client/share/gpsd_client/local_setup.sh
+-- Symlinking: /home/pi/wow_ws/install/gpsd_client/share/gpsd_client/local_setup.zsh
+-- Symlinking: /home/pi/wow_ws/install/gpsd_client/share/gpsd_client/local_setup.dsv
+-- Symlinking: /home/pi/wow_ws/install/gpsd_client/share/gpsd_client/package.dsv
+-- Symlinking: /home/pi/wow_ws/install/gpsd_client/share/ament_index/resource_index/packages/gpsd_client
+-- Symlinking: /home/pi/wow_ws/install/gpsd_client/share/ament_index/resource_index/rclcpp_components/gpsd_client
+-- Symlinking: /home/pi/wow_ws/install/gpsd_client/share/gpsd_client/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/pi/wow_ws/install/gpsd_client/share/gpsd_client/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/pi/wow_ws/install/gpsd_client/share/gpsd_client/cmake/gpsd_clientConfig.cmake
+-- Symlinking: /home/pi/wow_ws/install/gpsd_client/share/gpsd_client/cmake/gpsd_clientConfig-version.cmake
+-- Symlinking: /home/pi/wow_ws/install/gpsd_client/share/gpsd_client/package.xml

@@ -1,0 +1,80 @@
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.0.5 (/home/pi/ros2_iron/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.11.2") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found angles: 1.16.0 (/usr/share/angles/cmake)
+-- Found geographic_msgs: 1.0.6 (/home/pi/wow_ws/install/geographic_msgs/share/geographic_msgs/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/home/pi/ros2_iron/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/home/pi/ros2_iron/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found sensor_msgs: 5.0.0 (/home/pi/ros2_iron/install/sensor_msgs/share/sensor_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/wow_ws/build/geodesy
+[ 50%] [32mBuilding CXX object CMakeFiles/geoconv.dir/src/conv/utm_conversions.cpp.o[0m
+[ 50%] Built target ament_cmake_python_symlink_geodesy
+running egg_info
+creating geodesy.egg-info
+writing geodesy.egg-info/PKG-INFO
+writing dependency_links to geodesy.egg-info/dependency_links.txt
+writing top-level names to geodesy.egg-info/top_level.txt
+writing manifest file 'geodesy.egg-info/SOURCES.txt'
+[100%] [32m[1mLinking CXX static library libgeoconv.a[0m
+reading manifest file 'geodesy.egg-info/SOURCES.txt'
+writing manifest file 'geodesy.egg-info/SOURCES.txt'
+[100%] Built target geoconv
+[100%] Built target ament_cmake_python_build_geodesy_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/pi/wow_ws/install/geodesy/share/geodesy/environment/pythonpath.sh
+-- Symlinking: /home/pi/wow_ws/install/geodesy/share/geodesy/environment/pythonpath.dsv
+-- Symlinking: /home/pi/wow_ws/install/geodesy/lib/python3.11/site-packages/geodesy-1.0.6-py3.11.egg-info/PKG-INFO
+-- Symlinking: /home/pi/wow_ws/install/geodesy/lib/python3.11/site-packages/geodesy-1.0.6-py3.11.egg-info/SOURCES.txt
+-- Symlinking: /home/pi/wow_ws/install/geodesy/lib/python3.11/site-packages/geodesy-1.0.6-py3.11.egg-info/dependency_links.txt
+-- Symlinking: /home/pi/wow_ws/install/geodesy/lib/python3.11/site-packages/geodesy-1.0.6-py3.11.egg-info/top_level.txt
+-- Symlinking: /home/pi/wow_ws/install/geodesy/lib/python3.11/site-packages/geodesy/__init__.py
+-- Symlinking: /home/pi/wow_ws/install/geodesy/lib/python3.11/site-packages/geodesy/bounding_box.py
+-- Symlinking: /home/pi/wow_ws/install/geodesy/lib/python3.11/site-packages/geodesy/props.py
+-- Symlinking: /home/pi/wow_ws/install/geodesy/lib/python3.11/site-packages/geodesy/utm.py
+-- Symlinking: /home/pi/wow_ws/install/geodesy/lib/python3.11/site-packages/geodesy/wu_point.py
+-- Symlinking: /home/pi/wow_ws/install/geodesy/include/geodesy//utm.h
+-- Symlinking: /home/pi/wow_ws/install/geodesy/include/geodesy//wgs84.h
+-- Symlinking: /home/pi/wow_ws/install/geodesy/lib/libgeoconv.a
+-- Symlinking: /home/pi/wow_ws/install/geodesy/share/geodesy/environment/library_path.sh
+-- Symlinking: /home/pi/wow_ws/install/geodesy/share/geodesy/environment/library_path.dsv
+-- Symlinking: /home/pi/wow_ws/install/geodesy/share/ament_index/resource_index/package_run_dependencies/geodesy
+-- Symlinking: /home/pi/wow_ws/install/geodesy/share/ament_index/resource_index/parent_prefix_path/geodesy
+-- Symlinking: /home/pi/wow_ws/install/geodesy/share/geodesy/environment/ament_prefix_path.sh
+-- Symlinking: /home/pi/wow_ws/install/geodesy/share/geodesy/environment/ament_prefix_path.dsv
+-- Symlinking: /home/pi/wow_ws/install/geodesy/share/geodesy/environment/path.sh
+-- Symlinking: /home/pi/wow_ws/install/geodesy/share/geodesy/environment/path.dsv
+-- Symlinking: /home/pi/wow_ws/install/geodesy/share/geodesy/local_setup.bash
+-- Symlinking: /home/pi/wow_ws/install/geodesy/share/geodesy/local_setup.sh
+-- Symlinking: /home/pi/wow_ws/install/geodesy/share/geodesy/local_setup.zsh
+-- Symlinking: /home/pi/wow_ws/install/geodesy/share/geodesy/local_setup.dsv
+-- Symlinking: /home/pi/wow_ws/install/geodesy/share/geodesy/package.dsv
+-- Symlinking: /home/pi/wow_ws/install/geodesy/share/ament_index/resource_index/packages/geodesy
+-- Symlinking: /home/pi/wow_ws/install/geodesy/share/geodesy/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/pi/wow_ws/install/geodesy/share/geodesy/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/pi/wow_ws/install/geodesy/share/geodesy/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/pi/wow_ws/install/geodesy/share/geodesy/cmake/geodesyConfig.cmake
+-- Symlinking: /home/pi/wow_ws/install/geodesy/share/geodesy/cmake/geodesyConfig-version.cmake
+-- Symlinking: /home/pi/wow_ws/install/geodesy/share/geodesy/package.xml
+Listing '/home/pi/wow_ws/install/geodesy/lib/python3.11/site-packages/geodesy'...
+Compiling '/home/pi/wow_ws/install/geodesy/lib/python3.11/site-packages/geodesy/__init__.py'...
+Compiling '/home/pi/wow_ws/install/geodesy/lib/python3.11/site-packages/geodesy/bounding_box.py'...
+Compiling '/home/pi/wow_ws/install/geodesy/lib/python3.11/site-packages/geodesy/props.py'...
+Compiling '/home/pi/wow_ws/install/geodesy/lib/python3.11/site-packages/geodesy/utm.py'...
+Compiling '/home/pi/wow_ws/install/geodesy/lib/python3.11/site-packages/geodesy/wu_point.py'...

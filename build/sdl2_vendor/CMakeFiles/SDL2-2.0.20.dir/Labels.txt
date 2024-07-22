@@ -1,0 +1,13 @@
+# Target labels
+ SDL2-2.0.20
+# Source files and their labels
+/home/pi/wow_ws/build/sdl2_vendor/CMakeFiles/SDL2-2.0.20
+/home/pi/wow_ws/build/sdl2_vendor/CMakeFiles/SDL2-2.0.20.rule
+/home/pi/wow_ws/build/sdl2_vendor/CMakeFiles/SDL2-2.0.20-complete.rule
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-stamp/SDL2-2.0.20-build.rule
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-stamp/SDL2-2.0.20-configure.rule
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-stamp/SDL2-2.0.20-download.rule
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-stamp/SDL2-2.0.20-install.rule
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-stamp/SDL2-2.0.20-mkdir.rule
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-stamp/SDL2-2.0.20-patch.rule
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-stamp/SDL2-2.0.20-update.rule

@@ -1,0 +1,29 @@
+[0.000000] (-) TimerEvent: {}
+[0.000773] (-) JobUnselected: {'identifier': 'ICM20948'}
+[0.000936] (-) JobUnselected: {'identifier': 'bno055'}
+[0.000957] (-) JobUnselected: {'identifier': 'diagnostic_aggregator'}
+[0.000976] (-) JobUnselected: {'identifier': 'diagnostic_common_diagnostics'}
+[0.000994] (-) JobUnselected: {'identifier': 'diagnostic_updater'}
+[0.001012] (-) JobUnselected: {'identifier': 'diagnostics'}
+[0.001032] (-) JobUnselected: {'identifier': 'foxglove_bridge'}
+[0.001075] (-) JobUnselected: {'identifier': 'joy'}
+[0.001093] (-) JobUnselected: {'identifier': 'joy_linux'}
+[0.001108] (-) JobUnselected: {'identifier': 'nmea_msgs'}
+[0.001122] (-) JobUnselected: {'identifier': 'ntrip_client'}
+[0.001135] (-) JobUnselected: {'identifier': 'ntrip_client_node'}
+[0.001148] (-) JobUnselected: {'identifier': 'rtcm_msgs'}
+[0.001161] (-) JobUnselected: {'identifier': 'sdl2_vendor'}
+[0.001174] (-) JobUnselected: {'identifier': 'self_test'}
+[0.001187] (-) JobUnselected: {'identifier': 'spacenav'}
+[0.001200] (-) JobUnselected: {'identifier': 'ublox'}
+[0.001213] (-) JobUnselected: {'identifier': 'ublox_dgnss_node'}
+[0.001226] (-) JobUnselected: {'identifier': 'ublox_gps'}
+[0.001241] (-) JobUnselected: {'identifier': 'ublox_msgs'}
+[0.001254] (-) JobUnselected: {'identifier': 'ublox_nav_sat_fix_hp_node'}
+[0.001267] (-) JobUnselected: {'identifier': 'ublox_serialization'}
+[0.001280] (-) JobUnselected: {'identifier': 'ublox_ubx_interfaces'}
+[0.001292] (-) JobUnselected: {'identifier': 'ublox_ubx_msgs'}
+[0.001309] (ublox_dgnss) JobQueued: {'identifier': 'ublox_dgnss', 'dependencies': OrderedDict([('rtcm_msgs', '/home/pi/wow_ws/install/rtcm_msgs'), ('ublox_ubx_interfaces', '/home/pi/wow_ws/install/ublox_ubx_interfaces'), ('ublox_ubx_msgs', '/home/pi/wow_ws/install/ublox_ubx_msgs'), ('ntrip_client_node', '/home/pi/wow_ws/install/ntrip_client_node'), ('ublox_dgnss_node', '/home/pi/wow_ws/install/ublox_dgnss_node'), ('ublox_nav_sat_fix_hp_node', '/home/pi/wow_ws/install/ublox_nav_sat_fix_hp_node')])}
+[0.001338] (ublox_dgnss) JobStarted: {'identifier': 'ublox_dgnss'}
+[0.048153] (ublox_dgnss) JobEnded: {'identifier': 'ublox_dgnss', 'rc': 1}
+[0.058471] (-) EventReactorShutdown: {}

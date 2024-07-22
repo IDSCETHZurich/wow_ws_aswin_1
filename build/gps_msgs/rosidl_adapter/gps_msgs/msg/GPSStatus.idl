@@ -1,0 +1,106 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from gps_msgs/msg/GPSStatus.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module gps_msgs {
+  module msg {
+    module GPSStatus_Constants {
+      @verbatim (language="comment", text=
+        "Measurement status" "\n"        "Unable to fix position")
+      const int16 STATUS_NO_FIX = -1;
+      @verbatim (language="comment", text=
+        "Normal fix")
+      const int16 STATUS_FIX = 0;
+      @verbatim (language="comment", text=
+        "Fixed using a satellite-based augmentation system")
+      const int16 STATUS_SBAS_FIX = 1;
+      @verbatim (language="comment", text=
+        "or a ground-based augmentation system")
+      const int16 STATUS_GBAS_FIX = 2;
+      @verbatim (language="comment", text=
+        "Fixed with DGPS")
+      const int16 STATUS_DGPS_FIX = 18;
+      @verbatim (language="comment", text=
+        "Real-Time Kinematic, fixed integers")
+      const int16 STATUS_RTK_FIX = 19;
+      @verbatim (language="comment", text=
+        "Real-Time Kinematic, float integers")
+      const int16 STATUS_RTK_FLOAT = 20;
+      @verbatim (language="comment", text=
+        "Fixed with WAAS")
+      const int16 STATUS_WAAS_FIX = 33;
+      @verbatim (language="comment", text=
+        "No information is available")
+      const uint16 SOURCE_NONE = 0;
+      @verbatim (language="comment", text=
+        "Using standard GPS location")
+      const uint16 SOURCE_GPS = 1;
+      @verbatim (language="comment", text=
+        "Motion/orientation fix is derived from successive points")
+      const uint16 SOURCE_POINTS = 2;
+      @verbatim (language="comment", text=
+        "Motion is derived using the Doppler effect")
+      const uint16 SOURCE_DOPPLER = 4;
+      @verbatim (language="comment", text=
+        "Using an altimeter")
+      const uint16 SOURCE_ALTIMETER = 8;
+      @verbatim (language="comment", text=
+        "Using magnetic sensors")
+      const uint16 SOURCE_MAGNETIC = 16;
+      @verbatim (language="comment", text=
+        "Using gyroscopes")
+      const uint16 SOURCE_GYRO = 32;
+      @verbatim (language="comment", text=
+        "Using accelerometers")
+      const uint16 SOURCE_ACCEL = 64;
+    };
+    struct GPSStatus {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Satellites used in solution" "\n"
+        "Number of satellites")
+      uint16 satellites_used;
+
+      @verbatim (language="comment", text=
+        "PRN identifiers")
+      sequence<int32> satellite_used_prn;
+
+      @verbatim (language="comment", text=
+        "Satellites visible")
+      uint16 satellites_visible;
+
+      @verbatim (language="comment", text=
+        "PRN identifiers")
+      sequence<int32> satellite_visible_prn;
+
+      @verbatim (language="comment", text=
+        "Elevation of satellites")
+      sequence<int32> satellite_visible_z;
+
+      @verbatim (language="comment", text=
+        "Azimuth of satellites")
+      sequence<int32> satellite_visible_azimuth;
+
+      @verbatim (language="comment", text=
+        "Signal-to-noise ratios (dB)")
+      sequence<int32> satellite_visible_snr;
+
+      int16 status;
+
+      @verbatim (language="comment", text=
+        "Source for speed, climb and track")
+      uint16 motion_source;
+
+      @verbatim (language="comment", text=
+        "Source for device orientation")
+      uint16 orientation_source;
+
+      @verbatim (language="comment", text=
+        "Source for position")
+      uint16 position_source;
+    };
+  };
+};

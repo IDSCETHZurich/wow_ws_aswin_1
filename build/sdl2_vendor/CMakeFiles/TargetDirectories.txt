@@ -1,0 +1,9 @@
+/home/pi/wow_ws/build/sdl2_vendor/CMakeFiles/uninstall.dir
+/home/pi/wow_ws/build/sdl2_vendor/CMakeFiles/sdl2_vendor_uninstall.dir
+/home/pi/wow_ws/build/sdl2_vendor/CMakeFiles/test.dir
+/home/pi/wow_ws/build/sdl2_vendor/CMakeFiles/edit_cache.dir
+/home/pi/wow_ws/build/sdl2_vendor/CMakeFiles/rebuild_cache.dir
+/home/pi/wow_ws/build/sdl2_vendor/CMakeFiles/list_install_components.dir
+/home/pi/wow_ws/build/sdl2_vendor/CMakeFiles/install.dir
+/home/pi/wow_ws/build/sdl2_vendor/CMakeFiles/install/local.dir
+/home/pi/wow_ws/build/sdl2_vendor/CMakeFiles/install/strip.dir

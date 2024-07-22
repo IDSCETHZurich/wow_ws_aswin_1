@@ -1,0 +1,15 @@
+/home/pi/wow_ws/install/geographic_info/share/ament_index/resource_index/package_run_dependencies/geographic_info
+/home/pi/wow_ws/install/geographic_info/share/ament_index/resource_index/parent_prefix_path/geographic_info
+/home/pi/wow_ws/install/geographic_info/share/geographic_info/environment/ament_prefix_path.sh
+/home/pi/wow_ws/install/geographic_info/share/geographic_info/environment/ament_prefix_path.dsv
+/home/pi/wow_ws/install/geographic_info/share/geographic_info/environment/path.sh
+/home/pi/wow_ws/install/geographic_info/share/geographic_info/environment/path.dsv
+/home/pi/wow_ws/install/geographic_info/share/geographic_info/local_setup.bash
+/home/pi/wow_ws/install/geographic_info/share/geographic_info/local_setup.sh
+/home/pi/wow_ws/install/geographic_info/share/geographic_info/local_setup.zsh
+/home/pi/wow_ws/install/geographic_info/share/geographic_info/local_setup.dsv
+/home/pi/wow_ws/install/geographic_info/share/geographic_info/package.dsv
+/home/pi/wow_ws/install/geographic_info/share/ament_index/resource_index/packages/geographic_info
+/home/pi/wow_ws/install/geographic_info/share/geographic_info/cmake/geographic_infoConfig.cmake
+/home/pi/wow_ws/install/geographic_info/share/geographic_info/cmake/geographic_infoConfig-version.cmake
+/home/pi/wow_ws/install/geographic_info/share/geographic_info/package.xml

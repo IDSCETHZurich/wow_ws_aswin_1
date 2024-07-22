@@ -1,0 +1,504 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "geographic_msgs/srv/UpdateGeographicMap_Event",
+      "fields": [
+        {
+          "name": "info",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "request",
+          "type": {
+            "type_id": 97,
+            "capacity": 1,
+            "string_capacity": 0,
+            "nested_type_name": "geographic_msgs/srv/UpdateGeographicMap_Request"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "response",
+          "type": {
+            "type_id": 97,
+            "capacity": 1,
+            "string_capacity": 0,
+            "nested_type_name": "geographic_msgs/srv/UpdateGeographicMap_Response"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "builtin_interfaces/msg/Time",
+        "fields": [
+          {
+            "name": "sec",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "nanosec",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "geographic_msgs/msg/BoundingBox",
+        "fields": [
+          {
+            "name": "min_pt",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "geographic_msgs/msg/GeoPoint"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "max_pt",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "geographic_msgs/msg/GeoPoint"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "geographic_msgs/msg/GeoPoint",
+        "fields": [
+          {
+            "name": "latitude",
+            "type": {
+              "type_id": 11,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "longitude",
+            "type": {
+              "type_id": 11,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "altitude",
+            "type": {
+              "type_id": 11,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "geographic_msgs/msg/GeographicMap",
+        "fields": [
+          {
+            "name": "header",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "std_msgs/msg/Header"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "bounds",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "geographic_msgs/msg/BoundingBox"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "points",
+            "type": {
+              "type_id": 145,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "geographic_msgs/msg/WayPoint"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "features",
+            "type": {
+              "type_id": 145,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "geographic_msgs/msg/MapFeature"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "props",
+            "type": {
+              "type_id": 145,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "geographic_msgs/msg/KeyValue"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "geographic_msgs/msg/GeographicMapChanges",
+        "fields": [
+          {
+            "name": "header",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "std_msgs/msg/Header"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "diffs",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "geographic_msgs/msg/GeographicMap"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "deletes",
+            "type": {
+              "type_id": 145,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "geographic_msgs/msg/KeyValue",
+        "fields": [
+          {
+            "name": "key",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "value",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "geographic_msgs/msg/MapFeature",
+        "fields": [
+          {
+            "name": "id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "components",
+            "type": {
+              "type_id": 145,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "props",
+            "type": {
+              "type_id": 145,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "geographic_msgs/msg/KeyValue"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "geographic_msgs/msg/WayPoint",
+        "fields": [
+          {
+            "name": "id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "position",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "geographic_msgs/msg/GeoPoint"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "props",
+            "type": {
+              "type_id": 145,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "geographic_msgs/msg/KeyValue"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "geographic_msgs/srv/UpdateGeographicMap_Request",
+        "fields": [
+          {
+            "name": "updates",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "geographic_msgs/msg/GeographicMapChanges"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "geographic_msgs/srv/UpdateGeographicMap_Response",
+        "fields": [
+          {
+            "name": "success",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "status",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "service_msgs/msg/ServiceEventInfo",
+        "fields": [
+          {
+            "name": "event_type",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "client_gid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "sequence_number",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "std_msgs/msg/Header",
+        "fields": [
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "frame_id",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "unique_identifier_msgs/msg/UUID",
+        "fields": [
+          {
+            "name": "uuid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "geographic_msgs/srv/UpdateGeographicMap_Event",
+      "hash_string": "RIHS01_709cd30139b92c30124e5992a75a39a17d4c3fe0a6576b67ca6e8fa2245e9c04"
+    },
+    {
+      "type_name": "builtin_interfaces/msg/Time",
+      "hash_string": "RIHS01_b106235e25a4c5ed35098aa0a61a3ee9c9b18d197f398b0e4206cea9acf9c197"
+    },
+    {
+      "type_name": "geographic_msgs/msg/BoundingBox",
+      "hash_string": "RIHS01_80a85827e595325bd0427f2fa1aa38b70f12d95640d1739db51fe020a407daa6"
+    },
+    {
+      "type_name": "geographic_msgs/msg/GeoPoint",
+      "hash_string": "RIHS01_602c647cf87bbe95a0231b459b5ac30051875d07c0c740b31ad7a8c4662b971e"
+    },
+    {
+      "type_name": "geographic_msgs/msg/GeographicMap",
+      "hash_string": "RIHS01_faeade360ec39eef5736878d91041b90b6accf6c49e3165168504f8af91fb458"
+    },
+    {
+      "type_name": "geographic_msgs/msg/GeographicMapChanges",
+      "hash_string": "RIHS01_ab15a12affd34c1393654fba10e98a2f55a5662a63c00930fd7cae3714fd6b28"
+    },
+    {
+      "type_name": "geographic_msgs/msg/KeyValue",
+      "hash_string": "RIHS01_7b60e465ab0a5d8108595762d05ee5f8c9da8b7ffed921d6f91262f384bee24b"
+    },
+    {
+      "type_name": "geographic_msgs/msg/MapFeature",
+      "hash_string": "RIHS01_925101fc45bc3a1ac2fb3604fa91b79913722e44378421a1658649cbe0ba0454"
+    },
+    {
+      "type_name": "geographic_msgs/msg/WayPoint",
+      "hash_string": "RIHS01_af6f3c9c30db80cb8680f60ef40ec5e11c9d4b4d246aa664478988f509b96347"
+    },
+    {
+      "type_name": "geographic_msgs/srv/UpdateGeographicMap_Request",
+      "hash_string": "RIHS01_a1329457bfaa245a8ce027d30a823c7300bacfa2ae34170fda39541f811d72dd"
+    },
+    {
+      "type_name": "geographic_msgs/srv/UpdateGeographicMap_Response",
+      "hash_string": "RIHS01_7c64830cb80f6afae8dc0d82beb18ae688130fb315ba4a84f3b4f91af8ca35b1"
+    },
+    {
+      "type_name": "service_msgs/msg/ServiceEventInfo",
+      "hash_string": "RIHS01_41bcbbe07a75c9b52bc96bfd5c24d7f0fc0a08c0cb7921b3373c5732345a6f45"
+    },
+    {
+      "type_name": "std_msgs/msg/Header",
+      "hash_string": "RIHS01_f49fb3ae2cf070f793645ff749683ac6b06203e41c891e17701b1cb597ce6a01"
+    },
+    {
+      "type_name": "unique_identifier_msgs/msg/UUID",
+      "hash_string": "RIHS01_1b8e8aca958cbea28fe6ef60bf6c19b683c97a9ef60bb34752067d0f2f7ab437"
+    }
+  ]
+}

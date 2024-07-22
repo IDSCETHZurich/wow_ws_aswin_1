@@ -1,0 +1,10 @@
+source;share/gps_msgs/hook/cmake_prefix_path.dsv
+source;share/gps_msgs/hook/cmake_prefix_path.sh
+source;share/gps_msgs/hook/ld_library_path_lib.dsv
+source;share/gps_msgs/hook/ld_library_path_lib.sh
+source;share/gps_msgs/hook/pythonpath.dsv
+source;share/gps_msgs/hook/pythonpath.sh
+source;share/gps_msgs/local_setup.bash
+source;share/gps_msgs/local_setup.dsv
+source;share/gps_msgs/local_setup.sh
+source;share/gps_msgs/local_setup.zsh

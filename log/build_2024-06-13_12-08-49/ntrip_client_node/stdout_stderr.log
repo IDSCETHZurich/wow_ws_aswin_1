@@ -1,0 +1,22 @@
+[ 50%] Built target ntrip_client_node
+[100%] Built target ntrip_client_components
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/pi/wow_ws/install/ntrip_client_node/lib/ntrip_client_node/ntrip_client_node
+-- Up-to-date symlink: /home/pi/wow_ws/install/ntrip_client_node/lib/libntrip_client_components.so
+-- Up-to-date symlink: /home/pi/wow_ws/install/ntrip_client_node/share/ament_index/resource_index/package_run_dependencies/ntrip_client_node
+-- Up-to-date symlink: /home/pi/wow_ws/install/ntrip_client_node/share/ament_index/resource_index/parent_prefix_path/ntrip_client_node
+-- Up-to-date symlink: /home/pi/wow_ws/install/ntrip_client_node/share/ntrip_client_node/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/pi/wow_ws/install/ntrip_client_node/share/ntrip_client_node/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/pi/wow_ws/install/ntrip_client_node/share/ntrip_client_node/environment/path.sh
+-- Up-to-date symlink: /home/pi/wow_ws/install/ntrip_client_node/share/ntrip_client_node/environment/path.dsv
+-- Up-to-date symlink: /home/pi/wow_ws/install/ntrip_client_node/share/ntrip_client_node/local_setup.bash
+-- Up-to-date symlink: /home/pi/wow_ws/install/ntrip_client_node/share/ntrip_client_node/local_setup.sh
+-- Up-to-date symlink: /home/pi/wow_ws/install/ntrip_client_node/share/ntrip_client_node/local_setup.zsh
+-- Up-to-date symlink: /home/pi/wow_ws/install/ntrip_client_node/share/ntrip_client_node/local_setup.dsv
+-- Symlinking: /home/pi/wow_ws/install/ntrip_client_node/share/ntrip_client_node/package.dsv
+-- Up-to-date symlink: /home/pi/wow_ws/install/ntrip_client_node/share/ament_index/resource_index/packages/ntrip_client_node
+-- Up-to-date symlink: /home/pi/wow_ws/install/ntrip_client_node/share/ament_index/resource_index/rclcpp_components/ntrip_client_node
+-- Up-to-date symlink: /home/pi/wow_ws/install/ntrip_client_node/share/ntrip_client_node/cmake/ntrip_client_nodeConfig.cmake
+-- Up-to-date symlink: /home/pi/wow_ws/install/ntrip_client_node/share/ntrip_client_node/cmake/ntrip_client_nodeConfig-version.cmake
+-- Up-to-date symlink: /home/pi/wow_ws/install/ntrip_client_node/share/ntrip_client_node/package.xml

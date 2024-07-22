@@ -1,0 +1,8 @@
+source;share/spacenav/hook/cmake_prefix_path.dsv
+source;share/spacenav/hook/cmake_prefix_path.sh
+source;share/spacenav/hook/ld_library_path_lib.dsv
+source;share/spacenav/hook/ld_library_path_lib.sh
+source;share/spacenav/local_setup.bash
+source;share/spacenav/local_setup.dsv
+source;share/spacenav/local_setup.sh
+source;share/spacenav/local_setup.zsh

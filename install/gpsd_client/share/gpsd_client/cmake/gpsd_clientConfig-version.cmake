@@ -1,0 +1,1 @@
+/home/pi/wow_ws/build/gpsd_client/ament_cmake_core/gpsd_clientConfig-version.cmake

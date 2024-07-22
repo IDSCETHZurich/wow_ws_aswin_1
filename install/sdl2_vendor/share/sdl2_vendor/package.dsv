@@ -1,0 +1,12 @@
+source;share/sdl2_vendor/hook/cmake_prefix_path.dsv
+source;share/sdl2_vendor/hook/cmake_prefix_path.sh
+source;share/sdl2_vendor/hook/ld_library_path_lib.dsv
+source;share/sdl2_vendor/hook/ld_library_path_lib.sh
+source;share/sdl2_vendor/hook/path.dsv
+source;share/sdl2_vendor/hook/path.sh
+source;share/sdl2_vendor/hook/pythonscriptspath.dsv
+source;share/sdl2_vendor/hook/pythonscriptspath.sh
+source;share/sdl2_vendor/local_setup.bash
+source;share/sdl2_vendor/local_setup.dsv
+source;share/sdl2_vendor/local_setup.sh
+source;share/sdl2_vendor/local_setup.zsh

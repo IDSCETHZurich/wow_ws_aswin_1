@@ -1,0 +1,37 @@
+Built target ament_cmake_python_symlink_diagnostic_common_diagnostics
+running egg_info
+writing diagnostic_common_diagnostics.egg-info/PKG-INFO
+writing dependency_links to diagnostic_common_diagnostics.egg-info/dependency_links.txt
+writing top-level names to diagnostic_common_diagnostics.egg-info/top_level.txt
+reading manifest file 'diagnostic_common_diagnostics.egg-info/SOURCES.txt'
+writing manifest file 'diagnostic_common_diagnostics.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_diagnostic_common_diagnostics_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/environment/pythonpath.sh
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_common_diagnostics/lib/python3.11/site-packages/diagnostic_common_diagnostics-3.2.0-py3.11.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_common_diagnostics/lib/python3.11/site-packages/diagnostic_common_diagnostics-3.2.0-py3.11.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_common_diagnostics/lib/python3.11/site-packages/diagnostic_common_diagnostics-3.2.0-py3.11.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_common_diagnostics/lib/python3.11/site-packages/diagnostic_common_diagnostics-3.2.0-py3.11.egg-info/top_level.txt
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_common_diagnostics/lib/python3.11/site-packages/diagnostic_common_diagnostics/__init__.py
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_common_diagnostics/lib/python3.11/site-packages/diagnostic_common_diagnostics/cpu_monitor.py
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_common_diagnostics/lib/python3.11/site-packages/diagnostic_common_diagnostics/ntp_monitor.py
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_common_diagnostics/lib/diagnostic_common_diagnostics/cpu_monitor.py
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_common_diagnostics/lib/diagnostic_common_diagnostics/ntp_monitor.py
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_common_diagnostics/share/ament_index/resource_index/package_run_dependencies/diagnostic_common_diagnostics
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_common_diagnostics/share/ament_index/resource_index/parent_prefix_path/diagnostic_common_diagnostics
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/environment/path.sh
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/environment/path.dsv
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/local_setup.bash
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/local_setup.sh
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/local_setup.zsh
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/local_setup.dsv
+-- Symlinking: /home/pi/wow_ws/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/package.dsv
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_common_diagnostics/share/ament_index/resource_index/packages/diagnostic_common_diagnostics
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/cmake/diagnostic_common_diagnosticsConfig.cmake
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/cmake/diagnostic_common_diagnosticsConfig-version.cmake
+-- Up-to-date symlink: /home/pi/wow_ws/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/package.xml
+Listing '/home/pi/wow_ws/install/diagnostic_common_diagnostics/lib/python3.11/site-packages/diagnostic_common_diagnostics'...

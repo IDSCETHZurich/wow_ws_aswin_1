@@ -1,0 +1,32 @@
+ekf_filter_node:
+  ros__parameters:
+    frequency: 30.0
+    sensor_timeout: 0.1
+    two_d_mode: false
+    transform_time_offset: 0.0
+    transform_timeout: 0.0
+    print_diagnostics: true
+    debug: false
+    publish_tf: true
+    map_frame: map
+    odom_frame: odom
+    base_link_frame: base_plate
+    world_frame: odom
+    imu0: /bno055/imu
+    imu0_config: [ false, false, false,  # Orientation
+                   true, true, true,     # Angular velocity
+                   false, false, false,  # Linear velocity (not provided by IMU)
+                   true, true, true,     # Linear acceleration
+                   false, false, false ]
+    imu0_differential: false
+    imu0_queue_size: 10
+    imu0_remove_gravitational_acceleration: true
+    imu1: /bno055_1/imu
+    imu1_config: [ false, false, false,  # Orientation
+                   true, true, true,     # Angular velocity
+                   false, false, false,  # Linear velocity (not provided by IMU)
+                   true, true, true,     # Linear acceleration
+                   false, false, false ]
+    imu1_differential: false
+    imu1_queue_size: 10
+    imu1_remove_gravitational_acceleration: true

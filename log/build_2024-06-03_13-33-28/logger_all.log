@@ -1,0 +1,550 @@
+[1.060s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.060s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fff69c751d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fff690b0050>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fff690b0050>>)
+[1.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.212s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pi/wow_ws'
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['ignore', 'ignore_ament_install']
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'ignore'
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'ignore_ament_install'
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['colcon_pkg']
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'colcon_pkg'
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['colcon_meta']
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'colcon_meta'
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['ros']
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'ros'
+[1.260s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bno055' with type 'ros.ament_python' and name 'bno055'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extensions ['ignore', 'ignore_ament_install']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'ignore'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'ignore_ament_install'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extensions ['colcon_pkg']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'colcon_pkg'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extensions ['colcon_meta']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'colcon_meta'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extensions ['ros']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'ros'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extensions ['cmake', 'python']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'cmake'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'python'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extensions ['python_setup_py']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'python_setup_py'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_aggregator) by extensions ['ignore', 'ignore_ament_install']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_aggregator) by extension 'ignore'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_aggregator) by extension 'ignore_ament_install'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_aggregator) by extensions ['colcon_pkg']
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_aggregator) by extension 'colcon_pkg'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_aggregator) by extensions ['colcon_meta']
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_aggregator) by extension 'colcon_meta'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_aggregator) by extensions ['ros']
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_aggregator) by extension 'ros'
+[1.263s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diagnostics/diagnostic_aggregator' with type 'ros.ament_cmake' and name 'diagnostic_aggregator'
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extensions ['ignore', 'ignore_ament_install']
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extension 'ignore'
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extension 'ignore_ament_install'
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extensions ['colcon_pkg']
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extension 'colcon_pkg'
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extensions ['colcon_meta']
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extension 'colcon_meta'
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extensions ['ros']
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extension 'ros'
+[1.264s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diagnostics/diagnostic_common_diagnostics' with type 'ros.ament_cmake' and name 'diagnostic_common_diagnostics'
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extensions ['ignore', 'ignore_ament_install']
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extension 'ignore'
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extension 'ignore_ament_install'
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extensions ['colcon_pkg']
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extension 'colcon_pkg'
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extensions ['colcon_meta']
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extension 'colcon_meta'
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extensions ['ros']
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extension 'ros'
+[1.266s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diagnostics/diagnostic_updater' with type 'ros.ament_cmake' and name 'diagnostic_updater'
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extensions ['ignore', 'ignore_ament_install']
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extension 'ignore'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extension 'ignore_ament_install'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extensions ['colcon_pkg']
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extension 'colcon_pkg'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extensions ['colcon_meta']
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extension 'colcon_meta'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extensions ['ros']
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extension 'ros'
+[1.268s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diagnostics/diagnostics' with type 'ros.ament_cmake' and name 'diagnostics'
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/self_test) by extensions ['ignore', 'ignore_ament_install']
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/self_test) by extension 'ignore'
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/self_test) by extension 'ignore_ament_install'
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/self_test) by extensions ['colcon_pkg']
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/self_test) by extension 'colcon_pkg'
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/self_test) by extensions ['colcon_meta']
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/self_test) by extension 'colcon_meta'
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/self_test) by extensions ['ros']
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/self_test) by extension 'ros'
+[1.269s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diagnostics/self_test' with type 'ros.ament_cmake' and name 'self_test'
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['ignore', 'ignore_ament_install']
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'ignore'
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'ignore_ament_install'
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['colcon_pkg']
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'colcon_pkg'
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['colcon_meta']
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'colcon_meta'
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['ros']
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'ros'
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['cmake', 'python']
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'cmake'
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'python'
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['python_setup_py']
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'python_setup_py'
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extensions ['ignore', 'ignore_ament_install']
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extension 'ignore'
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extension 'ignore_ament_install'
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extensions ['colcon_pkg']
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extension 'colcon_pkg'
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extensions ['colcon_meta']
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extension 'colcon_meta'
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extensions ['ros']
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extension 'ros'
+[1.272s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_drivers/joy' with type 'ros.ament_cmake' and name 'joy'
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extensions ['ignore', 'ignore_ament_install']
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extension 'ignore'
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extension 'ignore_ament_install'
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extensions ['colcon_pkg']
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extension 'colcon_pkg'
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extensions ['colcon_meta']
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extension 'colcon_meta'
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extensions ['ros']
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extension 'ros'
+[1.273s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_drivers/joy_linux' with type 'ros.ament_cmake' and name 'joy_linux'
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extensions ['ignore', 'ignore_ament_install']
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extension 'ignore'
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extension 'ignore_ament_install'
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extensions ['colcon_pkg']
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extension 'colcon_pkg'
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extensions ['colcon_meta']
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extension 'colcon_meta'
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extensions ['ros']
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) by extension 'ros'
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joystick_drivers) ignored
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extensions ['ignore', 'ignore_ament_install']
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extension 'ignore'
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extension 'ignore_ament_install'
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extensions ['colcon_pkg']
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extension 'colcon_pkg'
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extensions ['colcon_meta']
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extension 'colcon_meta'
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extensions ['ros']
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) by extension 'ros'
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/ps3joy) ignored
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extensions ['ignore', 'ignore_ament_install']
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extension 'ignore'
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extension 'ignore_ament_install'
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extensions ['colcon_pkg']
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extension 'colcon_pkg'
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extensions ['colcon_meta']
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extension 'colcon_meta'
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extensions ['ros']
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/sdl2_vendor) by extension 'ros'
+[1.276s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_drivers/sdl2_vendor' with type 'ros.ament_cmake' and name 'sdl2_vendor'
+[1.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extensions ['ignore', 'ignore_ament_install']
+[1.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extension 'ignore'
+[1.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extension 'ignore_ament_install'
+[1.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extensions ['colcon_pkg']
+[1.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extension 'colcon_pkg'
+[1.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extensions ['colcon_meta']
+[1.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extension 'colcon_meta'
+[1.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extensions ['ros']
+[1.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/spacenav) by extension 'ros'
+[1.278s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_drivers/spacenav' with type 'ros.ament_cmake' and name 'spacenav'
+[1.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmea_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmea_msgs) by extension 'ignore'
+[1.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmea_msgs) by extension 'ignore_ament_install'
+[1.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmea_msgs) by extensions ['colcon_pkg']
+[1.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmea_msgs) by extension 'colcon_pkg'
+[1.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmea_msgs) by extensions ['colcon_meta']
+[1.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmea_msgs) by extension 'colcon_meta'
+[1.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmea_msgs) by extensions ['ros']
+[1.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmea_msgs) by extension 'ros'
+[1.279s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nmea_msgs' with type 'ros.ament_cmake' and name 'nmea_msgs'
+[1.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_client) by extensions ['ignore', 'ignore_ament_install']
+[1.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_client) by extension 'ignore'
+[1.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_client) by extension 'ignore_ament_install'
+[1.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_client) by extensions ['colcon_pkg']
+[1.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_client) by extension 'colcon_pkg'
+[1.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_client) by extensions ['colcon_meta']
+[1.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_client) by extension 'colcon_meta'
+[1.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_client) by extensions ['ros']
+[1.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip_client) by extension 'ros'
+[1.280s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ntrip_client' with type 'ros.ament_python' and name 'ntrip_client'
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-foxglove-bridge) by extensions ['ignore', 'ignore_ament_install']
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-foxglove-bridge) by extension 'ignore'
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-foxglove-bridge) by extension 'ignore_ament_install'
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-foxglove-bridge) by extensions ['colcon_pkg']
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-foxglove-bridge) by extension 'colcon_pkg'
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-foxglove-bridge) by extensions ['colcon_meta']
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-foxglove-bridge) by extension 'colcon_meta'
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-foxglove-bridge) by extensions ['ros']
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-foxglove-bridge) by extension 'ros'
+[1.294s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros-foxglove-bridge' with type 'ros.ament_cmake' and name 'foxglove_bridge'
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtcm_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtcm_msgs) by extension 'ignore'
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtcm_msgs) by extension 'ignore_ament_install'
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtcm_msgs) by extensions ['colcon_pkg']
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtcm_msgs) by extension 'colcon_pkg'
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtcm_msgs) by extensions ['colcon_meta']
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtcm_msgs) by extension 'colcon_meta'
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtcm_msgs) by extensions ['ros']
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtcm_msgs) by extension 'ros'
+[1.298s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rtcm_msgs' with type 'ros.ament_cmake' and name 'rtcm_msgs'
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extensions ['ignore', 'ignore_ament_install']
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extension 'ignore'
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extension 'ignore_ament_install'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extensions ['colcon_pkg']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extension 'colcon_pkg'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extensions ['colcon_meta']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extension 'colcon_meta'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extensions ['ros']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extension 'ros'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extensions ['cmake', 'python']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extension 'cmake'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extension 'python'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extensions ['python_setup_py']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extension 'python_setup_py'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox) by extensions ['ignore', 'ignore_ament_install']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox) by extension 'ignore'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox) by extension 'ignore_ament_install'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox) by extensions ['colcon_pkg']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox) by extension 'colcon_pkg'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox) by extensions ['colcon_meta']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox) by extension 'colcon_meta'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox) by extensions ['ros']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox) by extension 'ros'
+[1.300s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ublox/ublox' with type 'ros.catkin' and name 'ublox'
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_gps) by extensions ['ignore', 'ignore_ament_install']
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_gps) by extension 'ignore'
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_gps) by extension 'ignore_ament_install'
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_gps) by extensions ['colcon_pkg']
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_gps) by extension 'colcon_pkg'
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_gps) by extensions ['colcon_meta']
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_gps) by extension 'colcon_meta'
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_gps) by extensions ['ros']
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_gps) by extension 'ros'
+[1.301s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ublox/ublox_gps' with type 'ros.catkin' and name 'ublox_gps'
+[1.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msg_filters) by extensions ['ignore', 'ignore_ament_install']
+[1.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msg_filters) by extension 'ignore'
+[1.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msg_filters) by extension 'ignore_ament_install'
+[1.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msg_filters) by extensions ['colcon_pkg']
+[1.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msg_filters) by extension 'colcon_pkg'
+[1.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msg_filters) by extensions ['colcon_meta']
+[1.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msg_filters) by extension 'colcon_meta'
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msg_filters) by extensions ['ros']
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msg_filters) by extension 'ros'
+[1.302s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ublox/ublox_msg_filters' with type 'ros.catkin' and name 'ublox_msg_filters'
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msgs) by extension 'ignore'
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msgs) by extension 'ignore_ament_install'
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msgs) by extensions ['colcon_pkg']
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msgs) by extension 'colcon_pkg'
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msgs) by extensions ['colcon_meta']
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msgs) by extension 'colcon_meta'
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msgs) by extensions ['ros']
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msgs) by extension 'ros'
+[1.303s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ublox/ublox_msgs' with type 'ros.catkin' and name 'ublox_msgs'
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_serialization) by extensions ['ignore', 'ignore_ament_install']
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_serialization) by extension 'ignore'
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_serialization) by extension 'ignore_ament_install'
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_serialization) by extensions ['colcon_pkg']
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_serialization) by extension 'colcon_pkg'
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_serialization) by extensions ['colcon_meta']
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_serialization) by extension 'colcon_meta'
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_serialization) by extensions ['ros']
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_serialization) by extension 'ros'
+[1.304s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ublox/ublox_serialization' with type 'ros.catkin' and name 'ublox_serialization'
+[1.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.380s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_args' from command line to 'None'
+[1.380s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_target' from command line to 'None'
+[1.380s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.380s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_clean_cache' from command line to 'False'
+[1.380s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_clean_first' from command line to 'False'
+[1.380s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_force_configure' from command line to 'False'
+[1.380s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'ament_cmake_args' from command line to 'None'
+[1.380s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'catkin_cmake_args' from command line to 'None'
+[1.380s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.380s] DEBUG:colcon.colcon_core.verb:Building package 'bno055' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/wow_ws/build/bno055', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/wow_ws/install/bno055', 'merge_install': False, 'path': '/home/pi/wow_ws/src/bno055', 'symlink_install': True, 'test_result_base': None}
+[1.381s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_aggregator' build argument 'cmake_args' from command line to 'None'
+[1.381s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_aggregator' build argument 'cmake_target' from command line to 'None'
+[1.381s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_aggregator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.381s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_aggregator' build argument 'cmake_clean_cache' from command line to 'False'
+[1.381s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_aggregator' build argument 'cmake_clean_first' from command line to 'False'
+[1.381s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_aggregator' build argument 'cmake_force_configure' from command line to 'False'
+[1.381s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_aggregator' build argument 'ament_cmake_args' from command line to 'None'
+[1.381s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_aggregator' build argument 'catkin_cmake_args' from command line to 'None'
+[1.381s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_aggregator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.381s] DEBUG:colcon.colcon_core.verb:Building package 'diagnostic_aggregator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/wow_ws/build/diagnostic_aggregator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/wow_ws/install/diagnostic_aggregator', 'merge_install': False, 'path': '/home/pi/wow_ws/src/diagnostics/diagnostic_aggregator', 'symlink_install': True, 'test_result_base': None}
+[1.381s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_updater' build argument 'cmake_args' from command line to 'None'
+[1.381s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_updater' build argument 'cmake_target' from command line to 'None'
+[1.381s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_updater' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.381s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_updater' build argument 'cmake_clean_cache' from command line to 'False'
+[1.381s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_updater' build argument 'cmake_clean_first' from command line to 'False'
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_updater' build argument 'cmake_force_configure' from command line to 'False'
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_updater' build argument 'ament_cmake_args' from command line to 'None'
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_updater' build argument 'catkin_cmake_args' from command line to 'None'
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_updater' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.382s] DEBUG:colcon.colcon_core.verb:Building package 'diagnostic_updater' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/wow_ws/build/diagnostic_updater', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/wow_ws/install/diagnostic_updater', 'merge_install': False, 'path': '/home/pi/wow_ws/src/diagnostics/diagnostic_updater', 'symlink_install': True, 'test_result_base': None}
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'foxglove_bridge' build argument 'cmake_args' from command line to 'None'
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'foxglove_bridge' build argument 'cmake_target' from command line to 'None'
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'foxglove_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'foxglove_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'foxglove_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'foxglove_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'foxglove_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'foxglove_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'foxglove_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.382s] DEBUG:colcon.colcon_core.verb:Building package 'foxglove_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/wow_ws/build/foxglove_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/wow_ws/install/foxglove_bridge', 'merge_install': False, 'path': '/home/pi/wow_ws/src/ros-foxglove-bridge', 'symlink_install': True, 'test_result_base': None}
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'nmea_msgs' build argument 'cmake_args' from command line to 'None'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'nmea_msgs' build argument 'cmake_target' from command line to 'None'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'nmea_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'nmea_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'nmea_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'nmea_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'nmea_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'nmea_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'nmea_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.383s] DEBUG:colcon.colcon_core.verb:Building package 'nmea_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/wow_ws/build/nmea_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/wow_ws/install/nmea_msgs', 'merge_install': False, 'path': '/home/pi/wow_ws/src/nmea_msgs', 'symlink_install': True, 'test_result_base': None}
+[1.384s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'cmake_args' from command line to 'None'
+[1.384s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'cmake_target' from command line to 'None'
+[1.384s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.384s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.384s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.384s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.384s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.384s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.384s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.384s] DEBUG:colcon.colcon_core.verb:Building package 'rtcm_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/wow_ws/build/rtcm_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/wow_ws/install/rtcm_msgs', 'merge_install': False, 'path': '/home/pi/wow_ws/src/rtcm_msgs', 'symlink_install': True, 'test_result_base': None}
+[1.384s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_args' from command line to 'None'
+[1.384s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_target' from command line to 'None'
+[1.384s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.384s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_clean_cache' from command line to 'False'
+[1.384s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_clean_first' from command line to 'False'
+[1.384s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_force_configure' from command line to 'False'
+[1.384s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'ament_cmake_args' from command line to 'None'
+[1.384s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'catkin_cmake_args' from command line to 'None'
+[1.384s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.384s] DEBUG:colcon.colcon_core.verb:Building package 'sdl2_vendor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/wow_ws/build/sdl2_vendor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/wow_ws/install/sdl2_vendor', 'merge_install': False, 'path': '/home/pi/wow_ws/src/joystick_drivers/sdl2_vendor', 'symlink_install': True, 'test_result_base': None}
+[1.385s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_args' from command line to 'None'
+[1.385s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_target' from command line to 'None'
+[1.385s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.385s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_clean_cache' from command line to 'False'
+[1.385s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_clean_first' from command line to 'False'
+[1.385s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_force_configure' from command line to 'False'
+[1.385s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'ament_cmake_args' from command line to 'None'
+[1.385s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'catkin_cmake_args' from command line to 'None'
+[1.385s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.385s] DEBUG:colcon.colcon_core.verb:Building package 'spacenav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/wow_ws/build/spacenav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/wow_ws/install/spacenav', 'merge_install': False, 'path': '/home/pi/wow_ws/src/joystick_drivers/spacenav', 'symlink_install': True, 'test_result_base': None}
+[1.386s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_args' from command line to 'None'
+[1.386s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_target' from command line to 'None'
+[1.386s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.386s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_clean_cache' from command line to 'False'
+[1.386s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_clean_first' from command line to 'False'
+[1.386s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_force_configure' from command line to 'False'
+[1.386s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'ament_cmake_args' from command line to 'None'
+[1.386s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'catkin_cmake_args' from command line to 'None'
+[1.386s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.386s] DEBUG:colcon.colcon_core.verb:Building package 'ublox_serialization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/wow_ws/build/ublox_serialization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/wow_ws/install/ublox_serialization', 'merge_install': False, 'path': '/home/pi/wow_ws/src/ublox/ublox_serialization', 'symlink_install': True, 'test_result_base': None}
+[1.386s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_common_diagnostics' build argument 'cmake_args' from command line to 'None'
+[1.386s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_common_diagnostics' build argument 'cmake_target' from command line to 'None'
+[1.386s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_common_diagnostics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.386s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_common_diagnostics' build argument 'cmake_clean_cache' from command line to 'False'
+[1.386s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_common_diagnostics' build argument 'cmake_clean_first' from command line to 'False'
+[1.386s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_common_diagnostics' build argument 'cmake_force_configure' from command line to 'False'
+[1.386s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_common_diagnostics' build argument 'ament_cmake_args' from command line to 'None'
+[1.386s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_common_diagnostics' build argument 'catkin_cmake_args' from command line to 'None'
+[1.386s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_common_diagnostics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.386s] DEBUG:colcon.colcon_core.verb:Building package 'diagnostic_common_diagnostics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/wow_ws/build/diagnostic_common_diagnostics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/wow_ws/install/diagnostic_common_diagnostics', 'merge_install': False, 'path': '/home/pi/wow_ws/src/diagnostics/diagnostic_common_diagnostics', 'symlink_install': True, 'test_result_base': None}
+[1.387s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_args' from command line to 'None'
+[1.387s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_target' from command line to 'None'
+[1.387s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.387s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_clean_cache' from command line to 'False'
+[1.387s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_clean_first' from command line to 'False'
+[1.387s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_force_configure' from command line to 'False'
+[1.387s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'ament_cmake_args' from command line to 'None'
+[1.387s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'catkin_cmake_args' from command line to 'None'
+[1.387s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.387s] DEBUG:colcon.colcon_core.verb:Building package 'joy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/wow_ws/build/joy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/wow_ws/install/joy', 'merge_install': False, 'path': '/home/pi/wow_ws/src/joystick_drivers/joy', 'symlink_install': True, 'test_result_base': None}
+[1.388s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_args' from command line to 'None'
+[1.388s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_target' from command line to 'None'
+[1.388s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.388s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_clean_cache' from command line to 'False'
+[1.388s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_clean_first' from command line to 'False'
+[1.388s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_force_configure' from command line to 'False'
+[1.388s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'ament_cmake_args' from command line to 'None'
+[1.388s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'catkin_cmake_args' from command line to 'None'
+[1.388s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.388s] DEBUG:colcon.colcon_core.verb:Building package 'joy_linux' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/wow_ws/build/joy_linux', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/wow_ws/install/joy_linux', 'merge_install': False, 'path': '/home/pi/wow_ws/src/joystick_drivers/joy_linux', 'symlink_install': True, 'test_result_base': None}
+[1.388s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'cmake_args' from command line to 'None'
+[1.388s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'cmake_target' from command line to 'None'
+[1.388s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.388s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'cmake_clean_cache' from command line to 'False'
+[1.388s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'cmake_clean_first' from command line to 'False'
+[1.388s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'cmake_force_configure' from command line to 'False'
+[1.388s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'ament_cmake_args' from command line to 'None'
+[1.388s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'catkin_cmake_args' from command line to 'None'
+[1.388s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.388s] DEBUG:colcon.colcon_core.verb:Building package 'ntrip_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/wow_ws/build/ntrip_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/wow_ws/install/ntrip_client', 'merge_install': False, 'path': '/home/pi/wow_ws/src/ntrip_client', 'symlink_install': True, 'test_result_base': None}
+[1.389s] Level 5:colcon.colcon_core.verb:set package 'self_test' build argument 'cmake_args' from command line to 'None'
+[1.389s] Level 5:colcon.colcon_core.verb:set package 'self_test' build argument 'cmake_target' from command line to 'None'
+[1.389s] Level 5:colcon.colcon_core.verb:set package 'self_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.389s] Level 5:colcon.colcon_core.verb:set package 'self_test' build argument 'cmake_clean_cache' from command line to 'False'
+[1.389s] Level 5:colcon.colcon_core.verb:set package 'self_test' build argument 'cmake_clean_first' from command line to 'False'
+[1.389s] Level 5:colcon.colcon_core.verb:set package 'self_test' build argument 'cmake_force_configure' from command line to 'False'
+[1.389s] Level 5:colcon.colcon_core.verb:set package 'self_test' build argument 'ament_cmake_args' from command line to 'None'
+[1.389s] Level 5:colcon.colcon_core.verb:set package 'self_test' build argument 'catkin_cmake_args' from command line to 'None'
+[1.389s] Level 5:colcon.colcon_core.verb:set package 'self_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.389s] DEBUG:colcon.colcon_core.verb:Building package 'self_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/wow_ws/build/self_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/wow_ws/install/self_test', 'merge_install': False, 'path': '/home/pi/wow_ws/src/diagnostics/self_test', 'symlink_install': True, 'test_result_base': None}
+[1.390s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_args' from command line to 'None'
+[1.390s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_target' from command line to 'None'
+[1.390s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.390s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.390s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.390s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.390s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.390s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.390s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.390s] DEBUG:colcon.colcon_core.verb:Building package 'ublox_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/wow_ws/build/ublox_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/wow_ws/install/ublox_msgs', 'merge_install': False, 'path': '/home/pi/wow_ws/src/ublox/ublox_msgs', 'symlink_install': True, 'test_result_base': None}
+[1.390s] Level 5:colcon.colcon_core.verb:set package 'diagnostics' build argument 'cmake_args' from command line to 'None'
+[1.390s] Level 5:colcon.colcon_core.verb:set package 'diagnostics' build argument 'cmake_target' from command line to 'None'
+[1.390s] Level 5:colcon.colcon_core.verb:set package 'diagnostics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.390s] Level 5:colcon.colcon_core.verb:set package 'diagnostics' build argument 'cmake_clean_cache' from command line to 'False'
+[1.390s] Level 5:colcon.colcon_core.verb:set package 'diagnostics' build argument 'cmake_clean_first' from command line to 'False'
+[1.391s] Level 5:colcon.colcon_core.verb:set package 'diagnostics' build argument 'cmake_force_configure' from command line to 'False'
+[1.391s] Level 5:colcon.colcon_core.verb:set package 'diagnostics' build argument 'ament_cmake_args' from command line to 'None'
+[1.391s] Level 5:colcon.colcon_core.verb:set package 'diagnostics' build argument 'catkin_cmake_args' from command line to 'None'
+[1.391s] Level 5:colcon.colcon_core.verb:set package 'diagnostics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.391s] DEBUG:colcon.colcon_core.verb:Building package 'diagnostics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/wow_ws/build/diagnostics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/wow_ws/install/diagnostics', 'merge_install': False, 'path': '/home/pi/wow_ws/src/diagnostics/diagnostics', 'symlink_install': True, 'test_result_base': None}
+[1.391s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_args' from command line to 'None'
+[1.391s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_target' from command line to 'None'
+[1.391s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.391s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_clean_cache' from command line to 'False'
+[1.391s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_clean_first' from command line to 'False'
+[1.391s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_force_configure' from command line to 'False'
+[1.391s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'ament_cmake_args' from command line to 'None'
+[1.391s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'catkin_cmake_args' from command line to 'None'
+[1.391s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.391s] DEBUG:colcon.colcon_core.verb:Building package 'ublox_gps' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/wow_ws/build/ublox_gps', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/wow_ws/install/ublox_gps', 'merge_install': False, 'path': '/home/pi/wow_ws/src/ublox/ublox_gps', 'symlink_install': True, 'test_result_base': None}
+[1.392s] Level 5:colcon.colcon_core.verb:set package 'ublox_msg_filters' build argument 'cmake_args' from command line to 'None'
+[1.392s] Level 5:colcon.colcon_core.verb:set package 'ublox_msg_filters' build argument 'cmake_target' from command line to 'None'
+[1.392s] Level 5:colcon.colcon_core.verb:set package 'ublox_msg_filters' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.392s] Level 5:colcon.colcon_core.verb:set package 'ublox_msg_filters' build argument 'cmake_clean_cache' from command line to 'False'
+[1.392s] Level 5:colcon.colcon_core.verb:set package 'ublox_msg_filters' build argument 'cmake_clean_first' from command line to 'False'
+[1.392s] Level 5:colcon.colcon_core.verb:set package 'ublox_msg_filters' build argument 'cmake_force_configure' from command line to 'False'
+[1.392s] Level 5:colcon.colcon_core.verb:set package 'ublox_msg_filters' build argument 'ament_cmake_args' from command line to 'None'
+[1.392s] Level 5:colcon.colcon_core.verb:set package 'ublox_msg_filters' build argument 'catkin_cmake_args' from command line to 'None'
+[1.392s] Level 5:colcon.colcon_core.verb:set package 'ublox_msg_filters' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.392s] DEBUG:colcon.colcon_core.verb:Building package 'ublox_msg_filters' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/wow_ws/build/ublox_msg_filters', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/wow_ws/install/ublox_msg_filters', 'merge_install': False, 'path': '/home/pi/wow_ws/src/ublox/ublox_msg_filters', 'symlink_install': True, 'test_result_base': None}
+[1.392s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_args' from command line to 'None'
+[1.393s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_target' from command line to 'None'
+[1.393s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.393s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_clean_cache' from command line to 'False'
+[1.393s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_clean_first' from command line to 'False'
+[1.393s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_force_configure' from command line to 'False'
+[1.393s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'ament_cmake_args' from command line to 'None'
+[1.393s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'catkin_cmake_args' from command line to 'None'
+[1.393s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.393s] DEBUG:colcon.colcon_core.verb:Building package 'ublox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/wow_ws/build/ublox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/wow_ws/install/ublox', 'merge_install': False, 'path': '/home/pi/wow_ws/src/ublox/ublox', 'symlink_install': True, 'test_result_base': None}
+[1.393s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.395s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.395s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/wow_ws/src/diagnostics/diagnostic_updater' with build type 'ament_cmake'
+[1.395s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/wow_ws/src/diagnostics/diagnostic_updater'
+[1.408s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.408s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.411s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/pi/wow_ws/install/ublox' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.411s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/pi/wow_ws/install/ublox_gps' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.411s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/pi/wow_ws/install/ublox_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.411s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/pi/wow_ws/install/ublox_serialization' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.420s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/pi/wow_ws/install/ublox' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.421s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/pi/wow_ws/install/ublox_gps' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.421s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/pi/wow_ws/install/ublox_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.421s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/pi/wow_ws/install/ublox_serialization' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.436s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/pi/wow_ws/src/ublox/ublox_serialization' with build type 'catkin'
+[1.436s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/wow_ws/src/ublox/ublox_serialization'
+[1.437s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.461s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/wow_ws/src/nmea_msgs' with build type 'ament_cmake'
+[1.461s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/wow_ws/src/nmea_msgs'
+[1.462s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.485s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/wow_ws/src/rtcm_msgs' with build type 'ament_cmake'
+[1.485s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/wow_ws/src/rtcm_msgs'
+[1.486s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/wow_ws/build/diagnostic_updater': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/wow_ws/install/ntrip_client:/home/pi/wow_ws/install/bno055:/home/pi/ros2_iron/install/rqt_bag_plugins:/home/pi/ros2_iron/install/rqt_bag:/home/pi/ros2_iron/install/rosbag2_examples_py:/home/pi/ros2_iron/install/launch_testing_examples:/home/pi/ros2_iron/install/ros2bag:/home/pi/ros2_iron/install/tracetools_test:/home/pi/ros2_iron/install/tracetools_launch:/home/pi/ros2_iron/install/topic_monitor:/home/pi/ros2_iron/install/tf2_tools:/home/pi/ros2_iron/install/examples_tf2_py:/home/pi/ros2_iron/install/tf2_ros_py:/home/pi/ros2_iron/install/examples_rclpy_pointcloud_publisher:/home/pi/ros2_iron/install/sensor_msgs_py:/home/pi/ros2_iron/install/quality_of_service_demo_py:/home/pi/ros2_iron/install/rqt_plot:/home/pi/ros2_iron/install/ros2doctor:/home/pi/ros2_iron/install/lifecycle_py:/home/pi/ros2_iron/install/examples_rclpy_minimal_subscriber:/home/pi/ros2_iron/install/examples_rclpy_minimal_service:/home/pi/ros2_iron/install/examples_rclpy_minimal_publisher:/home/pi/ros2_iron/install/examples_rclpy_minimal_client:/home/pi/ros2_iron/install/examples_rclpy_executors:/home/pi/ros2_iron/install/demo_nodes_py:/home/pi/ros2_iron/install/rqt:/home/pi/ros2_iron/install/ros2component:/home/pi/ros2_iron/install/sros2:/home/pi/ros2_iron/install/rqt_topic:/home/pi/ros2_iron/install/rqt_srv:/home/pi/ros2_iron/install/rqt_shell:/home/pi/ros2_iron/install/rqt_service_caller:/home/pi/ros2_iron/install/rqt_reconfigure:/home/pi/ros2_iron/install/rqt_py_console:/home/pi/ros2_iron/install/rqt_publisher:/home/pi/ros2_iron/install/rqt_action:/home/pi/ros2_iron/install/rqt_msg:/home/pi/ros2_iron/install/rqt_console:/home/pi/ros2_iron/install/rqt_graph:/home/pi/ros2_iron/install/rqt_gui_py:/home/pi/ros2_iron/install/rqt_gui:/home/pi/ros2_iron/install/ros2trace:/home/pi/ros2_iron/install/ros2topic:/home/pi/ros2_iron/install/ros2test:/home/pi/ros2_iron/install/ros2param:/home/pi/ros2_iron/install/ros2lifecycle:/home/pi/ros2_iron/install/ros2service:/home/pi/ros2_iron/install/ros2run:/home/pi/ros2_iron/install/ros2launch:/home/pi/ros2_iron/install/ros2pkg:/home/pi/ros2_iron/install/ros2node:/home/pi/ros2_iron/install/ros2multicast:/home/pi/ros2_iron/install/ros2interface:/home/pi/ros2_iron/install/ros2action:/home/pi/ros2_iron/install/ros2cli:/home/pi/ros2_iron/install/launch_testing_ros:/home/pi/ros2_iron/install/launch_ros:/home/pi/ros2_iron/install/examples_rclpy_minimal_action_server:/home/pi/ros2_iron/install/examples_rclpy_minimal_action_client:/home/pi/ros2_iron/install/examples_rclpy_guard_conditions:/home/pi/ros2_iron/install/action_tutorials_py:/home/pi/ros2_iron/install/ament_uncrustify:/home/pi/ros2_iron/install/tracetools_trace:/home/pi/ros2_iron/install/tracetools_read:/home/pi/ros2_iron/install/test_tracetools_launch:/home/pi/ros2_iron/install/test_ros2trace:/home/pi/ros2_iron/install/test_launch_ros:/home/pi/ros2_iron/install/rpyutils:/home/pi/ros2_iron/install/rosidl_runtime_py:/home/pi/ros2_iron/install/rosidl_pycommon:/home/pi/ros2_iron/install/rosidl_cli:/home/pi/ros2_iron/install/launch_pytest:/home/pi/ros2_iron/install/launch_testing:/home/pi/ros2_iron/install/launch_yaml:/home/pi/ros2_iron/install/launch_xml:/home/pi/ros2_iron/install/launch:/home/pi/ros2_iron/install/osrf_pycommon:/home/pi/ros2_iron/install/domain_coordinator:/home/pi/ros2_iron/install/ament_xmllint:/home/pi/ros2_iron/install/ament_pyflakes:/home/pi/ros2_iron/install/ament_pycodestyle:/home/pi/ros2_iron/install/ament_pep257:/home/pi/ros2_iron/install/ament_pclint:/home/pi/ros2_iron/install/ament_package:/home/pi/ros2_iron/install/ament_mypy:/home/pi/ros2_iron/install/ament_lint_cmake:/home/pi/ros2_iron/install/ament_flake8:/home/pi/ros2_iron/install/ament_copyright:/home/pi/ros2_iron/install/ament_lint:/home/pi/ros2_iron/install/ament_index_python:/home/pi/ros2_iron/install/ament_cpplint:/home/pi/ros2_iron/install/ament_cppcheck:/home/pi/ros2_iron/install/ament_clang_tidy:/home/pi/ros2_iron/install/ament_clang_format /usr/bin/cmake --build /home/pi/wow_ws/build/diagnostic_updater -- -j4 -l4
+[1.533s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/wow_ws/build/ublox_serialization': /usr/bin/cmake /home/pi/wow_ws/src/ublox/ublox_serialization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/pi/wow_ws/install/ublox_serialization
+[1.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/wow_ws/build/nmea_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/wow_ws/install/ntrip_client:/home/pi/wow_ws/install/bno055:/home/pi/ros2_iron/install/rqt_bag_plugins:/home/pi/ros2_iron/install/rqt_bag:/home/pi/ros2_iron/install/rosbag2_examples_py:/home/pi/ros2_iron/install/launch_testing_examples:/home/pi/ros2_iron/install/ros2bag:/home/pi/ros2_iron/install/tracetools_test:/home/pi/ros2_iron/install/tracetools_launch:/home/pi/ros2_iron/install/topic_monitor:/home/pi/ros2_iron/install/tf2_tools:/home/pi/ros2_iron/install/examples_tf2_py:/home/pi/ros2_iron/install/tf2_ros_py:/home/pi/ros2_iron/install/examples_rclpy_pointcloud_publisher:/home/pi/ros2_iron/install/sensor_msgs_py:/home/pi/ros2_iron/install/quality_of_service_demo_py:/home/pi/ros2_iron/install/rqt_plot:/home/pi/ros2_iron/install/ros2doctor:/home/pi/ros2_iron/install/lifecycle_py:/home/pi/ros2_iron/install/examples_rclpy_minimal_subscriber:/home/pi/ros2_iron/install/examples_rclpy_minimal_service:/home/pi/ros2_iron/install/examples_rclpy_minimal_publisher:/home/pi/ros2_iron/install/examples_rclpy_minimal_client:/home/pi/ros2_iron/install/examples_rclpy_executors:/home/pi/ros2_iron/install/demo_nodes_py:/home/pi/ros2_iron/install/rqt:/home/pi/ros2_iron/install/ros2component:/home/pi/ros2_iron/install/sros2:/home/pi/ros2_iron/install/rqt_topic:/home/pi/ros2_iron/install/rqt_srv:/home/pi/ros2_iron/install/rqt_shell:/home/pi/ros2_iron/install/rqt_service_caller:/home/pi/ros2_iron/install/rqt_reconfigure:/home/pi/ros2_iron/install/rqt_py_console:/home/pi/ros2_iron/install/rqt_publisher:/home/pi/ros2_iron/install/rqt_action:/home/pi/ros2_iron/install/rqt_msg:/home/pi/ros2_iron/install/rqt_console:/home/pi/ros2_iron/install/rqt_graph:/home/pi/ros2_iron/install/rqt_gui_py:/home/pi/ros2_iron/install/rqt_gui:/home/pi/ros2_iron/install/ros2trace:/home/pi/ros2_iron/install/ros2topic:/home/pi/ros2_iron/install/ros2test:/home/pi/ros2_iron/install/ros2param:/home/pi/ros2_iron/install/ros2lifecycle:/home/pi/ros2_iron/install/ros2service:/home/pi/ros2_iron/install/ros2run:/home/pi/ros2_iron/install/ros2launch:/home/pi/ros2_iron/install/ros2pkg:/home/pi/ros2_iron/install/ros2node:/home/pi/ros2_iron/install/ros2multicast:/home/pi/ros2_iron/install/ros2interface:/home/pi/ros2_iron/install/ros2action:/home/pi/ros2_iron/install/ros2cli:/home/pi/ros2_iron/install/launch_testing_ros:/home/pi/ros2_iron/install/launch_ros:/home/pi/ros2_iron/install/examples_rclpy_minimal_action_server:/home/pi/ros2_iron/install/examples_rclpy_minimal_action_client:/home/pi/ros2_iron/install/examples_rclpy_guard_conditions:/home/pi/ros2_iron/install/action_tutorials_py:/home/pi/ros2_iron/install/ament_uncrustify:/home/pi/ros2_iron/install/tracetools_trace:/home/pi/ros2_iron/install/tracetools_read:/home/pi/ros2_iron/install/test_tracetools_launch:/home/pi/ros2_iron/install/test_ros2trace:/home/pi/ros2_iron/install/test_launch_ros:/home/pi/ros2_iron/install/rpyutils:/home/pi/ros2_iron/install/rosidl_runtime_py:/home/pi/ros2_iron/install/rosidl_pycommon:/home/pi/ros2_iron/install/rosidl_cli:/home/pi/ros2_iron/install/launch_pytest:/home/pi/ros2_iron/install/launch_testing:/home/pi/ros2_iron/install/launch_yaml:/home/pi/ros2_iron/install/launch_xml:/home/pi/ros2_iron/install/launch:/home/pi/ros2_iron/install/osrf_pycommon:/home/pi/ros2_iron/install/domain_coordinator:/home/pi/ros2_iron/install/ament_xmllint:/home/pi/ros2_iron/install/ament_pyflakes:/home/pi/ros2_iron/install/ament_pycodestyle:/home/pi/ros2_iron/install/ament_pep257:/home/pi/ros2_iron/install/ament_pclint:/home/pi/ros2_iron/install/ament_package:/home/pi/ros2_iron/install/ament_mypy:/home/pi/ros2_iron/install/ament_lint_cmake:/home/pi/ros2_iron/install/ament_flake8:/home/pi/ros2_iron/install/ament_copyright:/home/pi/ros2_iron/install/ament_lint:/home/pi/ros2_iron/install/ament_index_python:/home/pi/ros2_iron/install/ament_cpplint:/home/pi/ros2_iron/install/ament_cppcheck:/home/pi/ros2_iron/install/ament_clang_tidy:/home/pi/ros2_iron/install/ament_clang_format /usr/bin/cmake --build /home/pi/wow_ws/build/nmea_msgs -- -j4 -l4
+[1.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/wow_ws/build/rtcm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/wow_ws/install/ntrip_client:/home/pi/wow_ws/install/bno055:/home/pi/ros2_iron/install/rqt_bag_plugins:/home/pi/ros2_iron/install/rqt_bag:/home/pi/ros2_iron/install/rosbag2_examples_py:/home/pi/ros2_iron/install/launch_testing_examples:/home/pi/ros2_iron/install/ros2bag:/home/pi/ros2_iron/install/tracetools_test:/home/pi/ros2_iron/install/tracetools_launch:/home/pi/ros2_iron/install/topic_monitor:/home/pi/ros2_iron/install/tf2_tools:/home/pi/ros2_iron/install/examples_tf2_py:/home/pi/ros2_iron/install/tf2_ros_py:/home/pi/ros2_iron/install/examples_rclpy_pointcloud_publisher:/home/pi/ros2_iron/install/sensor_msgs_py:/home/pi/ros2_iron/install/quality_of_service_demo_py:/home/pi/ros2_iron/install/rqt_plot:/home/pi/ros2_iron/install/ros2doctor:/home/pi/ros2_iron/install/lifecycle_py:/home/pi/ros2_iron/install/examples_rclpy_minimal_subscriber:/home/pi/ros2_iron/install/examples_rclpy_minimal_service:/home/pi/ros2_iron/install/examples_rclpy_minimal_publisher:/home/pi/ros2_iron/install/examples_rclpy_minimal_client:/home/pi/ros2_iron/install/examples_rclpy_executors:/home/pi/ros2_iron/install/demo_nodes_py:/home/pi/ros2_iron/install/rqt:/home/pi/ros2_iron/install/ros2component:/home/pi/ros2_iron/install/sros2:/home/pi/ros2_iron/install/rqt_topic:/home/pi/ros2_iron/install/rqt_srv:/home/pi/ros2_iron/install/rqt_shell:/home/pi/ros2_iron/install/rqt_service_caller:/home/pi/ros2_iron/install/rqt_reconfigure:/home/pi/ros2_iron/install/rqt_py_console:/home/pi/ros2_iron/install/rqt_publisher:/home/pi/ros2_iron/install/rqt_action:/home/pi/ros2_iron/install/rqt_msg:/home/pi/ros2_iron/install/rqt_console:/home/pi/ros2_iron/install/rqt_graph:/home/pi/ros2_iron/install/rqt_gui_py:/home/pi/ros2_iron/install/rqt_gui:/home/pi/ros2_iron/install/ros2trace:/home/pi/ros2_iron/install/ros2topic:/home/pi/ros2_iron/install/ros2test:/home/pi/ros2_iron/install/ros2param:/home/pi/ros2_iron/install/ros2lifecycle:/home/pi/ros2_iron/install/ros2service:/home/pi/ros2_iron/install/ros2run:/home/pi/ros2_iron/install/ros2launch:/home/pi/ros2_iron/install/ros2pkg:/home/pi/ros2_iron/install/ros2node:/home/pi/ros2_iron/install/ros2multicast:/home/pi/ros2_iron/install/ros2interface:/home/pi/ros2_iron/install/ros2action:/home/pi/ros2_iron/install/ros2cli:/home/pi/ros2_iron/install/launch_testing_ros:/home/pi/ros2_iron/install/launch_ros:/home/pi/ros2_iron/install/examples_rclpy_minimal_action_server:/home/pi/ros2_iron/install/examples_rclpy_minimal_action_client:/home/pi/ros2_iron/install/examples_rclpy_guard_conditions:/home/pi/ros2_iron/install/action_tutorials_py:/home/pi/ros2_iron/install/ament_uncrustify:/home/pi/ros2_iron/install/tracetools_trace:/home/pi/ros2_iron/install/tracetools_read:/home/pi/ros2_iron/install/test_tracetools_launch:/home/pi/ros2_iron/install/test_ros2trace:/home/pi/ros2_iron/install/test_launch_ros:/home/pi/ros2_iron/install/rpyutils:/home/pi/ros2_iron/install/rosidl_runtime_py:/home/pi/ros2_iron/install/rosidl_pycommon:/home/pi/ros2_iron/install/rosidl_cli:/home/pi/ros2_iron/install/launch_pytest:/home/pi/ros2_iron/install/launch_testing:/home/pi/ros2_iron/install/launch_yaml:/home/pi/ros2_iron/install/launch_xml:/home/pi/ros2_iron/install/launch:/home/pi/ros2_iron/install/osrf_pycommon:/home/pi/ros2_iron/install/domain_coordinator:/home/pi/ros2_iron/install/ament_xmllint:/home/pi/ros2_iron/install/ament_pyflakes:/home/pi/ros2_iron/install/ament_pycodestyle:/home/pi/ros2_iron/install/ament_pep257:/home/pi/ros2_iron/install/ament_pclint:/home/pi/ros2_iron/install/ament_package:/home/pi/ros2_iron/install/ament_mypy:/home/pi/ros2_iron/install/ament_lint_cmake:/home/pi/ros2_iron/install/ament_flake8:/home/pi/ros2_iron/install/ament_copyright:/home/pi/ros2_iron/install/ament_lint:/home/pi/ros2_iron/install/ament_index_python:/home/pi/ros2_iron/install/ament_cpplint:/home/pi/ros2_iron/install/ament_cppcheck:/home/pi/ros2_iron/install/ament_clang_tidy:/home/pi/ros2_iron/install/ament_clang_format /usr/bin/cmake --build /home/pi/wow_ws/build/rtcm_msgs -- -j4 -l4
+[4.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/wow_ws/build/ublox_serialization' returned '1': /usr/bin/cmake /home/pi/wow_ws/src/ublox/ublox_serialization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/pi/wow_ws/install/ublox_serialization
+[4.221s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_serialization)
+[4.241s] Level 1:colcon.colcon_core.environment:checking '/home/pi/wow_ws/install/ublox_serialization' for CMake module files
+[4.241s] Level 1:colcon.colcon_core.environment:checking '/home/pi/wow_ws/install/ublox_serialization' for CMake config files
+[4.242s] Level 1:colcon.colcon_core.environment:checking '/home/pi/wow_ws/install/ublox_serialization/bin'
+[4.242s] Level 1:colcon.colcon_core.environment:checking '/home/pi/wow_ws/install/ublox_serialization/lib/pkgconfig/ublox_serialization.pc'
+[4.247s] Level 1:colcon.colcon_core.environment:checking '/home/pi/wow_ws/install/ublox_serialization/lib/python3.11/site-packages'
+[4.248s] Level 1:colcon.colcon_core.environment:checking '/home/pi/wow_ws/install/ublox_serialization/bin'
+[4.249s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/wow_ws/install/ublox_serialization/share/ublox_serialization/package.dsv'
+[4.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/wow_ws/install/ublox_serialization/share/ublox_serialization/package.sh'
+[4.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/wow_ws/install/ublox_serialization/share/ublox_serialization/package.bash'
+[4.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/wow_ws/install/ublox_serialization/share/ublox_serialization/package.zsh'
+[4.253s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/wow_ws/install/ublox_serialization/share/colcon-core/packages/ublox_serialization)
+[5.072s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.072s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.072s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[5.072s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.091s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[5.091s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.091s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.091s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.093s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[5.093s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.094s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/wow_ws/install/local_setup.sh'
+[5.095s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/wow_ws/install/_local_setup_util_sh.py'
+[5.101s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/wow_ws/install/setup.sh'
+[5.114s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/wow_ws/install/local_setup.bash'
+[5.116s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/wow_ws/install/setup.bash'
+[5.129s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/wow_ws/install/local_setup.zsh'
+[5.131s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/wow_ws/install/setup.zsh'

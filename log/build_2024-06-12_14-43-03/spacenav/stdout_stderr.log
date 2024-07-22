@@ -1,0 +1,29 @@
+[ 50%] Built target spacenav_node
+[100%] Built target spacenav
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/pi/wow_ws/install/spacenav/lib/spacenav/spacenav_node
+-- Up-to-date symlink: /home/pi/wow_ws/install/spacenav/include/spacenav/spacenav/spacenav.hpp
+-- Up-to-date symlink: /home/pi/wow_ws/install/spacenav/share/spacenav//launch/classic-launch.py
+-- Up-to-date symlink: /home/pi/wow_ws/install/spacenav/share/spacenav//launch/no_deadband-launch.py
+-- Up-to-date symlink: /home/pi/wow_ws/install/spacenav/share/spacenav//launch/static_deadband-launch.py
+-- Up-to-date symlink: /home/pi/wow_ws/install/spacenav/share/ament_index/resource_index/package_run_dependencies/spacenav
+-- Up-to-date symlink: /home/pi/wow_ws/install/spacenav/share/ament_index/resource_index/parent_prefix_path/spacenav
+-- Up-to-date symlink: /home/pi/wow_ws/install/spacenav/share/spacenav/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/pi/wow_ws/install/spacenav/share/spacenav/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/pi/wow_ws/install/spacenav/share/spacenav/environment/path.sh
+-- Up-to-date symlink: /home/pi/wow_ws/install/spacenav/share/spacenav/environment/path.dsv
+-- Up-to-date symlink: /home/pi/wow_ws/install/spacenav/share/spacenav/local_setup.bash
+-- Up-to-date symlink: /home/pi/wow_ws/install/spacenav/share/spacenav/local_setup.sh
+-- Up-to-date symlink: /home/pi/wow_ws/install/spacenav/share/spacenav/local_setup.zsh
+-- Up-to-date symlink: /home/pi/wow_ws/install/spacenav/share/spacenav/local_setup.dsv
+-- Symlinking: /home/pi/wow_ws/install/spacenav/share/spacenav/package.dsv
+-- Up-to-date symlink: /home/pi/wow_ws/install/spacenav/share/ament_index/resource_index/packages/spacenav
+-- Up-to-date symlink: /home/pi/wow_ws/install/spacenav/share/ament_index/resource_index/rclcpp_components/spacenav
+-- Up-to-date symlink: /home/pi/wow_ws/install/spacenav/share/spacenav/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/pi/wow_ws/install/spacenav/share/spacenav/cmake/spacenavConfig.cmake
+-- Up-to-date symlink: /home/pi/wow_ws/install/spacenav/share/spacenav/cmake/spacenavConfig-version.cmake
+-- Up-to-date symlink: /home/pi/wow_ws/install/spacenav/share/spacenav/package.xml
+-- Up-to-date: /home/pi/wow_ws/install/spacenav/lib/libspacenav.so
+-- Up-to-date: /home/pi/wow_ws/install/spacenav/share/spacenav/cmake/export_spacenavExport.cmake
+-- Up-to-date: /home/pi/wow_ws/install/spacenav/share/spacenav/cmake/export_spacenavExport-noconfig.cmake

@@ -1,0 +1,35 @@
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.0.5 (/home/pi/ros2_iron/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.11.2") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/wow_ws/build/diagnostics
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/pi/wow_ws/install/diagnostics/share/ament_index/resource_index/package_run_dependencies/diagnostics
+-- Symlinking: /home/pi/wow_ws/install/diagnostics/share/ament_index/resource_index/parent_prefix_path/diagnostics
+-- Symlinking: /home/pi/wow_ws/install/diagnostics/share/diagnostics/environment/ament_prefix_path.sh
+-- Symlinking: /home/pi/wow_ws/install/diagnostics/share/diagnostics/environment/ament_prefix_path.dsv
+-- Symlinking: /home/pi/wow_ws/install/diagnostics/share/diagnostics/environment/path.sh
+-- Symlinking: /home/pi/wow_ws/install/diagnostics/share/diagnostics/environment/path.dsv
+-- Symlinking: /home/pi/wow_ws/install/diagnostics/share/diagnostics/local_setup.bash
+-- Symlinking: /home/pi/wow_ws/install/diagnostics/share/diagnostics/local_setup.sh
+-- Symlinking: /home/pi/wow_ws/install/diagnostics/share/diagnostics/local_setup.zsh
+-- Symlinking: /home/pi/wow_ws/install/diagnostics/share/diagnostics/local_setup.dsv
+-- Symlinking: /home/pi/wow_ws/install/diagnostics/share/diagnostics/package.dsv
+-- Symlinking: /home/pi/wow_ws/install/diagnostics/share/ament_index/resource_index/packages/diagnostics
+-- Symlinking: /home/pi/wow_ws/install/diagnostics/share/diagnostics/cmake/diagnosticsConfig.cmake
+-- Symlinking: /home/pi/wow_ws/install/diagnostics/share/diagnostics/cmake/diagnosticsConfig-version.cmake
+-- Symlinking: /home/pi/wow_ws/install/diagnostics/share/diagnostics/package.xml

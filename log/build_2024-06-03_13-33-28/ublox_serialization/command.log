@@ -1,0 +1,2 @@
+Invoking command in '/home/pi/wow_ws/build/ublox_serialization': /usr/bin/cmake /home/pi/wow_ws/src/ublox/ublox_serialization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/pi/wow_ws/install/ublox_serialization
+Invoked command in '/home/pi/wow_ws/build/ublox_serialization' returned '1': /usr/bin/cmake /home/pi/wow_ws/src/ublox/ublox_serialization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/pi/wow_ws/install/ublox_serialization

@@ -1,0 +1,17 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/pi/wow_ws/install/ublox/share/ament_index/resource_index/package_run_dependencies/ublox
+-- Up-to-date symlink: /home/pi/wow_ws/install/ublox/share/ament_index/resource_index/parent_prefix_path/ublox
+-- Up-to-date symlink: /home/pi/wow_ws/install/ublox/share/ublox/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/pi/wow_ws/install/ublox/share/ublox/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/pi/wow_ws/install/ublox/share/ublox/environment/path.sh
+-- Up-to-date symlink: /home/pi/wow_ws/install/ublox/share/ublox/environment/path.dsv
+-- Up-to-date symlink: /home/pi/wow_ws/install/ublox/share/ublox/local_setup.bash
+-- Up-to-date symlink: /home/pi/wow_ws/install/ublox/share/ublox/local_setup.sh
+-- Up-to-date symlink: /home/pi/wow_ws/install/ublox/share/ublox/local_setup.zsh
+-- Up-to-date symlink: /home/pi/wow_ws/install/ublox/share/ublox/local_setup.dsv
+-- Symlinking: /home/pi/wow_ws/install/ublox/share/ublox/package.dsv
+-- Up-to-date symlink: /home/pi/wow_ws/install/ublox/share/ament_index/resource_index/packages/ublox
+-- Up-to-date symlink: /home/pi/wow_ws/install/ublox/share/ublox/cmake/ubloxConfig.cmake
+-- Up-to-date symlink: /home/pi/wow_ws/install/ublox/share/ublox/cmake/ubloxConfig-version.cmake
+-- Up-to-date symlink: /home/pi/wow_ws/install/ublox/share/ublox/package.xml

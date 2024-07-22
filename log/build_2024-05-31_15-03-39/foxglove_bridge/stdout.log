@@ -1,0 +1,6 @@
+[  7%] Built target gtest
+[ 14%] Built target foxglove_bridge
+[ 21%] Built target gtest_main
+[ 25%] [32mBuilding CXX object CMakeFiles/foxglove_bridge_base.dir/foxglove_bridge_base/src/serialization.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/foxglove_bridge_base.dir/foxglove_bridge_base/src/server_factory.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/foxglove_bridge_base.dir/foxglove_bridge_base/src/test/test_client.cpp.o[0m

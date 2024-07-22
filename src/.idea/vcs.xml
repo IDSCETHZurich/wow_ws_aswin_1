@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/ICM20948" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bno055" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/diagnostics" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/geographic_info" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gps_umd" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/imu_tools" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/joystick_drivers" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/nmea_msgs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/robot_localization" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ros-foxglove-bridge" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/rtcm_msgs" vcs="Git" />
+  </component>
+</project>

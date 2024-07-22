@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0fbc6017-5769-4c0a-8454-d65010396285" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ICM20948/launch/imu_icm_launch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bno055/bno055/params/bno055_params_i2c_29.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/robot_localization/params/ekf.yaml.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ICM20948/ICM20948/ICM_raw_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ICM20948/ICM20948/ICM_raw_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ICM20948/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ICM20948/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bno055/bno055/connectors/i2c.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/bno055/bno055/connectors/i2c.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bno055/bno055/params/bno055_params.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/bno055/bno055/params/bno055_params.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bno055/bno055/params/bno055_params_i2c.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/bno055/bno055/params/bno055_params_i2c.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bno055/launch/bno055.launch.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/bno055/launch/bno055.launch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joystick_drivers/wiimote/CHANGELOG.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joystick_drivers/wiimote/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joystick_drivers/wiimote/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joystick_drivers/wiimote/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joystick_drivers/wiimote/config/teleop_wiimote_params.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joystick_drivers/wiimote/config/wiimote_params.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joystick_drivers/wiimote/doc/testing.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joystick_drivers/wiimote/doc/tutorials/teleop.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joystick_drivers/wiimote/include/wiimote/stat_vector_3d.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joystick_drivers/wiimote/include/wiimote/teleop_wiimote.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joystick_drivers/wiimote/include/wiimote/wiimote_controller.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joystick_drivers/wiimote/launch/feedback_test.launch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joystick_drivers/wiimote/launch/turtlesim.launch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joystick_drivers/wiimote/launch/wiimote_lifecycle.launch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joystick_drivers/wiimote/nodes/feedback_tester.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joystick_drivers/wiimote/package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joystick_drivers/wiimote/src/gpl-2.0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joystick_drivers/wiimote/src/stat_vector_3d.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joystick_drivers/wiimote/src/teleop_wiimote.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joystick_drivers/wiimote/src/wiimote_controller.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joystick_drivers/wiimote/wiimote-extras.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joystick_drivers/wiimote_msgs/CHANGELOG.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joystick_drivers/wiimote_msgs/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joystick_drivers/wiimote_msgs/msg/IrSourceInfo.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joystick_drivers/wiimote_msgs/msg/State.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joystick_drivers/wiimote_msgs/msg/TimedSwitch.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joystick_drivers/wiimote_msgs/package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/robot_localization/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/robot_localization/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/robot_localization/launch/navsat_transform.launch.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/robot_localization/launch/navsat_transform.launch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/robot_localization/params/dual_ekf_navsat_example.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/robot_localization/params/dual_ekf_navsat_example.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/robot_localization/params/ekf.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/robot_localization/params/ekf.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/robot_localization/params/navsat_transform.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/robot_localization/params/navsat_transform.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/robot_localization/params/ukf.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/robot_localization/params/ukf.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wow_ros2/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/wow_ros2/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wow_ros2/wow_ros2/pid_tuning.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/wow_ros2/wow_ros2/pid_tuning.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wow_ros2/wow_ros2/v2_adafruit_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/wow_ros2/wow_ros2/v2_adafruit_interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wow_ros2/wow_ros2/v2_controller_ol_joystick.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/wow_ros2/wow_ros2/v2_controller_ol_joystick.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/robot_localization" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2ioydm12WW6wssJF2xAFA7w5XTC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;ros2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RdControllerToolWindowsLayoutState" isNewUi="true">
+    <layout>
+      <window_info id="Bookmarks" side_tool="true" />
+      <window_info id="Merge Requests" show_stripe_button="false" />
+      <window_info id="Commit_Guest" show_stripe_button="false" />
+      <window_info id="Pull Requests" />
+      <window_info id="Learn" show_stripe_button="false" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.082994185" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="TypeScript" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="HfCacheToolWindow" show_stripe_button="false" />
+      <window_info anchor="bottom" id="File Transfer" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="bottom" id="Python Packages" order="5" weight="0.1" />
+      <window_info anchor="bottom" id="Python Console" order="6" weight="0.1" />
+      <window_info anchor="right" id="Endpoints" show_stripe_button="false" />
+      <window_info anchor="right" id="Coverage" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="right" id="SciView" show_stripe_button="false" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <window_info anchor="right" id="Plots" order="5" weight="0.1" />
+    </layout>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-cec29f6fc0a3-JavaScript-PY-242.18071.12" />
+        <option value="bundled-python-sdk-3190c7a0ba6e-7562627508f0-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.18071.12" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0fbc6017-5769-4c0a-8454-d65010396285" name="Changes" comment="" />
+      <created>1720171332370</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720171332370</updated>
+      <workItem from="1720171335033" duration="847000" />
+      <workItem from="1720378603382" duration="3755000" />
+      <workItem from="1720443926533" duration="1382000" />
+      <workItem from="1721144306049" duration="193000" />
+      <workItem from="1721229814169" duration="2257000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

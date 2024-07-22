@@ -1,0 +1,76 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "geographic_msgs/srv/GetGeoPath_Request",
+      "fields": [
+        {
+          "name": "start",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "geographic_msgs/msg/GeoPoint"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "goal",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "geographic_msgs/msg/GeoPoint"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "geographic_msgs/msg/GeoPoint",
+        "fields": [
+          {
+            "name": "latitude",
+            "type": {
+              "type_id": 11,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "longitude",
+            "type": {
+              "type_id": 11,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "altitude",
+            "type": {
+              "type_id": 11,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "geographic_msgs/srv/GetGeoPath_Request",
+      "hash_string": "RIHS01_8811712609bb7e10bab5f04d54b98c6d1177e09edfe1cc15896c4f6602719da4"
+    },
+    {
+      "type_name": "geographic_msgs/msg/GeoPoint",
+      "hash_string": "RIHS01_602c647cf87bbe95a0231b459b5ac30051875d07c0c740b31ad7a8c4662b971e"
+    }
+  ]
+}

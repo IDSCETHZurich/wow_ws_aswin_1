@@ -1,0 +1,9 @@
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/SDL2main.dir
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/SDL2.dir
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/uninstall.dir
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/edit_cache.dir
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/rebuild_cache.dir
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/list_install_components.dir
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/install.dir
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/install/local.dir
+/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build/CMakeFiles/install/strip.dir

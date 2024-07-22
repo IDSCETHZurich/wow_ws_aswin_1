@@ -1,0 +1,18 @@
+[33mCMake Warning (dev) at /usr/share/cmake-3.25/Modules/ExternalProject.cmake:3075 (message):
+  The DOWNLOAD_EXTRACT_TIMESTAMP option was not given and policy CMP0135 is
+  not set.  The policy's OLD behavior will be used.  When using a URL
+  download, the timestamps of extracted files should preferably be that of
+  the time of extraction, otherwise code that depends on the extracted
+  contents might not be rebuilt if the URL changes.  The OLD behavior
+  preserves the timestamps from the archive instead, but this is usually not
+  what you want.  Update your project to the NEW behavior or specify the
+  DOWNLOAD_EXTRACT_TIMESTAMP option with a value of true to avoid this
+  robustness issue.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.25/Modules/ExternalProject.cmake:4185 (_ep_add_download_command)
+  CMakeLists.txt:17 (ExternalProject_Add)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[01m[K/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/hidapi/SDL_hidapi.c:969:1:[m[K [01;35m[Kwarning: [m[K‘[01m[KCopyHIDDeviceInfo[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+  969 | [01;35m[KCopyHIDDeviceInfo[m[K(struct SDL_hid_device_info *pSrc, struct SDL_hid_device_info *pDst)
+      | [01;35m[K^~~~~~~~~~~~~~~~~[m[K

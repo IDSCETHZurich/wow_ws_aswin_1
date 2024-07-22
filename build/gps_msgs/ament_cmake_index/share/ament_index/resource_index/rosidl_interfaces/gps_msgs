@@ -1,0 +1,4 @@
+msg/GPSFix.idl
+msg/GPSFix.msg
+msg/GPSStatus.idl
+msg/GPSStatus.msg

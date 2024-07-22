@@ -1,0 +1,47 @@
+[ 50%] Built target utm_odometry_component
+[ 50%] Built target ament_cmake_python_symlink_gps_tools
+[100%] Built target utm_odometry_to_navsatfix_component
+running egg_info
+writing gps_tools.egg-info/PKG-INFO
+writing dependency_links to gps_tools.egg-info/dependency_links.txt
+writing top-level names to gps_tools.egg-info/top_level.txt
+reading manifest file 'gps_tools.egg-info/SOURCES.txt'
+writing manifest file 'gps_tools.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_gps_tools_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/pi/wow_ws/install/gps_tools/share/gps_tools/environment/pythonpath.sh
+-- Up-to-date symlink: /home/pi/wow_ws/install/gps_tools/share/gps_tools/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/pi/wow_ws/install/gps_tools/lib/python3.11/site-packages/gps_tools-2.0.4-py3.11.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/pi/wow_ws/install/gps_tools/lib/python3.11/site-packages/gps_tools-2.0.4-py3.11.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/pi/wow_ws/install/gps_tools/lib/python3.11/site-packages/gps_tools-2.0.4-py3.11.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/pi/wow_ws/install/gps_tools/lib/python3.11/site-packages/gps_tools-2.0.4-py3.11.egg-info/top_level.txt
+-- Up-to-date symlink: /home/pi/wow_ws/install/gps_tools/lib/python3.11/site-packages/gps_tools/__init__.py
+-- Up-to-date symlink: /home/pi/wow_ws/install/gps_tools/lib/python3.11/site-packages/gps_tools/gps_message_converter.py
+-- Up-to-date symlink: /home/pi/wow_ws/install/gps_tools/lib/libutm_odometry_component.so
+-- Up-to-date symlink: /home/pi/wow_ws/install/gps_tools/lib/libutm_odometry_to_navsatfix_component.so
+-- Up-to-date symlink: /home/pi/wow_ws/install/gps_tools/include/gps_tools/conversions.h
+-- Up-to-date symlink: /home/pi/wow_ws/install/gps_tools/bin/bag_converter
+-- Up-to-date symlink: /home/pi/wow_ws/install/gps_tools/bin/fix_translator
+-- Up-to-date symlink: /home/pi/wow_ws/install/gps_tools/share/gps_tools/environment/library_path.sh
+-- Up-to-date symlink: /home/pi/wow_ws/install/gps_tools/share/gps_tools/environment/library_path.dsv
+-- Up-to-date symlink: /home/pi/wow_ws/install/gps_tools/share/ament_index/resource_index/package_run_dependencies/gps_tools
+-- Up-to-date symlink: /home/pi/wow_ws/install/gps_tools/share/ament_index/resource_index/parent_prefix_path/gps_tools
+-- Up-to-date symlink: /home/pi/wow_ws/install/gps_tools/share/gps_tools/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/pi/wow_ws/install/gps_tools/share/gps_tools/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/pi/wow_ws/install/gps_tools/share/gps_tools/environment/path.sh
+-- Up-to-date symlink: /home/pi/wow_ws/install/gps_tools/share/gps_tools/environment/path.dsv
+-- Up-to-date symlink: /home/pi/wow_ws/install/gps_tools/share/gps_tools/local_setup.bash
+-- Up-to-date symlink: /home/pi/wow_ws/install/gps_tools/share/gps_tools/local_setup.sh
+-- Up-to-date symlink: /home/pi/wow_ws/install/gps_tools/share/gps_tools/local_setup.zsh
+-- Up-to-date symlink: /home/pi/wow_ws/install/gps_tools/share/gps_tools/local_setup.dsv
+-- Symlinking: /home/pi/wow_ws/install/gps_tools/share/gps_tools/package.dsv
+-- Up-to-date symlink: /home/pi/wow_ws/install/gps_tools/share/ament_index/resource_index/packages/gps_tools
+-- Up-to-date symlink: /home/pi/wow_ws/install/gps_tools/share/ament_index/resource_index/rclcpp_components/gps_tools
+-- Up-to-date symlink: /home/pi/wow_ws/install/gps_tools/share/gps_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/pi/wow_ws/install/gps_tools/share/gps_tools/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/pi/wow_ws/install/gps_tools/share/gps_tools/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/pi/wow_ws/install/gps_tools/share/gps_tools/cmake/gps_toolsConfig.cmake
+-- Up-to-date symlink: /home/pi/wow_ws/install/gps_tools/share/gps_tools/cmake/gps_toolsConfig-version.cmake
+-- Up-to-date symlink: /home/pi/wow_ws/install/gps_tools/share/gps_tools/package.xml
+Listing '/home/pi/wow_ws/install/gps_tools/lib/python3.11/site-packages/gps_tools'...

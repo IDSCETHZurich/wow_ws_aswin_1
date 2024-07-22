@@ -1,0 +1,70 @@
+-- robot_localization: You did not request a specific build type: selecting 'RelWithDebInfo'.
+-- Found ament_cmake: 2.0.5 (/home/pi/ros2_iron/install/ament_cmake/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found angles: 1.16.0 (/usr/share/angles/cmake)
+-- Found rclcpp: 21.0.6 (/home/pi/ros2_iron/install/rclcpp/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/home/pi/ros2_iron/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/home/pi/ros2_iron/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/home/pi/ros2_iron/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.3 (/home/pi/ros2_iron/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found diagnostic_msgs: 5.0.0 (/home/pi/ros2_iron/install/diagnostic_msgs/share/diagnostic_msgs/cmake)
+-- Found diagnostic_updater: 3.2.0 (/home/pi/wow_ws/install/diagnostic_updater/share/diagnostic_updater/cmake)
+-- Found geographic_msgs: 1.0.6 (/home/pi/wow_ws/install/geographic_msgs/share/geographic_msgs/cmake)
+-- Found message_filters: 4.7.0 (/home/pi/ros2_iron/install/message_filters/share/message_filters/cmake)
+-- Found nav_msgs: 5.0.0 (/home/pi/ros2_iron/install/nav_msgs/share/nav_msgs/cmake)
+-- Found rosidl_default_generators: 1.5.0 (/home/pi/ros2_iron/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.0.1 (/home/pi/ros2_iron/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found sensor_msgs: 5.0.0 (/home/pi/ros2_iron/install/sensor_msgs/share/sensor_msgs/cmake)
+-- Found std_srvs: 5.0.0 (/home/pi/ros2_iron/install/std_srvs/share/std_srvs/cmake)
+-- Found tf2: 0.31.6 (/home/pi/ros2_iron/install/tf2/share/tf2/cmake)
+-- Found tf2_eigen: 0.31.6 (/home/pi/ros2_iron/install/tf2_eigen/share/tf2_eigen/cmake)
+-- Found tf2_geometry_msgs: 0.31.6 (/home/pi/ros2_iron/install/tf2_geometry_msgs/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.2.2 (/home/pi/ros2_iron/install/eigen3_cmake_module/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+-- Found yaml_cpp_vendor: 8.1.2 (/home/pi/ros2_iron/install/yaml_cpp_vendor/share/yaml_cpp_vendor/cmake)
+-- Found GeographicLib: /usr/lib/aarch64-linux-gnu  
+-- Found ament_cmake_cppcheck: 0.14.3 (/home/pi/ros2_iron/install/ament_cmake_cppcheck/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.14.3 (/home/pi/ros2_iron/install/ament_cmake_cpplint/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_uncrustify: 0.14.3 (/home/pi/ros2_iron/install/ament_cmake_uncrustify/share/ament_cmake_uncrustify/cmake)
+-- Found ament_cmake_ros: 0.11.2 (/home/pi/ros2_iron/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.11.2", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.2 (/home/pi/ros2_iron/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.11.so (found suitable version "3.11.2", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.11
+-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.11.so
+-- Found PythonExtra: .so  
+-- Found ament_cmake_flake8: 0.14.3 (/home/pi/ros2_iron/install/ament_cmake_flake8/share/ament_cmake_flake8/cmake)
+-- Found ament_cmake_pep257: 0.14.3 (/home/pi/ros2_iron/install/ament_cmake_pep257/share/ament_cmake_pep257/cmake)
+-- Found ament_cmake_lint_cmake: 0.14.3 (/home/pi/ros2_iron/install/ament_cmake_lint_cmake/share/ament_cmake_lint_cmake/cmake)
+-- Found launch_testing_ament_cmake: 2.0.3 (/home/pi/ros2_iron/install/launch_testing_ament_cmake/share/launch_testing_ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.11
+-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.11.so
+-- Found gtest sources under '/home/pi/ros2_iron/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done
+[31mCMake Error at CMakeLists.txt:102 (target_link_libraries):
+  Target "rl_lib" links to:
+
+    yaml-cpp::yaml-cpp
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+[0m
+-- Generating done
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m

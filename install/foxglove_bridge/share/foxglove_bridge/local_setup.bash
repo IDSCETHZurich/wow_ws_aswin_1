@@ -1,0 +1,1 @@
+/home/pi/wow_ws/build/foxglove_bridge/ament_cmake_environment_hooks/local_setup.bash

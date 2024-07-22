@@ -1,0 +1,3 @@
+# Set an UTM zone navsat_transform should stick to.
+# Example: 31U
+string utm_zone

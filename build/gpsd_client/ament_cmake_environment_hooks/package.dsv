@@ -1,0 +1,4 @@
+source;share/gpsd_client/local_setup.bash
+source;share/gpsd_client/local_setup.dsv
+source;share/gpsd_client/local_setup.sh
+source;share/gpsd_client/local_setup.zsh

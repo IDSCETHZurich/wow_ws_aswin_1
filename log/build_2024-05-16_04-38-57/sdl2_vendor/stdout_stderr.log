@@ -1,0 +1,1081 @@
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.0.5 (/home/pi/ros2_iron/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.11.2") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+[33mCMake Warning (dev) at /usr/share/cmake-3.25/Modules/ExternalProject.cmake:3075 (message):
+  The DOWNLOAD_EXTRACT_TIMESTAMP option was not given and policy CMP0135 is
+  not set.  The policy's OLD behavior will be used.  When using a URL
+  download, the timestamps of extracted files should preferably be that of
+  the time of extraction, otherwise code that depends on the extracted
+  contents might not be rebuilt if the URL changes.  The OLD behavior
+  preserves the timestamps from the archive instead, but this is usually not
+  what you want.  Update your project to the NEW behavior or specify the
+  DOWNLOAD_EXTRACT_TIMESTAMP option with a value of true to avoid this
+  robustness issue.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.25/Modules/ExternalProject.cmake:4185 (_ep_add_download_command)
+  CMakeLists.txt:17 (ExternalProject_Add)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/wow_ws/build/sdl2_vendor
+[ 12%] [34m[1mCreating directories for 'SDL2-2.0.20'[0m
+[ 25%] [34m[1mPerforming download step (download, verify and extract) for 'SDL2-2.0.20'[0m
+-- Downloading...
+   dst='/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20.tar.gz'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://www.libsdl.org/release/SDL2-2.0.20.tar.gz'
+-- [download 0% complete]
+-- [download 1% complete]
+-- [download 2% complete]
+-- [download 3% complete]
+-- [download 4% complete]
+-- [download 5% complete]
+-- [download 6% complete]
+-- [download 7% complete]
+-- [download 8% complete]
+-- [download 9% complete]
+-- [download 10% complete]
+-- [download 11% complete]
+-- [download 12% complete]
+-- [download 13% complete]
+-- [download 14% complete]
+-- [download 15% complete]
+-- [download 16% complete]
+-- [download 17% complete]
+-- [download 18% complete]
+-- [download 19% complete]
+-- [download 20% complete]
+-- [download 21% complete]
+-- [download 22% complete]
+-- [download 23% complete]
+-- [download 24% complete]
+-- [download 25% complete]
+-- [download 36% complete]
+-- [download 37% complete]
+-- [download 38% complete]
+-- [download 39% complete]
+-- [download 40% complete]
+-- [download 41% complete]
+-- [download 42% complete]
+-- [download 43% complete]
+-- [download 44% complete]
+-- [download 55% complete]
+-- [download 70% complete]
+-- [download 71% complete]
+-- [download 72% complete]
+-- [download 73% complete]
+-- [download 74% complete]
+-- [download 75% complete]
+-- [download 76% complete]
+-- [download 77% complete]
+-- [download 78% complete]
+-- [download 79% complete]
+-- [download 80% complete]
+-- [download 81% complete]
+-- [download 82% complete]
+-- [download 83% complete]
+-- [download 84% complete]
+-- [download 85% complete]
+-- [download 86% complete]
+-- [download 87% complete]
+-- [download 88% complete]
+-- [download 89% complete]
+-- [download 90% complete]
+-- [download 91% complete]
+-- [download 92% complete]
+-- [download 93% complete]
+-- [download 94% complete]
+-- [download 95% complete]
+-- [download 96% complete]
+-- [download 97% complete]
+-- [download 98% complete]
+-- [download 99% complete]
+-- [download 100% complete]
+-- verifying file...
+       file='/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20.tar.gz'
+     dst='/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 37%] [34m[1mNo update step for 'SDL2-2.0.20'[0m
+[ 50%] [34m[1mPerforming patch step for 'SDL2-2.0.20'[0m
+[ 62%] [34m[1mPerforming configure step for 'SDL2-2.0.20'[0m
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+-- Performing Test HAVE_GCC_WALL
+-- Performing Test HAVE_GCC_WALL - Success
+-- Performing Test HAVE_GCC_NO_STRICT_ALIASING
+-- Performing Test HAVE_GCC_NO_STRICT_ALIASING - Success
+-- Performing Test HAVE_GCC_WDECLARATION_AFTER_STATEMENT
+-- Performing Test HAVE_GCC_WDECLARATION_AFTER_STATEMENT - Success
+-- Performing Test HAVE_GCC_WERROR_DECLARATION_AFTER_STATEMENT
+-- Performing Test HAVE_GCC_WERROR_DECLARATION_AFTER_STATEMENT - Success
+-- Performing Test HAVE_GCC_ATOMICS
+-- Performing Test HAVE_GCC_ATOMICS - Success
+-- Performing Test HAVE_GCC_PREFERRED_STACK_BOUNDARY
+-- Performing Test HAVE_GCC_PREFERRED_STACK_BOUNDARY - Failed
+-- Performing Test HAVE_GCC_FVISIBILITY
+-- Performing Test HAVE_GCC_FVISIBILITY - Success
+-- Performing Test HAVE_GCC_WSHADOW
+-- Performing Test HAVE_GCC_WSHADOW - Success
+-- Performing Test HAVE_NO_UNDEFINED
+-- Performing Test HAVE_NO_UNDEFINED - Success
+-- Performing Test HAVE_MMX
+-- Performing Test HAVE_MMX - Failed
+-- Performing Test HAVE_3DNOW
+-- Performing Test HAVE_3DNOW - Failed
+-- Performing Test HAVE_SSE
+-- Performing Test HAVE_SSE - Failed
+-- Performing Test HAVE_SSE2
+-- Performing Test HAVE_SSE2 - Failed
+-- Performing Test HAVE_SSE3
+-- Performing Test HAVE_SSE3 - Failed
+-- Looking for immintrin.h
+-- Looking for immintrin.h - not found
+-- Performing Test HAVE_ALTIVEC_H_HDR
+-- Performing Test HAVE_ALTIVEC_H_HDR - Failed
+-- Performing Test HAVE_ALTIVEC
+-- Performing Test HAVE_ALTIVEC - Failed
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdio.h
+-- Looking for stdio.h - found
+-- Looking for stdlib.h
+-- Looking for stdlib.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Looking for stdarg.h
+-- Looking for stdarg.h - found
+-- Looking for malloc.h
+-- Looking for malloc.h - found
+-- Looking for memory.h
+-- Looking for memory.h - found
+-- Looking for string.h
+-- Looking for string.h - found
+-- Looking for limits.h
+-- Looking for limits.h - found
+-- Looking for float.h
+-- Looking for float.h - found
+-- Looking for strings.h
+-- Looking for strings.h - found
+-- Looking for wchar.h
+-- Looking for wchar.h - found
+-- Looking for inttypes.h
+-- Looking for inttypes.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for ctype.h
+-- Looking for ctype.h - found
+-- Looking for math.h
+-- Looking for math.h - found
+-- Looking for iconv.h
+-- Looking for iconv.h - found
+-- Looking for signal.h
+-- Looking for signal.h - found
+-- Looking for libunwind.h
+-- Looking for libunwind.h - not found
+-- Looking for 7 include files stddef.h, ..., float.h
+-- Looking for 7 include files stddef.h, ..., float.h - found
+-- Check size of size_t
+-- Check size of size_t - done
+-- Looking for M_PI
+-- Looking for M_PI - found
+-- Performing Test HAVE_MPROTECT
+-- Performing Test HAVE_MPROTECT - Success
+-- Looking for strtod
+-- Looking for strtod - found
+-- Looking for malloc
+-- Looking for malloc - found
+-- Looking for calloc
+-- Looking for calloc - found
+-- Looking for realloc
+-- Looking for realloc - found
+-- Looking for free
+-- Looking for free - found
+-- Looking for getenv
+-- Looking for getenv - found
+-- Looking for setenv
+-- Looking for setenv - found
+-- Looking for putenv
+-- Looking for putenv - found
+-- Looking for unsetenv
+-- Looking for unsetenv - found
+-- Looking for qsort
+-- Looking for qsort - found
+-- Looking for abs
+-- Looking for abs - found
+-- Looking for bcopy
+-- Looking for bcopy - found
+-- Looking for memset
+-- Looking for memset - found
+-- Looking for memcpy
+-- Looking for memcpy - found
+-- Looking for memmove
+-- Looking for memmove - found
+-- Looking for memcmp
+-- Looking for memcmp - found
+-- Looking for strlen
+-- Looking for strlen - found
+-- Looking for strlcpy
+-- Looking for strlcpy - not found
+-- Looking for strlcat
+-- Looking for strlcat - not found
+-- Looking for _strrev
+-- Looking for _strrev - not found
+-- Looking for _strupr
+-- Looking for _strupr - not found
+-- Looking for _strlwr
+-- Looking for _strlwr - not found
+-- Looking for index
+-- Looking for index - found
+-- Looking for rindex
+-- Looking for rindex - found
+-- Looking for strchr
+-- Looking for strchr - found
+-- Looking for strrchr
+-- Looking for strrchr - found
+-- Looking for strstr
+-- Looking for strstr - found
+-- Looking for strtok_r
+-- Looking for strtok_r - found
+-- Looking for itoa
+-- Looking for itoa - not found
+-- Looking for _ltoa
+-- Looking for _ltoa - not found
+-- Looking for _uitoa
+-- Looking for _uitoa - not found
+-- Looking for _ultoa
+-- Looking for _ultoa - not found
+-- Looking for strtol
+-- Looking for strtol - found
+-- Looking for strtoul
+-- Looking for strtoul - found
+-- Looking for _i64toa
+-- Looking for _i64toa - not found
+-- Looking for _ui64toa
+-- Looking for _ui64toa - not found
+-- Looking for strtoll
+-- Looking for strtoll - found
+-- Looking for strtoull
+-- Looking for strtoull - found
+-- Looking for atoi
+-- Looking for atoi - found
+-- Looking for atof
+-- Looking for atof - found
+-- Looking for strcmp
+-- Looking for strcmp - found
+-- Looking for strncmp
+-- Looking for strncmp - found
+-- Looking for _stricmp
+-- Looking for _stricmp - not found
+-- Looking for strcasecmp
+-- Looking for strcasecmp - found
+-- Looking for _strnicmp
+-- Looking for _strnicmp - not found
+-- Looking for strncasecmp
+-- Looking for strncasecmp - found
+-- Looking for wcscmp
+-- Looking for wcscmp - found
+-- Looking for _wcsdup
+-- Looking for _wcsdup - not found
+-- Looking for wcsdup
+-- Looking for wcsdup - found
+-- Looking for wcslcat
+-- Looking for wcslcat - not found
+-- Looking for wcslcpy
+-- Looking for wcslcpy - not found
+-- Looking for wcslen
+-- Looking for wcslen - found
+-- Looking for wcsncmp
+-- Looking for wcsncmp - found
+-- Looking for wcsstr
+-- Looking for wcsstr - found
+-- Looking for wcscasecmp
+-- Looking for wcscasecmp - found
+-- Looking for _wcsicmp
+-- Looking for _wcsicmp - not found
+-- Looking for wcsncasecmp
+-- Looking for wcsncasecmp - found
+-- Looking for _wcsnicmp
+-- Looking for _wcsnicmp - not found
+-- Looking for sscanf
+-- Looking for sscanf - found
+-- Looking for vsscanf
+-- Looking for vsscanf - found
+-- Looking for vsnprintf
+-- Looking for vsnprintf - found
+-- Looking for fopen64
+-- Looking for fopen64 - not found
+-- Looking for fseeko
+-- Looking for fseeko - found
+-- Looking for fseeko64
+-- Looking for fseeko64 - not found
+-- Looking for _Exit
+-- Looking for _Exit - found
+-- Looking for sigaction
+-- Looking for sigaction - found
+-- Looking for setjmp
+-- Looking for setjmp - found
+-- Looking for nanosleep
+-- Looking for nanosleep - found
+-- Looking for sysconf
+-- Looking for sysconf - found
+-- Looking for sysctlbyname
+-- Looking for sysctlbyname - not found
+-- Looking for getauxval
+-- Looking for getauxval - found
+-- Looking for elf_aux_info
+-- Looking for elf_aux_info - not found
+-- Looking for poll
+-- Looking for poll - found
+-- Looking for pow in m
+-- Looking for pow in m - found
+-- Looking for atan
+-- Looking for atan - found
+-- Looking for atan2
+-- Looking for atan2 - found
+-- Looking for atanf
+-- Looking for atanf - found
+-- Looking for atan2f
+-- Looking for atan2f - found
+-- Looking for ceil
+-- Looking for ceil - found
+-- Looking for ceilf
+-- Looking for ceilf - found
+-- Looking for copysign
+-- Looking for copysign - found
+-- Looking for copysignf
+-- Looking for copysignf - found
+-- Looking for cos
+-- Looking for cos - found
+-- Looking for cosf
+-- Looking for cosf - found
+-- Looking for exp
+-- Looking for exp - found
+-- Looking for expf
+-- Looking for expf - found
+-- Looking for fabs
+-- Looking for fabs - found
+-- Looking for fabsf
+-- Looking for fabsf - found
+-- Looking for floor
+-- Looking for floor - found
+-- Looking for floorf
+-- Looking for floorf - found
+-- Looking for fmod
+-- Looking for fmod - found
+-- Looking for fmodf
+-- Looking for fmodf - found
+-- Looking for log
+-- Looking for log - found
+-- Looking for logf
+-- Looking for logf - found
+-- Looking for log10
+-- Looking for log10 - found
+-- Looking for log10f
+-- Looking for log10f - found
+-- Looking for lround
+-- Looking for lround - found
+-- Looking for lroundf
+-- Looking for lroundf - found
+-- Looking for pow
+-- Looking for pow - found
+-- Looking for powf
+-- Looking for powf - found
+-- Looking for round
+-- Looking for round - found
+-- Looking for roundf
+-- Looking for roundf - found
+-- Looking for scalbn
+-- Looking for scalbn - found
+-- Looking for scalbnf
+-- Looking for scalbnf - found
+-- Looking for sin
+-- Looking for sin - found
+-- Looking for sinf
+-- Looking for sinf - found
+-- Looking for sqrt
+-- Looking for sqrt - found
+-- Looking for sqrtf
+-- Looking for sqrtf - found
+-- Looking for tan
+-- Looking for tan - found
+-- Looking for tanf
+-- Looking for tanf - found
+-- Looking for acos
+-- Looking for acos - found
+-- Looking for acosf
+-- Looking for acosf - found
+-- Looking for asin
+-- Looking for asin - found
+-- Looking for asinf
+-- Looking for asinf - found
+-- Looking for trunc
+-- Looking for trunc - found
+-- Looking for truncf
+-- Looking for truncf - found
+-- Looking for iconv_open in iconv
+-- Looking for iconv_open in iconv - not found
+-- Looking for iconv_open in c
+-- Looking for iconv_open in c - found
+-- Looking for alloca.h
+-- Looking for alloca.h - found
+-- Looking for alloca
+-- Looking for alloca - found
+-- Looking for alloca
+-- Looking for alloca - found
+-- Looking for alloca
+-- Looking for alloca - not found
+-- Performing Test HAVE_SA_SIGACTION
+-- Performing Test HAVE_SA_SIGACTION - Success
+-- Looking for dlopen
+-- Looking for dlopen - found
+-- Performing Test HAVE_O_CLOEXEC
+-- Performing Test HAVE_O_CLOEXEC - Success
+-- Checking for modules 'bcm_host;brcmegl'
+--   Package 'bcm_host', required by 'virtual:world', not found
+--   Package 'brcmegl', required by 'virtual:world', not found
+-- Performing Test HAVE_RPI
+-- Performing Test HAVE_RPI - Failed
+-- dynamic libX11 -> libX11.so.6
+-- dynamic libXext -> libXext.so.6
+-- dynamic libXrandr -> libXrandr.so.2
+-- dynamic libXrender -> libXrender.so.1
+-- Looking for X11/Xcursor/Xcursor.h
+-- Looking for X11/Xcursor/Xcursor.h - not found
+-- Looking for X11/extensions/Xinerama.h
+-- Looking for X11/extensions/Xinerama.h - not found
+-- Looking for X11/extensions/XInput2.h
+-- Looking for X11/extensions/XInput2.h - not found
+-- Looking for X11/extensions/Xrandr.h
+-- Looking for X11/extensions/Xrandr.h - found
+-- Looking for X11/extensions/Xfixes.h
+-- Looking for X11/extensions/Xfixes.h - not found
+-- Looking for X11/extensions/Xrender.h
+-- Looking for X11/extensions/Xrender.h - found
+-- Looking for X11/extensions/scrnsaver.h
+-- Looking for X11/extensions/scrnsaver.h - not found
+-- Looking for X11/extensions/shape.h
+-- Looking for X11/extensions/shape.h - found
+-- Looking for include files X11/Xlib.h, X11/extensions/Xdbe.h
+-- Looking for include files X11/Xlib.h, X11/extensions/Xdbe.h - found
+-- Looking for include files X11/Xlib.h, X11/extensions/xf86vmode.h
+-- Looking for include files X11/Xlib.h, X11/extensions/xf86vmode.h - not found
+-- Looking for 3 include files X11/Xlib.h, ..., X11/extensions/Xext.h
+-- Looking for 3 include files X11/Xlib.h, ..., X11/extensions/Xext.h - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Performing Test HAVE_XGENERICEVENT
+-- Performing Test HAVE_XGENERICEVENT - Success
+-- Looking for XkbKeycodeToKeysym
+-- Looking for XkbKeycodeToKeysym - found
+-- Checking for module 'egl'
+--   Found egl, version 1.5
+-- Performing Test HAVE_OPENGL_EGL
+-- Performing Test HAVE_OPENGL_EGL - Success
+-- Checking for modules 'libdrm;gbm;egl'
+--   Package 'libdrm', required by 'virtual:world', not found
+--   Package 'gbm', required by 'virtual:world', not found
+-- Performing Test HAVE_OPENGL_GLX
+-- Performing Test HAVE_OPENGL_GLX - Success
+-- Performing Test HAVE_OPENGL
+-- Performing Test HAVE_OPENGL - Success
+-- Performing Test HAVE_OPENGLES_V1
+-- Performing Test HAVE_OPENGLES_V1 - Success
+-- Performing Test HAVE_OPENGLES_V2
+-- Performing Test HAVE_OPENGLES_V2 - Success
+-- Checking for modules 'wayland-client;wayland-egl;wayland-cursor;egl;xkbcommon>=0.5.0'
+--   Package 'wayland-client', required by 'virtual:world', not found
+--   Package 'wayland-egl', required by 'virtual:world', not found
+--   Package 'wayland-cursor', required by 'virtual:world', not found
+--   Package 'xkbcommon', required by 'virtual:world', not found
+-- Performing Test HAVE_VIVANTE_VDK
+-- Performing Test HAVE_VIVANTE_VDK - Failed
+-- Performing Test HAVE_VIVANTE_EGL_FB
+-- Performing Test HAVE_VIVANTE_EGL_FB - Failed
+-- Performing Test HAVE_INPUT_EVENTS
+-- Performing Test HAVE_INPUT_EVENTS - Success
+-- Performing Test HAVE_INPUT_KD
+-- Performing Test HAVE_INPUT_KD - Success
+-- Looking for libudev.h
+-- Looking for libudev.h - not found
+-- Looking for sys/inotify.h
+-- Looking for sys/inotify.h - found
+-- Looking for inotify_init
+-- Looking for inotify_init - found
+-- Looking for inotify_init1
+-- Looking for inotify_init1 - found
+-- Checking for one of the modules 'dbus-1;dbus'
+-- Checking for one of the modules 'ibus-1.0;ibus'
+-- Checking for module 'libusb-1.0'
+--   Package 'libusb-1.0', required by 'virtual:world', not found
+-- Looking for clock_gettime in rt
+-- Looking for clock_gettime in rt - found
+-- Looking for linux/version.h
+-- Looking for linux/version.h - found
+-- Performing Test HAVE_ENABLE_NEW_DTAGS
+-- Performing Test HAVE_ENABLE_NEW_DTAGS - Success
+-- Found Git: /usr/bin/git (found version "2.39.2") 
+-- 
+-- SDL2 was configured with the following options:
+-- 
+-- Platform: Linux-6.6.28+rpt-rpi-2712
+-- 64-bit:   TRUE
+-- Compiler: /usr/bin/cc
+-- Revision: 
+-- 
+-- Subsystems:
+--   Atomic:	OFF
+--   Audio:	OFF
+--   Video:	ON
+--   Render:	ON
+--   Events:	ON
+--   Joystick:	ON
+--   Haptic:	ON
+--   Hidapi:	ON
+--   Power:	ON
+--   Threads:	OFF
+--   Timers:	ON
+--   File:	ON
+--   Loadso:	ON
+--   CPUinfo:	OFF
+--   Filesystem:	OFF
+--   Dlopen:	ON
+--   Sensor:	ON
+--   Locale:	ON
+-- 
+-- Options:
+--   SDL_3DNOW                   (Wanted: ON): OFF
+--   SDL_ALSA                    (Wanted: ON): OFF
+--   SDL_ALSA_SHARED             (Wanted: ON): OFF
+--   SDL_ALTIVEC                 (Wanted: ON): OFF
+--   SDL_ARMNEON                 (Wanted: OFF): OFF
+--   SDL_ARMSIMD                 (Wanted: OFF): OFF
+--   SDL_ARTS                    (Wanted: ON): OFF
+--   SDL_ARTS_SHARED             (Wanted: ON): OFF
+--   SDL_ASAN                    (Wanted: OFF): OFF
+--   SDL_ASSEMBLY                (Wanted: ON): ON
+--   SDL_ASSERTIONS              (Wanted: auto): auto
+--   SDL_BACKGROUNDING_SIGNAL    (Wanted: OFF): OFF
+--   SDL_CLOCK_GETTIME           (Wanted: ON): ON
+--   SDL_COCOA                   (Wanted: OFF): OFF
+--   SDL_DIRECTFB                (Wanted: OFF): OFF
+--   SDL_DIRECTFB_SHARED         (Wanted: OFF): OFF
+--   SDL_DIRECTX                 (Wanted: OFF): OFF
+--   SDL_DISKAUDIO               (Wanted: ON): OFF
+--   SDL_DUMMYAUDIO              (Wanted: ON): OFF
+--   SDL_DUMMYVIDEO              (Wanted: ON): ON
+--   SDL_ESD                     (Wanted: ON): OFF
+--   SDL_ESD_SHARED              (Wanted: ON): OFF
+--   SDL_FOREGROUNDING_SIGNAL    (Wanted: OFF): OFF
+--   SDL_FUSIONSOUND             (Wanted: OFF): OFF
+--   SDL_FUSIONSOUND_SHARED      (Wanted: OFF): OFF
+--   SDL_GCC_ATOMICS             (Wanted: ON): ON
+--   SDL_HIDAPI_JOYSTICK         (Wanted: ON): ON
+--   SDL_JACK                    (Wanted: ON): OFF
+--   SDL_JACK_SHARED             (Wanted: ON): OFF
+--   SDL_KMSDRM                  (Wanted: ON): OFF
+--   SDL_KMSDRM_SHARED           (Wanted: ON): OFF
+--   SDL_LIBC                    (Wanted: ON): ON
+--   SDL_LIBSAMPLERATE           (Wanted: ON): OFF
+--   SDL_LIBSAMPLERATE_SHARED    (Wanted: ON): OFF
+--   SDL_METAL                   (Wanted: OFF): OFF
+--   SDL_MMX                     (Wanted: ON): OFF
+--   SDL_NAS                     (Wanted: ON): OFF
+--   SDL_NAS_SHARED              (Wanted: ON): OFF
+--   SDL_OFFSCREEN               (Wanted: OFF): OFF
+--   SDL_OPENGL                  (Wanted: ON): ON
+--   SDL_OPENGLES                (Wanted: ON): ON
+--   SDL_OSS                     (Wanted: ON): OFF
+--   SDL_PIPEWIRE                (Wanted: ON): OFF
+--   SDL_PIPEWIRE_SHARED         (Wanted: ON): OFF
+--   SDL_PTHREADS                (Wanted: ON): OFF
+--   SDL_PTHREADS_SEM            (Wanted: ON): OFF
+--   SDL_PULSEAUDIO              (Wanted: ON): OFF
+--   SDL_PULSEAUDIO_SHARED       (Wanted: ON): OFF
+--   SDL_RENDER_D3D              (Wanted: OFF): OFF
+--   SDL_RENDER_METAL            (Wanted: OFF): OFF
+--   SDL_RPATH                   (Wanted: ON): ON
+--   SDL_RPI                     (Wanted: ON): OFF
+--   SDL_SNDIO                   (Wanted: ON): OFF
+--   SDL_SNDIO_SHARED            (Wanted: ON): OFF
+--   SDL_SSE                     (Wanted: ON): OFF
+--   SDL_SSE2                    (Wanted: ON): OFF
+--   SDL_SSE3                    (Wanted: ON): OFF
+--   SDL_SSEMATH                 (Wanted: ON): ON
+--   SDL_STATIC_PIC              (Wanted: OFF): OFF
+--   SDL_TEST                    (Wanted: OFF): OFF
+--   SDL_VIRTUAL_JOYSTICK        (Wanted: ON): ON
+--   SDL_VIVANTE                 (Wanted: ON): OFF
+--   SDL_VULKAN                  (Wanted: ON): ON
+--   SDL_WASAPI                  (Wanted: OFF): OFF
+--   SDL_WAYLAND                 (Wanted: ON): OFF
+--   SDL_WAYLAND_LIBDECOR        (Wanted: ON): OFF
+--   SDL_WAYLAND_LIBDECOR_SHARED (Wanted: ON): OFF
+--   SDL_WAYLAND_QT_TOUCH        (Wanted: ON): OFF
+--   SDL_WAYLAND_SHARED          (Wanted: ON): OFF
+--   SDL_X11                     (Wanted: ON): ON
+--   SDL_X11_SHARED              (Wanted: ON): ON
+--   SDL_X11_XCURSOR             (Wanted: ON): OFF
+--   SDL_X11_XDBE                (Wanted: ON): ON
+--   SDL_X11_XFIXES              (Wanted: ON): OFF
+--   SDL_X11_XINERAMA            (Wanted: ON): OFF
+--   SDL_X11_XINPUT              (Wanted: ON): OFF
+--   SDL_X11_XRANDR              (Wanted: ON): ON
+--   SDL_X11_XSCRNSAVER          (Wanted: ON): OFF
+--   SDL_X11_XSHAPE              (Wanted: ON): ON
+--   SDL_X11_XVM                 (Wanted: ON): OFF
+--   SDL_XINPUT                  (Wanted: OFF): OFF
+-- 
+--  CFLAGS:         -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos" -DHAVE_LINUX_VERSION_H
+--  EXTRA_CFLAGS:  -I/usr/include -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall 
+--  EXTRA_LDFLAGS: -Wl,--no-undefined
+--  EXTRA_LIBS:    m;rt
+-- 
+--  Build Shared Library: ON
+--  Build Static Library: OFF
+-- 
+-- If something was not detected, although the libraries
+-- were installed, then make sure you have set the
+-- CFLAGS and LDFLAGS environment variables correctly.
+-- 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build
+[ 75%] [34m[1mPerforming build step for 'SDL2-2.0.20'[0m
+[  1%] [32mBuilding C object CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.o[0m
+[  2%] [32m[1mLinking C static library libSDL2main.a[0m
+[  2%] Built target SDL2main
+[  2%] [32mBuilding C object CMakeFiles/SDL2.dir/src/SDL.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/SDL2.dir/src/SDL_error.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/SDL2.dir/src/SDL_hints.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/SDL2.dir/src/SDL_log.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/SDL2.dir/src/atomic/SDL_atomic.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/SDL2.dir/src/atomic/SDL_spinlock.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/SDL2.dir/src/audio/SDL_audio.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/SDL2.dir/src/audio/SDL_audiocvt.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/SDL2.dir/src/audio/SDL_audiodev.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/SDL2.dir/src/audio/SDL_audiotypecvt.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/SDL2.dir/src/audio/SDL_mixer.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/SDL2.dir/src/audio/SDL_wave.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/SDL2.dir/src/cpuinfo/SDL_cpuinfo.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/SDL2.dir/src/dynapi/SDL_dynapi.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/SDL2.dir/src/events/SDL_clipboardevents.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/SDL2.dir/src/events/SDL_displayevents.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/SDL2.dir/src/events/SDL_dropevents.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/SDL2.dir/src/events/SDL_events.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/SDL2.dir/src/events/SDL_gesture.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/SDL2.dir/src/events/SDL_keyboard.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/SDL2.dir/src/events/SDL_mouse.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/SDL2.dir/src/events/SDL_quit.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/SDL2.dir/src/events/SDL_touch.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/SDL2.dir/src/events/SDL_windowevents.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/SDL2.dir/src/events/imKStoUCS.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/SDL2.dir/src/file/SDL_rwops.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/SDL2.dir/src/haptic/SDL_haptic.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/SDL2.dir/src/hidapi/SDL_hidapi.c.o[0m
+[01m[K/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/hidapi/SDL_hidapi.c:969:1:[m[K [01;35m[Kwarning: [m[K‘[01m[KCopyHIDDeviceInfo[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+  969 | [01;35m[KCopyHIDDeviceInfo[m[K(struct SDL_hid_device_info *pSrc, struct SDL_hid_device_info *pDst)
+      | [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[ 19%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/e_atan2.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/e_exp.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/e_fmod.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/e_log.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/e_log10.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/e_pow.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/e_rem_pio2.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/e_sqrt.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/k_cos.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/k_rem_pio2.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/k_sin.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/k_tan.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/s_atan.c.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/s_copysign.c.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/s_cos.c.o[0m
+[ 28%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/s_fabs.c.o[0m
+[ 28%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/s_floor.c.o[0m
+[ 29%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/s_scalbn.c.o[0m
+[ 29%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/s_sin.c.o[0m
+[ 30%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/s_tan.c.o[0m
+[ 31%] [32mBuilding C object CMakeFiles/SDL2.dir/src/locale/SDL_locale.c.o[0m
+[ 31%] [32mBuilding C object CMakeFiles/SDL2.dir/src/misc/SDL_url.c.o[0m
+[ 32%] [32mBuilding C object CMakeFiles/SDL2.dir/src/power/SDL_power.c.o[0m
+[ 32%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/SDL_d3dmath.c.o[0m
+[ 33%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/SDL_render.c.o[0m
+[ 34%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/SDL_yuv_sw.c.o[0m
+[ 34%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/direct3d/SDL_render_d3d.c.o[0m
+[ 35%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/direct3d/SDL_shaders_d3d.c.o[0m
+[ 35%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/direct3d11/SDL_render_d3d11.c.o[0m
+[ 36%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/direct3d11/SDL_shaders_d3d11.c.o[0m
+[ 37%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/opengl/SDL_render_gl.c.o[0m
+[ 37%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/opengl/SDL_shaders_gl.c.o[0m
+[ 38%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/opengles/SDL_render_gles.c.o[0m
+[ 38%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/opengles2/SDL_render_gles2.c.o[0m
+[ 39%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/opengles2/SDL_shaders_gles2.c.o[0m
+[ 40%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/psp/SDL_render_psp.c.o[0m
+[ 40%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/software/SDL_blendfillrect.c.o[0m
+[ 41%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/software/SDL_blendline.c.o[0m
+[ 41%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/software/SDL_blendpoint.c.o[0m
+[ 42%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/software/SDL_drawline.c.o[0m
+[ 43%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/software/SDL_drawpoint.c.o[0m
+[ 43%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/software/SDL_render_sw.c.o[0m
+[ 44%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/software/SDL_rotate.c.o[0m
+[ 44%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/software/SDL_triangle.c.o[0m
+[ 45%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm.c.o[0m
+[ 45%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.o[0m
+[ 46%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.o[0m
+[ 47%] [32mBuilding C object CMakeFiles/SDL2.dir/src/sensor/SDL_sensor.c.o[0m
+[ 47%] [32mBuilding C object CMakeFiles/SDL2.dir/src/stdlib/SDL_crc32.c.o[0m
+[ 48%] [32mBuilding C object CMakeFiles/SDL2.dir/src/stdlib/SDL_getenv.c.o[0m
+[ 48%] [32mBuilding C object CMakeFiles/SDL2.dir/src/stdlib/SDL_iconv.c.o[0m
+[ 49%] [32mBuilding C object CMakeFiles/SDL2.dir/src/stdlib/SDL_malloc.c.o[0m
+[ 50%] [32mBuilding C object CMakeFiles/SDL2.dir/src/stdlib/SDL_qsort.c.o[0m
+[ 50%] [32mBuilding C object CMakeFiles/SDL2.dir/src/stdlib/SDL_stdlib.c.o[0m
+[ 51%] [32mBuilding C object CMakeFiles/SDL2.dir/src/stdlib/SDL_string.c.o[0m
+[ 51%] [32mBuilding C object CMakeFiles/SDL2.dir/src/stdlib/SDL_strtokr.c.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/SDL2.dir/src/thread/SDL_thread.c.o[0m
+[ 53%] [32mBuilding C object CMakeFiles/SDL2.dir/src/timer/SDL_timer.c.o[0m
+[ 53%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_RLEaccel.c.o[0m
+[ 54%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_blit.c.o[0m
+[ 54%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_blit_0.c.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_blit_1.c.o[0m
+[ 56%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_blit_A.c.o[0m
+[ 56%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_blit_N.c.o[0m
+[ 57%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_blit_auto.c.o[0m
+[ 57%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_blit_copy.c.o[0m
+[ 58%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_blit_slow.c.o[0m
+[ 58%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_bmp.c.o[0m
+[ 59%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_clipboard.c.o[0m
+[ 60%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_egl.c.o[0m
+[ 60%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_fillrect.c.o[0m
+[ 61%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_pixels.c.o[0m
+[ 61%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_rect.c.o[0m
+[ 62%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_shape.c.o[0m
+[ 63%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_stretch.c.o[0m
+[ 63%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_surface.c.o[0m
+[ 64%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_video.c.o[0m
+[ 64%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_vulkan_utils.c.o[0m
+[ 65%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_yuv.c.o[0m
+[ 66%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/yuv2rgb/yuv_rgb.c.o[0m
+[ 66%] [32mBuilding C object CMakeFiles/SDL2.dir/src/joystick/SDL_gamecontroller.c.o[0m
+[ 67%] [32mBuilding C object CMakeFiles/SDL2.dir/src/joystick/SDL_joystick.c.o[0m
+[ 67%] [32mBuilding C object CMakeFiles/SDL2.dir/src/loadso/dlopen/SDL_sysloadso.c.o[0m
+[ 68%] [32mBuilding C object CMakeFiles/SDL2.dir/src/joystick/virtual/SDL_virtualjoystick.c.o[0m
+[ 69%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullevents.c.o[0m
+[ 69%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullframebuffer.c.o[0m
+[ 70%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullvideo.c.o[0m
+[ 70%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/SDL_x11clipboard.c.o[0m
+[ 71%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/SDL_x11dyn.c.o[0m
+[ 72%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/SDL_x11events.c.o[0m
+[ 72%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/SDL_x11framebuffer.c.o[0m
+[ 73%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/SDL_x11keyboard.c.o[0m
+[ 73%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/SDL_x11messagebox.c.o[0m
+[ 74%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/SDL_x11modes.c.o[0m
+[ 74%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/SDL_x11mouse.c.o[0m
+[ 75%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/SDL_x11opengl.c.o[0m
+[ 76%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/SDL_x11opengles.c.o[0m
+[ 76%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/SDL_x11shape.c.o[0m
+[ 77%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/SDL_x11touch.c.o[0m
+[ 77%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/SDL_x11video.c.o[0m
+[ 78%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/SDL_x11vulkan.c.o[0m
+[ 79%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/SDL_x11window.c.o[0m
+[ 79%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/SDL_x11xfixes.c.o[0m
+[ 80%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/SDL_x11xinput2.c.o[0m
+[ 80%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/edid-parse.c.o[0m
+[ 81%] [32mBuilding C object CMakeFiles/SDL2.dir/src/core/unix/SDL_poll.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/SDL2.dir/src/haptic/linux/SDL_syshaptic.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev.c.o[0m
+[ 83%] [32mBuilding C object CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev_kbd.c.o[0m
+[ 83%] [32mBuilding C object CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev_capabilities.c.o[0m
+[ 84%] [32mBuilding C object CMakeFiles/SDL2.dir/src/core/linux/SDL_threadprio.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_luna.c.o[0m
+[ 86%] [32mBuilding C object CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.o[0m
+[ 86%] [32mBuilding C object CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steam.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_switch.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/SDL2.dir/src/joystick/linux/SDL_sysjoystick.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/SDL2.dir/src/joystick/steam/SDL_steamcontroller.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/SDL2.dir/src/misc/unix/SDL_sysurl.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/SDL2.dir/src/power/linux/SDL_syspower.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/SDL2.dir/src/locale/unix/SDL_syslocale.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/SDL2.dir/src/timer/unix/SDL_systimer.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/SDL2.dir/src/sensor/dummy/SDL_dummysensor.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/SDL2.dir/src/filesystem/dummy/SDL_sysfilesystem.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/SDL2.dir/src/thread/generic/SDL_syscond.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/SDL2.dir/src/thread/generic/SDL_sysmutex.c.o[0m
+[ 98%] [32mBuilding C object CMakeFiles/SDL2.dir/src/thread/generic/SDL_syssem.c.o[0m
+[ 98%] [32mBuilding C object CMakeFiles/SDL2.dir/src/thread/generic/SDL_systhread.c.o[0m
+[ 99%] [32mBuilding C object CMakeFiles/SDL2.dir/src/thread/generic/SDL_systls.c.o[0m
+[ 99%] [32mBuilding C object CMakeFiles/SDL2.dir/src/SDL_dataqueue.c.o[0m
+[100%] [32mBuilding C object CMakeFiles/SDL2.dir/src/SDL_assert.c.o[0m
+[100%] [32m[1mLinking C shared library libSDL2-2.0.so[0m
+[100%] Built target SDL2
+[ 87%] [34m[1mPerforming install step for 'SDL2-2.0.20'[0m
+[  2%] Built target SDL2main
+[100%] Built target SDL2
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/lib/libSDL2-2.0.so.0.18.2
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/lib/libSDL2-2.0.so.0
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/lib/libSDL2-2.0.so
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/lib/libSDL2main.a
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/lib/cmake/SDL2/SDL2Targets.cmake
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/lib/cmake/SDL2/SDL2Targets-noconfig.cmake
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/lib/cmake/SDL2/SDL2mainTargets.cmake
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/lib/cmake/SDL2/SDL2mainTargets-noconfig.cmake
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/lib/cmake/SDL2/SDL2Config.cmake
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/lib/cmake/SDL2/SDL2ConfigVersion.cmake
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_assert.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_atomic.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_audio.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_bits.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_blendmode.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_clipboard.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_config_android.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_config_emscripten.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_config_iphoneos.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_config_macosx.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_config_minimal.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_config_os2.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_config_pandora.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_config_psp.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_config_windows.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_config_winrt.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_config_wiz.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_copying.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_cpuinfo.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_egl.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_endian.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_error.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_events.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_filesystem.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_gamecontroller.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_gesture.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_haptic.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_hidapi.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_hints.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_joystick.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_keyboard.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_keycode.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_loadso.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_locale.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_log.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_main.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_messagebox.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_metal.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_misc.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_mouse.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_mutex.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_name.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_opengl.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_opengl_glext.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_opengles.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_opengles2.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_opengles2_gl2.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_opengles2_gl2ext.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_opengles2_gl2platform.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_opengles2_khrplatform.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_pixels.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_platform.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_power.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_quit.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_rect.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_render.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_rwops.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_scancode.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_sensor.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_shape.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_stdinc.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_surface.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_system.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_syswm.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_test.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_test_assert.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_test_common.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_test_compare.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_test_crc32.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_test_font.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_test_fuzzer.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_test_harness.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_test_images.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_test_log.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_test_md5.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_test_memory.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_test_random.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_thread.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_timer.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_touch.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_types.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_version.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_video.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_vulkan.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/begin_code.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/close_code.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_config.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_revision.h
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/lib/libSDL2.so
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/lib/pkgconfig/sdl2.pc
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/bin/sdl2-config
+-- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/share/aclocal/sdl2.m4
+[100%] [34m[1mCompleted 'SDL2-2.0.20'[0m
+[100%] Built target SDL2-2.0.20
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/bin/sdl2-config
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_assert.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_atomic.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_audio.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_bits.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_blendmode.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_clipboard.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_config.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_config_android.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_config_emscripten.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_config_iphoneos.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_config_macosx.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_config_minimal.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_config_os2.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_config_pandora.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_config_psp.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_config_windows.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_config_winrt.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_config_wiz.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_copying.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_cpuinfo.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_egl.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_endian.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_error.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_events.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_filesystem.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_gamecontroller.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_gesture.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_haptic.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_hidapi.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_hints.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_joystick.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_keyboard.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_keycode.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_loadso.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_locale.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_log.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_main.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_messagebox.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_metal.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_misc.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_mouse.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_mutex.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_name.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_opengl.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_opengl_glext.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_opengles.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_opengles2.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_opengles2_gl2.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_opengles2_gl2ext.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_opengles2_gl2platform.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_opengles2_khrplatform.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_pixels.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_platform.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_power.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_quit.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_rect.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_render.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_revision.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_rwops.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_scancode.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_sensor.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_shape.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_stdinc.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_surface.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_system.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_syswm.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_test.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_test_assert.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_test_common.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_test_compare.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_test_crc32.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_test_font.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_test_fuzzer.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_test_harness.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_test_images.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_test_log.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_test_md5.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_test_memory.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_test_random.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_thread.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_timer.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_touch.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_types.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_version.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_video.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_vulkan.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/begin_code.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/close_code.h
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/lib/cmake/SDL2/SDL2Config.cmake
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/lib/cmake/SDL2/SDL2ConfigVersion.cmake
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/lib/cmake/SDL2/SDL2Targets-noconfig.cmake
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/lib/cmake/SDL2/SDL2Targets.cmake
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/lib/cmake/SDL2/SDL2mainTargets-noconfig.cmake
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/lib/cmake/SDL2/SDL2mainTargets.cmake
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/lib/libSDL2-2.0.so
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/lib/libSDL2-2.0.so.0
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/lib/libSDL2-2.0.so.0.18.2
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/lib/libSDL2.so
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/lib/libSDL2main.a
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/lib/pkgconfig/sdl2.pc
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/aclocal/sdl2.m4
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/cmake/Modules/Findsdl2_custom.cmake
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/ament_index/resource_index/package_run_dependencies/sdl2_vendor
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/ament_index/resource_index/parent_prefix_path/sdl2_vendor
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/environment/ament_prefix_path.sh
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/environment/ament_prefix_path.dsv
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/environment/path.sh
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/environment/path.dsv
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/local_setup.bash
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/local_setup.sh
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/local_setup.zsh
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/local_setup.dsv
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/package.dsv
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/ament_index/resource_index/packages/sdl2_vendor
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/cmake/sdl2_vendor-extras.cmake
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/cmake/sdl2_vendorConfig.cmake
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/cmake/sdl2_vendorConfig-version.cmake
+-- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/package.xml

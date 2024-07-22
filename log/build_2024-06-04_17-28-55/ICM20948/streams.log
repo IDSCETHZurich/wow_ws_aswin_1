@@ -1,0 +1,27 @@
+[2.485s] Invoking command in '/home/pi/wow_ws/src/ICM20948': PYTHONPATH=/home/pi/wow_ws/build/ICM20948/prefix_override:/home/pi/wow_ws/install/ICM20948/lib/python3.11/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ICM20948 build --build-base /home/pi/wow_ws/build/ICM20948/build install --record /home/pi/wow_ws/build/ICM20948/install.log --single-version-externally-managed
+[3.350s] running egg_info
+[3.386s] writing ../../build/ICM20948/ICM20948.egg-info/PKG-INFO
+[3.386s] writing dependency_links to ../../build/ICM20948/ICM20948.egg-info/dependency_links.txt
+[3.388s] writing entry points to ../../build/ICM20948/ICM20948.egg-info/entry_points.txt
+[3.389s] writing requirements to ../../build/ICM20948/ICM20948.egg-info/requires.txt
+[3.393s] writing top-level names to ../../build/ICM20948/ICM20948.egg-info/top_level.txt
+[3.462s] reading manifest file '../../build/ICM20948/ICM20948.egg-info/SOURCES.txt'
+[3.463s] adding license file 'LICENSE'
+[3.463s] writing manifest file '../../build/ICM20948/ICM20948.egg-info/SOURCES.txt'
+[3.463s] running build
+[3.463s] running build_py
+[3.464s] copying ICM20948/ICM_raw_data.py -> /home/pi/wow_ws/build/ICM20948/build/lib/ICM20948
+[3.464s] running install
+[3.464s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.464s]   warnings.warn(
+[3.475s] running install_lib
+[3.510s] copying /home/pi/wow_ws/build/ICM20948/build/lib/ICM20948/ICM_raw_data.py -> /home/pi/wow_ws/install/ICM20948/lib/python3.11/site-packages/ICM20948
+[3.514s] byte-compiling /home/pi/wow_ws/install/ICM20948/lib/python3.11/site-packages/ICM20948/ICM_raw_data.py to ICM_raw_data.cpython-311.pyc
+[3.514s] running install_data
+[3.550s] running install_egg_info
+[3.643s] removing '/home/pi/wow_ws/install/ICM20948/lib/python3.11/site-packages/ICM20948-0.0.0-py3.11.egg-info' (and everything under it)
+[3.643s] Copying ../../build/ICM20948/ICM20948.egg-info to /home/pi/wow_ws/install/ICM20948/lib/python3.11/site-packages/ICM20948-0.0.0-py3.11.egg-info
+[3.644s] running install_scripts
+[3.788s] Installing ICM_raw_data script to /home/pi/wow_ws/install/ICM20948/lib/ICM20948
+[3.789s] writing list of installed files to '/home/pi/wow_ws/build/ICM20948/install.log'
+[3.925s] Invoked command in '/home/pi/wow_ws/src/ICM20948' returned '0': PYTHONPATH=/home/pi/wow_ws/build/ICM20948/prefix_override:/home/pi/wow_ws/install/ICM20948/lib/python3.11/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ICM20948 build --build-base /home/pi/wow_ws/build/ICM20948/build install --record /home/pi/wow_ws/build/ICM20948/install.log --single-version-externally-managed

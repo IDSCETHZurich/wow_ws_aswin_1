@@ -1,0 +1,16 @@
+/home/pi/wow_ws/install/joy_linux/lib/joy_linux/joy_linux_node
+/home/pi/wow_ws/install/joy_linux/share/ament_index/resource_index/package_run_dependencies/joy_linux
+/home/pi/wow_ws/install/joy_linux/share/ament_index/resource_index/parent_prefix_path/joy_linux
+/home/pi/wow_ws/install/joy_linux/share/joy_linux/environment/ament_prefix_path.sh
+/home/pi/wow_ws/install/joy_linux/share/joy_linux/environment/ament_prefix_path.dsv
+/home/pi/wow_ws/install/joy_linux/share/joy_linux/environment/path.sh
+/home/pi/wow_ws/install/joy_linux/share/joy_linux/environment/path.dsv
+/home/pi/wow_ws/install/joy_linux/share/joy_linux/local_setup.bash
+/home/pi/wow_ws/install/joy_linux/share/joy_linux/local_setup.sh
+/home/pi/wow_ws/install/joy_linux/share/joy_linux/local_setup.zsh
+/home/pi/wow_ws/install/joy_linux/share/joy_linux/local_setup.dsv
+/home/pi/wow_ws/install/joy_linux/share/joy_linux/package.dsv
+/home/pi/wow_ws/install/joy_linux/share/ament_index/resource_index/packages/joy_linux
+/home/pi/wow_ws/install/joy_linux/share/joy_linux/cmake/joy_linuxConfig.cmake
+/home/pi/wow_ws/install/joy_linux/share/joy_linux/cmake/joy_linuxConfig-version.cmake
+/home/pi/wow_ws/install/joy_linux/share/joy_linux/package.xml

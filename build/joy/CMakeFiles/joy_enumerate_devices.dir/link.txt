@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/joy_enumerate_devices.dir/src/joy_enumerate_devices.cpp.o -o joy_enumerate_devices  -Wl,-rpath,/home/pi/wow_ws/install/sdl2_vendor/lib /home/pi/wow_ws/install/sdl2_vendor/lib/libSDL2-2.0.so.0.18.2 

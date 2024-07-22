@@ -1,0 +1,2 @@
+gps_tools::UtmOdometryComponent;lib/libutm_odometry_component.so
+gps_tools::UtmOdometryToNavSatFixComponent;lib/libutm_odometry_to_navsatfix_component.so

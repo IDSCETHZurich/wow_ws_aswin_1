@@ -1,0 +1,123 @@
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.11.2 (/home/pi/ros2_iron/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.11.2") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found asio: /usr/include  
+-- Found diagnostic_msgs: 5.0.0 (/home/pi/ros2_iron/install/diagnostic_msgs/share/diagnostic_msgs/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/home/pi/ros2_iron/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/home/pi/ros2_iron/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found diagnostic_updater: 3.2.0 (/home/pi/wow_ws/install/diagnostic_updater/share/diagnostic_updater/cmake)
+-- Found rmw_implementation_cmake: 7.1.0 (/home/pi/ros2_iron/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.3 (/home/pi/ros2_iron/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.11")  
+-- Found FastRTPS: /home/pi/ros2_iron/install/fastrtps/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 5.0.0 (/home/pi/ros2_iron/install/geometry_msgs/share/geometry_msgs/cmake)
+-- Found nmea_msgs: 2.1.0 (/home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/cmake)
+-- Found rclcpp_components: 21.0.6 (/home/pi/ros2_iron/install/rclcpp_components/share/rclcpp_components/cmake)
+-- Found rtcm_msgs: 1.1.6 (/home/pi/wow_ws/install/rtcm_msgs/share/rtcm_msgs/cmake)
+-- Found sensor_msgs: 5.0.0 (/home/pi/ros2_iron/install/sensor_msgs/share/sensor_msgs/cmake)
+-- Found tf2: 0.31.6 (/home/pi/ros2_iron/install/tf2/share/tf2/cmake)
+-- Found ublox_msgs: 2.3.0 (/home/pi/wow_ws/install/ublox_msgs/share/ublox_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/wow_ws/build/ublox_gps
+[ 18%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/adr_udr_product.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/gnss.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/gps.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hp_pos_rec_product.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hpg_ref_product.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hpg_rov_product.cpp.o[0m
+[ 31%] [32mBuilding C object CMakeFiles/ublox_gps.dir/src/mkgmtime.c.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/node.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/raw_data_pa.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/raw_data_product.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/tim_product.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware6.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware7.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware8.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware9.cpp.o[0m
+[ 77%] [32m[1mLinking CXX shared library libublox_gps.so[0m
+[ 77%] Built target ublox_gps
+[ 90%] [32mBuilding CXX object CMakeFiles/ublox_gps_node.dir/src/node_main.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/ublox_logger.dir/src/raw_data_pa.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/ublox_logger.dir/src/logger_node_pa.cpp.o[0m
+[ 95%] [32m[1mLinking CXX executable ublox_gps_node[0m
+[100%] [32m[1mLinking CXX executable ublox_logger[0m
+[100%] Built target ublox_gps_node
+[100%] Built target ublox_logger
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/lib/ublox_gps/ublox_gps_node
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/lib/ublox_gps/ublox_logger
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/include/ublox_gps/ublox_gps/adr_udr_product.hpp
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/include/ublox_gps/ublox_gps/async_worker.hpp
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/include/ublox_gps/ublox_gps/callback.hpp
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/include/ublox_gps/ublox_gps/component_interface.hpp
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/include/ublox_gps/ublox_gps/fix_diagnostic.hpp
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/include/ublox_gps/ublox_gps/fts_product.hpp
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/include/ublox_gps/ublox_gps/gnss.hpp
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/include/ublox_gps/ublox_gps/gps.hpp
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/include/ublox_gps/ublox_gps/hp_pos_rec_product.hpp
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/include/ublox_gps/ublox_gps/hpg_ref_product.hpp
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/include/ublox_gps/ublox_gps/hpg_rov_product.hpp
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/include/ublox_gps/ublox_gps/mkgmtime.h
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/include/ublox_gps/ublox_gps/node.hpp
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/include/ublox_gps/ublox_gps/raw_data_pa.hpp
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/include/ublox_gps/ublox_gps/raw_data_product.hpp
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/include/ublox_gps/ublox_gps/rtcm.hpp
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/include/ublox_gps/ublox_gps/tim_product.hpp
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/include/ublox_gps/ublox_gps/ublox_firmware.hpp
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/include/ublox_gps/ublox_gps/ublox_firmware6.hpp
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/include/ublox_gps/ublox_gps/ublox_firmware7.hpp
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/include/ublox_gps/ublox_gps/ublox_firmware7plus.hpp
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/include/ublox_gps/ublox_gps/ublox_firmware8.hpp
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/include/ublox_gps/ublox_gps/ublox_firmware9.hpp
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/include/ublox_gps/ublox_gps/ublox_topic_diagnostic.hpp
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/include/ublox_gps/ublox_gps/utils.hpp
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/include/ublox_gps/ublox_gps/worker.hpp
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/share/ublox_gps/launch/ublox_gps_node-composed-launch.py
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/share/ublox_gps/launch/ublox_gps_node-launch.py
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/share/ublox_gps/config/c94_m8p_base.yaml
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/share/ublox_gps/config/c94_m8p_rover.yaml
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/share/ublox_gps/config/c94_m8t_base.yaml
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/share/ublox_gps/config/c94_m8t_rover.yaml
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/share/ublox_gps/config/neo_m8u_rover.yaml
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/share/ublox_gps/config/nmea.yaml
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/share/ublox_gps/config/zed_f9p.yaml
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/share/ament_index/resource_index/package_run_dependencies/ublox_gps
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/share/ament_index/resource_index/parent_prefix_path/ublox_gps
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/share/ublox_gps/environment/ament_prefix_path.sh
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/share/ublox_gps/environment/ament_prefix_path.dsv
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/share/ublox_gps/environment/path.sh
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/share/ublox_gps/environment/path.dsv
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/share/ublox_gps/local_setup.bash
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/share/ublox_gps/local_setup.sh
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/share/ublox_gps/local_setup.zsh
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/share/ublox_gps/local_setup.dsv
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/share/ublox_gps/package.dsv
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/share/ament_index/resource_index/packages/ublox_gps
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/share/ament_index/resource_index/rclcpp_components/ublox_gps
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/share/ublox_gps/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/share/ublox_gps/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/share/ublox_gps/cmake/ublox_gpsConfig.cmake
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/share/ublox_gps/cmake/ublox_gpsConfig-version.cmake
+-- Symlinking: /home/pi/wow_ws/install/ublox_gps/share/ublox_gps/package.xml
+-- Installing: /home/pi/wow_ws/install/ublox_gps/lib/libublox_gps.so
+-- Set runtime path of "/home/pi/wow_ws/install/ublox_gps/lib/libublox_gps.so" to ""
+-- Installing: /home/pi/wow_ws/install/ublox_gps/share/ublox_gps/cmake/export_ublox_gpsExport.cmake
+-- Installing: /home/pi/wow_ws/install/ublox_gps/share/ublox_gps/cmake/export_ublox_gpsExport-noconfig.cmake

@@ -1,0 +1,24 @@
+[  6%] [32mBuilding CXX object CMakeFiles/run_selftest.dir/src/run_selftest.cpp.o[0m
+[ 12%] [32m[1mLinking CXX executable run_selftest[0m
+[ 12%] Built target run_selftest
+[ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 25%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 25%] Built target gtest
+[ 31%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 37%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 37%] Built target gtest_main
+[ 43%] [32mBuilding CXX object CMakeFiles/selftest_example.dir/example/selftest_example.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable selftest_example[0m
+[ 50%] Built target selftest_example
+[ 56%] [32mBuilding CXX object test/CMakeFiles/test_exception_selftest.dir/exception_selftest.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable test_exception_selftest[0m
+[ 62%] Built target test_exception_selftest
+[ 68%] [32mBuilding CXX object test/CMakeFiles/test_error_selftest.dir/error_selftest.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable test_error_selftest[0m
+[ 75%] Built target test_error_selftest
+[ 81%] [32mBuilding CXX object test/CMakeFiles/test_no_id_selftest.dir/no_id_selftest.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable test_no_id_selftest[0m
+[ 87%] Built target test_no_id_selftest
+[ 93%] [32mBuilding CXX object test/CMakeFiles/test_nominal_selftest.dir/nominal_selftest.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_nominal_selftest[0m
+[100%] Built target test_nominal_selftest

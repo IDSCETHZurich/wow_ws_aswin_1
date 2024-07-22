@@ -1,0 +1,11 @@
+/home/pi/wow_ws/build/spacenav/CMakeFiles/uninstall.dir
+/home/pi/wow_ws/build/spacenav/CMakeFiles/spacenav_uninstall.dir
+/home/pi/wow_ws/build/spacenav/CMakeFiles/spacenav.dir
+/home/pi/wow_ws/build/spacenav/CMakeFiles/spacenav_node.dir
+/home/pi/wow_ws/build/spacenav/CMakeFiles/test.dir
+/home/pi/wow_ws/build/spacenav/CMakeFiles/edit_cache.dir
+/home/pi/wow_ws/build/spacenav/CMakeFiles/rebuild_cache.dir
+/home/pi/wow_ws/build/spacenav/CMakeFiles/list_install_components.dir
+/home/pi/wow_ws/build/spacenav/CMakeFiles/install.dir
+/home/pi/wow_ws/build/spacenav/CMakeFiles/install/local.dir
+/home/pi/wow_ws/build/spacenav/CMakeFiles/install/strip.dir

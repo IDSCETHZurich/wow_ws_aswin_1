@@ -1,0 +1,20 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:146: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing ICM20948.egg-info/PKG-INFO
+writing dependency_links to ICM20948.egg-info/dependency_links.txt
+writing entry points to ICM20948.egg-info/entry_points.txt
+writing requirements to ICM20948.egg-info/requires.txt
+writing top-level names to ICM20948.egg-info/top_level.txt
+reading manifest file 'ICM20948.egg-info/SOURCES.txt'
+writing manifest file 'ICM20948.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pi/wow_ws/install/ICM20948/lib/python3.11/site-packages/ICM20948.egg-link (link to .)
+Installing ICM_raw_data script to /home/pi/wow_ws/install/ICM20948/lib/ICM20948
+
+Installed /home/pi/wow_ws/build/ICM20948
+running install_data
+copying launch/imu_icm_launch.py -> /home/pi/wow_ws/install/ICM20948/share/ICM20948/launch

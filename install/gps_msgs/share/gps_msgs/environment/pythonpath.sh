@@ -1,0 +1,1 @@
+/home/pi/wow_ws/build/gps_msgs/ament_cmake_environment_hooks/pythonpath.sh

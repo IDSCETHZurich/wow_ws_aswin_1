@@ -1,0 +1,1 @@
+/home/pi/wow_ws/build/spacenav/ament_cmake_core/spacenavConfig-version.cmake

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: bno055
+Version: 0.5.0
+Summary: Bosch BNO055 IMU driver for ROS2
+Author: flynneva
+Author-email: evanflynn.msu@gmail.com
+Maintainer: flynneva
+Maintainer-email: evanflynn.msu@gmail.com
+License: BSD
+Keywords: ROS,ROS2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development

@@ -1,0 +1,6 @@
+setup.py
+diagnostic_aggregator/__init__.py
+diagnostic_aggregator.egg-info/PKG-INFO
+diagnostic_aggregator.egg-info/SOURCES.txt
+diagnostic_aggregator.egg-info/dependency_links.txt
+diagnostic_aggregator.egg-info/top_level.txt

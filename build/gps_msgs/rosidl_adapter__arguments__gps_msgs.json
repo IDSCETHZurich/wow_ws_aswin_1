@@ -1,0 +1,7 @@
+{
+  "package_name": "gps_msgs",
+  "non_idl_tuples": [
+    "/home/pi/wow_ws/src/gps_umd/gps_msgs:msg/GPSFix.msg",
+    "/home/pi/wow_ws/src/gps_umd/gps_msgs:msg/GPSStatus.msg"
+  ]
+}

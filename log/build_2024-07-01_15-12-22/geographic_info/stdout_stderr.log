@@ -1,0 +1,17 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/pi/wow_ws/install/geographic_info/share/ament_index/resource_index/package_run_dependencies/geographic_info
+-- Symlinking: /home/pi/wow_ws/install/geographic_info/share/ament_index/resource_index/parent_prefix_path/geographic_info
+-- Symlinking: /home/pi/wow_ws/install/geographic_info/share/geographic_info/environment/ament_prefix_path.sh
+-- Symlinking: /home/pi/wow_ws/install/geographic_info/share/geographic_info/environment/ament_prefix_path.dsv
+-- Symlinking: /home/pi/wow_ws/install/geographic_info/share/geographic_info/environment/path.sh
+-- Symlinking: /home/pi/wow_ws/install/geographic_info/share/geographic_info/environment/path.dsv
+-- Symlinking: /home/pi/wow_ws/install/geographic_info/share/geographic_info/local_setup.bash
+-- Symlinking: /home/pi/wow_ws/install/geographic_info/share/geographic_info/local_setup.sh
+-- Symlinking: /home/pi/wow_ws/install/geographic_info/share/geographic_info/local_setup.zsh
+-- Symlinking: /home/pi/wow_ws/install/geographic_info/share/geographic_info/local_setup.dsv
+-- Symlinking: /home/pi/wow_ws/install/geographic_info/share/geographic_info/package.dsv
+-- Symlinking: /home/pi/wow_ws/install/geographic_info/share/ament_index/resource_index/packages/geographic_info
+-- Symlinking: /home/pi/wow_ws/install/geographic_info/share/geographic_info/cmake/geographic_infoConfig.cmake
+-- Symlinking: /home/pi/wow_ws/install/geographic_info/share/geographic_info/cmake/geographic_infoConfig-version.cmake
+-- Symlinking: /home/pi/wow_ws/install/geographic_info/share/geographic_info/package.xml

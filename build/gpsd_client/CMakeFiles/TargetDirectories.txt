@@ -1,0 +1,10 @@
+/home/pi/wow_ws/build/gpsd_client/CMakeFiles/uninstall.dir
+/home/pi/wow_ws/build/gpsd_client/CMakeFiles/gpsd_client_uninstall.dir
+/home/pi/wow_ws/build/gpsd_client/CMakeFiles/gpsd_client.dir
+/home/pi/wow_ws/build/gpsd_client/CMakeFiles/test.dir
+/home/pi/wow_ws/build/gpsd_client/CMakeFiles/edit_cache.dir
+/home/pi/wow_ws/build/gpsd_client/CMakeFiles/rebuild_cache.dir
+/home/pi/wow_ws/build/gpsd_client/CMakeFiles/list_install_components.dir
+/home/pi/wow_ws/build/gpsd_client/CMakeFiles/install.dir
+/home/pi/wow_ws/build/gpsd_client/CMakeFiles/install/local.dir
+/home/pi/wow_ws/build/gpsd_client/CMakeFiles/install/strip.dir

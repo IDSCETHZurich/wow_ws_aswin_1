@@ -1,0 +1,8 @@
+source;share/geodesy/hook/cmake_prefix_path.dsv
+source;share/geodesy/hook/cmake_prefix_path.sh
+source;share/geodesy/hook/pythonpath.dsv
+source;share/geodesy/hook/pythonpath.sh
+source;share/geodesy/local_setup.bash
+source;share/geodesy/local_setup.dsv
+source;share/geodesy/local_setup.sh
+source;share/geodesy/local_setup.zsh

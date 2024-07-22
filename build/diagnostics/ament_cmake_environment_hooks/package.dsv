@@ -1,0 +1,4 @@
+source;share/diagnostics/local_setup.bash
+source;share/diagnostics/local_setup.dsv
+source;share/diagnostics/local_setup.sh
+source;share/diagnostics/local_setup.zsh

@@ -1,0 +1,10 @@
+setup.py
+geodesy/__init__.py
+geodesy/bounding_box.py
+geodesy/props.py
+geodesy/utm.py
+geodesy/wu_point.py
+geodesy.egg-info/PKG-INFO
+geodesy.egg-info/SOURCES.txt
+geodesy.egg-info/dependency_links.txt
+geodesy.egg-info/top_level.txt

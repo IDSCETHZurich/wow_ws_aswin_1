@@ -1,0 +1,1087 @@
+[0.050s] Invoking command in '/home/pi/wow_ws/build/sdl2_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_iron/install/rqt_bag_plugins:/home/pi/ros2_iron/install/rqt_bag:/home/pi/ros2_iron/install/rosbag2_examples_py:/home/pi/ros2_iron/install/launch_testing_examples:/home/pi/ros2_iron/install/ros2bag:/home/pi/ros2_iron/install/tracetools_test:/home/pi/ros2_iron/install/tracetools_launch:/home/pi/ros2_iron/install/topic_monitor:/home/pi/ros2_iron/install/tf2_tools:/home/pi/ros2_iron/install/examples_tf2_py:/home/pi/ros2_iron/install/tf2_ros_py:/home/pi/ros2_iron/install/examples_rclpy_pointcloud_publisher:/home/pi/ros2_iron/install/sensor_msgs_py:/home/pi/ros2_iron/install/quality_of_service_demo_py:/home/pi/ros2_iron/install/rqt_plot:/home/pi/ros2_iron/install/ros2doctor:/home/pi/ros2_iron/install/lifecycle_py:/home/pi/ros2_iron/install/examples_rclpy_minimal_subscriber:/home/pi/ros2_iron/install/examples_rclpy_minimal_service:/home/pi/ros2_iron/install/examples_rclpy_minimal_publisher:/home/pi/ros2_iron/install/examples_rclpy_minimal_client:/home/pi/ros2_iron/install/examples_rclpy_executors:/home/pi/ros2_iron/install/demo_nodes_py:/home/pi/ros2_iron/install/rqt:/home/pi/ros2_iron/install/ros2component:/home/pi/ros2_iron/install/sros2:/home/pi/ros2_iron/install/rqt_topic:/home/pi/ros2_iron/install/rqt_srv:/home/pi/ros2_iron/install/rqt_shell:/home/pi/ros2_iron/install/rqt_service_caller:/home/pi/ros2_iron/install/rqt_reconfigure:/home/pi/ros2_iron/install/rqt_py_console:/home/pi/ros2_iron/install/rqt_publisher:/home/pi/ros2_iron/install/rqt_action:/home/pi/ros2_iron/install/rqt_msg:/home/pi/ros2_iron/install/rqt_console:/home/pi/ros2_iron/install/rqt_graph:/home/pi/ros2_iron/install/rqt_gui_py:/home/pi/ros2_iron/install/rqt_gui:/home/pi/ros2_iron/install/ros2trace:/home/pi/ros2_iron/install/ros2topic:/home/pi/ros2_iron/install/ros2test:/home/pi/ros2_iron/install/ros2param:/home/pi/ros2_iron/install/ros2lifecycle:/home/pi/ros2_iron/install/ros2service:/home/pi/ros2_iron/install/ros2run:/home/pi/ros2_iron/install/ros2launch:/home/pi/ros2_iron/install/ros2pkg:/home/pi/ros2_iron/install/ros2node:/home/pi/ros2_iron/install/ros2multicast:/home/pi/ros2_iron/install/ros2interface:/home/pi/ros2_iron/install/ros2action:/home/pi/ros2_iron/install/ros2cli:/home/pi/ros2_iron/install/launch_testing_ros:/home/pi/ros2_iron/install/launch_ros:/home/pi/ros2_iron/install/examples_rclpy_minimal_action_server:/home/pi/ros2_iron/install/examples_rclpy_minimal_action_client:/home/pi/ros2_iron/install/examples_rclpy_guard_conditions:/home/pi/ros2_iron/install/action_tutorials_py:/home/pi/ros2_iron/install/ament_uncrustify:/home/pi/ros2_iron/install/tracetools_trace:/home/pi/ros2_iron/install/tracetools_read:/home/pi/ros2_iron/install/test_tracetools_launch:/home/pi/ros2_iron/install/test_ros2trace:/home/pi/ros2_iron/install/test_launch_ros:/home/pi/ros2_iron/install/rpyutils:/home/pi/ros2_iron/install/rosidl_runtime_py:/home/pi/ros2_iron/install/rosidl_pycommon:/home/pi/ros2_iron/install/rosidl_cli:/home/pi/ros2_iron/install/launch_pytest:/home/pi/ros2_iron/install/launch_testing:/home/pi/ros2_iron/install/launch_yaml:/home/pi/ros2_iron/install/launch_xml:/home/pi/ros2_iron/install/launch:/home/pi/ros2_iron/install/osrf_pycommon:/home/pi/ros2_iron/install/domain_coordinator:/home/pi/ros2_iron/install/ament_xmllint:/home/pi/ros2_iron/install/ament_pyflakes:/home/pi/ros2_iron/install/ament_pycodestyle:/home/pi/ros2_iron/install/ament_pep257:/home/pi/ros2_iron/install/ament_pclint:/home/pi/ros2_iron/install/ament_package:/home/pi/ros2_iron/install/ament_mypy:/home/pi/ros2_iron/install/ament_lint_cmake:/home/pi/ros2_iron/install/ament_flake8:/home/pi/ros2_iron/install/ament_copyright:/home/pi/ros2_iron/install/ament_lint:/home/pi/ros2_iron/install/ament_index_python:/home/pi/ros2_iron/install/ament_cpplint:/home/pi/ros2_iron/install/ament_cppcheck:/home/pi/ros2_iron/install/ament_clang_tidy:/home/pi/ros2_iron/install/ament_clang_format /usr/bin/cmake /home/pi/wow_ws/src/joystick_drivers/sdl2_vendor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/wow_ws/install/sdl2_vendor
+[0.244s] -- The C compiler identification is GNU 12.2.0
+[0.365s] -- The CXX compiler identification is GNU 12.2.0
+[0.387s] -- Detecting C compiler ABI info
+[0.597s] -- Detecting C compiler ABI info - done
+[0.618s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.619s] -- Detecting C compile features
+[0.620s] -- Detecting C compile features - done
+[0.629s] -- Detecting CXX compiler ABI info
+[0.857s] -- Detecting CXX compiler ABI info - done
+[0.881s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.882s] -- Detecting CXX compile features
+[0.889s] -- Detecting CXX compile features - done
+[0.906s] -- Found ament_cmake: 2.0.5 (/home/pi/ros2_iron/install/ament_cmake/share/ament_cmake/cmake)
+[3.596s] -- Found Python3: /usr/bin/python3 (found version "3.11.2") found components: Interpreter 
+[3.938s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.315s] [33mCMake Warning (dev) at /usr/share/cmake-3.25/Modules/ExternalProject.cmake:3075 (message):
+[4.315s]   The DOWNLOAD_EXTRACT_TIMESTAMP option was not given and policy CMP0135 is
+[4.315s]   not set.  The policy's OLD behavior will be used.  When using a URL
+[4.315s]   download, the timestamps of extracted files should preferably be that of
+[4.315s]   the time of extraction, otherwise code that depends on the extracted
+[4.315s]   contents might not be rebuilt if the URL changes.  The OLD behavior
+[4.315s]   preserves the timestamps from the archive instead, but this is usually not
+[4.315s]   what you want.  Update your project to the NEW behavior or specify the
+[4.315s]   DOWNLOAD_EXTRACT_TIMESTAMP option with a value of true to avoid this
+[4.315s]   robustness issue.
+[4.315s] Call Stack (most recent call first):
+[4.315s]   /usr/share/cmake-3.25/Modules/ExternalProject.cmake:4185 (_ep_add_download_command)
+[4.315s]   CMakeLists.txt:17 (ExternalProject_Add)
+[4.315s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.316s] [0m
+[4.749s] -- Configuring done
+[4.756s] -- Generating done
+[4.759s] -- Build files have been written to: /home/pi/wow_ws/build/sdl2_vendor
+[4.773s] Invoked command in '/home/pi/wow_ws/build/sdl2_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_iron/install/rqt_bag_plugins:/home/pi/ros2_iron/install/rqt_bag:/home/pi/ros2_iron/install/rosbag2_examples_py:/home/pi/ros2_iron/install/launch_testing_examples:/home/pi/ros2_iron/install/ros2bag:/home/pi/ros2_iron/install/tracetools_test:/home/pi/ros2_iron/install/tracetools_launch:/home/pi/ros2_iron/install/topic_monitor:/home/pi/ros2_iron/install/tf2_tools:/home/pi/ros2_iron/install/examples_tf2_py:/home/pi/ros2_iron/install/tf2_ros_py:/home/pi/ros2_iron/install/examples_rclpy_pointcloud_publisher:/home/pi/ros2_iron/install/sensor_msgs_py:/home/pi/ros2_iron/install/quality_of_service_demo_py:/home/pi/ros2_iron/install/rqt_plot:/home/pi/ros2_iron/install/ros2doctor:/home/pi/ros2_iron/install/lifecycle_py:/home/pi/ros2_iron/install/examples_rclpy_minimal_subscriber:/home/pi/ros2_iron/install/examples_rclpy_minimal_service:/home/pi/ros2_iron/install/examples_rclpy_minimal_publisher:/home/pi/ros2_iron/install/examples_rclpy_minimal_client:/home/pi/ros2_iron/install/examples_rclpy_executors:/home/pi/ros2_iron/install/demo_nodes_py:/home/pi/ros2_iron/install/rqt:/home/pi/ros2_iron/install/ros2component:/home/pi/ros2_iron/install/sros2:/home/pi/ros2_iron/install/rqt_topic:/home/pi/ros2_iron/install/rqt_srv:/home/pi/ros2_iron/install/rqt_shell:/home/pi/ros2_iron/install/rqt_service_caller:/home/pi/ros2_iron/install/rqt_reconfigure:/home/pi/ros2_iron/install/rqt_py_console:/home/pi/ros2_iron/install/rqt_publisher:/home/pi/ros2_iron/install/rqt_action:/home/pi/ros2_iron/install/rqt_msg:/home/pi/ros2_iron/install/rqt_console:/home/pi/ros2_iron/install/rqt_graph:/home/pi/ros2_iron/install/rqt_gui_py:/home/pi/ros2_iron/install/rqt_gui:/home/pi/ros2_iron/install/ros2trace:/home/pi/ros2_iron/install/ros2topic:/home/pi/ros2_iron/install/ros2test:/home/pi/ros2_iron/install/ros2param:/home/pi/ros2_iron/install/ros2lifecycle:/home/pi/ros2_iron/install/ros2service:/home/pi/ros2_iron/install/ros2run:/home/pi/ros2_iron/install/ros2launch:/home/pi/ros2_iron/install/ros2pkg:/home/pi/ros2_iron/install/ros2node:/home/pi/ros2_iron/install/ros2multicast:/home/pi/ros2_iron/install/ros2interface:/home/pi/ros2_iron/install/ros2action:/home/pi/ros2_iron/install/ros2cli:/home/pi/ros2_iron/install/launch_testing_ros:/home/pi/ros2_iron/install/launch_ros:/home/pi/ros2_iron/install/examples_rclpy_minimal_action_server:/home/pi/ros2_iron/install/examples_rclpy_minimal_action_client:/home/pi/ros2_iron/install/examples_rclpy_guard_conditions:/home/pi/ros2_iron/install/action_tutorials_py:/home/pi/ros2_iron/install/ament_uncrustify:/home/pi/ros2_iron/install/tracetools_trace:/home/pi/ros2_iron/install/tracetools_read:/home/pi/ros2_iron/install/test_tracetools_launch:/home/pi/ros2_iron/install/test_ros2trace:/home/pi/ros2_iron/install/test_launch_ros:/home/pi/ros2_iron/install/rpyutils:/home/pi/ros2_iron/install/rosidl_runtime_py:/home/pi/ros2_iron/install/rosidl_pycommon:/home/pi/ros2_iron/install/rosidl_cli:/home/pi/ros2_iron/install/launch_pytest:/home/pi/ros2_iron/install/launch_testing:/home/pi/ros2_iron/install/launch_yaml:/home/pi/ros2_iron/install/launch_xml:/home/pi/ros2_iron/install/launch:/home/pi/ros2_iron/install/osrf_pycommon:/home/pi/ros2_iron/install/domain_coordinator:/home/pi/ros2_iron/install/ament_xmllint:/home/pi/ros2_iron/install/ament_pyflakes:/home/pi/ros2_iron/install/ament_pycodestyle:/home/pi/ros2_iron/install/ament_pep257:/home/pi/ros2_iron/install/ament_pclint:/home/pi/ros2_iron/install/ament_package:/home/pi/ros2_iron/install/ament_mypy:/home/pi/ros2_iron/install/ament_lint_cmake:/home/pi/ros2_iron/install/ament_flake8:/home/pi/ros2_iron/install/ament_copyright:/home/pi/ros2_iron/install/ament_lint:/home/pi/ros2_iron/install/ament_index_python:/home/pi/ros2_iron/install/ament_cpplint:/home/pi/ros2_iron/install/ament_cppcheck:/home/pi/ros2_iron/install/ament_clang_tidy:/home/pi/ros2_iron/install/ament_clang_format /usr/bin/cmake /home/pi/wow_ws/src/joystick_drivers/sdl2_vendor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/wow_ws/install/sdl2_vendor
+[4.775s] Invoking command in '/home/pi/wow_ws/build/sdl2_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_iron/install/rqt_bag_plugins:/home/pi/ros2_iron/install/rqt_bag:/home/pi/ros2_iron/install/rosbag2_examples_py:/home/pi/ros2_iron/install/launch_testing_examples:/home/pi/ros2_iron/install/ros2bag:/home/pi/ros2_iron/install/tracetools_test:/home/pi/ros2_iron/install/tracetools_launch:/home/pi/ros2_iron/install/topic_monitor:/home/pi/ros2_iron/install/tf2_tools:/home/pi/ros2_iron/install/examples_tf2_py:/home/pi/ros2_iron/install/tf2_ros_py:/home/pi/ros2_iron/install/examples_rclpy_pointcloud_publisher:/home/pi/ros2_iron/install/sensor_msgs_py:/home/pi/ros2_iron/install/quality_of_service_demo_py:/home/pi/ros2_iron/install/rqt_plot:/home/pi/ros2_iron/install/ros2doctor:/home/pi/ros2_iron/install/lifecycle_py:/home/pi/ros2_iron/install/examples_rclpy_minimal_subscriber:/home/pi/ros2_iron/install/examples_rclpy_minimal_service:/home/pi/ros2_iron/install/examples_rclpy_minimal_publisher:/home/pi/ros2_iron/install/examples_rclpy_minimal_client:/home/pi/ros2_iron/install/examples_rclpy_executors:/home/pi/ros2_iron/install/demo_nodes_py:/home/pi/ros2_iron/install/rqt:/home/pi/ros2_iron/install/ros2component:/home/pi/ros2_iron/install/sros2:/home/pi/ros2_iron/install/rqt_topic:/home/pi/ros2_iron/install/rqt_srv:/home/pi/ros2_iron/install/rqt_shell:/home/pi/ros2_iron/install/rqt_service_caller:/home/pi/ros2_iron/install/rqt_reconfigure:/home/pi/ros2_iron/install/rqt_py_console:/home/pi/ros2_iron/install/rqt_publisher:/home/pi/ros2_iron/install/rqt_action:/home/pi/ros2_iron/install/rqt_msg:/home/pi/ros2_iron/install/rqt_console:/home/pi/ros2_iron/install/rqt_graph:/home/pi/ros2_iron/install/rqt_gui_py:/home/pi/ros2_iron/install/rqt_gui:/home/pi/ros2_iron/install/ros2trace:/home/pi/ros2_iron/install/ros2topic:/home/pi/ros2_iron/install/ros2test:/home/pi/ros2_iron/install/ros2param:/home/pi/ros2_iron/install/ros2lifecycle:/home/pi/ros2_iron/install/ros2service:/home/pi/ros2_iron/install/ros2run:/home/pi/ros2_iron/install/ros2launch:/home/pi/ros2_iron/install/ros2pkg:/home/pi/ros2_iron/install/ros2node:/home/pi/ros2_iron/install/ros2multicast:/home/pi/ros2_iron/install/ros2interface:/home/pi/ros2_iron/install/ros2action:/home/pi/ros2_iron/install/ros2cli:/home/pi/ros2_iron/install/launch_testing_ros:/home/pi/ros2_iron/install/launch_ros:/home/pi/ros2_iron/install/examples_rclpy_minimal_action_server:/home/pi/ros2_iron/install/examples_rclpy_minimal_action_client:/home/pi/ros2_iron/install/examples_rclpy_guard_conditions:/home/pi/ros2_iron/install/action_tutorials_py:/home/pi/ros2_iron/install/ament_uncrustify:/home/pi/ros2_iron/install/tracetools_trace:/home/pi/ros2_iron/install/tracetools_read:/home/pi/ros2_iron/install/test_tracetools_launch:/home/pi/ros2_iron/install/test_ros2trace:/home/pi/ros2_iron/install/test_launch_ros:/home/pi/ros2_iron/install/rpyutils:/home/pi/ros2_iron/install/rosidl_runtime_py:/home/pi/ros2_iron/install/rosidl_pycommon:/home/pi/ros2_iron/install/rosidl_cli:/home/pi/ros2_iron/install/launch_pytest:/home/pi/ros2_iron/install/launch_testing:/home/pi/ros2_iron/install/launch_yaml:/home/pi/ros2_iron/install/launch_xml:/home/pi/ros2_iron/install/launch:/home/pi/ros2_iron/install/osrf_pycommon:/home/pi/ros2_iron/install/domain_coordinator:/home/pi/ros2_iron/install/ament_xmllint:/home/pi/ros2_iron/install/ament_pyflakes:/home/pi/ros2_iron/install/ament_pycodestyle:/home/pi/ros2_iron/install/ament_pep257:/home/pi/ros2_iron/install/ament_pclint:/home/pi/ros2_iron/install/ament_package:/home/pi/ros2_iron/install/ament_mypy:/home/pi/ros2_iron/install/ament_lint_cmake:/home/pi/ros2_iron/install/ament_flake8:/home/pi/ros2_iron/install/ament_copyright:/home/pi/ros2_iron/install/ament_lint:/home/pi/ros2_iron/install/ament_index_python:/home/pi/ros2_iron/install/ament_cpplint:/home/pi/ros2_iron/install/ament_cppcheck:/home/pi/ros2_iron/install/ament_clang_tidy:/home/pi/ros2_iron/install/ament_clang_format /usr/bin/cmake --build /home/pi/wow_ws/build/sdl2_vendor -- -j4 -l4
+[4.945s] [ 12%] [34m[1mCreating directories for 'SDL2-2.0.20'[0m
+[5.036s] [ 25%] [34m[1mPerforming download step (download, verify and extract) for 'SDL2-2.0.20'[0m
+[5.069s] -- Downloading...
+[5.070s]    dst='/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20.tar.gz'
+[5.070s]    timeout='none'
+[5.070s]    inactivity timeout='none'
+[5.071s] -- Using src='https://www.libsdl.org/release/SDL2-2.0.20.tar.gz'
+[5.879s] -- [download 0% complete]
+[6.193s] -- [download 1% complete]
+[6.350s] -- [download 2% complete]
+[6.351s] -- [download 3% complete]
+[6.508s] -- [download 4% complete]
+[6.509s] -- [download 5% complete]
+[6.510s] -- [download 6% complete]
+[6.665s] -- [download 7% complete]
+[6.666s] -- [download 8% complete]
+[6.666s] -- [download 9% complete]
+[6.667s] -- [download 10% complete]
+[6.668s] -- [download 11% complete]
+[6.668s] -- [download 12% complete]
+[6.669s] -- [download 13% complete]
+[6.822s] -- [download 14% complete]
+[6.823s] -- [download 15% complete]
+[6.824s] -- [download 16% complete]
+[6.825s] -- [download 17% complete]
+[6.826s] -- [download 18% complete]
+[6.826s] -- [download 19% complete]
+[6.827s] -- [download 20% complete]
+[6.827s] -- [download 21% complete]
+[6.828s] -- [download 22% complete]
+[6.988s] -- [download 23% complete]
+[6.989s] -- [download 24% complete]
+[7.136s] -- [download 25% complete]
+[7.139s] -- [download 36% complete]
+[7.143s] -- [download 37% complete]
+[7.144s] -- [download 38% complete]
+[7.144s] -- [download 39% complete]
+[7.145s] -- [download 40% complete]
+[7.145s] -- [download 41% complete]
+[7.146s] -- [download 42% complete]
+[7.146s] -- [download 43% complete]
+[7.148s] -- [download 44% complete]
+[7.223s] -- [download 55% complete]
+[7.317s] -- [download 70% complete]
+[7.453s] -- [download 71% complete]
+[7.456s] -- [download 72% complete]
+[7.456s] -- [download 73% complete]
+[7.458s] -- [download 74% complete]
+[7.459s] -- [download 75% complete]
+[7.460s] -- [download 76% complete]
+[7.463s] -- [download 77% complete]
+[7.464s] -- [download 78% complete]
+[7.464s] -- [download 79% complete]
+[7.465s] -- [download 80% complete]
+[7.465s] -- [download 81% complete]
+[7.611s] -- [download 82% complete]
+[7.613s] -- [download 83% complete]
+[7.614s] -- [download 84% complete]
+[7.615s] -- [download 85% complete]
+[7.616s] -- [download 86% complete]
+[7.617s] -- [download 87% complete]
+[7.620s] -- [download 88% complete]
+[7.621s] -- [download 89% complete]
+[7.622s] -- [download 90% complete]
+[7.622s] -- [download 91% complete]
+[7.623s] -- [download 92% complete]
+[7.768s] -- [download 93% complete]
+[7.770s] -- [download 94% complete]
+[7.771s] -- [download 95% complete]
+[7.773s] -- [download 96% complete]
+[7.773s] -- [download 97% complete]
+[7.774s] -- [download 98% complete]
+[7.776s] -- [download 99% complete]
+[7.778s] -- [download 100% complete]
+[7.781s] -- verifying file...
+[7.781s]        file='/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20.tar.gz'
+[7.801s] -- Downloading... done
+[7.864s] -- extracting...
+[7.864s]      src='/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20.tar.gz'
+[7.864s]      dst='/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20'
+[7.865s] -- extracting... [tar xfz]
+[8.196s] -- extracting... [analysis]
+[8.196s] -- extracting... [rename]
+[8.196s] -- extracting... [clean up]
+[8.196s] -- extracting... done
+[8.273s] [ 37%] [34m[1mNo update step for 'SDL2-2.0.20'[0m
+[8.381s] [ 50%] [34m[1mPerforming patch step for 'SDL2-2.0.20'[0m
+[8.518s] [ 62%] [34m[1mPerforming configure step for 'SDL2-2.0.20'[0m
+[8.787s] -- The C compiler identification is GNU 12.2.0
+[9.000s] -- The CXX compiler identification is GNU 12.2.0
+[9.046s] -- Detecting C compiler ABI info
+[9.420s] -- Detecting C compiler ABI info - done
+[9.447s] -- Check for working C compiler: /usr/bin/cc - skipped
+[9.447s] -- Detecting C compile features
+[9.453s] -- Detecting C compile features - done
+[9.457s] -- Detecting CXX compiler ABI info
+[9.876s] -- Detecting CXX compiler ABI info - done
+[9.905s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[9.905s] -- Detecting CXX compile features
+[9.905s] -- Detecting CXX compile features - done
+[9.944s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[9.975s] -- Performing Test HAVE_GCC_WALL
+[10.348s] -- Performing Test HAVE_GCC_WALL - Success
+[10.353s] -- Performing Test HAVE_GCC_NO_STRICT_ALIASING
+[10.735s] -- Performing Test HAVE_GCC_NO_STRICT_ALIASING - Success
+[10.738s] -- Performing Test HAVE_GCC_WDECLARATION_AFTER_STATEMENT
+[11.084s] -- Performing Test HAVE_GCC_WDECLARATION_AFTER_STATEMENT - Success
+[11.086s] -- Performing Test HAVE_GCC_WERROR_DECLARATION_AFTER_STATEMENT
+[11.350s] -- Performing Test HAVE_GCC_WERROR_DECLARATION_AFTER_STATEMENT - Success
+[11.350s] -- Performing Test HAVE_GCC_ATOMICS
+[11.563s] -- Performing Test HAVE_GCC_ATOMICS - Success
+[11.563s] -- Performing Test HAVE_GCC_PREFERRED_STACK_BOUNDARY
+[11.641s] -- Performing Test HAVE_GCC_PREFERRED_STACK_BOUNDARY - Failed
+[11.642s] -- Performing Test HAVE_GCC_FVISIBILITY
+[11.861s] -- Performing Test HAVE_GCC_FVISIBILITY - Success
+[11.862s] -- Performing Test HAVE_GCC_WSHADOW
+[12.073s] -- Performing Test HAVE_GCC_WSHADOW - Success
+[12.075s] -- Performing Test HAVE_NO_UNDEFINED
+[12.321s] -- Performing Test HAVE_NO_UNDEFINED - Success
+[12.322s] -- Performing Test HAVE_MMX
+[12.393s] -- Performing Test HAVE_MMX - Failed
+[12.393s] -- Performing Test HAVE_3DNOW
+[12.469s] -- Performing Test HAVE_3DNOW - Failed
+[12.469s] -- Performing Test HAVE_SSE
+[12.536s] -- Performing Test HAVE_SSE - Failed
+[12.537s] -- Performing Test HAVE_SSE2
+[12.598s] -- Performing Test HAVE_SSE2 - Failed
+[12.598s] -- Performing Test HAVE_SSE3
+[12.669s] -- Performing Test HAVE_SSE3 - Failed
+[12.687s] -- Looking for immintrin.h
+[12.802s] -- Looking for immintrin.h - not found
+[12.803s] -- Performing Test HAVE_ALTIVEC_H_HDR
+[12.888s] -- Performing Test HAVE_ALTIVEC_H_HDR - Failed
+[12.889s] -- Performing Test HAVE_ALTIVEC
+[12.969s] -- Performing Test HAVE_ALTIVEC - Failed
+[12.969s] -- Looking for sys/types.h
+[13.181s] -- Looking for sys/types.h - found
+[13.181s] -- Looking for stdio.h
+[13.380s] -- Looking for stdio.h - found
+[13.380s] -- Looking for stdlib.h
+[13.637s] -- Looking for stdlib.h - found
+[13.637s] -- Looking for stddef.h
+[13.879s] -- Looking for stddef.h - found
+[13.879s] -- Looking for stdarg.h
+[14.118s] -- Looking for stdarg.h - found
+[14.118s] -- Looking for malloc.h
+[14.340s] -- Looking for malloc.h - found
+[14.340s] -- Looking for memory.h
+[14.556s] -- Looking for memory.h - found
+[14.556s] -- Looking for string.h
+[14.741s] -- Looking for string.h - found
+[14.741s] -- Looking for limits.h
+[14.932s] -- Looking for limits.h - found
+[14.932s] -- Looking for float.h
+[15.157s] -- Looking for float.h - found
+[15.157s] -- Looking for strings.h
+[15.361s] -- Looking for strings.h - found
+[15.361s] -- Looking for wchar.h
+[15.561s] -- Looking for wchar.h - found
+[15.561s] -- Looking for inttypes.h
+[15.757s] -- Looking for inttypes.h - found
+[15.757s] -- Looking for stdint.h
+[15.949s] -- Looking for stdint.h - found
+[15.950s] -- Looking for ctype.h
+[16.168s] -- Looking for ctype.h - found
+[16.168s] -- Looking for math.h
+[16.385s] -- Looking for math.h - found
+[16.385s] -- Looking for iconv.h
+[16.579s] -- Looking for iconv.h - found
+[16.579s] -- Looking for signal.h
+[16.778s] -- Looking for signal.h - found
+[16.781s] -- Looking for libunwind.h
+[16.859s] -- Looking for libunwind.h - not found
+[16.859s] -- Looking for 7 include files stddef.h, ..., float.h
+[17.077s] -- Looking for 7 include files stddef.h, ..., float.h - found
+[17.077s] -- Check size of size_t
+[17.291s] -- Check size of size_t - done
+[17.292s] -- Looking for M_PI
+[17.508s] -- Looking for M_PI - found
+[17.508s] -- Performing Test HAVE_MPROTECT
+[17.930s] -- Performing Test HAVE_MPROTECT - Success
+[17.930s] -- Looking for strtod
+[18.141s] -- Looking for strtod - found
+[18.141s] -- Looking for malloc
+[18.360s] -- Looking for malloc - found
+[18.360s] -- Looking for calloc
+[18.573s] -- Looking for calloc - found
+[18.573s] -- Looking for realloc
+[18.808s] -- Looking for realloc - found
+[18.809s] -- Looking for free
+[19.022s] -- Looking for free - found
+[19.022s] -- Looking for getenv
+[19.232s] -- Looking for getenv - found
+[19.233s] -- Looking for setenv
+[19.445s] -- Looking for setenv - found
+[19.445s] -- Looking for putenv
+[19.660s] -- Looking for putenv - found
+[19.660s] -- Looking for unsetenv
+[19.872s] -- Looking for unsetenv - found
+[19.872s] -- Looking for qsort
+[20.080s] -- Looking for qsort - found
+[20.081s] -- Looking for abs
+[20.289s] -- Looking for abs - found
+[20.289s] -- Looking for bcopy
+[20.545s] -- Looking for bcopy - found
+[20.545s] -- Looking for memset
+[20.757s] -- Looking for memset - found
+[20.757s] -- Looking for memcpy
+[20.981s] -- Looking for memcpy - found
+[20.981s] -- Looking for memmove
+[21.221s] -- Looking for memmove - found
+[21.221s] -- Looking for memcmp
+[21.442s] -- Looking for memcmp - found
+[21.442s] -- Looking for strlen
+[21.652s] -- Looking for strlen - found
+[21.652s] -- Looking for strlcpy
+[21.750s] -- Looking for strlcpy - not found
+[21.750s] -- Looking for strlcat
+[21.844s] -- Looking for strlcat - not found
+[21.849s] -- Looking for _strrev
+[21.941s] -- Looking for _strrev - not found
+[21.941s] -- Looking for _strupr
+[22.030s] -- Looking for _strupr - not found
+[22.031s] -- Looking for _strlwr
+[22.126s] -- Looking for _strlwr - not found
+[22.129s] -- Looking for index
+[22.338s] -- Looking for index - found
+[22.338s] -- Looking for rindex
+[22.556s] -- Looking for rindex - found
+[22.556s] -- Looking for strchr
+[22.765s] -- Looking for strchr - found
+[22.768s] -- Looking for strrchr
+[22.999s] -- Looking for strrchr - found
+[22.999s] -- Looking for strstr
+[23.233s] -- Looking for strstr - found
+[23.237s] -- Looking for strtok_r
+[23.490s] -- Looking for strtok_r - found
+[23.491s] -- Looking for itoa
+[23.600s] -- Looking for itoa - not found
+[23.601s] -- Looking for _ltoa
+[23.713s] -- Looking for _ltoa - not found
+[23.713s] -- Looking for _uitoa
+[23.827s] -- Looking for _uitoa - not found
+[23.829s] -- Looking for _ultoa
+[24.177s] -- Looking for _ultoa - not found
+[24.177s] -- Looking for strtol
+[24.416s] -- Looking for strtol - found
+[24.417s] -- Looking for strtoul
+[24.670s] -- Looking for strtoul - found
+[24.671s] -- Looking for _i64toa
+[24.793s] -- Looking for _i64toa - not found
+[24.793s] -- Looking for _ui64toa
+[24.904s] -- Looking for _ui64toa - not found
+[24.905s] -- Looking for strtoll
+[25.142s] -- Looking for strtoll - found
+[25.142s] -- Looking for strtoull
+[25.367s] -- Looking for strtoull - found
+[25.368s] -- Looking for atoi
+[25.563s] -- Looking for atoi - found
+[25.564s] -- Looking for atof
+[25.777s] -- Looking for atof - found
+[25.777s] -- Looking for strcmp
+[26.003s] -- Looking for strcmp - found
+[26.003s] -- Looking for strncmp
+[26.221s] -- Looking for strncmp - found
+[26.221s] -- Looking for _stricmp
+[26.316s] -- Looking for _stricmp - not found
+[26.316s] -- Looking for strcasecmp
+[26.536s] -- Looking for strcasecmp - found
+[26.536s] -- Looking for _strnicmp
+[26.632s] -- Looking for _strnicmp - not found
+[26.632s] -- Looking for strncasecmp
+[26.857s] -- Looking for strncasecmp - found
+[26.857s] -- Looking for wcscmp
+[27.090s] -- Looking for wcscmp - found
+[27.091s] -- Looking for _wcsdup
+[27.188s] -- Looking for _wcsdup - not found
+[27.189s] -- Looking for wcsdup
+[27.396s] -- Looking for wcsdup - found
+[27.396s] -- Looking for wcslcat
+[27.502s] -- Looking for wcslcat - not found
+[27.503s] -- Looking for wcslcpy
+[27.609s] -- Looking for wcslcpy - not found
+[27.609s] -- Looking for wcslen
+[27.836s] -- Looking for wcslen - found
+[27.837s] -- Looking for wcsncmp
+[28.080s] -- Looking for wcsncmp - found
+[28.084s] -- Looking for wcsstr
+[28.337s] -- Looking for wcsstr - found
+[28.337s] -- Looking for wcscasecmp
+[28.663s] -- Looking for wcscasecmp - found
+[28.666s] -- Looking for _wcsicmp
+[28.813s] -- Looking for _wcsicmp - not found
+[28.814s] -- Looking for wcsncasecmp
+[29.164s] -- Looking for wcsncasecmp - found
+[29.169s] -- Looking for _wcsnicmp
+[29.347s] -- Looking for _wcsnicmp - not found
+[29.347s] -- Looking for sscanf
+[29.717s] -- Looking for sscanf - found
+[29.717s] -- Looking for vsscanf
+[30.088s] -- Looking for vsscanf - found
+[30.090s] -- Looking for vsnprintf
+[30.448s] -- Looking for vsnprintf - found
+[30.453s] -- Looking for fopen64
+[30.621s] -- Looking for fopen64 - not found
+[30.622s] -- Looking for fseeko
+[30.943s] -- Looking for fseeko - found
+[30.946s] -- Looking for fseeko64
+[31.069s] -- Looking for fseeko64 - not found
+[31.069s] -- Looking for _Exit
+[31.320s] -- Looking for _Exit - found
+[31.320s] -- Looking for sigaction
+[31.529s] -- Looking for sigaction - found
+[31.529s] -- Looking for setjmp
+[31.733s] -- Looking for setjmp - found
+[31.733s] -- Looking for nanosleep
+[31.925s] -- Looking for nanosleep - found
+[31.925s] -- Looking for sysconf
+[32.124s] -- Looking for sysconf - found
+[32.125s] -- Looking for sysctlbyname
+[32.208s] -- Looking for sysctlbyname - not found
+[32.209s] -- Looking for getauxval
+[32.425s] -- Looking for getauxval - found
+[32.425s] -- Looking for elf_aux_info
+[32.520s] -- Looking for elf_aux_info - not found
+[32.521s] -- Looking for poll
+[32.727s] -- Looking for poll - found
+[32.727s] -- Looking for pow in m
+[32.948s] -- Looking for pow in m - found
+[32.948s] -- Looking for atan
+[33.209s] -- Looking for atan - found
+[33.210s] -- Looking for atan2
+[33.441s] -- Looking for atan2 - found
+[33.441s] -- Looking for atanf
+[33.692s] -- Looking for atanf - found
+[33.692s] -- Looking for atan2f
+[33.918s] -- Looking for atan2f - found
+[33.919s] -- Looking for ceil
+[34.166s] -- Looking for ceil - found
+[34.167s] -- Looking for ceilf
+[34.433s] -- Looking for ceilf - found
+[34.433s] -- Looking for copysign
+[34.684s] -- Looking for copysign - found
+[34.684s] -- Looking for copysignf
+[34.939s] -- Looking for copysignf - found
+[34.939s] -- Looking for cos
+[35.202s] -- Looking for cos - found
+[35.202s] -- Looking for cosf
+[35.456s] -- Looking for cosf - found
+[35.456s] -- Looking for exp
+[35.708s] -- Looking for exp - found
+[35.708s] -- Looking for expf
+[35.948s] -- Looking for expf - found
+[35.948s] -- Looking for fabs
+[36.198s] -- Looking for fabs - found
+[36.198s] -- Looking for fabsf
+[36.451s] -- Looking for fabsf - found
+[36.451s] -- Looking for floor
+[36.741s] -- Looking for floor - found
+[36.745s] -- Looking for floorf
+[36.997s] -- Looking for floorf - found
+[36.997s] -- Looking for fmod
+[37.251s] -- Looking for fmod - found
+[37.251s] -- Looking for fmodf
+[37.501s] -- Looking for fmodf - found
+[37.502s] -- Looking for log
+[37.743s] -- Looking for log - found
+[37.743s] -- Looking for logf
+[37.987s] -- Looking for logf - found
+[37.987s] -- Looking for log10
+[38.243s] -- Looking for log10 - found
+[38.243s] -- Looking for log10f
+[38.517s] -- Looking for log10f - found
+[38.518s] -- Looking for lround
+[39.277s] -- Looking for lround - found
+[39.278s] -- Looking for lroundf
+[40.313s] -- Looking for lroundf - found
+[40.317s] -- Looking for pow
+[40.571s] -- Looking for pow - found
+[40.572s] -- Looking for powf
+[40.837s] -- Looking for powf - found
+[40.837s] -- Looking for round
+[41.124s] -- Looking for round - found
+[41.129s] -- Looking for roundf
+[41.526s] -- Looking for roundf - found
+[41.526s] -- Looking for scalbn
+[41.965s] -- Looking for scalbn - found
+[41.966s] -- Looking for scalbnf
+[42.433s] -- Looking for scalbnf - found
+[42.435s] -- Looking for sin
+[42.865s] -- Looking for sin - found
+[42.867s] -- Looking for sinf
+[43.307s] -- Looking for sinf - found
+[43.310s] -- Looking for sqrt
+[43.756s] -- Looking for sqrt - found
+[43.757s] -- Looking for sqrtf
+[44.267s] -- Looking for sqrtf - found
+[44.270s] -- Looking for tan
+[44.688s] -- Looking for tan - found
+[44.688s] -- Looking for tanf
+[45.089s] -- Looking for tanf - found
+[45.090s] -- Looking for acos
+[45.520s] -- Looking for acos - found
+[45.521s] -- Looking for acosf
+[45.952s] -- Looking for acosf - found
+[45.961s] -- Looking for asin
+[46.293s] -- Looking for asin - found
+[46.294s] -- Looking for asinf
+[46.538s] -- Looking for asinf - found
+[46.538s] -- Looking for trunc
+[46.769s] -- Looking for trunc - found
+[46.769s] -- Looking for truncf
+[47.015s] -- Looking for truncf - found
+[47.015s] -- Looking for iconv_open in iconv
+[47.193s] -- Looking for iconv_open in iconv - not found
+[47.193s] -- Looking for iconv_open in c
+[47.402s] -- Looking for iconv_open in c - found
+[47.403s] -- Looking for alloca.h
+[47.608s] -- Looking for alloca.h - found
+[47.612s] -- Looking for alloca
+[47.820s] -- Looking for alloca - found
+[47.821s] -- Looking for alloca
+[48.030s] -- Looking for alloca - found
+[48.031s] -- Looking for alloca
+[48.125s] -- Looking for alloca - not found
+[48.126s] -- Performing Test HAVE_SA_SIGACTION
+[48.343s] -- Performing Test HAVE_SA_SIGACTION - Success
+[48.343s] -- Looking for dlopen
+[48.565s] -- Looking for dlopen - found
+[48.565s] -- Performing Test HAVE_O_CLOEXEC
+[48.773s] -- Performing Test HAVE_O_CLOEXEC - Success
+[48.774s] -- Checking for modules 'bcm_host;brcmegl'
+[48.842s] --   Package 'bcm_host', required by 'virtual:world', not found
+[48.857s] --   Package 'brcmegl', required by 'virtual:world', not found
+[48.857s] -- Performing Test HAVE_RPI
+[48.941s] -- Performing Test HAVE_RPI - Failed
+[48.960s] -- dynamic libX11 -> libX11.so.6
+[48.969s] -- dynamic libXext -> libXext.so.6
+[49.020s] -- dynamic libXrandr -> libXrandr.so.2
+[49.029s] -- dynamic libXrender -> libXrender.so.1
+[49.055s] -- Looking for X11/Xcursor/Xcursor.h
+[49.145s] -- Looking for X11/Xcursor/Xcursor.h - not found
+[49.145s] -- Looking for X11/extensions/Xinerama.h
+[49.233s] -- Looking for X11/extensions/Xinerama.h - not found
+[49.233s] -- Looking for X11/extensions/XInput2.h
+[49.324s] -- Looking for X11/extensions/XInput2.h - not found
+[49.324s] -- Looking for X11/extensions/Xrandr.h
+[49.553s] -- Looking for X11/extensions/Xrandr.h - found
+[49.553s] -- Looking for X11/extensions/Xfixes.h
+[49.639s] -- Looking for X11/extensions/Xfixes.h - not found
+[49.639s] -- Looking for X11/extensions/Xrender.h
+[49.880s] -- Looking for X11/extensions/Xrender.h - found
+[49.880s] -- Looking for X11/extensions/scrnsaver.h
+[49.965s] -- Looking for X11/extensions/scrnsaver.h - not found
+[49.965s] -- Looking for X11/extensions/shape.h
+[50.186s] -- Looking for X11/extensions/shape.h - found
+[50.187s] -- Looking for include files X11/Xlib.h, X11/extensions/Xdbe.h
+[50.412s] -- Looking for include files X11/Xlib.h, X11/extensions/Xdbe.h - found
+[50.412s] -- Looking for include files X11/Xlib.h, X11/extensions/xf86vmode.h
+[50.509s] -- Looking for include files X11/Xlib.h, X11/extensions/xf86vmode.h - not found
+[50.509s] -- Looking for 3 include files X11/Xlib.h, ..., X11/extensions/Xext.h
+[50.735s] -- Looking for 3 include files X11/Xlib.h, ..., X11/extensions/Xext.h - found
+[50.735s] -- Looking for shmat
+[50.945s] -- Looking for shmat - found
+[50.946s] -- Performing Test HAVE_XGENERICEVENT
+[51.179s] -- Performing Test HAVE_XGENERICEVENT - Success
+[51.179s] -- Looking for XkbKeycodeToKeysym
+[51.418s] -- Looking for XkbKeycodeToKeysym - found
+[51.418s] -- Checking for module 'egl'
+[51.448s] --   Found egl, version 1.5
+[51.526s] -- Performing Test HAVE_OPENGL_EGL
+[51.747s] -- Performing Test HAVE_OPENGL_EGL - Success
+[51.747s] -- Checking for modules 'libdrm;gbm;egl'
+[51.760s] --   Package 'libdrm', required by 'virtual:world', not found
+[51.770s] --   Package 'gbm', required by 'virtual:world', not found
+[51.776s] -- Performing Test HAVE_OPENGL_GLX
+[52.068s] -- Performing Test HAVE_OPENGL_GLX - Success
+[52.069s] -- Performing Test HAVE_OPENGL
+[52.337s] -- Performing Test HAVE_OPENGL - Success
+[52.337s] -- Performing Test HAVE_OPENGLES_V1
+[52.541s] -- Performing Test HAVE_OPENGLES_V1 - Success
+[52.541s] -- Performing Test HAVE_OPENGLES_V2
+[52.767s] -- Performing Test HAVE_OPENGLES_V2 - Success
+[52.768s] -- Checking for modules 'wayland-client;wayland-egl;wayland-cursor;egl;xkbcommon>=0.5.0'
+[52.781s] --   Package 'wayland-client', required by 'virtual:world', not found
+[52.789s] --   Package 'wayland-egl', required by 'virtual:world', not found
+[52.799s] --   Package 'wayland-cursor', required by 'virtual:world', not found
+[52.814s] --   Package 'xkbcommon', required by 'virtual:world', not found
+[52.815s] -- Performing Test HAVE_VIVANTE_VDK
+[52.902s] -- Performing Test HAVE_VIVANTE_VDK - Failed
+[52.905s] -- Performing Test HAVE_VIVANTE_EGL_FB
+[53.009s] -- Performing Test HAVE_VIVANTE_EGL_FB - Failed
+[53.009s] -- Performing Test HAVE_INPUT_EVENTS
+[53.259s] -- Performing Test HAVE_INPUT_EVENTS - Success
+[53.259s] -- Performing Test HAVE_INPUT_KD
+[53.475s] -- Performing Test HAVE_INPUT_KD - Success
+[53.482s] -- Looking for libudev.h
+[53.573s] -- Looking for libudev.h - not found
+[53.573s] -- Looking for sys/inotify.h
+[53.777s] -- Looking for sys/inotify.h - found
+[53.778s] -- Looking for inotify_init
+[53.983s] -- Looking for inotify_init - found
+[53.983s] -- Looking for inotify_init1
+[54.185s] -- Looking for inotify_init1 - found
+[54.185s] -- Checking for one of the modules 'dbus-1;dbus'
+[54.210s] -- Checking for one of the modules 'ibus-1.0;ibus'
+[54.234s] -- Checking for module 'libusb-1.0'
+[54.248s] --   Package 'libusb-1.0', required by 'virtual:world', not found
+[54.249s] -- Looking for clock_gettime in rt
+[54.462s] -- Looking for clock_gettime in rt - found
+[54.462s] -- Looking for linux/version.h
+[54.664s] -- Looking for linux/version.h - found
+[54.667s] -- Performing Test HAVE_ENABLE_NEW_DTAGS
+[54.937s] -- Performing Test HAVE_ENABLE_NEW_DTAGS - Success
+[54.963s] -- Found Git: /usr/bin/git (found version "2.39.2") 
+[54.977s] -- 
+[54.981s] -- SDL2 was configured with the following options:
+[54.981s] -- 
+[54.981s] -- Platform: Linux-6.6.28+rpt-rpi-2712
+[54.981s] -- 64-bit:   TRUE
+[54.981s] -- Compiler: /usr/bin/cc
+[54.981s] -- Revision: 
+[54.981s] -- 
+[54.981s] -- Subsystems:
+[54.981s] --   Atomic:	OFF
+[54.982s] --   Audio:	OFF
+[54.982s] --   Video:	ON
+[54.982s] --   Render:	ON
+[54.982s] --   Events:	ON
+[54.982s] --   Joystick:	ON
+[54.982s] --   Haptic:	ON
+[54.982s] --   Hidapi:	ON
+[54.982s] --   Power:	ON
+[54.982s] --   Threads:	OFF
+[54.982s] --   Timers:	ON
+[54.982s] --   File:	ON
+[54.982s] --   Loadso:	ON
+[54.982s] --   CPUinfo:	OFF
+[54.982s] --   Filesystem:	OFF
+[54.982s] --   Dlopen:	ON
+[54.982s] --   Sensor:	ON
+[54.982s] --   Locale:	ON
+[54.982s] -- 
+[54.983s] -- Options:
+[54.983s] --   SDL_3DNOW                   (Wanted: ON): OFF
+[54.983s] --   SDL_ALSA                    (Wanted: ON): OFF
+[54.983s] --   SDL_ALSA_SHARED             (Wanted: ON): OFF
+[54.983s] --   SDL_ALTIVEC                 (Wanted: ON): OFF
+[54.983s] --   SDL_ARMNEON                 (Wanted: OFF): OFF
+[54.983s] --   SDL_ARMSIMD                 (Wanted: OFF): OFF
+[54.983s] --   SDL_ARTS                    (Wanted: ON): OFF
+[54.983s] --   SDL_ARTS_SHARED             (Wanted: ON): OFF
+[54.983s] --   SDL_ASAN                    (Wanted: OFF): OFF
+[54.983s] --   SDL_ASSEMBLY                (Wanted: ON): ON
+[54.983s] --   SDL_ASSERTIONS              (Wanted: auto): auto
+[54.983s] --   SDL_BACKGROUNDING_SIGNAL    (Wanted: OFF): OFF
+[54.983s] --   SDL_CLOCK_GETTIME           (Wanted: ON): ON
+[54.983s] --   SDL_COCOA                   (Wanted: OFF): OFF
+[54.983s] --   SDL_DIRECTFB                (Wanted: OFF): OFF
+[54.983s] --   SDL_DIRECTFB_SHARED         (Wanted: OFF): OFF
+[54.983s] --   SDL_DIRECTX                 (Wanted: OFF): OFF
+[54.983s] --   SDL_DISKAUDIO               (Wanted: ON): OFF
+[54.984s] --   SDL_DUMMYAUDIO              (Wanted: ON): OFF
+[54.984s] --   SDL_DUMMYVIDEO              (Wanted: ON): ON
+[54.984s] --   SDL_ESD                     (Wanted: ON): OFF
+[54.984s] --   SDL_ESD_SHARED              (Wanted: ON): OFF
+[54.984s] --   SDL_FOREGROUNDING_SIGNAL    (Wanted: OFF): OFF
+[54.984s] --   SDL_FUSIONSOUND             (Wanted: OFF): OFF
+[54.984s] --   SDL_FUSIONSOUND_SHARED      (Wanted: OFF): OFF
+[54.984s] --   SDL_GCC_ATOMICS             (Wanted: ON): ON
+[54.984s] --   SDL_HIDAPI_JOYSTICK         (Wanted: ON): ON
+[54.984s] --   SDL_JACK                    (Wanted: ON): OFF
+[54.984s] --   SDL_JACK_SHARED             (Wanted: ON): OFF
+[54.984s] --   SDL_KMSDRM                  (Wanted: ON): OFF
+[54.984s] --   SDL_KMSDRM_SHARED           (Wanted: ON): OFF
+[54.984s] --   SDL_LIBC                    (Wanted: ON): ON
+[54.984s] --   SDL_LIBSAMPLERATE           (Wanted: ON): OFF
+[54.984s] --   SDL_LIBSAMPLERATE_SHARED    (Wanted: ON): OFF
+[54.984s] --   SDL_METAL                   (Wanted: OFF): OFF
+[54.987s] --   SDL_MMX                     (Wanted: ON): OFF
+[54.987s] --   SDL_NAS                     (Wanted: ON): OFF
+[54.987s] --   SDL_NAS_SHARED              (Wanted: ON): OFF
+[54.988s] --   SDL_OFFSCREEN               (Wanted: OFF): OFF
+[54.988s] --   SDL_OPENGL                  (Wanted: ON): ON
+[54.988s] --   SDL_OPENGLES                (Wanted: ON): ON
+[54.988s] --   SDL_OSS                     (Wanted: ON): OFF
+[54.988s] --   SDL_PIPEWIRE                (Wanted: ON): OFF
+[54.988s] --   SDL_PIPEWIRE_SHARED         (Wanted: ON): OFF
+[54.988s] --   SDL_PTHREADS                (Wanted: ON): OFF
+[54.988s] --   SDL_PTHREADS_SEM            (Wanted: ON): OFF
+[54.988s] --   SDL_PULSEAUDIO              (Wanted: ON): OFF
+[54.988s] --   SDL_PULSEAUDIO_SHARED       (Wanted: ON): OFF
+[54.988s] --   SDL_RENDER_D3D              (Wanted: OFF): OFF
+[54.988s] --   SDL_RENDER_METAL            (Wanted: OFF): OFF
+[54.988s] --   SDL_RPATH                   (Wanted: ON): ON
+[54.988s] --   SDL_RPI                     (Wanted: ON): OFF
+[54.988s] --   SDL_SNDIO                   (Wanted: ON): OFF
+[54.988s] --   SDL_SNDIO_SHARED            (Wanted: ON): OFF
+[54.988s] --   SDL_SSE                     (Wanted: ON): OFF
+[54.988s] --   SDL_SSE2                    (Wanted: ON): OFF
+[54.989s] --   SDL_SSE3                    (Wanted: ON): OFF
+[54.989s] --   SDL_SSEMATH                 (Wanted: ON): ON
+[54.989s] --   SDL_STATIC_PIC              (Wanted: OFF): OFF
+[54.989s] --   SDL_TEST                    (Wanted: OFF): OFF
+[54.989s] --   SDL_VIRTUAL_JOYSTICK        (Wanted: ON): ON
+[54.989s] --   SDL_VIVANTE                 (Wanted: ON): OFF
+[54.989s] --   SDL_VULKAN                  (Wanted: ON): ON
+[54.989s] --   SDL_WASAPI                  (Wanted: OFF): OFF
+[54.989s] --   SDL_WAYLAND                 (Wanted: ON): OFF
+[54.989s] --   SDL_WAYLAND_LIBDECOR        (Wanted: ON): OFF
+[54.989s] --   SDL_WAYLAND_LIBDECOR_SHARED (Wanted: ON): OFF
+[54.989s] --   SDL_WAYLAND_QT_TOUCH        (Wanted: ON): OFF
+[54.989s] --   SDL_WAYLAND_SHARED          (Wanted: ON): OFF
+[54.989s] --   SDL_X11                     (Wanted: ON): ON
+[54.989s] --   SDL_X11_SHARED              (Wanted: ON): ON
+[54.989s] --   SDL_X11_XCURSOR             (Wanted: ON): OFF
+[54.989s] --   SDL_X11_XDBE                (Wanted: ON): ON
+[54.989s] --   SDL_X11_XFIXES              (Wanted: ON): OFF
+[54.989s] --   SDL_X11_XINERAMA            (Wanted: ON): OFF
+[54.989s] --   SDL_X11_XINPUT              (Wanted: ON): OFF
+[54.990s] --   SDL_X11_XRANDR              (Wanted: ON): ON
+[54.990s] --   SDL_X11_XSCRNSAVER          (Wanted: ON): OFF
+[54.990s] --   SDL_X11_XSHAPE              (Wanted: ON): ON
+[54.990s] --   SDL_X11_XVM                 (Wanted: ON): OFF
+[54.990s] --   SDL_XINPUT                  (Wanted: OFF): OFF
+[54.990s] -- 
+[54.990s] --  CFLAGS:         -idirafter "/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/video/khronos" -DHAVE_LINUX_VERSION_H
+[54.990s] --  EXTRA_CFLAGS:  -I/usr/include -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall 
+[54.990s] --  EXTRA_LDFLAGS: -Wl,--no-undefined
+[54.990s] --  EXTRA_LIBS:    m;rt
+[54.990s] -- 
+[54.990s] --  Build Shared Library: ON
+[54.990s] --  Build Static Library: OFF
+[54.990s] -- 
+[54.990s] -- If something was not detected, although the libraries
+[54.990s] -- were installed, then make sure you have set the
+[54.990s] -- CFLAGS and LDFLAGS environment variables correctly.
+[54.990s] -- 
+[54.997s] -- Configuring done
+[55.045s] -- Generating done
+[55.045s] -- Build files have been written to: /home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20-build
+[55.110s] [ 75%] [34m[1mPerforming build step for 'SDL2-2.0.20'[0m
+[55.251s] [  1%] [32mBuilding C object CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.o[0m
+[55.393s] [  2%] [32m[1mLinking C static library libSDL2main.a[0m
+[55.558s] [  2%] Built target SDL2main
+[55.650s] [  2%] [32mBuilding C object CMakeFiles/SDL2.dir/src/SDL.c.o[0m
+[56.202s] [  3%] [32mBuilding C object CMakeFiles/SDL2.dir/src/SDL_error.c.o[0m
+[56.353s] [  3%] [32mBuilding C object CMakeFiles/SDL2.dir/src/SDL_hints.c.o[0m
+[56.532s] [  4%] [32mBuilding C object CMakeFiles/SDL2.dir/src/SDL_log.c.o[0m
+[56.703s] [  5%] [32mBuilding C object CMakeFiles/SDL2.dir/src/atomic/SDL_atomic.c.o[0m
+[56.865s] [  5%] [32mBuilding C object CMakeFiles/SDL2.dir/src/atomic/SDL_spinlock.c.o[0m
+[57.015s] [  6%] [32mBuilding C object CMakeFiles/SDL2.dir/src/audio/SDL_audio.c.o[0m
+[57.650s] [  6%] [32mBuilding C object CMakeFiles/SDL2.dir/src/audio/SDL_audiocvt.c.o[0m
+[58.315s] [  7%] [32mBuilding C object CMakeFiles/SDL2.dir/src/audio/SDL_audiodev.c.o[0m
+[58.451s] [  8%] [32mBuilding C object CMakeFiles/SDL2.dir/src/audio/SDL_audiotypecvt.c.o[0m
+[58.985s] [  8%] [32mBuilding C object CMakeFiles/SDL2.dir/src/audio/SDL_mixer.c.o[0m
+[59.405s] [  9%] [32mBuilding C object CMakeFiles/SDL2.dir/src/audio/SDL_wave.c.o[0m
+[59.676s] [  9%] [32mBuilding C object CMakeFiles/SDL2.dir/src/cpuinfo/SDL_cpuinfo.c.o[0m
+[60.142s] [ 10%] [32mBuilding C object CMakeFiles/SDL2.dir/src/dynapi/SDL_dynapi.c.o[0m
+[62.022s] [ 11%] [32mBuilding C object CMakeFiles/SDL2.dir/src/events/SDL_clipboardevents.c.o[0m
+[62.233s] [ 11%] [32mBuilding C object CMakeFiles/SDL2.dir/src/events/SDL_displayevents.c.o[0m
+[62.448s] [ 12%] [32mBuilding C object CMakeFiles/SDL2.dir/src/events/SDL_dropevents.c.o[0m
+[62.677s] [ 12%] [32mBuilding C object CMakeFiles/SDL2.dir/src/events/SDL_events.c.o[0m
+[63.288s] [ 13%] [32mBuilding C object CMakeFiles/SDL2.dir/src/events/SDL_gesture.c.o[0m
+[63.588s] [ 14%] [32mBuilding C object CMakeFiles/SDL2.dir/src/events/SDL_keyboard.c.o[0m
+[63.864s] [ 14%] [32mBuilding C object CMakeFiles/SDL2.dir/src/events/SDL_mouse.c.o[0m
+[64.185s] [ 15%] [32mBuilding C object CMakeFiles/SDL2.dir/src/events/SDL_quit.c.o[0m
+[64.411s] [ 15%] [32mBuilding C object CMakeFiles/SDL2.dir/src/events/SDL_touch.c.o[0m
+[64.664s] [ 16%] [32mBuilding C object CMakeFiles/SDL2.dir/src/events/SDL_windowevents.c.o[0m
+[64.895s] [ 16%] [32mBuilding C object CMakeFiles/SDL2.dir/src/events/imKStoUCS.c.o[0m
+[65.094s] [ 17%] [32mBuilding C object CMakeFiles/SDL2.dir/src/file/SDL_rwops.c.o[0m
+[65.454s] [ 18%] [32mBuilding C object CMakeFiles/SDL2.dir/src/haptic/SDL_haptic.c.o[0m
+[65.811s] [ 18%] [32mBuilding C object CMakeFiles/SDL2.dir/src/hidapi/SDL_hidapi.c.o[0m
+[65.993s] [01m[K/home/pi/wow_ws/build/sdl2_vendor/SDL2-2.0.20/src/SDL2-2.0.20/src/hidapi/SDL_hidapi.c:969:1:[m[K [01;35m[Kwarning: [m[K‘[01m[KCopyHIDDeviceInfo[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[65.994s]   969 | [01;35m[KCopyHIDDeviceInfo[m[K(struct SDL_hid_device_info *pSrc, struct SDL_hid_device_info *pDst)
+[65.994s]       | [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[66.154s] [ 19%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/e_atan2.c.o[0m
+[66.416s] [ 19%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/e_exp.c.o[0m
+[66.669s] [ 20%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/e_fmod.c.o[0m
+[66.929s] [ 21%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/e_log.c.o[0m
+[67.154s] [ 21%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/e_log10.c.o[0m
+[67.345s] [ 22%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/e_pow.c.o[0m
+[67.523s] [ 22%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/e_rem_pio2.c.o[0m
+[67.672s] [ 23%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/e_sqrt.c.o[0m
+[67.816s] [ 24%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/k_cos.c.o[0m
+[67.960s] [ 24%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/k_rem_pio2.c.o[0m
+[68.125s] [ 25%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/k_sin.c.o[0m
+[68.284s] [ 25%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/k_tan.c.o[0m
+[68.444s] [ 26%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/s_atan.c.o[0m
+[68.588s] [ 27%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/s_copysign.c.o[0m
+[68.723s] [ 27%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/s_cos.c.o[0m
+[68.915s] [ 28%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/s_fabs.c.o[0m
+[69.074s] [ 28%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/s_floor.c.o[0m
+[69.250s] [ 29%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/s_scalbn.c.o[0m
+[69.418s] [ 29%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/s_sin.c.o[0m
+[69.575s] [ 30%] [32mBuilding C object CMakeFiles/SDL2.dir/src/libm/s_tan.c.o[0m
+[69.734s] [ 31%] [32mBuilding C object CMakeFiles/SDL2.dir/src/locale/SDL_locale.c.o[0m
+[69.887s] [ 31%] [32mBuilding C object CMakeFiles/SDL2.dir/src/misc/SDL_url.c.o[0m
+[70.035s] [ 32%] [32mBuilding C object CMakeFiles/SDL2.dir/src/power/SDL_power.c.o[0m
+[70.185s] [ 32%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/SDL_d3dmath.c.o[0m
+[70.329s] [ 33%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/SDL_render.c.o[0m
+[71.273s] [ 34%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/SDL_yuv_sw.c.o[0m
+[71.753s] [ 34%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/direct3d/SDL_render_d3d.c.o[0m
+[71.923s] [ 35%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/direct3d/SDL_shaders_d3d.c.o[0m
+[72.069s] [ 35%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/direct3d11/SDL_render_d3d11.c.o[0m
+[72.206s] [ 36%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/direct3d11/SDL_shaders_d3d11.c.o[0m
+[72.332s] [ 37%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/opengl/SDL_render_gl.c.o[0m
+[72.769s] [ 37%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/opengl/SDL_shaders_gl.c.o[0m
+[72.989s] [ 38%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/opengles/SDL_render_gles.c.o[0m
+[73.286s] [ 38%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/opengles2/SDL_render_gles2.c.o[0m
+[73.955s] [ 39%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/opengles2/SDL_shaders_gles2.c.o[0m
+[74.127s] [ 40%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/psp/SDL_render_psp.c.o[0m
+[74.259s] [ 40%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/software/SDL_blendfillrect.c.o[0m
+[75.062s] [ 41%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/software/SDL_blendline.c.o[0m
+[76.323s] [ 41%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/software/SDL_blendpoint.c.o[0m
+[77.374s] [ 42%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/software/SDL_drawline.c.o[0m
+[78.288s] [ 43%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/software/SDL_drawpoint.c.o[0m
+[78.831s] [ 43%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/software/SDL_render_sw.c.o[0m
+[79.386s] [ 44%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/software/SDL_rotate.c.o[0m
+[79.913s] [ 44%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/software/SDL_triangle.c.o[0m
+[80.497s] [ 45%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm.c.o[0m
+[80.630s] [ 45%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.o[0m
+[80.781s] [ 46%] [32mBuilding C object CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.o[0m
+[80.927s] [ 47%] [32mBuilding C object CMakeFiles/SDL2.dir/src/sensor/SDL_sensor.c.o[0m
+[81.499s] [ 47%] [32mBuilding C object CMakeFiles/SDL2.dir/src/stdlib/SDL_crc32.c.o[0m
+[81.656s] [ 48%] [32mBuilding C object CMakeFiles/SDL2.dir/src/stdlib/SDL_getenv.c.o[0m
+[81.808s] [ 48%] [32mBuilding C object CMakeFiles/SDL2.dir/src/stdlib/SDL_iconv.c.o[0m
+[81.957s] [ 49%] [32mBuilding C object CMakeFiles/SDL2.dir/src/stdlib/SDL_malloc.c.o[0m
+[82.141s] [ 50%] [32mBuilding C object CMakeFiles/SDL2.dir/src/stdlib/SDL_qsort.c.o[0m
+[82.285s] [ 50%] [32mBuilding C object CMakeFiles/SDL2.dir/src/stdlib/SDL_stdlib.c.o[0m
+[82.576s] [ 51%] [32mBuilding C object CMakeFiles/SDL2.dir/src/stdlib/SDL_string.c.o[0m
+[82.944s] [ 51%] [32mBuilding C object CMakeFiles/SDL2.dir/src/stdlib/SDL_strtokr.c.o[0m
+[83.194s] [ 52%] [32mBuilding C object CMakeFiles/SDL2.dir/src/thread/SDL_thread.c.o[0m
+[83.484s] [ 53%] [32mBuilding C object CMakeFiles/SDL2.dir/src/timer/SDL_timer.c.o[0m
+[84.425s] [ 53%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_RLEaccel.c.o[0m
+[85.467s] [ 54%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_blit.c.o[0m
+[86.007s] [ 54%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_blit_0.c.o[0m
+[86.517s] [ 55%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_blit_1.c.o[0m
+[87.290s] [ 56%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_blit_A.c.o[0m
+[88.251s] [ 56%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_blit_N.c.o[0m
+[89.649s] [ 57%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_blit_auto.c.o[0m
+[91.020s] [ 57%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_blit_copy.c.o[0m
+[91.501s] [ 58%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_blit_slow.c.o[0m
+[92.031s] [ 58%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_bmp.c.o[0m
+[92.556s] [ 59%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_clipboard.c.o[0m
+[92.789s] [ 60%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_egl.c.o[0m
+[93.175s] [ 60%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_fillrect.c.o[0m
+[93.666s] [ 61%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_pixels.c.o[0m
+[94.328s] [ 61%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_rect.c.o[0m
+[94.523s] [ 62%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_shape.c.o[0m
+[95.089s] [ 63%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_stretch.c.o[0m
+[95.659s] [ 63%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_surface.c.o[0m
+[96.339s] [ 64%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_video.c.o[0m
+[97.433s] [ 64%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_vulkan_utils.c.o[0m
+[97.702s] [ 65%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/SDL_yuv.c.o[0m
+[98.373s] [ 66%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/yuv2rgb/yuv_rgb.c.o[0m
+[99.148s] [ 66%] [32mBuilding C object CMakeFiles/SDL2.dir/src/joystick/SDL_gamecontroller.c.o[0m
+[99.646s] [ 67%] [32mBuilding C object CMakeFiles/SDL2.dir/src/joystick/SDL_joystick.c.o[0m
+[100.717s] [ 67%] [32mBuilding C object CMakeFiles/SDL2.dir/src/loadso/dlopen/SDL_sysloadso.c.o[0m
+[100.997s] [ 68%] [32mBuilding C object CMakeFiles/SDL2.dir/src/joystick/virtual/SDL_virtualjoystick.c.o[0m
+[101.343s] [ 69%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullevents.c.o[0m
+[101.800s] [ 69%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullframebuffer.c.o[0m
+[102.213s] [ 70%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullvideo.c.o[0m
+[103.082s] [ 70%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/SDL_x11clipboard.c.o[0m
+[103.441s] [ 71%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/SDL_x11dyn.c.o[0m
+[103.715s] [ 72%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/SDL_x11events.c.o[0m
+[104.188s] [ 72%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/SDL_x11framebuffer.c.o[0m
+[104.535s] [ 73%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/SDL_x11keyboard.c.o[0m
+[104.898s] [ 73%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/SDL_x11messagebox.c.o[0m
+[105.773s] [ 74%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/SDL_x11modes.c.o[0m
+[106.139s] [ 74%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/SDL_x11mouse.c.o[0m
+[106.530s] [ 75%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/SDL_x11opengl.c.o[0m
+[106.996s] [ 76%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/SDL_x11opengles.c.o[0m
+[107.335s] [ 76%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/SDL_x11shape.c.o[0m
+[107.672s] [ 77%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/SDL_x11touch.c.o[0m
+[108.034s] [ 77%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/SDL_x11video.c.o[0m
+[108.732s] [ 78%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/SDL_x11vulkan.c.o[0m
+[109.057s] [ 79%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/SDL_x11window.c.o[0m
+[109.889s] [ 79%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/SDL_x11xfixes.c.o[0m
+[110.035s] [ 80%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/SDL_x11xinput2.c.o[0m
+[110.348s] [ 80%] [32mBuilding C object CMakeFiles/SDL2.dir/src/video/x11/edid-parse.c.o[0m
+[110.575s] [ 81%] [32mBuilding C object CMakeFiles/SDL2.dir/src/core/unix/SDL_poll.c.o[0m
+[110.727s] [ 82%] [32mBuilding C object CMakeFiles/SDL2.dir/src/haptic/linux/SDL_syshaptic.c.o[0m
+[110.980s] [ 82%] [32mBuilding C object CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev.c.o[0m
+[111.582s] [ 83%] [32mBuilding C object CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev_kbd.c.o[0m
+[111.912s] [ 83%] [32mBuilding C object CMakeFiles/SDL2.dir/src/core/linux/SDL_evdev_capabilities.c.o[0m
+[112.069s] [ 84%] [32mBuilding C object CMakeFiles/SDL2.dir/src/core/linux/SDL_threadprio.c.o[0m
+[112.220s] [ 85%] [32mBuilding C object CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.o[0m
+[112.464s] [ 85%] [32mBuilding C object CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_luna.c.o[0m
+[112.673s] [ 86%] [32mBuilding C object CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.o[0m
+[112.913s] [ 86%] [32mBuilding C object CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.o[0m
+[113.163s] [ 87%] [32mBuilding C object CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.o[0m
+[113.335s] [ 87%] [32mBuilding C object CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.o[0m
+[113.536s] [ 88%] [32mBuilding C object CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steam.c.o[0m
+[113.699s] [ 89%] [32mBuilding C object CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_switch.c.o[0m
+[114.006s] [ 89%] [32mBuilding C object CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o[0m
+[114.205s] [ 90%] [32mBuilding C object CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o[0m
+[114.402s] [ 90%] [32mBuilding C object CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o[0m
+[114.665s] [ 91%] [32mBuilding C object CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o[0m
+[114.916s] [ 92%] [32mBuilding C object CMakeFiles/SDL2.dir/src/joystick/linux/SDL_sysjoystick.c.o[0m
+[115.324s] [ 92%] [32mBuilding C object CMakeFiles/SDL2.dir/src/joystick/steam/SDL_steamcontroller.c.o[0m
+[115.477s] [ 93%] [32mBuilding C object CMakeFiles/SDL2.dir/src/misc/unix/SDL_sysurl.c.o[0m
+[115.635s] [ 93%] [32mBuilding C object CMakeFiles/SDL2.dir/src/power/linux/SDL_syspower.c.o[0m
+[115.835s] [ 94%] [32mBuilding C object CMakeFiles/SDL2.dir/src/locale/unix/SDL_syslocale.c.o[0m
+[115.997s] [ 95%] [32mBuilding C object CMakeFiles/SDL2.dir/src/timer/unix/SDL_systimer.c.o[0m
+[116.168s] [ 95%] [32mBuilding C object CMakeFiles/SDL2.dir/src/sensor/dummy/SDL_dummysensor.c.o[0m
+[116.330s] [ 96%] [32mBuilding C object CMakeFiles/SDL2.dir/src/filesystem/dummy/SDL_sysfilesystem.c.o[0m
+[116.487s] [ 96%] [32mBuilding C object CMakeFiles/SDL2.dir/src/thread/generic/SDL_syscond.c.o[0m
+[116.658s] [ 97%] [32mBuilding C object CMakeFiles/SDL2.dir/src/thread/generic/SDL_sysmutex.c.o[0m
+[116.820s] [ 98%] [32mBuilding C object CMakeFiles/SDL2.dir/src/thread/generic/SDL_syssem.c.o[0m
+[116.983s] [ 98%] [32mBuilding C object CMakeFiles/SDL2.dir/src/thread/generic/SDL_systhread.c.o[0m
+[117.141s] [ 99%] [32mBuilding C object CMakeFiles/SDL2.dir/src/thread/generic/SDL_systls.c.o[0m
+[117.297s] [ 99%] [32mBuilding C object CMakeFiles/SDL2.dir/src/SDL_dataqueue.c.o[0m
+[117.799s] [100%] [32mBuilding C object CMakeFiles/SDL2.dir/src/SDL_assert.c.o[0m
+[118.368s] [100%] [32m[1mLinking C shared library libSDL2-2.0.so[0m
+[118.969s] [100%] Built target SDL2
+[119.148s] [ 87%] [34m[1mPerforming install step for 'SDL2-2.0.20'[0m
+[119.433s] [  2%] Built target SDL2main
+[119.813s] [100%] Built target SDL2
+[119.939s] [36mInstall the project...[0m
+[119.997s] -- Install configuration: ""
+[119.998s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/lib/libSDL2-2.0.so.0.18.2
+[120.009s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/lib/libSDL2-2.0.so.0
+[120.010s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/lib/libSDL2-2.0.so
+[120.010s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/lib/libSDL2main.a
+[120.011s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/lib/cmake/SDL2/SDL2Targets.cmake
+[120.011s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/lib/cmake/SDL2/SDL2Targets-noconfig.cmake
+[120.011s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/lib/cmake/SDL2/SDL2mainTargets.cmake
+[120.011s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/lib/cmake/SDL2/SDL2mainTargets-noconfig.cmake
+[120.012s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/lib/cmake/SDL2/SDL2Config.cmake
+[120.012s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/lib/cmake/SDL2/SDL2ConfigVersion.cmake
+[120.012s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL.h
+[120.013s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_assert.h
+[120.013s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_atomic.h
+[120.013s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_audio.h
+[120.014s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_bits.h
+[120.014s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_blendmode.h
+[120.014s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_clipboard.h
+[120.014s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_config_android.h
+[120.017s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_config_emscripten.h
+[120.017s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_config_iphoneos.h
+[120.017s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_config_macosx.h
+[120.018s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_config_minimal.h
+[120.018s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_config_os2.h
+[120.018s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_config_pandora.h
+[120.018s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_config_psp.h
+[120.018s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_config_windows.h
+[120.018s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_config_winrt.h
+[120.019s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_config_wiz.h
+[120.019s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_copying.h
+[120.019s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_cpuinfo.h
+[120.025s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_egl.h
+[120.026s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_endian.h
+[120.026s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_error.h
+[120.027s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_events.h
+[120.027s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_filesystem.h
+[120.028s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_gamecontroller.h
+[120.028s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_gesture.h
+[120.029s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_haptic.h
+[120.029s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_hidapi.h
+[120.030s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_hints.h
+[120.030s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_joystick.h
+[120.030s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_keyboard.h
+[120.030s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_keycode.h
+[120.031s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_loadso.h
+[120.031s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_locale.h
+[120.031s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_log.h
+[120.032s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_main.h
+[120.032s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_messagebox.h
+[120.037s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_metal.h
+[120.038s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_misc.h
+[120.038s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_mouse.h
+[120.038s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_mutex.h
+[120.039s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_name.h
+[120.039s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_opengl.h
+[120.039s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_opengl_glext.h
+[120.039s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_opengles.h
+[120.039s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_opengles2.h
+[120.039s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_opengles2_gl2.h
+[120.039s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_opengles2_gl2ext.h
+[120.039s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_opengles2_gl2platform.h
+[120.039s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_opengles2_khrplatform.h
+[120.045s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_pixels.h
+[120.045s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_platform.h
+[120.046s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_power.h
+[120.046s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_quit.h
+[120.046s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_rect.h
+[120.046s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_render.h
+[120.047s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_rwops.h
+[120.047s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_scancode.h
+[120.047s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_sensor.h
+[120.047s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_shape.h
+[120.047s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_stdinc.h
+[120.047s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_surface.h
+[120.047s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_system.h
+[120.047s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_syswm.h
+[120.048s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_test.h
+[120.048s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_test_assert.h
+[120.048s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_test_common.h
+[120.048s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_test_compare.h
+[120.048s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_test_crc32.h
+[120.048s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_test_font.h
+[120.048s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_test_fuzzer.h
+[120.048s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_test_harness.h
+[120.053s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_test_images.h
+[120.054s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_test_log.h
+[120.054s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_test_md5.h
+[120.055s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_test_memory.h
+[120.055s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_test_random.h
+[120.055s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_thread.h
+[120.055s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_timer.h
+[120.055s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_touch.h
+[120.055s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_types.h
+[120.056s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_version.h
+[120.056s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_video.h
+[120.056s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_vulkan.h
+[120.056s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/begin_code.h
+[120.056s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/close_code.h
+[120.056s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_config.h
+[120.061s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/include/SDL2/SDL_revision.h
+[120.110s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/lib/libSDL2.so
+[120.110s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/lib/pkgconfig/sdl2.pc
+[120.111s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/bin/sdl2-config
+[120.113s] -- Installing: /home/pi/wow_ws/build/sdl2_vendor/SDL2/share/aclocal/sdl2.m4
+[120.240s] [100%] [34m[1mCompleted 'SDL2-2.0.20'[0m
+[120.475s] [100%] Built target SDL2-2.0.20
+[120.545s] Invoked command in '/home/pi/wow_ws/build/sdl2_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_iron/install/rqt_bag_plugins:/home/pi/ros2_iron/install/rqt_bag:/home/pi/ros2_iron/install/rosbag2_examples_py:/home/pi/ros2_iron/install/launch_testing_examples:/home/pi/ros2_iron/install/ros2bag:/home/pi/ros2_iron/install/tracetools_test:/home/pi/ros2_iron/install/tracetools_launch:/home/pi/ros2_iron/install/topic_monitor:/home/pi/ros2_iron/install/tf2_tools:/home/pi/ros2_iron/install/examples_tf2_py:/home/pi/ros2_iron/install/tf2_ros_py:/home/pi/ros2_iron/install/examples_rclpy_pointcloud_publisher:/home/pi/ros2_iron/install/sensor_msgs_py:/home/pi/ros2_iron/install/quality_of_service_demo_py:/home/pi/ros2_iron/install/rqt_plot:/home/pi/ros2_iron/install/ros2doctor:/home/pi/ros2_iron/install/lifecycle_py:/home/pi/ros2_iron/install/examples_rclpy_minimal_subscriber:/home/pi/ros2_iron/install/examples_rclpy_minimal_service:/home/pi/ros2_iron/install/examples_rclpy_minimal_publisher:/home/pi/ros2_iron/install/examples_rclpy_minimal_client:/home/pi/ros2_iron/install/examples_rclpy_executors:/home/pi/ros2_iron/install/demo_nodes_py:/home/pi/ros2_iron/install/rqt:/home/pi/ros2_iron/install/ros2component:/home/pi/ros2_iron/install/sros2:/home/pi/ros2_iron/install/rqt_topic:/home/pi/ros2_iron/install/rqt_srv:/home/pi/ros2_iron/install/rqt_shell:/home/pi/ros2_iron/install/rqt_service_caller:/home/pi/ros2_iron/install/rqt_reconfigure:/home/pi/ros2_iron/install/rqt_py_console:/home/pi/ros2_iron/install/rqt_publisher:/home/pi/ros2_iron/install/rqt_action:/home/pi/ros2_iron/install/rqt_msg:/home/pi/ros2_iron/install/rqt_console:/home/pi/ros2_iron/install/rqt_graph:/home/pi/ros2_iron/install/rqt_gui_py:/home/pi/ros2_iron/install/rqt_gui:/home/pi/ros2_iron/install/ros2trace:/home/pi/ros2_iron/install/ros2topic:/home/pi/ros2_iron/install/ros2test:/home/pi/ros2_iron/install/ros2param:/home/pi/ros2_iron/install/ros2lifecycle:/home/pi/ros2_iron/install/ros2service:/home/pi/ros2_iron/install/ros2run:/home/pi/ros2_iron/install/ros2launch:/home/pi/ros2_iron/install/ros2pkg:/home/pi/ros2_iron/install/ros2node:/home/pi/ros2_iron/install/ros2multicast:/home/pi/ros2_iron/install/ros2interface:/home/pi/ros2_iron/install/ros2action:/home/pi/ros2_iron/install/ros2cli:/home/pi/ros2_iron/install/launch_testing_ros:/home/pi/ros2_iron/install/launch_ros:/home/pi/ros2_iron/install/examples_rclpy_minimal_action_server:/home/pi/ros2_iron/install/examples_rclpy_minimal_action_client:/home/pi/ros2_iron/install/examples_rclpy_guard_conditions:/home/pi/ros2_iron/install/action_tutorials_py:/home/pi/ros2_iron/install/ament_uncrustify:/home/pi/ros2_iron/install/tracetools_trace:/home/pi/ros2_iron/install/tracetools_read:/home/pi/ros2_iron/install/test_tracetools_launch:/home/pi/ros2_iron/install/test_ros2trace:/home/pi/ros2_iron/install/test_launch_ros:/home/pi/ros2_iron/install/rpyutils:/home/pi/ros2_iron/install/rosidl_runtime_py:/home/pi/ros2_iron/install/rosidl_pycommon:/home/pi/ros2_iron/install/rosidl_cli:/home/pi/ros2_iron/install/launch_pytest:/home/pi/ros2_iron/install/launch_testing:/home/pi/ros2_iron/install/launch_yaml:/home/pi/ros2_iron/install/launch_xml:/home/pi/ros2_iron/install/launch:/home/pi/ros2_iron/install/osrf_pycommon:/home/pi/ros2_iron/install/domain_coordinator:/home/pi/ros2_iron/install/ament_xmllint:/home/pi/ros2_iron/install/ament_pyflakes:/home/pi/ros2_iron/install/ament_pycodestyle:/home/pi/ros2_iron/install/ament_pep257:/home/pi/ros2_iron/install/ament_pclint:/home/pi/ros2_iron/install/ament_package:/home/pi/ros2_iron/install/ament_mypy:/home/pi/ros2_iron/install/ament_lint_cmake:/home/pi/ros2_iron/install/ament_flake8:/home/pi/ros2_iron/install/ament_copyright:/home/pi/ros2_iron/install/ament_lint:/home/pi/ros2_iron/install/ament_index_python:/home/pi/ros2_iron/install/ament_cpplint:/home/pi/ros2_iron/install/ament_cppcheck:/home/pi/ros2_iron/install/ament_clang_tidy:/home/pi/ros2_iron/install/ament_clang_format /usr/bin/cmake --build /home/pi/wow_ws/build/sdl2_vendor -- -j4 -l4
+[120.714s] Invoking command in '/home/pi/wow_ws/build/sdl2_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_iron/install/rqt_bag_plugins:/home/pi/ros2_iron/install/rqt_bag:/home/pi/ros2_iron/install/rosbag2_examples_py:/home/pi/ros2_iron/install/launch_testing_examples:/home/pi/ros2_iron/install/ros2bag:/home/pi/ros2_iron/install/tracetools_test:/home/pi/ros2_iron/install/tracetools_launch:/home/pi/ros2_iron/install/topic_monitor:/home/pi/ros2_iron/install/tf2_tools:/home/pi/ros2_iron/install/examples_tf2_py:/home/pi/ros2_iron/install/tf2_ros_py:/home/pi/ros2_iron/install/examples_rclpy_pointcloud_publisher:/home/pi/ros2_iron/install/sensor_msgs_py:/home/pi/ros2_iron/install/quality_of_service_demo_py:/home/pi/ros2_iron/install/rqt_plot:/home/pi/ros2_iron/install/ros2doctor:/home/pi/ros2_iron/install/lifecycle_py:/home/pi/ros2_iron/install/examples_rclpy_minimal_subscriber:/home/pi/ros2_iron/install/examples_rclpy_minimal_service:/home/pi/ros2_iron/install/examples_rclpy_minimal_publisher:/home/pi/ros2_iron/install/examples_rclpy_minimal_client:/home/pi/ros2_iron/install/examples_rclpy_executors:/home/pi/ros2_iron/install/demo_nodes_py:/home/pi/ros2_iron/install/rqt:/home/pi/ros2_iron/install/ros2component:/home/pi/ros2_iron/install/sros2:/home/pi/ros2_iron/install/rqt_topic:/home/pi/ros2_iron/install/rqt_srv:/home/pi/ros2_iron/install/rqt_shell:/home/pi/ros2_iron/install/rqt_service_caller:/home/pi/ros2_iron/install/rqt_reconfigure:/home/pi/ros2_iron/install/rqt_py_console:/home/pi/ros2_iron/install/rqt_publisher:/home/pi/ros2_iron/install/rqt_action:/home/pi/ros2_iron/install/rqt_msg:/home/pi/ros2_iron/install/rqt_console:/home/pi/ros2_iron/install/rqt_graph:/home/pi/ros2_iron/install/rqt_gui_py:/home/pi/ros2_iron/install/rqt_gui:/home/pi/ros2_iron/install/ros2trace:/home/pi/ros2_iron/install/ros2topic:/home/pi/ros2_iron/install/ros2test:/home/pi/ros2_iron/install/ros2param:/home/pi/ros2_iron/install/ros2lifecycle:/home/pi/ros2_iron/install/ros2service:/home/pi/ros2_iron/install/ros2run:/home/pi/ros2_iron/install/ros2launch:/home/pi/ros2_iron/install/ros2pkg:/home/pi/ros2_iron/install/ros2node:/home/pi/ros2_iron/install/ros2multicast:/home/pi/ros2_iron/install/ros2interface:/home/pi/ros2_iron/install/ros2action:/home/pi/ros2_iron/install/ros2cli:/home/pi/ros2_iron/install/launch_testing_ros:/home/pi/ros2_iron/install/launch_ros:/home/pi/ros2_iron/install/examples_rclpy_minimal_action_server:/home/pi/ros2_iron/install/examples_rclpy_minimal_action_client:/home/pi/ros2_iron/install/examples_rclpy_guard_conditions:/home/pi/ros2_iron/install/action_tutorials_py:/home/pi/ros2_iron/install/ament_uncrustify:/home/pi/ros2_iron/install/tracetools_trace:/home/pi/ros2_iron/install/tracetools_read:/home/pi/ros2_iron/install/test_tracetools_launch:/home/pi/ros2_iron/install/test_ros2trace:/home/pi/ros2_iron/install/test_launch_ros:/home/pi/ros2_iron/install/rpyutils:/home/pi/ros2_iron/install/rosidl_runtime_py:/home/pi/ros2_iron/install/rosidl_pycommon:/home/pi/ros2_iron/install/rosidl_cli:/home/pi/ros2_iron/install/launch_pytest:/home/pi/ros2_iron/install/launch_testing:/home/pi/ros2_iron/install/launch_yaml:/home/pi/ros2_iron/install/launch_xml:/home/pi/ros2_iron/install/launch:/home/pi/ros2_iron/install/osrf_pycommon:/home/pi/ros2_iron/install/domain_coordinator:/home/pi/ros2_iron/install/ament_xmllint:/home/pi/ros2_iron/install/ament_pyflakes:/home/pi/ros2_iron/install/ament_pycodestyle:/home/pi/ros2_iron/install/ament_pep257:/home/pi/ros2_iron/install/ament_pclint:/home/pi/ros2_iron/install/ament_package:/home/pi/ros2_iron/install/ament_mypy:/home/pi/ros2_iron/install/ament_lint_cmake:/home/pi/ros2_iron/install/ament_flake8:/home/pi/ros2_iron/install/ament_copyright:/home/pi/ros2_iron/install/ament_lint:/home/pi/ros2_iron/install/ament_index_python:/home/pi/ros2_iron/install/ament_cpplint:/home/pi/ros2_iron/install/ament_cppcheck:/home/pi/ros2_iron/install/ament_clang_tidy:/home/pi/ros2_iron/install/ament_clang_format /usr/bin/cmake --install /home/pi/wow_ws/build/sdl2_vendor
+[120.757s] -- Install configuration: ""
+[120.757s] -- Execute custom install script
+[120.761s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/bin/sdl2-config
+[120.815s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL.h
+[120.861s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_assert.h
+[120.915s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_atomic.h
+[120.956s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_audio.h
+[121.016s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_bits.h
+[121.058s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_blendmode.h
+[121.091s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_clipboard.h
+[121.122s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_config.h
+[121.163s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_config_android.h
+[121.194s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_config_emscripten.h
+[121.233s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_config_iphoneos.h
+[121.264s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_config_macosx.h
+[121.292s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_config_minimal.h
+[121.325s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_config_os2.h
+[121.355s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_config_pandora.h
+[121.383s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_config_psp.h
+[121.425s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_config_windows.h
+[121.447s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_config_winrt.h
+[121.476s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_config_wiz.h
+[121.511s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_copying.h
+[121.536s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_cpuinfo.h
+[121.566s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_egl.h
+[121.597s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_endian.h
+[121.628s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_error.h
+[121.658s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_events.h
+[121.690s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_filesystem.h
+[121.721s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_gamecontroller.h
+[121.752s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_gesture.h
+[121.789s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_haptic.h
+[121.819s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_hidapi.h
+[121.850s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_hints.h
+[121.880s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_joystick.h
+[121.913s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_keyboard.h
+[121.940s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_keycode.h
+[121.967s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_loadso.h
+[121.998s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_locale.h
+[122.029s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_log.h
+[122.065s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_main.h
+[122.091s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_messagebox.h
+[122.124s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_metal.h
+[122.156s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_misc.h
+[122.195s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_mouse.h
+[122.229s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_mutex.h
+[122.255s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_name.h
+[122.289s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_opengl.h
+[122.318s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_opengl_glext.h
+[122.348s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_opengles.h
+[122.380s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_opengles2.h
+[122.413s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_opengles2_gl2.h
+[122.444s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_opengles2_gl2ext.h
+[122.476s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_opengles2_gl2platform.h
+[122.508s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_opengles2_khrplatform.h
+[122.536s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_pixels.h
+[122.568s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_platform.h
+[122.599s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_power.h
+[122.626s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_quit.h
+[122.656s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_rect.h
+[122.689s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_render.h
+[122.718s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_revision.h
+[122.748s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_rwops.h
+[122.781s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_scancode.h
+[122.811s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_sensor.h
+[122.849s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_shape.h
+[122.883s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_stdinc.h
+[122.916s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_surface.h
+[122.951s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_system.h
+[122.986s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_syswm.h
+[123.021s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_test.h
+[123.056s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_test_assert.h
+[123.093s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_test_common.h
+[123.130s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_test_compare.h
+[123.168s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_test_crc32.h
+[123.209s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_test_font.h
+[123.240s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_test_fuzzer.h
+[123.277s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_test_harness.h
+[123.306s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_test_images.h
+[123.340s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_test_log.h
+[123.375s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_test_md5.h
+[123.410s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_test_memory.h
+[123.445s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_test_random.h
+[123.485s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_thread.h
+[123.516s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_timer.h
+[123.549s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_touch.h
+[123.583s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_types.h
+[123.621s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_version.h
+[123.651s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_video.h
+[123.685s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/SDL_vulkan.h
+[123.722s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/begin_code.h
+[123.753s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/include/SDL2/close_code.h
+[123.786s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/lib/cmake/SDL2/SDL2Config.cmake
+[123.822s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/lib/cmake/SDL2/SDL2ConfigVersion.cmake
+[123.857s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/lib/cmake/SDL2/SDL2Targets-noconfig.cmake
+[123.890s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/lib/cmake/SDL2/SDL2Targets.cmake
+[123.924s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/lib/cmake/SDL2/SDL2mainTargets-noconfig.cmake
+[123.959s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/lib/cmake/SDL2/SDL2mainTargets.cmake
+[123.992s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/lib/libSDL2-2.0.so
+[124.030s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/lib/libSDL2-2.0.so.0
+[124.063s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/lib/libSDL2-2.0.so.0.18.2
+[124.094s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/lib/libSDL2.so
+[124.133s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/lib/libSDL2main.a
+[124.160s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/lib/pkgconfig/sdl2.pc
+[124.194s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/aclocal/sdl2.m4
+[124.226s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/cmake/Modules/Findsdl2_custom.cmake
+[124.260s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/ament_index/resource_index/package_run_dependencies/sdl2_vendor
+[124.292s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/ament_index/resource_index/parent_prefix_path/sdl2_vendor
+[124.320s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/environment/ament_prefix_path.sh
+[124.355s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/environment/ament_prefix_path.dsv
+[124.385s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/environment/path.sh
+[124.415s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/environment/path.dsv
+[124.447s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/local_setup.bash
+[124.485s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/local_setup.sh
+[124.515s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/local_setup.zsh
+[124.547s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/local_setup.dsv
+[124.581s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/package.dsv
+[124.616s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/ament_index/resource_index/packages/sdl2_vendor
+[124.649s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/cmake/sdl2_vendor-extras.cmake
+[124.677s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/cmake/sdl2_vendorConfig.cmake
+[124.708s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/cmake/sdl2_vendorConfig-version.cmake
+[124.740s] -- Symlinking: /home/pi/wow_ws/install/sdl2_vendor/share/sdl2_vendor/package.xml
+[124.779s] Invoked command in '/home/pi/wow_ws/build/sdl2_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_iron/install/rqt_bag_plugins:/home/pi/ros2_iron/install/rqt_bag:/home/pi/ros2_iron/install/rosbag2_examples_py:/home/pi/ros2_iron/install/launch_testing_examples:/home/pi/ros2_iron/install/ros2bag:/home/pi/ros2_iron/install/tracetools_test:/home/pi/ros2_iron/install/tracetools_launch:/home/pi/ros2_iron/install/topic_monitor:/home/pi/ros2_iron/install/tf2_tools:/home/pi/ros2_iron/install/examples_tf2_py:/home/pi/ros2_iron/install/tf2_ros_py:/home/pi/ros2_iron/install/examples_rclpy_pointcloud_publisher:/home/pi/ros2_iron/install/sensor_msgs_py:/home/pi/ros2_iron/install/quality_of_service_demo_py:/home/pi/ros2_iron/install/rqt_plot:/home/pi/ros2_iron/install/ros2doctor:/home/pi/ros2_iron/install/lifecycle_py:/home/pi/ros2_iron/install/examples_rclpy_minimal_subscriber:/home/pi/ros2_iron/install/examples_rclpy_minimal_service:/home/pi/ros2_iron/install/examples_rclpy_minimal_publisher:/home/pi/ros2_iron/install/examples_rclpy_minimal_client:/home/pi/ros2_iron/install/examples_rclpy_executors:/home/pi/ros2_iron/install/demo_nodes_py:/home/pi/ros2_iron/install/rqt:/home/pi/ros2_iron/install/ros2component:/home/pi/ros2_iron/install/sros2:/home/pi/ros2_iron/install/rqt_topic:/home/pi/ros2_iron/install/rqt_srv:/home/pi/ros2_iron/install/rqt_shell:/home/pi/ros2_iron/install/rqt_service_caller:/home/pi/ros2_iron/install/rqt_reconfigure:/home/pi/ros2_iron/install/rqt_py_console:/home/pi/ros2_iron/install/rqt_publisher:/home/pi/ros2_iron/install/rqt_action:/home/pi/ros2_iron/install/rqt_msg:/home/pi/ros2_iron/install/rqt_console:/home/pi/ros2_iron/install/rqt_graph:/home/pi/ros2_iron/install/rqt_gui_py:/home/pi/ros2_iron/install/rqt_gui:/home/pi/ros2_iron/install/ros2trace:/home/pi/ros2_iron/install/ros2topic:/home/pi/ros2_iron/install/ros2test:/home/pi/ros2_iron/install/ros2param:/home/pi/ros2_iron/install/ros2lifecycle:/home/pi/ros2_iron/install/ros2service:/home/pi/ros2_iron/install/ros2run:/home/pi/ros2_iron/install/ros2launch:/home/pi/ros2_iron/install/ros2pkg:/home/pi/ros2_iron/install/ros2node:/home/pi/ros2_iron/install/ros2multicast:/home/pi/ros2_iron/install/ros2interface:/home/pi/ros2_iron/install/ros2action:/home/pi/ros2_iron/install/ros2cli:/home/pi/ros2_iron/install/launch_testing_ros:/home/pi/ros2_iron/install/launch_ros:/home/pi/ros2_iron/install/examples_rclpy_minimal_action_server:/home/pi/ros2_iron/install/examples_rclpy_minimal_action_client:/home/pi/ros2_iron/install/examples_rclpy_guard_conditions:/home/pi/ros2_iron/install/action_tutorials_py:/home/pi/ros2_iron/install/ament_uncrustify:/home/pi/ros2_iron/install/tracetools_trace:/home/pi/ros2_iron/install/tracetools_read:/home/pi/ros2_iron/install/test_tracetools_launch:/home/pi/ros2_iron/install/test_ros2trace:/home/pi/ros2_iron/install/test_launch_ros:/home/pi/ros2_iron/install/rpyutils:/home/pi/ros2_iron/install/rosidl_runtime_py:/home/pi/ros2_iron/install/rosidl_pycommon:/home/pi/ros2_iron/install/rosidl_cli:/home/pi/ros2_iron/install/launch_pytest:/home/pi/ros2_iron/install/launch_testing:/home/pi/ros2_iron/install/launch_yaml:/home/pi/ros2_iron/install/launch_xml:/home/pi/ros2_iron/install/launch:/home/pi/ros2_iron/install/osrf_pycommon:/home/pi/ros2_iron/install/domain_coordinator:/home/pi/ros2_iron/install/ament_xmllint:/home/pi/ros2_iron/install/ament_pyflakes:/home/pi/ros2_iron/install/ament_pycodestyle:/home/pi/ros2_iron/install/ament_pep257:/home/pi/ros2_iron/install/ament_pclint:/home/pi/ros2_iron/install/ament_package:/home/pi/ros2_iron/install/ament_mypy:/home/pi/ros2_iron/install/ament_lint_cmake:/home/pi/ros2_iron/install/ament_flake8:/home/pi/ros2_iron/install/ament_copyright:/home/pi/ros2_iron/install/ament_lint:/home/pi/ros2_iron/install/ament_index_python:/home/pi/ros2_iron/install/ament_cpplint:/home/pi/ros2_iron/install/ament_cppcheck:/home/pi/ros2_iron/install/ament_clang_tidy:/home/pi/ros2_iron/install/ament_clang_format /usr/bin/cmake --install /home/pi/wow_ws/build/sdl2_vendor

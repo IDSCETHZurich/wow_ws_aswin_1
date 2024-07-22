@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+6e437b34b2a17697c6681580a00c1422 CMakeFiles/SDL2-2.0.20-complete
+c80c302436e5441f4ea13ccffed031e2 CMakeFiles/sdl2_vendor_uninstall
+3d3c63fcc2c57d9fdc4c27580134f4c6 SDL2-2.0.20/src/SDL2-2.0.20-stamp/SDL2-2.0.20-build
+40c268c84fcbd11cf323a73c8af15f7e SDL2-2.0.20/src/SDL2-2.0.20-stamp/SDL2-2.0.20-configure
+a37f03ab4bcc7ac1da16aa60b283702a SDL2-2.0.20/src/SDL2-2.0.20-stamp/SDL2-2.0.20-download
+8a8859305d5202e0bdb77dd66c6d4315 SDL2-2.0.20/src/SDL2-2.0.20-stamp/SDL2-2.0.20-install
+de4beb87966feaf2a011cecad686c0d5 SDL2-2.0.20/src/SDL2-2.0.20-stamp/SDL2-2.0.20-mkdir
+12893c46c5501c8a18b1b5ad2ae00baf SDL2-2.0.20/src/SDL2-2.0.20-stamp/SDL2-2.0.20-patch
+02e0ed3dcbc2c0ee56e2dba41df2bf24 SDL2-2.0.20/src/SDL2-2.0.20-stamp/SDL2-2.0.20-update

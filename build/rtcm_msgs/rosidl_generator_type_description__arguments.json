@@ -1,0 +1,11 @@
+{
+  "package_name": "rtcm_msgs",
+  "output_dir": "/home/pi/wow_ws/build/rtcm_msgs/rosidl_generator_type_description/rtcm_msgs",
+  "idl_tuples": [
+    "/home/pi/wow_ws/build/rtcm_msgs/rosidl_adapter/rtcm_msgs:msg/Message.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/home/pi/ros2_iron/install/builtin_interfaces/share/builtin_interfaces",
+    "std_msgs:/home/pi/ros2_iron/install/std_msgs/share/std_msgs"
+  ]
+}

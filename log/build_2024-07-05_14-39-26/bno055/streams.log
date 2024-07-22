@@ -1,0 +1,23 @@
+[2.692s] Invoking command in '/home/pi/wow_ws/build/bno055': PYTHONPATH=/home/pi/wow_ws/build/bno055/prefix_override:/home/pi/wow_ws/install/bno055/lib/python3.11/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/wow_ws/build/bno055/build --no-deps install_data
+[3.634s] running develop
+[3.634s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:146: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.634s]   warnings.warn(
+[3.713s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.713s]   warnings.warn(
+[4.117s] running egg_info
+[4.153s] writing bno055.egg-info/PKG-INFO
+[4.153s] writing dependency_links to bno055.egg-info/dependency_links.txt
+[4.155s] writing entry points to bno055.egg-info/entry_points.txt
+[4.156s] writing requirements to bno055.egg-info/requires.txt
+[4.157s] writing top-level names to bno055.egg-info/top_level.txt
+[4.236s] reading manifest file 'bno055.egg-info/SOURCES.txt'
+[4.237s] writing manifest file 'bno055.egg-info/SOURCES.txt'
+[4.281s] running build_ext
+[4.281s] Creating /home/pi/wow_ws/install/bno055/lib/python3.11/site-packages/bno055.egg-link (link to .)
+[4.282s] Installing bno055 script to /home/pi/wow_ws/install/bno055/lib/bno055
+[4.283s] 
+[4.283s] Installed /home/pi/wow_ws/build/bno055
+[4.283s] running install_data
+[4.283s] copying bno055/params/bno055_params_i2c_29.yaml -> /home/pi/wow_ws/install/bno055/share/bno055/config
+[4.283s] copying bno055/params/bno055_params_i2c.yaml -> /home/pi/wow_ws/install/bno055/share/bno055/config
+[4.453s] Invoked command in '/home/pi/wow_ws/build/bno055' returned '0': PYTHONPATH=/home/pi/wow_ws/build/bno055/prefix_override:/home/pi/wow_ws/install/bno055/lib/python3.11/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/wow_ws/build/bno055/build --no-deps install_data

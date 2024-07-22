@@ -1,0 +1,2 @@
+[console_scripts]
+ICM_raw_data = ICM20948.ICM_raw_data:main

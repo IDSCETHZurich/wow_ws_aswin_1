@@ -1,0 +1,25 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:146: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing wow_ros2.egg-info/PKG-INFO
+writing dependency_links to wow_ros2.egg-info/dependency_links.txt
+writing entry points to wow_ros2.egg-info/entry_points.txt
+writing requirements to wow_ros2.egg-info/requires.txt
+writing top-level names to wow_ros2.egg-info/top_level.txt
+reading manifest file 'wow_ros2.egg-info/SOURCES.txt'
+writing manifest file 'wow_ros2.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pi/wow_ws/install/wow_ros2/lib/python3.11/site-packages/wow-ros2.egg-link (link to .)
+Installing test_bno055_listener script to /home/pi/wow_ws/install/wow_ros2/lib/wow_ros2
+Installing v2_adafruit_interface script to /home/pi/wow_ws/install/wow_ros2/lib/wow_ros2
+Installing v2_controller_ol_joystick script to /home/pi/wow_ws/install/wow_ros2/lib/wow_ros2
+Installing v2_controller_pid_joystick script to /home/pi/wow_ws/install/wow_ros2/lib/wow_ros2
+Installing v2_controller_test script to /home/pi/wow_ws/install/wow_ros2/lib/wow_ros2
+Installing v2_lights script to /home/pi/wow_ws/install/wow_ros2/lib/wow_ros2
+Installing v4_controller_pid_joystick script to /home/pi/wow_ws/install/wow_ros2/lib/wow_ros2
+
+Installed /home/pi/wow_ws/build/wow_ros2
+running install_data

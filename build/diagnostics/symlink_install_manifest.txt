@@ -1,0 +1,15 @@
+/home/pi/wow_ws/install/diagnostics/share/ament_index/resource_index/package_run_dependencies/diagnostics
+/home/pi/wow_ws/install/diagnostics/share/ament_index/resource_index/parent_prefix_path/diagnostics
+/home/pi/wow_ws/install/diagnostics/share/diagnostics/environment/ament_prefix_path.sh
+/home/pi/wow_ws/install/diagnostics/share/diagnostics/environment/ament_prefix_path.dsv
+/home/pi/wow_ws/install/diagnostics/share/diagnostics/environment/path.sh
+/home/pi/wow_ws/install/diagnostics/share/diagnostics/environment/path.dsv
+/home/pi/wow_ws/install/diagnostics/share/diagnostics/local_setup.bash
+/home/pi/wow_ws/install/diagnostics/share/diagnostics/local_setup.sh
+/home/pi/wow_ws/install/diagnostics/share/diagnostics/local_setup.zsh
+/home/pi/wow_ws/install/diagnostics/share/diagnostics/local_setup.dsv
+/home/pi/wow_ws/install/diagnostics/share/diagnostics/package.dsv
+/home/pi/wow_ws/install/diagnostics/share/ament_index/resource_index/packages/diagnostics
+/home/pi/wow_ws/install/diagnostics/share/diagnostics/cmake/diagnosticsConfig.cmake
+/home/pi/wow_ws/install/diagnostics/share/diagnostics/cmake/diagnosticsConfig-version.cmake
+/home/pi/wow_ws/install/diagnostics/share/diagnostics/package.xml

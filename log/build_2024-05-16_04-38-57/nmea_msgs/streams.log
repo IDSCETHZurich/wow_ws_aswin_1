@@ -1,0 +1,426 @@
+[0.073s] Invoking command in '/home/pi/wow_ws/build/nmea_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_iron/install/rqt_bag_plugins:/home/pi/ros2_iron/install/rqt_bag:/home/pi/ros2_iron/install/rosbag2_examples_py:/home/pi/ros2_iron/install/launch_testing_examples:/home/pi/ros2_iron/install/ros2bag:/home/pi/ros2_iron/install/tracetools_test:/home/pi/ros2_iron/install/tracetools_launch:/home/pi/ros2_iron/install/topic_monitor:/home/pi/ros2_iron/install/tf2_tools:/home/pi/ros2_iron/install/examples_tf2_py:/home/pi/ros2_iron/install/tf2_ros_py:/home/pi/ros2_iron/install/examples_rclpy_pointcloud_publisher:/home/pi/ros2_iron/install/sensor_msgs_py:/home/pi/ros2_iron/install/quality_of_service_demo_py:/home/pi/ros2_iron/install/rqt_plot:/home/pi/ros2_iron/install/ros2doctor:/home/pi/ros2_iron/install/lifecycle_py:/home/pi/ros2_iron/install/examples_rclpy_minimal_subscriber:/home/pi/ros2_iron/install/examples_rclpy_minimal_service:/home/pi/ros2_iron/install/examples_rclpy_minimal_publisher:/home/pi/ros2_iron/install/examples_rclpy_minimal_client:/home/pi/ros2_iron/install/examples_rclpy_executors:/home/pi/ros2_iron/install/demo_nodes_py:/home/pi/ros2_iron/install/rqt:/home/pi/ros2_iron/install/ros2component:/home/pi/ros2_iron/install/sros2:/home/pi/ros2_iron/install/rqt_topic:/home/pi/ros2_iron/install/rqt_srv:/home/pi/ros2_iron/install/rqt_shell:/home/pi/ros2_iron/install/rqt_service_caller:/home/pi/ros2_iron/install/rqt_reconfigure:/home/pi/ros2_iron/install/rqt_py_console:/home/pi/ros2_iron/install/rqt_publisher:/home/pi/ros2_iron/install/rqt_action:/home/pi/ros2_iron/install/rqt_msg:/home/pi/ros2_iron/install/rqt_console:/home/pi/ros2_iron/install/rqt_graph:/home/pi/ros2_iron/install/rqt_gui_py:/home/pi/ros2_iron/install/rqt_gui:/home/pi/ros2_iron/install/ros2trace:/home/pi/ros2_iron/install/ros2topic:/home/pi/ros2_iron/install/ros2test:/home/pi/ros2_iron/install/ros2param:/home/pi/ros2_iron/install/ros2lifecycle:/home/pi/ros2_iron/install/ros2service:/home/pi/ros2_iron/install/ros2run:/home/pi/ros2_iron/install/ros2launch:/home/pi/ros2_iron/install/ros2pkg:/home/pi/ros2_iron/install/ros2node:/home/pi/ros2_iron/install/ros2multicast:/home/pi/ros2_iron/install/ros2interface:/home/pi/ros2_iron/install/ros2action:/home/pi/ros2_iron/install/ros2cli:/home/pi/ros2_iron/install/launch_testing_ros:/home/pi/ros2_iron/install/launch_ros:/home/pi/ros2_iron/install/examples_rclpy_minimal_action_server:/home/pi/ros2_iron/install/examples_rclpy_minimal_action_client:/home/pi/ros2_iron/install/examples_rclpy_guard_conditions:/home/pi/ros2_iron/install/action_tutorials_py:/home/pi/ros2_iron/install/ament_uncrustify:/home/pi/ros2_iron/install/tracetools_trace:/home/pi/ros2_iron/install/tracetools_read:/home/pi/ros2_iron/install/test_tracetools_launch:/home/pi/ros2_iron/install/test_ros2trace:/home/pi/ros2_iron/install/test_launch_ros:/home/pi/ros2_iron/install/rpyutils:/home/pi/ros2_iron/install/rosidl_runtime_py:/home/pi/ros2_iron/install/rosidl_pycommon:/home/pi/ros2_iron/install/rosidl_cli:/home/pi/ros2_iron/install/launch_pytest:/home/pi/ros2_iron/install/launch_testing:/home/pi/ros2_iron/install/launch_yaml:/home/pi/ros2_iron/install/launch_xml:/home/pi/ros2_iron/install/launch:/home/pi/ros2_iron/install/osrf_pycommon:/home/pi/ros2_iron/install/domain_coordinator:/home/pi/ros2_iron/install/ament_xmllint:/home/pi/ros2_iron/install/ament_pyflakes:/home/pi/ros2_iron/install/ament_pycodestyle:/home/pi/ros2_iron/install/ament_pep257:/home/pi/ros2_iron/install/ament_pclint:/home/pi/ros2_iron/install/ament_package:/home/pi/ros2_iron/install/ament_mypy:/home/pi/ros2_iron/install/ament_lint_cmake:/home/pi/ros2_iron/install/ament_flake8:/home/pi/ros2_iron/install/ament_copyright:/home/pi/ros2_iron/install/ament_lint:/home/pi/ros2_iron/install/ament_index_python:/home/pi/ros2_iron/install/ament_cpplint:/home/pi/ros2_iron/install/ament_cppcheck:/home/pi/ros2_iron/install/ament_clang_tidy:/home/pi/ros2_iron/install/ament_clang_format /usr/bin/cmake /home/pi/wow_ws/src/nmea_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/wow_ws/install/nmea_msgs
+[0.270s] -- The C compiler identification is GNU 12.2.0
+[0.426s] -- The CXX compiler identification is GNU 12.2.0
+[0.447s] -- Detecting C compiler ABI info
+[0.689s] -- Detecting C compiler ABI info - done
+[0.709s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.709s] -- Detecting C compile features
+[0.709s] -- Detecting C compile features - done
+[0.709s] -- Detecting CXX compiler ABI info
+[0.973s] -- Detecting CXX compiler ABI info - done
+[0.985s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.985s] -- Detecting CXX compile features
+[0.986s] -- Detecting CXX compile features - done
+[1.005s] -- Found ament_cmake: 2.0.5 (/home/pi/ros2_iron/install/ament_cmake/share/ament_cmake/cmake)
+[3.474s] -- Found Python3: /usr/bin/python3 (found version "3.11.2") found components: Interpreter 
+[3.794s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.040s] -- Found rosidl_default_generators: 1.5.0 (/home/pi/ros2_iron/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[4.248s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[4.519s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[4.690s] -- Found rosidl_adapter: 4.0.1 (/home/pi/ros2_iron/install/rosidl_adapter/share/rosidl_adapter/cmake)
+[4.707s] -- Found std_msgs: 5.0.0 (/home/pi/ros2_iron/install/std_msgs/share/std_msgs/cmake)
+[6.182s] -- Found ament_cmake_ros: 0.11.2 (/home/pi/ros2_iron/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+[6.539s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[7.098s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[7.217s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.11.2", minimum required is "3.6") 
+[7.232s] -- Found python_cmake_module: 0.10.2 (/home/pi/ros2_iron/install/python_cmake_module/share/python_cmake_module/cmake)
+[7.352s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.11.so (found suitable version "3.11.2", minimum required is "3.5") 
+[7.352s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.352s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.11
+[7.353s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.11.so
+[7.465s] -- Found PythonExtra: .so  
+[8.275s] -- Configuring done
+[8.371s] -- Generating done
+[8.375s] -- Build files have been written to: /home/pi/wow_ws/build/nmea_msgs
+[8.399s] Invoked command in '/home/pi/wow_ws/build/nmea_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_iron/install/rqt_bag_plugins:/home/pi/ros2_iron/install/rqt_bag:/home/pi/ros2_iron/install/rosbag2_examples_py:/home/pi/ros2_iron/install/launch_testing_examples:/home/pi/ros2_iron/install/ros2bag:/home/pi/ros2_iron/install/tracetools_test:/home/pi/ros2_iron/install/tracetools_launch:/home/pi/ros2_iron/install/topic_monitor:/home/pi/ros2_iron/install/tf2_tools:/home/pi/ros2_iron/install/examples_tf2_py:/home/pi/ros2_iron/install/tf2_ros_py:/home/pi/ros2_iron/install/examples_rclpy_pointcloud_publisher:/home/pi/ros2_iron/install/sensor_msgs_py:/home/pi/ros2_iron/install/quality_of_service_demo_py:/home/pi/ros2_iron/install/rqt_plot:/home/pi/ros2_iron/install/ros2doctor:/home/pi/ros2_iron/install/lifecycle_py:/home/pi/ros2_iron/install/examples_rclpy_minimal_subscriber:/home/pi/ros2_iron/install/examples_rclpy_minimal_service:/home/pi/ros2_iron/install/examples_rclpy_minimal_publisher:/home/pi/ros2_iron/install/examples_rclpy_minimal_client:/home/pi/ros2_iron/install/examples_rclpy_executors:/home/pi/ros2_iron/install/demo_nodes_py:/home/pi/ros2_iron/install/rqt:/home/pi/ros2_iron/install/ros2component:/home/pi/ros2_iron/install/sros2:/home/pi/ros2_iron/install/rqt_topic:/home/pi/ros2_iron/install/rqt_srv:/home/pi/ros2_iron/install/rqt_shell:/home/pi/ros2_iron/install/rqt_service_caller:/home/pi/ros2_iron/install/rqt_reconfigure:/home/pi/ros2_iron/install/rqt_py_console:/home/pi/ros2_iron/install/rqt_publisher:/home/pi/ros2_iron/install/rqt_action:/home/pi/ros2_iron/install/rqt_msg:/home/pi/ros2_iron/install/rqt_console:/home/pi/ros2_iron/install/rqt_graph:/home/pi/ros2_iron/install/rqt_gui_py:/home/pi/ros2_iron/install/rqt_gui:/home/pi/ros2_iron/install/ros2trace:/home/pi/ros2_iron/install/ros2topic:/home/pi/ros2_iron/install/ros2test:/home/pi/ros2_iron/install/ros2param:/home/pi/ros2_iron/install/ros2lifecycle:/home/pi/ros2_iron/install/ros2service:/home/pi/ros2_iron/install/ros2run:/home/pi/ros2_iron/install/ros2launch:/home/pi/ros2_iron/install/ros2pkg:/home/pi/ros2_iron/install/ros2node:/home/pi/ros2_iron/install/ros2multicast:/home/pi/ros2_iron/install/ros2interface:/home/pi/ros2_iron/install/ros2action:/home/pi/ros2_iron/install/ros2cli:/home/pi/ros2_iron/install/launch_testing_ros:/home/pi/ros2_iron/install/launch_ros:/home/pi/ros2_iron/install/examples_rclpy_minimal_action_server:/home/pi/ros2_iron/install/examples_rclpy_minimal_action_client:/home/pi/ros2_iron/install/examples_rclpy_guard_conditions:/home/pi/ros2_iron/install/action_tutorials_py:/home/pi/ros2_iron/install/ament_uncrustify:/home/pi/ros2_iron/install/tracetools_trace:/home/pi/ros2_iron/install/tracetools_read:/home/pi/ros2_iron/install/test_tracetools_launch:/home/pi/ros2_iron/install/test_ros2trace:/home/pi/ros2_iron/install/test_launch_ros:/home/pi/ros2_iron/install/rpyutils:/home/pi/ros2_iron/install/rosidl_runtime_py:/home/pi/ros2_iron/install/rosidl_pycommon:/home/pi/ros2_iron/install/rosidl_cli:/home/pi/ros2_iron/install/launch_pytest:/home/pi/ros2_iron/install/launch_testing:/home/pi/ros2_iron/install/launch_yaml:/home/pi/ros2_iron/install/launch_xml:/home/pi/ros2_iron/install/launch:/home/pi/ros2_iron/install/osrf_pycommon:/home/pi/ros2_iron/install/domain_coordinator:/home/pi/ros2_iron/install/ament_xmllint:/home/pi/ros2_iron/install/ament_pyflakes:/home/pi/ros2_iron/install/ament_pycodestyle:/home/pi/ros2_iron/install/ament_pep257:/home/pi/ros2_iron/install/ament_pclint:/home/pi/ros2_iron/install/ament_package:/home/pi/ros2_iron/install/ament_mypy:/home/pi/ros2_iron/install/ament_lint_cmake:/home/pi/ros2_iron/install/ament_flake8:/home/pi/ros2_iron/install/ament_copyright:/home/pi/ros2_iron/install/ament_lint:/home/pi/ros2_iron/install/ament_index_python:/home/pi/ros2_iron/install/ament_cpplint:/home/pi/ros2_iron/install/ament_cppcheck:/home/pi/ros2_iron/install/ament_clang_tidy:/home/pi/ros2_iron/install/ament_clang_format /usr/bin/cmake /home/pi/wow_ws/src/nmea_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/wow_ws/install/nmea_msgs
+[8.402s] Invoking command in '/home/pi/wow_ws/build/nmea_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_iron/install/rqt_bag_plugins:/home/pi/ros2_iron/install/rqt_bag:/home/pi/ros2_iron/install/rosbag2_examples_py:/home/pi/ros2_iron/install/launch_testing_examples:/home/pi/ros2_iron/install/ros2bag:/home/pi/ros2_iron/install/tracetools_test:/home/pi/ros2_iron/install/tracetools_launch:/home/pi/ros2_iron/install/topic_monitor:/home/pi/ros2_iron/install/tf2_tools:/home/pi/ros2_iron/install/examples_tf2_py:/home/pi/ros2_iron/install/tf2_ros_py:/home/pi/ros2_iron/install/examples_rclpy_pointcloud_publisher:/home/pi/ros2_iron/install/sensor_msgs_py:/home/pi/ros2_iron/install/quality_of_service_demo_py:/home/pi/ros2_iron/install/rqt_plot:/home/pi/ros2_iron/install/ros2doctor:/home/pi/ros2_iron/install/lifecycle_py:/home/pi/ros2_iron/install/examples_rclpy_minimal_subscriber:/home/pi/ros2_iron/install/examples_rclpy_minimal_service:/home/pi/ros2_iron/install/examples_rclpy_minimal_publisher:/home/pi/ros2_iron/install/examples_rclpy_minimal_client:/home/pi/ros2_iron/install/examples_rclpy_executors:/home/pi/ros2_iron/install/demo_nodes_py:/home/pi/ros2_iron/install/rqt:/home/pi/ros2_iron/install/ros2component:/home/pi/ros2_iron/install/sros2:/home/pi/ros2_iron/install/rqt_topic:/home/pi/ros2_iron/install/rqt_srv:/home/pi/ros2_iron/install/rqt_shell:/home/pi/ros2_iron/install/rqt_service_caller:/home/pi/ros2_iron/install/rqt_reconfigure:/home/pi/ros2_iron/install/rqt_py_console:/home/pi/ros2_iron/install/rqt_publisher:/home/pi/ros2_iron/install/rqt_action:/home/pi/ros2_iron/install/rqt_msg:/home/pi/ros2_iron/install/rqt_console:/home/pi/ros2_iron/install/rqt_graph:/home/pi/ros2_iron/install/rqt_gui_py:/home/pi/ros2_iron/install/rqt_gui:/home/pi/ros2_iron/install/ros2trace:/home/pi/ros2_iron/install/ros2topic:/home/pi/ros2_iron/install/ros2test:/home/pi/ros2_iron/install/ros2param:/home/pi/ros2_iron/install/ros2lifecycle:/home/pi/ros2_iron/install/ros2service:/home/pi/ros2_iron/install/ros2run:/home/pi/ros2_iron/install/ros2launch:/home/pi/ros2_iron/install/ros2pkg:/home/pi/ros2_iron/install/ros2node:/home/pi/ros2_iron/install/ros2multicast:/home/pi/ros2_iron/install/ros2interface:/home/pi/ros2_iron/install/ros2action:/home/pi/ros2_iron/install/ros2cli:/home/pi/ros2_iron/install/launch_testing_ros:/home/pi/ros2_iron/install/launch_ros:/home/pi/ros2_iron/install/examples_rclpy_minimal_action_server:/home/pi/ros2_iron/install/examples_rclpy_minimal_action_client:/home/pi/ros2_iron/install/examples_rclpy_guard_conditions:/home/pi/ros2_iron/install/action_tutorials_py:/home/pi/ros2_iron/install/ament_uncrustify:/home/pi/ros2_iron/install/tracetools_trace:/home/pi/ros2_iron/install/tracetools_read:/home/pi/ros2_iron/install/test_tracetools_launch:/home/pi/ros2_iron/install/test_ros2trace:/home/pi/ros2_iron/install/test_launch_ros:/home/pi/ros2_iron/install/rpyutils:/home/pi/ros2_iron/install/rosidl_runtime_py:/home/pi/ros2_iron/install/rosidl_pycommon:/home/pi/ros2_iron/install/rosidl_cli:/home/pi/ros2_iron/install/launch_pytest:/home/pi/ros2_iron/install/launch_testing:/home/pi/ros2_iron/install/launch_yaml:/home/pi/ros2_iron/install/launch_xml:/home/pi/ros2_iron/install/launch:/home/pi/ros2_iron/install/osrf_pycommon:/home/pi/ros2_iron/install/domain_coordinator:/home/pi/ros2_iron/install/ament_xmllint:/home/pi/ros2_iron/install/ament_pyflakes:/home/pi/ros2_iron/install/ament_pycodestyle:/home/pi/ros2_iron/install/ament_pep257:/home/pi/ros2_iron/install/ament_pclint:/home/pi/ros2_iron/install/ament_package:/home/pi/ros2_iron/install/ament_mypy:/home/pi/ros2_iron/install/ament_lint_cmake:/home/pi/ros2_iron/install/ament_flake8:/home/pi/ros2_iron/install/ament_copyright:/home/pi/ros2_iron/install/ament_lint:/home/pi/ros2_iron/install/ament_index_python:/home/pi/ros2_iron/install/ament_cpplint:/home/pi/ros2_iron/install/ament_cppcheck:/home/pi/ros2_iron/install/ament_clang_tidy:/home/pi/ros2_iron/install/ament_clang_format /usr/bin/cmake --build /home/pi/wow_ws/build/nmea_msgs -- -j4 -l4
+[8.603s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[8.655s] [  1%] Built target ament_cmake_python_symlink_nmea_msgs
+[10.299s] running egg_info
+[10.305s] creating nmea_msgs.egg-info
+[10.422s] writing nmea_msgs.egg-info/PKG-INFO
+[10.423s] writing dependency_links to nmea_msgs.egg-info/dependency_links.txt
+[10.423s] writing top-level names to nmea_msgs.egg-info/top_level.txt
+[10.423s] writing manifest file 'nmea_msgs.egg-info/SOURCES.txt'
+[10.719s] reading manifest file 'nmea_msgs.egg-info/SOURCES.txt'
+[10.726s] writing manifest file 'nmea_msgs.egg-info/SOURCES.txt'
+[10.833s] [  1%] Built target nmea_msgs__rosidl_generator_type_description
+[10.928s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[11.039s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[11.284s] [  2%] Built target ament_cmake_python_build_nmea_msgs_egg
+[15.030s] [  2%] Built target nmea_msgs__cpp
+[15.890s] [  3%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_c.dir/rosidl_generator_c/nmea_msgs/msg/detail/gpgga__description.c.o[0m
+[15.908s] [  4%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_c.dir/rosidl_generator_c/nmea_msgs/msg/detail/sentence__description.c.o[0m
+[15.918s] [  5%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_c.dir/rosidl_generator_c/nmea_msgs/msg/detail/sentence__functions.c.o[0m
+[15.936s] [  6%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_c.dir/rosidl_generator_c/nmea_msgs/msg/detail/sentence__type_support.c.o[0m
+[16.153s] [  6%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_c.dir/rosidl_generator_c/nmea_msgs/msg/detail/gpgga__type_support.c.o[0m
+[16.174s] [  7%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_c.dir/rosidl_generator_c/nmea_msgs/msg/detail/gpgga__functions.c.o[0m
+[16.202s] [  8%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_c.dir/rosidl_generator_c/nmea_msgs/msg/detail/gpgsa__description.c.o[0m
+[16.284s] [  9%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_c.dir/rosidl_generator_c/nmea_msgs/msg/detail/gpgsa__functions.c.o[0m
+[16.474s] [ 10%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_c.dir/rosidl_generator_c/nmea_msgs/msg/detail/gpgsa__type_support.c.o[0m
+[16.491s] [ 11%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_c.dir/rosidl_generator_c/nmea_msgs/msg/detail/gpgst__description.c.o[0m
+[16.580s] [ 12%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_c.dir/rosidl_generator_c/nmea_msgs/msg/detail/gpgst__functions.c.o[0m
+[16.612s] [ 13%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_c.dir/rosidl_generator_c/nmea_msgs/msg/detail/gpgst__type_support.c.o[0m
+[16.710s] [ 14%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_c.dir/rosidl_generator_c/nmea_msgs/msg/detail/gpgsv__description.c.o[0m
+[16.781s] [ 14%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_c.dir/rosidl_generator_c/nmea_msgs/msg/detail/gpgsv__functions.c.o[0m
+[16.872s] [ 15%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_c.dir/rosidl_generator_c/nmea_msgs/msg/detail/gpgsv_satellite__description.c.o[0m
+[16.914s] [ 16%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_c.dir/rosidl_generator_c/nmea_msgs/msg/detail/gpgsv__type_support.c.o[0m
+[16.936s] [ 17%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_c.dir/rosidl_generator_c/nmea_msgs/msg/detail/gpgsv_satellite__functions.c.o[0m
+[17.112s] [ 18%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_c.dir/rosidl_generator_c/nmea_msgs/msg/detail/gpgsv_satellite__type_support.c.o[0m
+[17.146s] [ 19%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_c.dir/rosidl_generator_c/nmea_msgs/msg/detail/gprmc__description.c.o[0m
+[17.202s] [ 20%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_c.dir/rosidl_generator_c/nmea_msgs/msg/detail/gprmc__functions.c.o[0m
+[17.281s] [ 21%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_c.dir/rosidl_generator_c/nmea_msgs/msg/detail/gprmc__type_support.c.o[0m
+[17.336s] [ 21%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_c.dir/rosidl_generator_c/nmea_msgs/msg/detail/gpvtg__description.c.o[0m
+[17.415s] [ 22%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_c.dir/rosidl_generator_c/nmea_msgs/msg/detail/gpvtg__functions.c.o[0m
+[17.468s] [ 23%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_c.dir/rosidl_generator_c/nmea_msgs/msg/detail/gpvtg__type_support.c.o[0m
+[17.551s] [ 24%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_c.dir/rosidl_generator_c/nmea_msgs/msg/detail/gpzda__description.c.o[0m
+[17.690s] [ 25%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_c.dir/rosidl_generator_c/nmea_msgs/msg/detail/gpzda__functions.c.o[0m
+[17.740s] [ 26%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_c.dir/rosidl_generator_c/nmea_msgs/msg/detail/gpzda__type_support.c.o[0m
+[17.997s] [ 27%] [32m[1mLinking C shared library libnmea_msgs__rosidl_generator_c.so[0m
+[18.286s] [ 27%] Built target nmea_msgs__rosidl_generator_c
+[18.371s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[18.382s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[18.400s] [ 30%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[18.404s] [ 31%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[21.901s] [ 32%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nmea_msgs/msg/sentence__type_support.cpp.o[0m
+[22.226s] [ 33%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nmea_msgs/msg/gpgga__type_support.cpp.o[0m
+[22.493s] [ 34%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nmea_msgs/msg/gpgsa__type_support.cpp.o[0m
+[22.747s] [ 35%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nmea_msgs/msg/gpgst__type_support.cpp.o[0m
+[22.959s] [ 36%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nmea_msgs/msg/detail/sentence__type_support.cpp.o[0m
+[22.989s] [ 37%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nmea_msgs/msg/gpgsv__type_support.cpp.o[0m
+[23.117s] [ 38%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nmea_msgs/msg/detail/sentence__type_support_c.cpp.o[0m
+[23.304s] [ 38%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nmea_msgs/msg/gpgsv_satellite__type_support.cpp.o[0m
+[23.317s] [ 39%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nmea_msgs/msg/detail/dds_fastrtps/sentence__type_support.cpp.o[0m
+[23.504s] [ 40%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nmea_msgs/msg/gprmc__type_support.cpp.o[0m
+[23.770s] [ 41%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nmea_msgs/msg/gpvtg__type_support.cpp.o[0m
+[24.051s] [ 42%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nmea_msgs/msg/gpzda__type_support.cpp.o[0m
+[24.301s] [ 43%] [32m[1mLinking CXX shared library libnmea_msgs__rosidl_typesupport_c.so[0m
+[24.546s] [ 43%] Built target nmea_msgs__rosidl_typesupport_c
+[24.661s] [ 44%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[24.864s] [ 44%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nmea_msgs/msg/detail/gpgga__type_support.cpp.o[0m
+[24.974s] [ 45%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nmea_msgs/msg/detail/gpgga__type_support_c.cpp.o[0m
+[25.631s] [ 45%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nmea_msgs/msg/detail/dds_fastrtps/gpgga__type_support.cpp.o[0m
+[26.788s] [ 46%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nmea_msgs/msg/detail/gpgsa__type_support.cpp.o[0m
+[26.903s] [ 47%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nmea_msgs/msg/detail/gpgsa__type_support_c.cpp.o[0m
+[27.926s] [ 48%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nmea_msgs/msg/detail/dds_fastrtps/gpgsa__type_support.cpp.o[0m
+[28.573s] [ 49%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nmea_msgs/msg/detail/gpgst__type_support.cpp.o[0m
+[28.590s] [ 50%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nmea_msgs/msg/sentence__type_support.cpp.o[0m
+[28.671s] [ 51%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nmea_msgs/msg/detail/gpgst__type_support_c.cpp.o[0m
+[29.824s] [ 52%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nmea_msgs/msg/detail/gpgsv__type_support.cpp.o[0m
+[29.860s] [ 52%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nmea_msgs/msg/gpgga__type_support.cpp.o[0m
+[30.082s] [ 53%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nmea_msgs/msg/detail/gpgsv__type_support_c.cpp.o[0m
+[30.402s] [ 54%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nmea_msgs/msg/detail/dds_fastrtps/gpgst__type_support.cpp.o[0m
+[31.224s] [ 55%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nmea_msgs/msg/gpgsa__type_support.cpp.o[0m
+[31.554s] [ 56%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nmea_msgs/msg/detail/gpgsv_satellite__type_support.cpp.o[0m
+[31.694s] [ 57%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nmea_msgs/msg/detail/gpgsv_satellite__type_support_c.cpp.o[0m
+[32.413s] [ 58%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nmea_msgs/msg/detail/dds_fastrtps/gpgsv__type_support.cpp.o[0m
+[32.741s] [ 59%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nmea_msgs/msg/gpgst__type_support.cpp.o[0m
+[32.770s] [ 60%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nmea_msgs/msg/detail/gprmc__type_support.cpp.o[0m
+[33.435s] [ 60%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nmea_msgs/msg/detail/gprmc__type_support_c.cpp.o[0m
+[34.172s] [ 61%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nmea_msgs/msg/detail/gpvtg__type_support.cpp.o[0m
+[34.239s] [ 62%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nmea_msgs/msg/gpgsv__type_support.cpp.o[0m
+[34.632s] [ 63%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nmea_msgs/msg/detail/dds_fastrtps/gpgsv_satellite__type_support.cpp.o[0m
+[35.608s] [ 64%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nmea_msgs/msg/detail/gpvtg__type_support_c.cpp.o[0m
+[36.001s] [ 65%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nmea_msgs/msg/detail/gpzda__type_support.cpp.o[0m
+[36.178s] [ 66%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nmea_msgs/msg/gpgsv_satellite__type_support.cpp.o[0m
+[37.139s] [ 67%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nmea_msgs/msg/detail/dds_fastrtps/gprmc__type_support.cpp.o[0m
+[37.480s] [ 68%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nmea_msgs/msg/detail/gpzda__type_support_c.cpp.o[0m
+[37.720s] [ 69%] [32m[1mLinking CXX shared library libnmea_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[37.780s] [ 70%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nmea_msgs/msg/gprmc__type_support.cpp.o[0m
+[38.326s] [ 70%] Built target nmea_msgs__rosidl_typesupport_introspection_cpp
+[39.336s] [ 71%] [32m[1mLinking CXX shared library libnmea_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[39.428s] [ 72%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nmea_msgs/msg/gpvtg__type_support.cpp.o[0m
+[39.749s] [ 72%] Built target nmea_msgs__rosidl_typesupport_fastrtps_c
+[39.768s] [ 73%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nmea_msgs/msg/detail/dds_fastrtps/gpvtg__type_support.cpp.o[0m
+[40.850s] [ 74%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nmea_msgs/msg/gpzda__type_support.cpp.o[0m
+[41.498s] [ 75%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nmea_msgs/msg/detail/dds_fastrtps/gpzda__type_support.cpp.o[0m
+[42.219s] [ 75%] [32m[1mLinking CXX shared library libnmea_msgs__rosidl_typesupport_cpp.so[0m
+[42.336s] [ 75%] Built target nmea_msgs__rosidl_typesupport_cpp
+[43.532s] [ 75%] [32m[1mLinking CXX shared library libnmea_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[43.836s] [ 75%] Built target nmea_msgs__rosidl_typesupport_fastrtps_cpp
+[43.907s] [ 76%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[47.641s] [ 77%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nmea_msgs/msg/detail/sentence__type_support.c.o[0m
+[47.741s] [ 78%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nmea_msgs/msg/detail/gpgst__type_support.c.o[0m
+[47.848s] [ 79%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nmea_msgs/msg/detail/gpgsv__type_support.c.o[0m
+[47.961s] [ 80%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nmea_msgs/msg/detail/gpgsv_satellite__type_support.c.o[0m
+[48.134s] [ 80%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nmea_msgs/msg/detail/gprmc__type_support.c.o[0m
+[48.286s] [ 81%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nmea_msgs/msg/detail/gpvtg__type_support.c.o[0m
+[48.509s] [ 82%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nmea_msgs/msg/detail/gpzda__type_support.c.o[0m
+[48.728s] [ 83%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nmea_msgs/msg/detail/gpgsa__type_support.c.o[0m
+[48.976s] [ 84%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nmea_msgs/msg/detail/gpgga__type_support.c.o[0m
+[49.238s] [ 85%] [32m[1mLinking C shared library libnmea_msgs__rosidl_typesupport_introspection_c.so[0m
+[49.478s] [ 85%] Built target nmea_msgs__rosidl_typesupport_introspection_c
+[49.653s] [ 85%] Built target nmea_msgs
+[49.784s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[53.562s] [ 86%] Built target nmea_msgs__py
+[53.633s] [ 87%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_py.dir/rosidl_generator_py/nmea_msgs/msg/_sentence_s.c.o[0m
+[53.994s] [ 88%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_py.dir/rosidl_generator_py/nmea_msgs/msg/_gpgst_s.c.o[0m
+[54.446s] [ 89%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_py.dir/rosidl_generator_py/nmea_msgs/msg/_gpgsv_s.c.o[0m
+[54.935s] [ 90%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_py.dir/rosidl_generator_py/nmea_msgs/msg/_gpgsv_satellite_s.c.o[0m
+[55.346s] [ 91%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_py.dir/rosidl_generator_py/nmea_msgs/msg/_gprmc_s.c.o[0m
+[55.813s] [ 92%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_py.dir/rosidl_generator_py/nmea_msgs/msg/_gpvtg_s.c.o[0m
+[56.237s] [ 93%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_py.dir/rosidl_generator_py/nmea_msgs/msg/_gpzda_s.c.o[0m
+[56.508s] [ 94%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_py.dir/rosidl_generator_py/nmea_msgs/msg/_gpgsa_s.c.o[0m
+[56.760s] [ 94%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_py.dir/rosidl_generator_py/nmea_msgs/msg/_gpgga_s.c.o[0m
+[57.011s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/nmea_msgs/libnmea_msgs__rosidl_generator_py.so[0m
+[57.136s] [ 94%] Built target nmea_msgs__rosidl_generator_py
+[57.207s] [ 95%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/nmea_msgs/_nmea_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[57.475s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/nmea_msgs/nmea_msgs_s__rosidl_typesupport_introspection_c.cpython-311-aarch64-linux-gnu.so[0m
+[57.583s] [ 96%] Built target nmea_msgs__rosidl_typesupport_introspection_c__pyext
+[57.654s] [ 97%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/nmea_msgs/_nmea_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[57.924s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/nmea_msgs/nmea_msgs_s__rosidl_typesupport_c.cpython-311-aarch64-linux-gnu.so[0m
+[58.056s] [ 98%] Built target nmea_msgs__rosidl_typesupport_c__pyext
+[58.137s] [ 99%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/nmea_msgs/_nmea_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[58.444s] [100%] [32m[1mLinking C shared library rosidl_generator_py/nmea_msgs/nmea_msgs_s__rosidl_typesupport_fastrtps_c.cpython-311-aarch64-linux-gnu.so[0m
+[58.565s] [100%] Built target nmea_msgs__rosidl_typesupport_fastrtps_c__pyext
+[58.602s] Invoked command in '/home/pi/wow_ws/build/nmea_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_iron/install/rqt_bag_plugins:/home/pi/ros2_iron/install/rqt_bag:/home/pi/ros2_iron/install/rosbag2_examples_py:/home/pi/ros2_iron/install/launch_testing_examples:/home/pi/ros2_iron/install/ros2bag:/home/pi/ros2_iron/install/tracetools_test:/home/pi/ros2_iron/install/tracetools_launch:/home/pi/ros2_iron/install/topic_monitor:/home/pi/ros2_iron/install/tf2_tools:/home/pi/ros2_iron/install/examples_tf2_py:/home/pi/ros2_iron/install/tf2_ros_py:/home/pi/ros2_iron/install/examples_rclpy_pointcloud_publisher:/home/pi/ros2_iron/install/sensor_msgs_py:/home/pi/ros2_iron/install/quality_of_service_demo_py:/home/pi/ros2_iron/install/rqt_plot:/home/pi/ros2_iron/install/ros2doctor:/home/pi/ros2_iron/install/lifecycle_py:/home/pi/ros2_iron/install/examples_rclpy_minimal_subscriber:/home/pi/ros2_iron/install/examples_rclpy_minimal_service:/home/pi/ros2_iron/install/examples_rclpy_minimal_publisher:/home/pi/ros2_iron/install/examples_rclpy_minimal_client:/home/pi/ros2_iron/install/examples_rclpy_executors:/home/pi/ros2_iron/install/demo_nodes_py:/home/pi/ros2_iron/install/rqt:/home/pi/ros2_iron/install/ros2component:/home/pi/ros2_iron/install/sros2:/home/pi/ros2_iron/install/rqt_topic:/home/pi/ros2_iron/install/rqt_srv:/home/pi/ros2_iron/install/rqt_shell:/home/pi/ros2_iron/install/rqt_service_caller:/home/pi/ros2_iron/install/rqt_reconfigure:/home/pi/ros2_iron/install/rqt_py_console:/home/pi/ros2_iron/install/rqt_publisher:/home/pi/ros2_iron/install/rqt_action:/home/pi/ros2_iron/install/rqt_msg:/home/pi/ros2_iron/install/rqt_console:/home/pi/ros2_iron/install/rqt_graph:/home/pi/ros2_iron/install/rqt_gui_py:/home/pi/ros2_iron/install/rqt_gui:/home/pi/ros2_iron/install/ros2trace:/home/pi/ros2_iron/install/ros2topic:/home/pi/ros2_iron/install/ros2test:/home/pi/ros2_iron/install/ros2param:/home/pi/ros2_iron/install/ros2lifecycle:/home/pi/ros2_iron/install/ros2service:/home/pi/ros2_iron/install/ros2run:/home/pi/ros2_iron/install/ros2launch:/home/pi/ros2_iron/install/ros2pkg:/home/pi/ros2_iron/install/ros2node:/home/pi/ros2_iron/install/ros2multicast:/home/pi/ros2_iron/install/ros2interface:/home/pi/ros2_iron/install/ros2action:/home/pi/ros2_iron/install/ros2cli:/home/pi/ros2_iron/install/launch_testing_ros:/home/pi/ros2_iron/install/launch_ros:/home/pi/ros2_iron/install/examples_rclpy_minimal_action_server:/home/pi/ros2_iron/install/examples_rclpy_minimal_action_client:/home/pi/ros2_iron/install/examples_rclpy_guard_conditions:/home/pi/ros2_iron/install/action_tutorials_py:/home/pi/ros2_iron/install/ament_uncrustify:/home/pi/ros2_iron/install/tracetools_trace:/home/pi/ros2_iron/install/tracetools_read:/home/pi/ros2_iron/install/test_tracetools_launch:/home/pi/ros2_iron/install/test_ros2trace:/home/pi/ros2_iron/install/test_launch_ros:/home/pi/ros2_iron/install/rpyutils:/home/pi/ros2_iron/install/rosidl_runtime_py:/home/pi/ros2_iron/install/rosidl_pycommon:/home/pi/ros2_iron/install/rosidl_cli:/home/pi/ros2_iron/install/launch_pytest:/home/pi/ros2_iron/install/launch_testing:/home/pi/ros2_iron/install/launch_yaml:/home/pi/ros2_iron/install/launch_xml:/home/pi/ros2_iron/install/launch:/home/pi/ros2_iron/install/osrf_pycommon:/home/pi/ros2_iron/install/domain_coordinator:/home/pi/ros2_iron/install/ament_xmllint:/home/pi/ros2_iron/install/ament_pyflakes:/home/pi/ros2_iron/install/ament_pycodestyle:/home/pi/ros2_iron/install/ament_pep257:/home/pi/ros2_iron/install/ament_pclint:/home/pi/ros2_iron/install/ament_package:/home/pi/ros2_iron/install/ament_mypy:/home/pi/ros2_iron/install/ament_lint_cmake:/home/pi/ros2_iron/install/ament_flake8:/home/pi/ros2_iron/install/ament_copyright:/home/pi/ros2_iron/install/ament_lint:/home/pi/ros2_iron/install/ament_index_python:/home/pi/ros2_iron/install/ament_cpplint:/home/pi/ros2_iron/install/ament_cppcheck:/home/pi/ros2_iron/install/ament_clang_tidy:/home/pi/ros2_iron/install/ament_clang_format /usr/bin/cmake --build /home/pi/wow_ws/build/nmea_msgs -- -j4 -l4
+[59.747s] Invoking command in '/home/pi/wow_ws/build/nmea_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_iron/install/rqt_bag_plugins:/home/pi/ros2_iron/install/rqt_bag:/home/pi/ros2_iron/install/rosbag2_examples_py:/home/pi/ros2_iron/install/launch_testing_examples:/home/pi/ros2_iron/install/ros2bag:/home/pi/ros2_iron/install/tracetools_test:/home/pi/ros2_iron/install/tracetools_launch:/home/pi/ros2_iron/install/topic_monitor:/home/pi/ros2_iron/install/tf2_tools:/home/pi/ros2_iron/install/examples_tf2_py:/home/pi/ros2_iron/install/tf2_ros_py:/home/pi/ros2_iron/install/examples_rclpy_pointcloud_publisher:/home/pi/ros2_iron/install/sensor_msgs_py:/home/pi/ros2_iron/install/quality_of_service_demo_py:/home/pi/ros2_iron/install/rqt_plot:/home/pi/ros2_iron/install/ros2doctor:/home/pi/ros2_iron/install/lifecycle_py:/home/pi/ros2_iron/install/examples_rclpy_minimal_subscriber:/home/pi/ros2_iron/install/examples_rclpy_minimal_service:/home/pi/ros2_iron/install/examples_rclpy_minimal_publisher:/home/pi/ros2_iron/install/examples_rclpy_minimal_client:/home/pi/ros2_iron/install/examples_rclpy_executors:/home/pi/ros2_iron/install/demo_nodes_py:/home/pi/ros2_iron/install/rqt:/home/pi/ros2_iron/install/ros2component:/home/pi/ros2_iron/install/sros2:/home/pi/ros2_iron/install/rqt_topic:/home/pi/ros2_iron/install/rqt_srv:/home/pi/ros2_iron/install/rqt_shell:/home/pi/ros2_iron/install/rqt_service_caller:/home/pi/ros2_iron/install/rqt_reconfigure:/home/pi/ros2_iron/install/rqt_py_console:/home/pi/ros2_iron/install/rqt_publisher:/home/pi/ros2_iron/install/rqt_action:/home/pi/ros2_iron/install/rqt_msg:/home/pi/ros2_iron/install/rqt_console:/home/pi/ros2_iron/install/rqt_graph:/home/pi/ros2_iron/install/rqt_gui_py:/home/pi/ros2_iron/install/rqt_gui:/home/pi/ros2_iron/install/ros2trace:/home/pi/ros2_iron/install/ros2topic:/home/pi/ros2_iron/install/ros2test:/home/pi/ros2_iron/install/ros2param:/home/pi/ros2_iron/install/ros2lifecycle:/home/pi/ros2_iron/install/ros2service:/home/pi/ros2_iron/install/ros2run:/home/pi/ros2_iron/install/ros2launch:/home/pi/ros2_iron/install/ros2pkg:/home/pi/ros2_iron/install/ros2node:/home/pi/ros2_iron/install/ros2multicast:/home/pi/ros2_iron/install/ros2interface:/home/pi/ros2_iron/install/ros2action:/home/pi/ros2_iron/install/ros2cli:/home/pi/ros2_iron/install/launch_testing_ros:/home/pi/ros2_iron/install/launch_ros:/home/pi/ros2_iron/install/examples_rclpy_minimal_action_server:/home/pi/ros2_iron/install/examples_rclpy_minimal_action_client:/home/pi/ros2_iron/install/examples_rclpy_guard_conditions:/home/pi/ros2_iron/install/action_tutorials_py:/home/pi/ros2_iron/install/ament_uncrustify:/home/pi/ros2_iron/install/tracetools_trace:/home/pi/ros2_iron/install/tracetools_read:/home/pi/ros2_iron/install/test_tracetools_launch:/home/pi/ros2_iron/install/test_ros2trace:/home/pi/ros2_iron/install/test_launch_ros:/home/pi/ros2_iron/install/rpyutils:/home/pi/ros2_iron/install/rosidl_runtime_py:/home/pi/ros2_iron/install/rosidl_pycommon:/home/pi/ros2_iron/install/rosidl_cli:/home/pi/ros2_iron/install/launch_pytest:/home/pi/ros2_iron/install/launch_testing:/home/pi/ros2_iron/install/launch_yaml:/home/pi/ros2_iron/install/launch_xml:/home/pi/ros2_iron/install/launch:/home/pi/ros2_iron/install/osrf_pycommon:/home/pi/ros2_iron/install/domain_coordinator:/home/pi/ros2_iron/install/ament_xmllint:/home/pi/ros2_iron/install/ament_pyflakes:/home/pi/ros2_iron/install/ament_pycodestyle:/home/pi/ros2_iron/install/ament_pep257:/home/pi/ros2_iron/install/ament_pclint:/home/pi/ros2_iron/install/ament_package:/home/pi/ros2_iron/install/ament_mypy:/home/pi/ros2_iron/install/ament_lint_cmake:/home/pi/ros2_iron/install/ament_flake8:/home/pi/ros2_iron/install/ament_copyright:/home/pi/ros2_iron/install/ament_lint:/home/pi/ros2_iron/install/ament_index_python:/home/pi/ros2_iron/install/ament_cpplint:/home/pi/ros2_iron/install/ament_cppcheck:/home/pi/ros2_iron/install/ament_clang_tidy:/home/pi/ros2_iron/install/ament_clang_format /usr/bin/cmake --install /home/pi/wow_ws/build/nmea_msgs
+[59.773s] -- Install configuration: ""
+[59.774s] -- Execute custom install script
+[59.774s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/ament_index/resource_index/rosidl_interfaces/nmea_msgs
+[59.822s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/msg/Sentence.json
+[59.849s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/msg/Gpgga.json
+[59.878s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/msg/Gpgsa.json
+[59.907s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/msg/Gpgst.json
+[59.942s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/msg/Gpgsv.json
+[59.968s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/msg/GpgsvSatellite.json
+[59.996s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/msg/Gprmc.json
+[60.028s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/msg/Gpvtg.json
+[60.056s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/msg/Gpzda.json
+[60.092s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgga__functions.h
+[60.126s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgga__struct.h
+[60.155s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgga__type_support.h
+[60.185s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsa__functions.h
+[60.213s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsa__struct.h
+[60.242s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsa__type_support.h
+[60.272s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgst__functions.h
+[60.302s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgst__struct.h
+[60.333s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgst__type_support.h
+[60.363s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv__functions.h
+[60.393s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv__struct.h
+[60.429s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv__type_support.h
+[60.456s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv_satellite__functions.h
+[60.484s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv_satellite__struct.h
+[60.515s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv_satellite__type_support.h
+[60.544s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gprmc__functions.h
+[60.574s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gprmc__struct.h
+[60.602s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gprmc__type_support.h
+[60.633s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpvtg__functions.h
+[60.662s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpvtg__struct.h
+[60.690s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpvtg__type_support.h
+[60.722s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpzda__functions.h
+[60.751s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpzda__struct.h
+[60.781s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpzda__type_support.h
+[60.811s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/sentence__functions.h
+[60.841s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/sentence__struct.h
+[60.870s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/sentence__type_support.h
+[60.905s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/gpgga.h
+[60.937s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/gpgsa.h
+[60.960s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/gpgst.h
+[60.993s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/gpgsv.h
+[61.018s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/gpgsv_satellite.h
+[61.050s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/gprmc.h
+[61.084s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/gpvtg.h
+[61.115s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/gpzda.h
+[61.146s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/rosidl_generator_c__visibility_control.h
+[61.175s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/sentence.h
+[61.205s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/environment/library_path.sh
+[61.229s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/environment/library_path.dsv
+[61.258s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgga__rosidl_typesupport_introspection_c.h
+[61.284s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsa__rosidl_typesupport_introspection_c.h
+[61.313s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgst__rosidl_typesupport_introspection_c.h
+[61.345s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv__rosidl_typesupport_introspection_c.h
+[61.372s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv_satellite__rosidl_typesupport_introspection_c.h
+[61.399s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gprmc__rosidl_typesupport_introspection_c.h
+[61.427s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpvtg__rosidl_typesupport_introspection_c.h
+[61.455s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpzda__rosidl_typesupport_introspection_c.h
+[61.482s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/sentence__rosidl_typesupport_introspection_c.h
+[61.510s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[61.541s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgga__rosidl_typesupport_fastrtps_c.h
+[61.567s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsa__rosidl_typesupport_fastrtps_c.h
+[61.597s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgst__rosidl_typesupport_fastrtps_c.h
+[61.627s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv__rosidl_typesupport_fastrtps_c.h
+[61.657s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv_satellite__rosidl_typesupport_fastrtps_c.h
+[61.685s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gprmc__rosidl_typesupport_fastrtps_c.h
+[61.714s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpvtg__rosidl_typesupport_fastrtps_c.h
+[61.743s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpzda__rosidl_typesupport_fastrtps_c.h
+[61.772s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/sentence__rosidl_typesupport_fastrtps_c.h
+[61.801s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[61.831s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgga__builder.hpp
+[61.860s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgga__struct.hpp
+[61.887s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgga__traits.hpp
+[61.914s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsa__builder.hpp
+[61.941s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsa__struct.hpp
+[61.971s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsa__traits.hpp
+[62.000s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgst__builder.hpp
+[62.029s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgst__struct.hpp
+[62.061s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgst__traits.hpp
+[62.091s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv__builder.hpp
+[62.123s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv__struct.hpp
+[62.158s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv__traits.hpp
+[62.186s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv_satellite__builder.hpp
+[62.215s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv_satellite__struct.hpp
+[62.250s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv_satellite__traits.hpp
+[62.273s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gprmc__builder.hpp
+[62.303s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gprmc__struct.hpp
+[62.332s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gprmc__traits.hpp
+[62.361s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpvtg__builder.hpp
+[62.390s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpvtg__struct.hpp
+[62.418s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpvtg__traits.hpp
+[62.447s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpzda__builder.hpp
+[62.479s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpzda__struct.hpp
+[62.508s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpzda__traits.hpp
+[62.536s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/sentence__builder.hpp
+[62.565s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/sentence__struct.hpp
+[62.591s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/sentence__traits.hpp
+[62.621s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/gpgga.hpp
+[62.646s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/gpgsa.hpp
+[62.675s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/gpgst.hpp
+[62.705s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/gpgsv.hpp
+[62.732s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/gpgsv_satellite.hpp
+[62.759s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/gprmc.hpp
+[62.788s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/gpvtg.hpp
+[62.816s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/gpzda.hpp
+[62.843s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/sentence.hpp
+[62.872s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgga__rosidl_typesupport_introspection_cpp.hpp
+[62.902s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsa__rosidl_typesupport_introspection_cpp.hpp
+[62.933s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgst__rosidl_typesupport_introspection_cpp.hpp
+[62.957s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv__rosidl_typesupport_introspection_cpp.hpp
+[62.986s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv_satellite__rosidl_typesupport_introspection_cpp.hpp
+[63.014s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gprmc__rosidl_typesupport_introspection_cpp.hpp
+[63.047s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpvtg__rosidl_typesupport_introspection_cpp.hpp
+[63.077s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpzda__rosidl_typesupport_introspection_cpp.hpp
+[63.107s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/sentence__rosidl_typesupport_introspection_cpp.hpp
+[63.135s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgga__rosidl_typesupport_fastrtps_cpp.hpp
+[63.162s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsa__rosidl_typesupport_fastrtps_cpp.hpp
+[63.190s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgst__rosidl_typesupport_fastrtps_cpp.hpp
+[63.218s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv__rosidl_typesupport_fastrtps_cpp.hpp
+[63.246s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv_satellite__rosidl_typesupport_fastrtps_cpp.hpp
+[63.274s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gprmc__rosidl_typesupport_fastrtps_cpp.hpp
+[63.305s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpvtg__rosidl_typesupport_fastrtps_cpp.hpp
+[63.329s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpzda__rosidl_typesupport_fastrtps_cpp.hpp
+[63.358s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/sentence__rosidl_typesupport_fastrtps_cpp.hpp
+[63.384s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[63.412s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/environment/pythonpath.sh
+[63.440s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/environment/pythonpath.dsv
+[63.468s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs-2.1.0-py3.11.egg-info/PKG-INFO
+[63.496s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs-2.1.0-py3.11.egg-info/SOURCES.txt
+[63.526s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs-2.1.0-py3.11.egg-info/dependency_links.txt
+[63.553s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs-2.1.0-py3.11.egg-info/top_level.txt
+[63.583s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/__init__.py
+[63.612s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/_nmea_msgs_s.ep.rosidl_typesupport_c.c
+[63.641s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/_nmea_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[63.668s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/_nmea_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[63.698s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/libnmea_msgs__rosidl_generator_py.so
+[63.727s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/msg/__init__.py
+[63.755s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/msg/_gpgga.py
+[63.785s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/msg/_gpgga_s.c
+[63.814s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/msg/_gpgsa.py
+[63.843s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/msg/_gpgsa_s.c
+[63.871s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/msg/_gpgst.py
+[63.900s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/msg/_gpgst_s.c
+[63.929s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/msg/_gpgsv.py
+[63.956s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/msg/_gpgsv_s.c
+[63.983s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/msg/_gpgsv_satellite.py
+[64.011s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/msg/_gpgsv_satellite_s.c
+[64.041s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/msg/_gprmc.py
+[64.086s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/msg/_gprmc_s.c
+[64.112s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/msg/_gpvtg.py
+[64.143s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/msg/_gpvtg_s.c
+[64.171s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/msg/_gpzda.py
+[64.198s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/msg/_gpzda_s.c
+[64.227s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/msg/_sentence.py
+[64.256s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/msg/_sentence_s.c
+[64.286s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/nmea_msgs_s__rosidl_typesupport_c.cpython-311-aarch64-linux-gnu.so
+[64.315s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/nmea_msgs_s__rosidl_typesupport_fastrtps_c.cpython-311-aarch64-linux-gnu.so
+[64.343s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/nmea_msgs_s__rosidl_typesupport_introspection_c.cpython-311-aarch64-linux-gnu.so
+[64.371s] -- Up-to-date symlink: /home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/nmea_msgs_s__rosidl_typesupport_introspection_c.cpython-311-aarch64-linux-gnu.so
+[64.373s] -- Up-to-date symlink: /home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/nmea_msgs_s__rosidl_typesupport_fastrtps_c.cpython-311-aarch64-linux-gnu.so
+[64.373s] -- Up-to-date symlink: /home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/nmea_msgs_s__rosidl_typesupport_c.cpython-311-aarch64-linux-gnu.so
+[64.373s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/msg/Sentence.idl
+[64.400s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/msg/Gpgga.idl
+[64.428s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/msg/Gpgsa.idl
+[64.456s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/msg/Gpgst.idl
+[64.485s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/msg/Gpgsv.idl
+[64.520s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/msg/GpgsvSatellite.idl
+[64.548s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/msg/Gprmc.idl
+[64.576s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/msg/Gpvtg.idl
+[64.608s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/msg/Gpzda.idl
+[64.636s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/msg/Sentence.msg
+[64.665s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/msg/Gpgga.msg
+[64.693s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/msg/Gpgsa.msg
+[64.720s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/msg/Gpgst.msg
+[64.751s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/msg/Gpgsv.msg
+[64.779s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/msg/GpgsvSatellite.msg
+[64.808s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/msg/Gprmc.msg
+[64.836s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/msg/Gpvtg.msg
+[64.862s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/msg/Gpzda.msg
+[64.889s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/ament_index/resource_index/package_run_dependencies/nmea_msgs
+[64.916s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/ament_index/resource_index/parent_prefix_path/nmea_msgs
+[64.947s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/environment/ament_prefix_path.sh
+[64.972s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/environment/ament_prefix_path.dsv
+[65.003s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/environment/path.sh
+[65.036s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/environment/path.dsv
+[65.064s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/local_setup.bash
+[65.094s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/local_setup.sh
+[65.122s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/local_setup.zsh
+[65.149s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/local_setup.dsv
+[65.175s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/package.dsv
+[65.204s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/ament_index/resource_index/packages/nmea_msgs
+[65.233s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/cmake/rosidl_cmake-extras.cmake
+[65.261s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[65.294s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[65.319s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[65.347s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[65.377s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[65.406s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[65.434s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/cmake/nmea_msgsConfig.cmake
+[65.463s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/cmake/nmea_msgsConfig-version.cmake
+[65.491s] -- Symlinking: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/package.xml
+[65.522s] -- Installing: /home/pi/wow_ws/install/nmea_msgs/lib/libnmea_msgs__rosidl_generator_c.so
+[65.522s] -- Set runtime path of "/home/pi/wow_ws/install/nmea_msgs/lib/libnmea_msgs__rosidl_generator_c.so" to ""
+[65.522s] -- Installing: /home/pi/wow_ws/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_introspection_c.so
+[65.523s] -- Set runtime path of "/home/pi/wow_ws/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_introspection_c.so" to ""
+[65.523s] -- Installing: /home/pi/wow_ws/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_fastrtps_c.so
+[65.524s] -- Set runtime path of "/home/pi/wow_ws/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[65.525s] -- Installing: /home/pi/wow_ws/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_c.so
+[65.525s] -- Set runtime path of "/home/pi/wow_ws/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_c.so" to ""
+[65.526s] -- Installing: /home/pi/wow_ws/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_introspection_cpp.so
+[65.526s] -- Set runtime path of "/home/pi/wow_ws/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[65.527s] -- Installing: /home/pi/wow_ws/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_fastrtps_cpp.so
+[65.528s] -- Set runtime path of "/home/pi/wow_ws/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[65.528s] -- Installing: /home/pi/wow_ws/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_cpp.so
+[65.530s] -- Set runtime path of "/home/pi/wow_ws/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_cpp.so" to ""
+[65.771s] Listing '/home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs'...
+[65.771s] Compiling '/home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/__init__.py'...
+[65.771s] Listing '/home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/msg'...
+[65.771s] Compiling '/home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/msg/__init__.py'...
+[65.771s] Compiling '/home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/msg/_gpgga.py'...
+[65.771s] Compiling '/home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/msg/_gpgsa.py'...
+[65.771s] Compiling '/home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/msg/_gpgst.py'...
+[65.771s] Compiling '/home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/msg/_gpgsv.py'...
+[65.771s] Compiling '/home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/msg/_gpgsv_satellite.py'...
+[65.771s] Compiling '/home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/msg/_gprmc.py'...
+[65.771s] Compiling '/home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/msg/_gpvtg.py'...
+[65.771s] Compiling '/home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/msg/_gpzda.py'...
+[65.771s] Compiling '/home/pi/wow_ws/install/nmea_msgs/lib/python3.11/site-packages/nmea_msgs/msg/_sentence.py'...
+[65.791s] -- Installing: /home/pi/wow_ws/install/nmea_msgs/lib/libnmea_msgs__rosidl_generator_py.so
+[65.791s] -- Set runtime path of "/home/pi/wow_ws/install/nmea_msgs/lib/libnmea_msgs__rosidl_generator_py.so" to ""
+[65.791s] -- Installing: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/cmake/export_nmea_msgs__rosidl_generator_cExport.cmake
+[65.791s] -- Installing: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/cmake/export_nmea_msgs__rosidl_generator_cExport-noconfig.cmake
+[65.791s] -- Installing: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/cmake/nmea_msgs__rosidl_typesupport_introspection_cExport.cmake
+[65.791s] -- Installing: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/cmake/nmea_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[65.792s] -- Installing: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/cmake/export_nmea_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[65.792s] -- Installing: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/cmake/export_nmea_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[65.793s] -- Installing: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/cmake/nmea_msgs__rosidl_typesupport_cExport.cmake
+[65.793s] -- Installing: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/cmake/nmea_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[65.794s] -- Installing: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/cmake/export_nmea_msgs__rosidl_generator_cppExport.cmake
+[65.794s] -- Installing: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/cmake/nmea_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[65.795s] -- Installing: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/cmake/nmea_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[65.795s] -- Installing: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/cmake/export_nmea_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[65.796s] -- Installing: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/cmake/export_nmea_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[65.798s] -- Installing: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/cmake/nmea_msgs__rosidl_typesupport_cppExport.cmake
+[65.798s] -- Installing: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/cmake/nmea_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[65.799s] -- Installing: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/cmake/export_nmea_msgs__rosidl_generator_pyExport.cmake
+[65.799s] -- Installing: /home/pi/wow_ws/install/nmea_msgs/share/nmea_msgs/cmake/export_nmea_msgs__rosidl_generator_pyExport-noconfig.cmake
+[65.803s] Invoked command in '/home/pi/wow_ws/build/nmea_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_iron/install/rqt_bag_plugins:/home/pi/ros2_iron/install/rqt_bag:/home/pi/ros2_iron/install/rosbag2_examples_py:/home/pi/ros2_iron/install/launch_testing_examples:/home/pi/ros2_iron/install/ros2bag:/home/pi/ros2_iron/install/tracetools_test:/home/pi/ros2_iron/install/tracetools_launch:/home/pi/ros2_iron/install/topic_monitor:/home/pi/ros2_iron/install/tf2_tools:/home/pi/ros2_iron/install/examples_tf2_py:/home/pi/ros2_iron/install/tf2_ros_py:/home/pi/ros2_iron/install/examples_rclpy_pointcloud_publisher:/home/pi/ros2_iron/install/sensor_msgs_py:/home/pi/ros2_iron/install/quality_of_service_demo_py:/home/pi/ros2_iron/install/rqt_plot:/home/pi/ros2_iron/install/ros2doctor:/home/pi/ros2_iron/install/lifecycle_py:/home/pi/ros2_iron/install/examples_rclpy_minimal_subscriber:/home/pi/ros2_iron/install/examples_rclpy_minimal_service:/home/pi/ros2_iron/install/examples_rclpy_minimal_publisher:/home/pi/ros2_iron/install/examples_rclpy_minimal_client:/home/pi/ros2_iron/install/examples_rclpy_executors:/home/pi/ros2_iron/install/demo_nodes_py:/home/pi/ros2_iron/install/rqt:/home/pi/ros2_iron/install/ros2component:/home/pi/ros2_iron/install/sros2:/home/pi/ros2_iron/install/rqt_topic:/home/pi/ros2_iron/install/rqt_srv:/home/pi/ros2_iron/install/rqt_shell:/home/pi/ros2_iron/install/rqt_service_caller:/home/pi/ros2_iron/install/rqt_reconfigure:/home/pi/ros2_iron/install/rqt_py_console:/home/pi/ros2_iron/install/rqt_publisher:/home/pi/ros2_iron/install/rqt_action:/home/pi/ros2_iron/install/rqt_msg:/home/pi/ros2_iron/install/rqt_console:/home/pi/ros2_iron/install/rqt_graph:/home/pi/ros2_iron/install/rqt_gui_py:/home/pi/ros2_iron/install/rqt_gui:/home/pi/ros2_iron/install/ros2trace:/home/pi/ros2_iron/install/ros2topic:/home/pi/ros2_iron/install/ros2test:/home/pi/ros2_iron/install/ros2param:/home/pi/ros2_iron/install/ros2lifecycle:/home/pi/ros2_iron/install/ros2service:/home/pi/ros2_iron/install/ros2run:/home/pi/ros2_iron/install/ros2launch:/home/pi/ros2_iron/install/ros2pkg:/home/pi/ros2_iron/install/ros2node:/home/pi/ros2_iron/install/ros2multicast:/home/pi/ros2_iron/install/ros2interface:/home/pi/ros2_iron/install/ros2action:/home/pi/ros2_iron/install/ros2cli:/home/pi/ros2_iron/install/launch_testing_ros:/home/pi/ros2_iron/install/launch_ros:/home/pi/ros2_iron/install/examples_rclpy_minimal_action_server:/home/pi/ros2_iron/install/examples_rclpy_minimal_action_client:/home/pi/ros2_iron/install/examples_rclpy_guard_conditions:/home/pi/ros2_iron/install/action_tutorials_py:/home/pi/ros2_iron/install/ament_uncrustify:/home/pi/ros2_iron/install/tracetools_trace:/home/pi/ros2_iron/install/tracetools_read:/home/pi/ros2_iron/install/test_tracetools_launch:/home/pi/ros2_iron/install/test_ros2trace:/home/pi/ros2_iron/install/test_launch_ros:/home/pi/ros2_iron/install/rpyutils:/home/pi/ros2_iron/install/rosidl_runtime_py:/home/pi/ros2_iron/install/rosidl_pycommon:/home/pi/ros2_iron/install/rosidl_cli:/home/pi/ros2_iron/install/launch_pytest:/home/pi/ros2_iron/install/launch_testing:/home/pi/ros2_iron/install/launch_yaml:/home/pi/ros2_iron/install/launch_xml:/home/pi/ros2_iron/install/launch:/home/pi/ros2_iron/install/osrf_pycommon:/home/pi/ros2_iron/install/domain_coordinator:/home/pi/ros2_iron/install/ament_xmllint:/home/pi/ros2_iron/install/ament_pyflakes:/home/pi/ros2_iron/install/ament_pycodestyle:/home/pi/ros2_iron/install/ament_pep257:/home/pi/ros2_iron/install/ament_pclint:/home/pi/ros2_iron/install/ament_package:/home/pi/ros2_iron/install/ament_mypy:/home/pi/ros2_iron/install/ament_lint_cmake:/home/pi/ros2_iron/install/ament_flake8:/home/pi/ros2_iron/install/ament_copyright:/home/pi/ros2_iron/install/ament_lint:/home/pi/ros2_iron/install/ament_index_python:/home/pi/ros2_iron/install/ament_cpplint:/home/pi/ros2_iron/install/ament_cppcheck:/home/pi/ros2_iron/install/ament_clang_tidy:/home/pi/ros2_iron/install/ament_clang_format /usr/bin/cmake --install /home/pi/wow_ws/build/nmea_msgs

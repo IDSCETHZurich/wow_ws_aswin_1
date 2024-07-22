@@ -1,0 +1,23 @@
+[  1%] Built target nmea_msgs__rosidl_generator_type_description
+[  1%] Built target ament_cmake_python_symlink_nmea_msgs
+[  1%] Built target nmea_msgs__cpp
+[ 27%] Built target nmea_msgs__rosidl_generator_c
+[ 36%] Built target nmea_msgs__rosidl_typesupport_cpp
+[ 46%] Built target nmea_msgs__rosidl_typesupport_fastrtps_c
+[ 56%] Built target nmea_msgs__rosidl_typesupport_introspection_c
+[ 66%] Built target nmea_msgs__rosidl_typesupport_c
+[ 75%] Built target nmea_msgs__rosidl_typesupport_fastrtps_cpp
+[ 85%] Built target nmea_msgs__rosidl_typesupport_introspection_cpp
+[ 85%] Built target nmea_msgs
+[ 86%] Built target nmea_msgs__py
+[ 94%] Built target nmea_msgs__rosidl_generator_py
+[ 96%] Built target nmea_msgs__rosidl_typesupport_fastrtps_c__pyext
+[ 98%] Built target nmea_msgs__rosidl_typesupport_introspection_c__pyext
+[100%] Built target nmea_msgs__rosidl_typesupport_c__pyext
+running egg_info
+writing nmea_msgs.egg-info/PKG-INFO
+writing dependency_links to nmea_msgs.egg-info/dependency_links.txt
+writing top-level names to nmea_msgs.egg-info/top_level.txt
+reading manifest file 'nmea_msgs.egg-info/SOURCES.txt'
+writing manifest file 'nmea_msgs.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_nmea_msgs_egg

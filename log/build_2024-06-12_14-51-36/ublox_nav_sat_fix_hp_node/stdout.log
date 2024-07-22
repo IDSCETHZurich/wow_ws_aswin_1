@@ -1,0 +1,22 @@
+[ 50%] Built target ublox_nav_sat_fix_hp_components
+[100%] Built target ublox_nav_sat_fix_hp
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/pi/wow_ws/install/ublox_nav_sat_fix_hp_node/lib/ublox_nav_sat_fix_hp_node/ublox_nav_sat_fix_hp
+-- Symlinking: /home/pi/wow_ws/install/ublox_nav_sat_fix_hp_node/lib/libublox_nav_sat_fix_hp_components.so
+-- Symlinking: /home/pi/wow_ws/install/ublox_nav_sat_fix_hp_node/share/ament_index/resource_index/package_run_dependencies/ublox_nav_sat_fix_hp_node
+-- Symlinking: /home/pi/wow_ws/install/ublox_nav_sat_fix_hp_node/share/ament_index/resource_index/parent_prefix_path/ublox_nav_sat_fix_hp_node
+-- Symlinking: /home/pi/wow_ws/install/ublox_nav_sat_fix_hp_node/share/ublox_nav_sat_fix_hp_node/environment/ament_prefix_path.sh
+-- Symlinking: /home/pi/wow_ws/install/ublox_nav_sat_fix_hp_node/share/ublox_nav_sat_fix_hp_node/environment/ament_prefix_path.dsv
+-- Symlinking: /home/pi/wow_ws/install/ublox_nav_sat_fix_hp_node/share/ublox_nav_sat_fix_hp_node/environment/path.sh
+-- Symlinking: /home/pi/wow_ws/install/ublox_nav_sat_fix_hp_node/share/ublox_nav_sat_fix_hp_node/environment/path.dsv
+-- Symlinking: /home/pi/wow_ws/install/ublox_nav_sat_fix_hp_node/share/ublox_nav_sat_fix_hp_node/local_setup.bash
+-- Symlinking: /home/pi/wow_ws/install/ublox_nav_sat_fix_hp_node/share/ublox_nav_sat_fix_hp_node/local_setup.sh
+-- Symlinking: /home/pi/wow_ws/install/ublox_nav_sat_fix_hp_node/share/ublox_nav_sat_fix_hp_node/local_setup.zsh
+-- Symlinking: /home/pi/wow_ws/install/ublox_nav_sat_fix_hp_node/share/ublox_nav_sat_fix_hp_node/local_setup.dsv
+-- Symlinking: /home/pi/wow_ws/install/ublox_nav_sat_fix_hp_node/share/ublox_nav_sat_fix_hp_node/package.dsv
+-- Symlinking: /home/pi/wow_ws/install/ublox_nav_sat_fix_hp_node/share/ament_index/resource_index/packages/ublox_nav_sat_fix_hp_node
+-- Symlinking: /home/pi/wow_ws/install/ublox_nav_sat_fix_hp_node/share/ament_index/resource_index/rclcpp_components/ublox_nav_sat_fix_hp_node
+-- Symlinking: /home/pi/wow_ws/install/ublox_nav_sat_fix_hp_node/share/ublox_nav_sat_fix_hp_node/cmake/ublox_nav_sat_fix_hp_nodeConfig.cmake
+-- Symlinking: /home/pi/wow_ws/install/ublox_nav_sat_fix_hp_node/share/ublox_nav_sat_fix_hp_node/cmake/ublox_nav_sat_fix_hp_nodeConfig-version.cmake
+-- Symlinking: /home/pi/wow_ws/install/ublox_nav_sat_fix_hp_node/share/ublox_nav_sat_fix_hp_node/package.xml

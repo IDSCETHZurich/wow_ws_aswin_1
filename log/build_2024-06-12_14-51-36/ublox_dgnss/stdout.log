@@ -1,0 +1,50 @@
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.0.5 (/home/pi/ros2_iron/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.11.2") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ublox_ubx_msgs: 0.5.3 (/home/pi/wow_ws/install/ublox_ubx_msgs/share/ublox_ubx_msgs/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/home/pi/ros2_iron/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/home/pi/ros2_iron/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found ublox_ubx_interfaces: 0.5.3 (/home/pi/wow_ws/install/ublox_ubx_interfaces/share/ublox_ubx_interfaces/cmake)
+-- Found ublox_dgnss_node: 0.5.3 (/home/pi/wow_ws/install/ublox_dgnss_node/share/ublox_dgnss_node/cmake)
+-- Found ublox_nav_sat_fix_hp_node: 0.5.3 (/home/pi/wow_ws/install/ublox_nav_sat_fix_hp_node/share/ublox_nav_sat_fix_hp_node/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/wow_ws/build/ublox_dgnss
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/pi/wow_ws/install/ublox_dgnss/share/ublox_dgnss/launch/ntrip_client.launch.py
+-- Symlinking: /home/pi/wow_ws/install/ublox_dgnss/share/ublox_dgnss/launch/ublox_mb+r_base.launch.py
+-- Symlinking: /home/pi/wow_ws/install/ublox_dgnss/share/ublox_dgnss/launch/ublox_mb+r_rover.launch.py
+-- Symlinking: /home/pi/wow_ws/install/ublox_dgnss/share/ublox_dgnss/launch/ublox_rover_hpposecef.launch.py
+-- Symlinking: /home/pi/wow_ws/install/ublox_dgnss/share/ublox_dgnss/launch/ublox_rover_hpposllh.launch.py
+-- Symlinking: /home/pi/wow_ws/install/ublox_dgnss/share/ublox_dgnss/launch/ublox_rover_hpposllh_navsatfix.launch.py
+-- Symlinking: /home/pi/wow_ws/install/ublox_dgnss/share/ublox_dgnss/launch/ublox_rover_hpposllh_satellite.launch.py
+-- Symlinking: /home/pi/wow_ws/install/ublox_dgnss/share/ament_index/resource_index/package_run_dependencies/ublox_dgnss
+-- Symlinking: /home/pi/wow_ws/install/ublox_dgnss/share/ament_index/resource_index/parent_prefix_path/ublox_dgnss
+-- Symlinking: /home/pi/wow_ws/install/ublox_dgnss/share/ublox_dgnss/environment/ament_prefix_path.sh
+-- Symlinking: /home/pi/wow_ws/install/ublox_dgnss/share/ublox_dgnss/environment/ament_prefix_path.dsv
+-- Symlinking: /home/pi/wow_ws/install/ublox_dgnss/share/ublox_dgnss/environment/path.sh
+-- Symlinking: /home/pi/wow_ws/install/ublox_dgnss/share/ublox_dgnss/environment/path.dsv
+-- Symlinking: /home/pi/wow_ws/install/ublox_dgnss/share/ublox_dgnss/local_setup.bash
+-- Symlinking: /home/pi/wow_ws/install/ublox_dgnss/share/ublox_dgnss/local_setup.sh
+-- Symlinking: /home/pi/wow_ws/install/ublox_dgnss/share/ublox_dgnss/local_setup.zsh
+-- Symlinking: /home/pi/wow_ws/install/ublox_dgnss/share/ublox_dgnss/local_setup.dsv
+-- Symlinking: /home/pi/wow_ws/install/ublox_dgnss/share/ublox_dgnss/package.dsv
+-- Symlinking: /home/pi/wow_ws/install/ublox_dgnss/share/ament_index/resource_index/packages/ublox_dgnss
+-- Symlinking: /home/pi/wow_ws/install/ublox_dgnss/share/ublox_dgnss/cmake/ublox_dgnssConfig.cmake
+-- Symlinking: /home/pi/wow_ws/install/ublox_dgnss/share/ublox_dgnss/cmake/ublox_dgnssConfig-version.cmake
+-- Symlinking: /home/pi/wow_ws/install/ublox_dgnss/share/ublox_dgnss/package.xml

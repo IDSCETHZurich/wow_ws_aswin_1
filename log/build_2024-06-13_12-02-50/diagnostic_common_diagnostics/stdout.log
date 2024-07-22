@@ -1,0 +1,8 @@
+Built target ament_cmake_python_symlink_diagnostic_common_diagnostics
+running egg_info
+writing diagnostic_common_diagnostics.egg-info/PKG-INFO
+writing dependency_links to diagnostic_common_diagnostics.egg-info/dependency_links.txt
+writing top-level names to diagnostic_common_diagnostics.egg-info/top_level.txt
+reading manifest file 'diagnostic_common_diagnostics.egg-info/SOURCES.txt'
+writing manifest file 'diagnostic_common_diagnostics.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_diagnostic_common_diagnostics_egg
